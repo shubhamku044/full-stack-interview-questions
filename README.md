@@ -2493,39 +2493,51 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 ## React
 
 **1. How does React work?**
+
 React creates a virtual DOM in memory, which is a lightweight copy of the real DOM. When state changes, React updates the virtual DOM first, then efficiently updates only the changed parts in the real DOM using a diffing algorithm. This makes UI updates fast and efficient.
 
 **2. What are React Hooks?**
+
 React Hooks are special functions that let you use state and other React features in functional components. Common hooks include useState, useEffect, and useContext. They help manage state, side effects, and context without writing class components.
 
 **3. What is Context API in ReactJS?**
+
 The Context API allows you to share data (like themes or user info) across the component tree without passing props manually at every level. It helps avoid prop drilling and makes global state management easier for certain use cases.
 
 **4. What are the major features of ReactJS?**
+
 Major features include: component-based architecture, virtual DOM, JSX syntax, unidirectional data flow, support for hooks, and strong ecosystem for state management and routing.
 
 **5. What are the advantages of ReactJS?**
+
 React offers fast rendering with the virtual DOM, reusable components, easier debugging, a large community, and flexibility to integrate with other libraries or frameworks.
 
 **6. What are props in React?**
+
 Props (short for properties) are read-only inputs passed from parent to child components. They allow data and event handlers to be shared between components, making them reusable and dynamic.
 
 **7. What is the use of refs?**
+
 Refs provide a way to access and interact with DOM elements or React elements directly, bypassing the normal data flow. They're useful for managing focus, text selection, or triggering animations.
 
 **8. How would you write an inline style in React?**
+
 Inline styles are written as objects using camelCase property names. Example: <div style={{ backgroundColor: 'red', fontSize: 16 }}>Hello</div>
 
 **9. What is React?**
+
 React is a JavaScript library for building user interfaces, especially single-page applications. It lets you create reusable UI components and efficiently update the UI when data changes.
 
 **10. What are inline conditional expressions in ReactJS?**
+
 Inline conditional expressions let you render content based on conditions, often using the ternary operator or logical &&. Example: {isLoggedIn ? <Logout /> : <Login />}
 
 **11. What are refs used for in React?**
+
 Refs are used to directly access or modify DOM nodes or React elements, such as focusing an input, reading values, or integrating with third-party libraries.
 
 **12. What is useState() in React?**
+
 useState is a React Hook that lets you add state to functional components. It returns a state variable and a function to update it.
 Code example:
 
@@ -2534,23 +2546,29 @@ const [count, setCount] = useState(0);
 ```
 
 **13. What's the difference between a Controlled component and an Uncontrolled one in React?**
+
 Controlled components have their state managed by React via props and state, while uncontrolled components store their own state internally, often accessed via refs.
 Detailed explanation: Controlled components are preferred for form handling as they allow validation and state management in React, while uncontrolled components are useful for simple use cases or integrating with non-React code.
 
 **14. What are advantages of using React Hooks?**
+
 Hooks allow you to use state and lifecycle features in functional components, promote code reuse, and make components easier to test and maintain.
 
 **15. What are Stateful components in React?**
+
 Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
 **16. What is Reconciliation in ReactJS?**
+
 Reconciliation is the process React uses to update the DOM by comparing the new virtual DOM with the previous one and applying only the necessary changes.
 Detailed explanation: React's reconciliation algorithm (diffing) ensures only the parts of the DOM that actually changed are updated, improving performance.
 
 **17. What is the difference between Component and Container in Redux?**
+
 Components are presentational and focus on UI, while containers are connected to Redux and handle data, state, and logic, passing props to components.
 
 **18. What is JSX?**
+
 JSX is a syntax extension for JavaScript that looks like HTML. It lets you write UI code in a declarative way, which React transforms into JavaScript calls.
 Code example:
 
@@ -2559,6 +2577,7 @@ const element = <h1>Hello, world!</h1>;
 ```
 
 **19. What are Higher-Order Components (HOC) in React?**
+
 HOCs are functions that take a component and return a new component with enhanced behavior or additional props, enabling code reuse and abstraction.
 Code example:
 
@@ -2572,15 +2591,19 @@ function withLogger(WrappedComponent) {
 ```
 
 **20. What is the difference between Element and Component in ReactJS?**
+
 An element is a plain object describing what to render, while a component is a function or class that returns elements and defines behavior.
 
 **21. What is the difference between state and props?**
+
 State is managed within a component and can change over time, while props are passed from parent to child and are read-only.
 
 **22. What is the difference between a Presentational component and a Container component?**
+
 Presentational components focus on how things look and receive data via props, while container components handle how things work, managing state and logic.
 
 **23. What are Controlled components in ReactJS?**
+
 Controlled components are form elements whose values are controlled by React state, making it easy to validate and manage user input.
 Code example:
 
@@ -2589,6 +2612,7 @@ Code example:
 ```
 
 **24. What are portals in React and when do we need them?**
+
 Portals let you render children into a DOM node outside the parent component hierarchy. They're useful for modals, tooltips, or overlays.
 Code example:
 
@@ -2597,6 +2621,7 @@ ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
 ```
 
 **25. What are Fragments in React?**
+
 Fragments let you group multiple elements without adding extra nodes to the DOM. Use <></> or <React.Fragment> to wrap children.
 Code example:
 
@@ -2608,6 +2633,7 @@ Code example:
 ```
 
 **26. How to create refs in React?**
+
 Use React.createRef() in class components or the useRef() hook in functional components to create refs.
 Code example:
 
@@ -2617,36 +2643,47 @@ const inputRef = useRef();
 ```
 
 **27. What is the purpose of callback function as an argument of setState?**
+
 The callback runs after state has been updated and the component has re-rendered, useful for actions that depend on the updated state.
 
 **28. What are two types of components in ReactJS?**
+
 Class components and functional components. Class components use lifecycle methods, while functional components use hooks.
 
 **29. What are the advantages of using React?**
+
 Fast rendering, reusable components, strong community, easy integration, and a rich ecosystem for state management and routing.
 
 **30. What is state in React?**
+
 State is a built-in object that stores data or UI information that can change over time, triggering re-renders when updated.
 
 **31. What are the limitations of React?**
+
 React is only the view layer, requires additional libraries for routing and state management, and can have a learning curve for beginners.
 
 **32. What is the purpose of using super constructor with props argument in React?**
+
 It ensures that the parent class (React.Component) receives the props, making them available as this.props in the constructor.
 
 **33. What are Stateless components in React?**
+
 Stateless components are functional components that do not manage or hold any state; they simply render UI based on props.
 
 **34. What is the difference between state and props?**
+
 State is internal and mutable, while props are external and immutable, passed from parent to child.
 
 **35. What are the differences between a Class component and Functional component?**
+
 Class components use ES6 classes, support lifecycle methods, and manage state with this.state. Functional components are simpler, use hooks for state and effects, and are easier to test.
 
 **36. What happens when you call setState?**
+
 React schedules a re-render, merges the new state with the current state, and updates the UI accordingly.
 
 **37. When rendering a list what is a key and what is it's purpose?**
+
 A key is a unique identifier for each list item, helping React efficiently update and reorder items during re-renders.
 Code example:
 
@@ -2657,10 +2694,12 @@ Code example:
 ```
 
 **38. What happens during the lifecycle of a React component?**
+
 Components mount, update, and unmount. Lifecycle methods or hooks let you run code at each stage, such as fetching data or cleaning up resources.
 Detailed explanation: Mounting (componentDidMount/useEffect), updating (componentDidUpdate/useEffect), and unmounting (componentWillUnmount/cleanup in useEffect) are the main phases.
 
 **39. How to call loading function with React useEffect only once?**
+
 Pass an empty dependency array to useEffect: useEffect(() => { loadData(); }, []);
 Code example:
 
@@ -2671,6 +2710,7 @@ useEffect(() => {
 ```
 
 **40. How to access DOM elements in React?**
+
 Use refs (useRef or createRef) and attach them to elements. Access the DOM node via ref.current.
 Code example:
 
