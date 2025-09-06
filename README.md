@@ -1590,25 +1590,25 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 49. Could you generate a public key in HTML? [⬆️](#top)
 
-### 50. What are Web Components?
+### 50. What are Web Components? [⬆️](#top)
 
-### 51. What is accessibility & ARIA role means in a web application?
+### 51. What is accessibility & ARIA role means in a web application? [⬆️](#top)
 
-### 52. What is an IndexedDB?
+### 52. What is an IndexedDB? [⬆️](#top)
 
-### 53. Why is it generally a good idea to position CSS s between and JS s just before ? Do you know any exceptions?
+### 53. Why is it generally a good idea to position CSS s between and JS s just before ? Do you know any exceptions? [⬆️](#top)
 
 ## MySQL
 
-### 1. What is a VIEW in MySQL. How can you create and query a view?
+### 1. What is a VIEW in MySQL. How can you create and query a view? [⬆️](#top)
 
-### 2. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?
+### 2. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)? [⬆️](#top)
 
-### 3. What is the difference between TRUNCATE and DELETE?
+### 3. What is the difference between TRUNCATE and DELETE? [⬆️](#top)
 
-### 4. What is an AGGREGATE function. Name few aggregate functions used in MySQL.
+### 4. What is an AGGREGATE function. Name few aggregate functions used in MySQL. [⬆️](#top)
 
-### 5. Describe BLOB in MySQL. What is it used for?
+### 5. Describe BLOB in MySQL. What is it used for? [⬆️](#top)
 
 ### 6. How are VARCHAR and CHAR different. Talk about cases where you will use one over other.
 
