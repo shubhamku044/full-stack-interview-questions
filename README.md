@@ -710,7 +710,7 @@ Design patterns are categorized into three main types:
 
 > **Note:** This document contains detailed answers for key design patterns. The remaining questions in this section follow the same comprehensive format. For the complete set of answers to all 139 design pattern questions, each would include detailed explanations, code examples, use cases, benefits, and trade-offs.
 
-### 16. What is Inversion of Control?
+### 16. What is Inversion of Control? [⬆️](#top)
 
 **Inversion of Control (IoC)** is a design principle where the control of object creation and dependency management is transferred from the object itself to an external container or framework.
 
@@ -738,7 +738,7 @@ Design patterns are categorized into three main types:
 
 ---
 
-### 17. Why would you want to use a Repository Pattern with an ORM?
+### 17. Why would you want to use a Repository Pattern with an ORM? [⬆️](#top)
 
 While ORMs provide data access capabilities, the Repository pattern adds additional benefits:
 
@@ -790,87 +790,87 @@ public class UserRepository : IUserRepository
 >
 > The remaining **126 design pattern questions** follow this same detailed format, covering all aspects of creational, structural, and behavioral patterns including Factory, Abstract Factory, Observer, Command, Mediator, Visitor, and many more specialized patterns.
 
-### 18. What are the drawbacks to the ActiveRecord pattern?
+### 18. What are the drawbacks to the ActiveRecord pattern? [⬆️](#top)
 
-### 19. What is the Command and Query Responsibility Segregation (CQRS) Pattern?
+### 19. What is the Command and Query Responsibility Segregation (CQRS) Pattern? [⬆️](#top)
 
-### 20. What are some advantages of using Dependency Injection
+### 20. What are some advantages of using Dependency Injection [⬆️](#top)
 
-### 21. What are some reasons to use Repository Pattern?
+### 21. What are some reasons to use Repository Pattern? [⬆️](#top)
 
-### 22. What is an Aggregate Root in the context of Repository Pattern?
+### 22. What is an Aggregate Root in the context of Repository Pattern? [⬆️](#top)
 
-### 23. In OOP, what is the difference between the Repository Pattern and a Service Layer?
+### 23. In OOP, what is the difference between the Repository Pattern and a Service Layer? [⬆️](#top)
 
-### 24. Is Unit Of Work equals Transaction? Or it is more than that?
+### 24. Is Unit Of Work equals Transaction? Or it is more than that? [⬆️](#top)
 
-### 25. When should I use Active Record vs Repository Pattern?
+### 25. When should I use Active Record vs Repository Pattern? [⬆️](#top)
 
-### 26. What is Interpreter pattern?
+### 26. What is Interpreter pattern? [⬆️](#top)
 
-### 27. What is Abstract Factory pattern?
+### 27. What is Abstract Factory pattern? [⬆️](#top)
 
-### 28. What is Adapter Pattern?
+### 28. What is Adapter Pattern? [⬆️](#top)
 
-### 29. What is Bridge pattern?
+### 29. What is Bridge pattern? [⬆️](#top)
 
-### 30. What does program to interfaces, not implementations mean?
+### 30. What does program to interfaces, not implementations mean? [⬆️](#top)
 
-### 31. What is Decorator pattern?
+### 31. What is Decorator pattern? [⬆️](#top)
 
-### 32. What is Prototype pattern?
+### 32. What is Prototype pattern? [⬆️](#top)
 
-### 33. What is Facade pattern?
+### 33. What is Facade pattern? [⬆️](#top)
 
-### 34. Can you give any good explanation what is the difference between Proxy and Decorator?
+### 34. Can you give any good explanation what is the difference between Proxy and Decorator? [⬆️](#top)
 
-### 35. What are the difference between a Static class and a Singleton class?
+### 35. What are the difference between a Static class and a Singleton class? [⬆️](#top)
 
-### 36. When should I use Composite design pattern?
+### 36. When should I use Composite design pattern? [⬆️](#top)
 
-### 37. What is Observer pattern?
+### 37. What is Observer pattern? [⬆️](#top)
 
-### 38. What is Mediator pattern?
+### 38. What is Mediator pattern? [⬆️](#top)
 
-### 39. How is Bridge pattern is different from Adapter pattern?
+### 39. How is Bridge pattern is different from Adapter pattern? [⬆️](#top)
 
-### 40. Explain usage of Service Locator Pattern
+### 40. Explain usage of Service Locator Pattern [⬆️](#top)
 
-### 41. What is Flyweight pattern?
+### 41. What is Flyweight pattern? [⬆️](#top)
 
-### 42. What is the difference between Strategy design pattern and State design pattern?
+### 42. What is the difference between Strategy design pattern and State design pattern? [⬆️](#top)
 
-### 43. What are some disadvantages of Dependency Injection?
+### 43. What are some disadvantages of Dependency Injection? [⬆️](#top)
 
-### 44. What is relationship between Repository and Unit of Work?
+### 44. What is relationship between Repository and Unit of Work? [⬆️](#top)
 
-### 45. Why would I ever use a Chain of Responsibility over a Decorator?
+### 45. Why would I ever use a Chain of Responsibility over a Decorator? [⬆️](#top)
 
-### 46. Why shouldn't I use the Repository Pattern with Entity Framework?
+### 46. Why shouldn't I use the Repository Pattern with Entity Framework? [⬆️](#top)
 
-### 47. When would you use the Builder Pattern? Why not just use a Factory Pattern?
+### 47. When would you use the Builder Pattern? Why not just use a Factory Pattern? [⬆️](#top)
 
-### 48. Explain what is Composition over Inheritance?
+### 48. Explain what is Composition over Inheritance? [⬆️](#top)
 
-### 49. How should I be grouping my Repositories when using Repository Pattern?
+### 49. How should I be grouping my Repositories when using Repository Pattern? [⬆️](#top)
 
-### 50. Is Repository Pattern as same as Active Record Pattern?
+### 50. Is Repository Pattern as same as Active Record Pattern? [⬆️](#top)
 
-### 51. What will you choose: Repository Pattern or "smart" business objects?
+### 51. What will you choose: Repository Pattern or "smart" business objects? [⬆️](#top)
 
-### 52. Could you explain some benefits of Repository Pattern?
+### 52. Could you explain some benefits of Repository Pattern? [⬆️](#top)
 
-### 53. Could you explain the difference between Façade vs. Mediator?
+### 53. Could you explain the difference between Façade vs. Mediator? [⬆️](#top)
 
-### 54. What is the difference between the Template patterns and the Strategy pattern?
+### 54. What is the difference between the Template patterns and the Strategy pattern? [⬆️](#top)
 
-### 55. Could you explain what is the Deadly Diamond of Death?
+### 55. Could you explain what is the Deadly Diamond of Death? [⬆️](#top)
 
-### 56. Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?
+### 56. Explain difference between the Facade, Proxy, Adapter and Decorator design patterns? [⬆️](#top)
 
-### 57. Can we use the CQRS without the Event Sourcing?
+### 57. Can we use the CQRS without the Event Sourcing? [⬆️](#top)
 
-### 58. What's the difference between the Dependency Injection and Service Locator patterns?
+### 58. What's the difference between the Dependency Injection and Service Locator patterns? [⬆️](#top)
 
 ## Devops
 
@@ -903,7 +903,7 @@ public class UserRepository : IUserRepository
 - Improved reliability and availability
 - Cost optimization through efficient resource usage
 
-### 2. What is the need for DevOps?
+### 2. What is the need for DevOps? [⬆️](#top)
 
 **DevOps** addresses critical challenges in traditional software development and operations:
 
@@ -940,7 +940,7 @@ public class UserRepository : IUserRepository
 - Continuous learning
 - Improved job satisfaction
 
-### 3. Are you more Dev or Ops?
+### 3. Are you more Dev or Ops? [⬆️](#top)
 
 This is a common interview question to understand your background and preferences. Here's how to approach it:
 
@@ -972,7 +972,7 @@ This is a common interview question to understand your background and preference
 - Collaboration and communication skills
 - Problem-solving mindset
 
-### 4. What is meant by Continuous Integration?
+### 4. What is meant by Continuous Integration? [⬆️](#top)
 
 **Continuous Integration (CI)** is a development practice where developers integrate code into a shared repository frequently, with each integration verified by automated builds and tests.
 
@@ -1017,7 +1017,7 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 - Everyone commits frequently
 - Fix broken builds immediately
 
-### 5. What is the most important thing DevOps helps us achieve?
+### 5. What is the most important thing DevOps helps us achieve? [⬆️](#top)
 
 The most important thing DevOps helps achieve is **faster, more reliable software delivery through improved collaboration and automation**.
 
@@ -1060,7 +1060,7 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 - Focus on customer value
 - Blame-free post-mortems
 
-### 6. Explain what is DevOps?
+### 6. Explain what is DevOps? [⬆️](#top)
 
 **DevOps** is a set of practices, tools, and cultural philosophies that combines software development (Dev) and IT operations (Ops) to shorten the software development lifecycle and deliver high-quality software continuously.
 
@@ -1132,7 +1132,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 > - Configuration management
 > - Performance testing and optimization
 
-### 7. Why is Continuous Monitoring necessary?
+### 7. Why is Continuous Monitoring necessary? [⬆️](#top)
 
 **Continuous Monitoring** is essential for maintaining system health, performance, and security in modern DevOps environments.
 
@@ -1181,7 +1181,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 - **Log Management**: ELK Stack, Splunk, Fluentd
 - **Synthetic Monitoring**: Pingdom, Uptime Robot
 
-### 8. What's the next thing you would automate in your current workflow?
+### 8. What's the next thing you would automate in your current workflow? [⬆️](#top)
 
 This question assesses your understanding of automation priorities and process improvement. Here's how to approach it:
 
@@ -1224,7 +1224,7 @@ This question assesses your understanding of automation priorities and process i
 - Testing migrations in staging environments first
 - Automated validation of data integrity post-migration"
 
-### 9. What is the role of a Configuration Management tool in DevOps?
+### 9. What is the role of a Configuration Management tool in DevOps? [⬆️](#top)
 
 **Configuration Management (CM)** tools ensure consistent, automated management of infrastructure and application configurations across environments.
 
@@ -1305,7 +1305,7 @@ This question assesses your understanding of automation priorities and process i
 - Improved compliance and security
 - Better documentation of system state
 
-### 11. How have you handled failed deployments?
+### 11. How have you handled failed deployments? [⬆️](#top)
 
 This question assesses your experience with incident response and deployment recovery strategies.
 
@@ -1402,91 +1402,91 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 > - Performance optimization and capacity planning
 > - Disaster recovery and business continuity
 
-### 12. What is the function of CI (Continuous Integration) server?
+### 12. What is the function of CI (Continuous Integration) server? [⬆️](#top) [⬆️](#top)
 
-### 13. What does Containerization mean?
+### 13. What does Containerization mean? [⬆️](#top) [⬆️](#top)
 
-### 14. What are the success factors for Continuous Integration?
+### 14. What are the success factors for Continuous Integration? [⬆️](#top) [⬆️](#top)
 
-### 15. Mention what are the key aspects or principle behind DevOps?
+### 15. Mention what are the key aspects or principle behind DevOps? [⬆️](#top) [⬆️](#top)
 
-### 16. Can we consider DevOps as an Agile methodology?
+### 16. Can we consider DevOps as an Agile methodology? [⬆️](#top) [⬆️](#top)
 
-### 17. What are the advantages of DevOps?
+### 17. What are the advantages of DevOps? [⬆️](#top) [⬆️](#top)
 
-### 18. What is DevOps engineer's duty with regards to Agile development?
+### 18. What is DevOps engineer's duty with regards to Agile development? [⬆️](#top) [⬆️](#top)
 
-### 19. Which are the top DevOps tools? Which tools have you worked on?
+### 19. Which are the top DevOps tools? Which tools have you worked on? [⬆️](#top) [⬆️](#top)
 
-### 20. How is DevOps different from Agile/SDLC?
+### 20. How is DevOps different from Agile/SDLC? [⬆️](#top) [⬆️](#top)
 
-### 21. How do all DevOps tools work together?
+### 21. How do all DevOps tools work together? [⬆️](#top) [⬆️](#top)
 
-### 22. Which problems does a Container Orchestration solve?
+### 22. Which problems does a Container Orchestration solve? [⬆️](#top) [⬆️](#top)
 
-### 23. What is the difference between Kubernetes and Docker?
+### 23. What is the difference between Kubernetes and Docker? [⬆️](#top) [⬆️](#top)
 
-### 24. How Do you update a live heavy traffic site with minimum or Zero Down Time?
+### 24. How Do you update a live heavy traffic site with minimum or Zero Down Time? [⬆️](#top) [⬆️](#top)
 
-### 25. Classify Cloud Platforms by category
+### 25. Classify Cloud Platforms by category [⬆️](#top) [⬆️](#top)
 
-### 26. What do you know about Serverless model?
+### 26. What do you know about Serverless model? [⬆️](#top) [⬆️](#top)
 
-### 27. What is Continuous Integration?
+### 27. What is Continuous Integration? [⬆️](#top) [⬆️](#top)
 
-### 28. What is Docker and why is it important for development?
+### 28. What is Docker and why is it important for development? [⬆️](#top)
 
-### 29. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+### 29. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment? [⬆️](#top)
 
-### 30. What is the purpose of containerization in modern web development?
+### 30. What is the purpose of containerization in modern web development? [⬆️](#top)
 
-### 31. How do you handle production deployments?
+### 31. How do you handle production deployments? [⬆️](#top)
 
-### 32. What is Continuous Monitoring and why is it important?
+### 32. What is Continuous Monitoring and why is it important? [⬆️](#top)
 
-### 33. How do you ensure zero-downtime deployments?
+### 33. How do you ensure zero-downtime deployments? [⬆️](#top)
 
 ## Git
 
-### 1. What is difference between Git vs SVN?
+### 1. What is difference between Git vs SVN? [⬆️](#top)
 
-### 2. What is Git?
+### 2. What is Git? [⬆️](#top)
 
-### 3. What is the command to write a commit message in Git?
+### 3. What is the command to write a commit message in Git? [⬆️](#top)
 
-### 4. What's the difference between a pull request and a branch?
+### 4. What's the difference between a pull request and a branch? [⬆️](#top)
 
-### 5. What is Git fork? What is difference between fork, branch and clone?
+### 5. What is Git fork? What is difference between fork, branch and clone? [⬆️](#top)
 
-### 6. How does the Centralized Workflow work?
+### 6. How does the Centralized Workflow work? [⬆️](#top)
 
-### 7. What is the difference between git pull and git fetch?
+### 7. What is the difference between git pull and git fetch? [⬆️](#top)
 
-### 8. Tell me the difference between HEAD, working tree and index, in Git?
+### 8. Tell me the difference between HEAD, working tree and index, in Git? [⬆️](#top)
 
-### 9. How to revert previous commit in git?
+### 9. How to revert previous commit in git? [⬆️](#top)
 
-### 10. What is a "bare git" repository?
+### 10. What is a "bare git" repository? [⬆️](#top)
 
-### 11. When should I use git stash?
+### 11. When should I use git stash? [⬆️](#top)
 
-### 12. Explain the advantages of Forking Workflow
+### 12. Explain the advantages of Forking Workflow [⬆️](#top)
 
-### 13. What is git cherry-pick?
+### 13. What is git cherry-pick? [⬆️](#top)
 
-### 14. Could you explain the Gitflow workflow?
+### 14. Could you explain the Gitflow workflow? [⬆️](#top)
 
-### 15. What is git reset and when would you use it?
+### 15. What is git reset and when would you use it? [⬆️](#top)
 
-### 16. What is the HEAD in Git?
+### 16. What is the HEAD in Git? [⬆️](#top)
 
-### 17. What is the difference between git stash pop and git stash apply?
+### 17. What is the difference between git stash pop and git stash apply? [⬆️](#top)
 
-### 18. When do you use git rebase instead of git merge?
+### 18. When do you use git rebase instead of git merge? [⬆️](#top)
 
-### 19. What are git hooks and why are they useful?
+### 19. What are git hooks and why are they useful? [⬆️](#top)
 
-### 20. How do you resolve merge conflicts in Git?
+### 20. How do you resolve merge conflicts in Git? [⬆️](#top)
 
 ## Graphql
 
@@ -1526,67 +1526,67 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ## HTML5
 
-### 1. What is an iframe and how it works?
+### 1. What is an iframe and how it works? [⬆️](#top)
 
-### 2. What is the purpose of the alt attribute on images?
+### 2. What is the purpose of the alt attribute on images? [⬆️](#top)
 
-### 3. Explain meta tags in HTML
+### 3. Explain meta tags in HTML [⬆️](#top)
 
-### 4. hat's the difference between an "attribute" and a "property" in HTML?
+### 4. hat's the difference between an "attribute" and a "property" in HTML? [⬆️](#top)
 
-### 5. What were some of the key goals and motivations for the HTML5 specification?
+### 5. What were some of the key goals and motivations for the HTML5 specification? [⬆️](#top)
 
-### 6. How can you highlight text in HTML?
+### 6. How can you highlight text in HTML? [⬆️](#top)
 
-### 7. How Can I Get Indexed Better by Search Engines?
+### 7. How Can I Get Indexed Better by Search Engines? [⬆️](#top)
 
-### 8. What is a self closing tag?
+### 8. What is a self closing tag? [⬆️](#top)
 
-### 9. Briefly describe the correct usage of the following HTML5 semantic elements: `<header>`, `<article>`, `<section>`, `<footer>`
+### 9. Briefly describe the correct usage of the following HTML5 semantic elements: `<header>`, `<article>`, `<section>`, `<footer>` [⬆️](#top)
 
-### 10. What is the difference between span and div?
+### 10. What is the difference between span and div? [⬆️](#top)
 
-### 11. What are defer and async attributes on a `<script>` tag?
+### 11. What are defer and async attributes on a `<script>` tag? [⬆️](#top)
 
-### 12. What is the purpose of cache busting and how can you achieve it?
+### 12. What is the purpose of cache busting and how can you achieve it? [⬆️](#top)
 
-### 13. What are Web Workers and when would you use them?
+### 13. What are Web Workers and when would you use them? [⬆️](#top)
 
-### 14. What is the difference between `<section>` and `<div>`?
+### 14. What is the difference between `<section>` and `<div>`? [⬆️](#top)
 
-### 15. What does a DOCTYPE do?
+### 15. What does a DOCTYPE do? [⬆️](#top)
 
-### 16. Describe the difference between cookies, sessionStorage and localStorage.
+### 16. Describe the difference between cookies, sessionStorage and localStorage. [⬆️](#top)
 
-### 17. What is the DOM and how does it work?
+### 17. What is the DOM and how does it work? [⬆️](#top)
 
-### 18. What are data- attributes and when should you use them?
+### 18. What are data- attributes and when should you use them? [⬆️](#top)
 
 ### 19. Explain the difference between block elements and inline elements.
 
-### 20. How do you handle internationalization in HTML?
+### 20. How do you handle internationalization in HTML? [⬆️](#top)
 
-### 21. What are the key features of HTML5?
+### 21. What are the key features of HTML5? [⬆️](#top)
 
-### 22. How do you optimize web page performance using HTML features?
+### 22. How do you optimize web page performance using HTML features? [⬆️](#top)
 
-### 40. Why to use HTML5 semantic tags?
+### 40. Why to use HTML5 semantic tags? [⬆️](#top)
 
-### 41. Why do I need a doctype and what does it do?
+### 41. Why do I need a doctype and what does it do? [⬆️](#top)
 
-### 42. Describe the difference between , and .
+### 42. Describe the difference between , and . [⬆️](#top)
 
-### 43. How would you select svg or canvas for your site?
+### 43. How would you select svg or canvas for your site? [⬆️](#top)
 
-### 44. What is WebP?
+### 44. What is WebP? [⬆️](#top)
 
-### 45. What is an HTML preprocessor and are you using it?
+### 45. What is an HTML preprocessor and are you using it? [⬆️](#top)
 
-### 46. What kind of things must you be wary of when designing or developing for multilingual sites?
+### 46. What kind of things must you be wary of when designing or developing for multilingual sites? [⬆️](#top)
 
-### 47. What is progressive rendering?
+### 47. What is progressive rendering? [⬆️](#top)
 
-### 48. Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+### 48. Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute. [⬆️](#top)
 
 ### 49. Could you generate a public key in HTML?
 
@@ -3096,1581 +3096,1581 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ## Redis
 
-### 1. What is Redis?
+### 1. What is Redis? [⬆️](#top)
 
-### 2. Is Redis just a cache?
+### 2. Is Redis just a cache? [⬆️](#top)
 
-### 3. Does Redis persist data?
+### 3. Does Redis persist data? [⬆️](#top)
 
-### 4. What's the advantage of Redis vs using memory?
+### 4. What's the advantage of Redis vs using memory? [⬆️](#top)
 
-### 5. When to use Redis Lists data type?
+### 5. When to use Redis Lists data type? [⬆️](#top)
 
-### 6. When to use Redis Sets?
+### 6. When to use Redis Sets? [⬆️](#top)
 
-### 7. How does Redis handle multiple threads (from different clients) updating the same data structure in Redis?
+### 7. How does Redis handle multiple threads (from different clients) updating the same data structure in Redis? [⬆️](#top)
 
-### 8. When to use Redis over MongoDB?
+### 8. When to use Redis over MongoDB? [⬆️](#top)
 
-### 9. Does Redis support transactions?
+### 9. Does Redis support transactions? [⬆️](#top)
 
-### 10. How are Redis pipelining and transaction different?
+### 10. How are Redis pipelining and transaction different? [⬆️](#top)
 
-### 11. What is the difference between Redis replication and sharding?
+### 11. What is the difference between Redis replication and sharding? [⬆️](#top)
 
-### 12. What is AOF persistence in Redis?
+### 12. What is AOF persistence in Redis? [⬆️](#top)
 
-### 13. Why Redis does not support roll backs?
+### 13. Why Redis does not support roll backs? [⬆️](#top)
 
-### 14. What do the terms "CPU bound" and "I/O bound" mean in context of Redis?
+### 14. What do the terms "CPU bound" and "I/O bound" mean in context of Redis? [⬆️](#top)
 
-### 15. How can I exploit multiple CPU/cores for Redis?
+### 15. How can I exploit multiple CPU/cores for Redis? [⬆️](#top)
 
-### 16. If there's a way to check if a key already exists in a Redis list?
+### 16. If there's a way to check if a key already exists in a Redis list? [⬆️](#top)
 
-### 17. How would you efficiently store JSON in Redis?
+### 17. How would you efficiently store JSON in Redis? [⬆️](#top)
 
-### 18. When to use Redis or MongoDB?
+### 18. When to use Redis or MongoDB? [⬆️](#top)
 
-### 19. What is Pipelining in Redis and when to use one?
+### 19. What is Pipelining in Redis and when to use one? [⬆️](#top)
 
-### Explain a use case for Sorted Set in Redis
+### Explain a use case for Sorted Set in Redis [⬆️](#top)
 
-### 20. When to use Redis Hashes data type?
+### 20. When to use Redis Hashes data type? [⬆️](#top)
 
-### 21. Is Redis a durable datastore ("D" from ACID)?
+### 21. Is Redis a durable datastore ("D" from ACID)? [⬆️](#top)
 
-### 22. RDB and AOF, which one should I use?
+### 22. RDB and AOF, which one should I use? [⬆️](#top)
 
-### 23. What happens if Redis runs out of memory?
+### 23. What happens if Redis runs out of memory? [⬆️](#top)
 
-### 24. How much faster is Redis than MongoDB?
+### 24. How much faster is Redis than MongoDB? [⬆️](#top)
 
-### 25. What are the underlying data structures used for Redis?
+### 25. What are the underlying data structures used for Redis? [⬆️](#top)
 
 ## Redux
 
-### 1. What is Flux?
+### 1. What is Flux? [⬆️](#top)
 
-### 2. Do you need to keepIs all component states in Redux store?
+### 2. Do you need to keepIs all component states in Redux store? [⬆️](#top)
 
-### 3. What is Redux DevTools?
+### 3. What is Redux DevTools? [⬆️](#top)
 
-### 4. What is Redux?
+### 4. What is Redux? [⬆️](#top)
 
-### 5. What is the difference between Component and Container in Redux?
+### 5. What is the difference between Component and Container in Redux? [⬆️](#top)
 
-### 6. What is redux-saga?
+### 6. What is redux-saga? [⬆️](#top)
 
-### 7. What are the core principles of Redux?
+### 7. What are the core principles of Redux? [⬆️](#top)
 
-### 8. What is Redux Thunk?
+### 8. What is Redux Thunk? [⬆️](#top)
 
-### 9. What are the features of Redux DevTools?
+### 9. What are the features of Redux DevTools? [⬆️](#top)
 
-### 10. How to set initial state in Redux?
+### 10. How to set initial state in Redux? [⬆️](#top)
 
-### 11. How to structure Redux top level directories?
+### 11. How to structure Redux top level directories? [⬆️](#top)
 
-### 12. What is the difference between React context and React redux?
+### 12. What is the difference between React context and React redux? [⬆️](#top)
 
-### 13. What are Redux selectors and Why to use them?
+### 13. What are Redux selectors and Why to use them? [⬆️](#top)
 
-### 14. What are reducers in redux?
+### 14. What are reducers in redux? [⬆️](#top)
 
-### 15. How to add multiple middlewares to Redux?
+### 15. How to add multiple middlewares to Redux? [⬆️](#top)
 
-### 16. What are the downsides of Redux over Flux?
+### 16. What are the downsides of Redux over Flux? [⬆️](#top)
 
-### 17. How to use connect from react redux?
+### 17. How to use connect from react redux? [⬆️](#top)
 
-### 18. What is the purpose of the constants in Redux?
+### 18. What is the purpose of the constants in Redux? [⬆️](#top)
 
-### 19. What are typical middleware choices for handling asynchronous calls in Redux?
+### 19. What are typical middleware choices for handling asynchronous calls in Redux? [⬆️](#top)
 
-### 20. Are there any similarities between Redux and RxJS?
+### 20. Are there any similarities between Redux and RxJS? [⬆️](#top)
 
-### 21. What are the main features of Redux Form?
+### 21. What are the main features of Redux Form? [⬆️](#top)
 
-### 22. What is Redux form?
+### 22. What is Redux form? [⬆️](#top)
 
-### 23. What are the differences between redux-saga and redux-thunk?
+### 23. What are the differences between redux-saga and redux-thunk? [⬆️](#top)
 
-### 24. What is a store in Redux?
+### 24. What is a store in Redux? [⬆️](#top)
 
-### 25. How to access redux store outside a react component?
+### 25. How to access redux store outside a react component? [⬆️](#top)
 
-### 26. How to reset state in redux?
+### 26. How to reset state in redux? [⬆️](#top)
 
-### 27. What is a Reducer?
+### 27. What is a Reducer? [⬆️](#top)
 
-### 28. What is the proper way to access Redux store?
+### 28. What is the proper way to access Redux store? [⬆️](#top)
 
-### 29. How to make Ajax request in Redux?
+### 29. How to make Ajax request in Redux? [⬆️](#top)
 
-### 30. What are the differences between call and put in redux-saga?
+### 30. What are the differences between call and put in redux-saga? [⬆️](#top)
 
-### 31. Why are Redux state functions called as reducers?
+### 31. Why are Redux state functions called as reducers? [⬆️](#top)
 
-### 32. Whats the purpose of at (@) symbol in the redux connect decorator?
+### 32. Whats the purpose of at (@) symbol in the redux connect decorator? [⬆️](#top)
 
-### 33. What is the mental model of redux-saga?
+### 33. What is the mental model of redux-saga? [⬆️](#top)
 
-### 34. What is Redux Thunk used for?
+### 34. What is Redux Thunk used for? [⬆️](#top)
 
-### 35. How Relay is different from Redux?
+### 35. How Relay is different from Redux? [⬆️](#top)
 
-## SQL
+## SQL [⬆️](#top)
 
-### 1. What is PRIMARY KEY?
+### 1. What is PRIMARY KEY? [⬆️](#top) [⬆️](#top)
 
-### Define a Temp Table
+### Define a Temp Table [⬆️](#top) [⬆️](#top)
 
-### 2. What is a VIEW?
+### 2. What is a VIEW? [⬆️](#top) [⬆️](#top)
 
-### 3. What is DEFAULT?
+### 3. What is DEFAULT? [⬆️](#top) [⬆️](#top)
 
-### 4. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?
+### 4. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)? [⬆️](#top)
 
-### 5. What is the difference between TRUNCATE and DELETE?
+### 5. What is the difference between TRUNCATE and DELETE? [⬆️](#top)
 
-### 6. What is FOREIGN KEY?
+### 6. What is FOREIGN KEY? [⬆️](#top)
 
-### 7. What is Normalisation?
+### 7. What is Normalisation? [⬆️](#top)
 
-### 8. What is Denormalization?
+### 8. What is Denormalization? [⬆️](#top)
 
-### 9. What is the difference between WHERE clause and HAVING clause?
+### 9. What is the difference between WHERE clause and HAVING clause? [⬆️](#top)
 
-### 10. What is the difference between JOIN and UNION?
+### 10. What is the difference between JOIN and UNION? [⬆️](#top)
 
-### 11. What are the difference between Clustered and a Non-clustered index?
+### 11. What are the difference between Clustered and a Non-clustered index? [⬆️](#top)
 
-### 12. How does a Hash index work?
+### 12. How does a Hash index work? [⬆️](#top)
 
-### 13. What is the difference between INNER JOIN and OUTER JOIN?
+### 13. What is the difference between INNER JOIN and OUTER JOIN? [⬆️](#top)
 
-### 14. What is Collation?
+### 14. What is Collation? [⬆️](#top)
 
-### 15. What's the difference between a Primary Key and a Unique Key?
+### 15. What's the difference between a Primary Key and a Unique Key? [⬆️](#top)
 
-### 16. How can VIEW be used to provide security layer for your app?
+### 16. How can VIEW be used to provide security layer for your app? [⬆️](#top)
 
-### 17. What’s the difference between Azure SQL Database and Azure SQL Managed Instance?
+### 17. What’s the difference between Azure SQL Database and Azure SQL Managed Instance? [⬆️](#top)
 
-### 18. How a database index can help performance?
+### 18. How a database index can help performance? [⬆️](#top)
 
-### Discuss INNER JOIN ON vs WHERE clause (with multiple FROM tables)
+### Discuss INNER JOIN ON vs WHERE clause (with multiple FROM tables) [⬆️](#top)
 
-### Define ACID Properties
+### Define ACID Properties [⬆️](#top)
 
-### Describe the difference between truncate and delete
+### Describe the difference between truncate and delete [⬆️](#top)
 
-### 19. What is the difference between UNION and UNION ALL?
+### 19. What is the difference between UNION and UNION ALL? [⬆️](#top)
 
-### 20. What is the difference between INNER JOIN, OUTER JOIN, FULL OUTER JOIN?
+### 20. What is the difference between INNER JOIN, OUTER JOIN, FULL OUTER JOIN? [⬆️](#top)
 
-### 21. What is the cost of having a database index?
+### 21. What is the cost of having a database index? [⬆️](#top)
 
-### 22. What is faster, one big query or many small queries?
+### 22. What is faster, one big query or many small queries? [⬆️](#top)
 
-### Explain the difference between Exclusive Lock and Update Lock
+### Explain the difference between Exclusive Lock and Update Lock [⬆️](#top)
 
-### 23. How does B-trees Index work?
+### 23. How does B-trees Index work? [⬆️](#top)
 
-### 24. What is the difference among UNION, MINUS and INTERSECT?
+### 24. What is the difference among UNION, MINUS and INTERSECT? [⬆️](#top)
 
-### 25. What are some other types of Indexes (vs B-Trees)?
+### 25. What are some other types of Indexes (vs B-Trees)? [⬆️](#top)
 
-### 26. How does database Indexing work?
+### 26. How does database Indexing work? [⬆️](#top)
 
-### 27. What is Optimistic Locking and Pessimistic Locking?
+### 27. What is Optimistic Locking and Pessimistic Locking? [⬆️](#top)
 
-### Name some disadvantages of a Hash index
+### Name some disadvantages of a Hash index [⬆️](#top)
 
-### 28. What is the difference between B-Tree, R-Tree and Hash indexing?
+### 28. What is the difference between B-Tree, R-Tree and Hash indexing? [⬆️](#top)
 
-### 29. What is Index Cardinality and why does it matter?
+### 29. What is Index Cardinality and why does it matter? [⬆️](#top)
 
 ## Typescript
 
-### 1. What is the difference between .ts and .tsx extensions in TypeScript?
+### 1. What is the difference between .ts and .tsx extensions in TypeScript? [⬆️](#top)
 
-### 2. Do we need to compile TypeScript files and why?
+### 2. Do we need to compile TypeScript files and why? [⬆️](#top)
 
-### 3. What are the benefits of TypeScript?
+### 3. What are the benefits of TypeScript? [⬆️](#top)
 
-### 4. What is TypeScript and why would I use it in place of JavaScript?
+### 4. What is TypeScript and why would I use it in place of JavaScript? [⬆️](#top)
 
-### 5. How to call base class constructor from child class in TypeScript?
+### 5. How to call base class constructor from child class in TypeScript? [⬆️](#top)
 
-### 6. What is TypeScript and why do we need it?
+### 6. What is TypeScript and why do we need it? [⬆️](#top)
 
-### 7. What is TypeScript and why one should use it?
+### 7. What is TypeScript and why one should use it? [⬆️](#top)
 
-### 8. How to perform string interpolation in TypeScript?
+### 8. How to perform string interpolation in TypeScript? [⬆️](#top)
 
-### 9. What are Modules in Typescript?
+### 9. What are Modules in Typescript? [⬆️](#top)
 
-### Explain generics in TypeScript
+### Explain generics in TypeScript [⬆️](#top)
 
-### List the built-in types in Typescript
+### List the built-in types in Typescript [⬆️](#top)
 
-### 10. What is Optional Chaining in TypeScript?
+### 10. What is Optional Chaining in TypeScript? [⬆️](#top)
 
-### 11. How can we use optional chaining in TypeScript?
+### 11. How can we use optional chaining in TypeScript? [⬆️](#top)
 
-### 12. How to make Arrays that can only be read, TypeScript?
+### 12. How to make Arrays that can only be read, TypeScript? [⬆️](#top)
 
-### 13. Describe what are conditional types in TypeScript?
+### 13. Describe what are conditional types in TypeScript? [⬆️](#top)
 
-### 14. What does the pipe, | mean in TypeScript?
+### 14. What does the pipe, | mean in TypeScript? [⬆️](#top)
 
-### 15. How do we create an enum with string values?
+### 15. How do we create an enum with string values? [⬆️](#top)
 
-### 16. What is the difference between types String and string in TypeScript?
+### 16. What is the difference between types String and string in TypeScript? [⬆️](#top)
 
-### 17. What is a TypeScript Map file?
+### 17. What is a TypeScript Map file? [⬆️](#top)
 
-### 18. What is the purpose of Nullish Coalescing operator?
+### 18. What is the purpose of Nullish Coalescing operator? [⬆️](#top)
 
-### 19. What are assertion functions?
+### 19. What are assertion functions? [⬆️](#top)
 
-### 20. Which access modifiers are implied when not specified?
+### 20. Which access modifiers are implied when not specified? [⬆️](#top)
 
-### 21. What is Type Erasure in TypeScript?
+### 21. What is Type Erasure in TypeScript? [⬆️](#top)
 
-### 22. What is the difference between Classes and Interfaces in Typescript?
+### 22. What is the difference between Classes and Interfaces in Typescript? [⬆️](#top)
 
-### 23. What is Decorators in TypeScript?
+### 23. What is Decorators in TypeScript? [⬆️](#top)
 
-### 24. How could you check null and undefined in TypeScript?
+### 24. How could you check null and undefined in TypeScript? [⬆️](#top)
 
-### 25. Could we use TypeScript on backend and how?
+### 25. Could we use TypeScript on backend and how? [⬆️](#top)
 
-### 26. What are the difference beetween Typescript and JavaScript?
+### 26. What are the difference beetween Typescript and JavaScript? [⬆️](#top)
 
-### 27. What is Interface in TypeScript?
+### 27. What is Interface in TypeScript? [⬆️](#top)
 
-### 28. Does TypeScript support all object oriented principles?
+### 28. Does TypeScript support all object oriented principles? [⬆️](#top)
 
-### 29. How to implement class constants in TypeScript?
+### 29. How to implement class constants in TypeScript? [⬆️](#top)
 
-### 30. When to use interfaces and when to use classes in TypeScript?
+### 30. When to use interfaces and when to use classes in TypeScript? [⬆️](#top)
 
-### 31. What is getters/setters in TypeScript?
+### 31. What is getters/setters in TypeScript? [⬆️](#top)
 
-### 32. Which object oriented terms are supported by TypeScript?
+### 32. Which object oriented terms are supported by TypeScript? [⬆️](#top)
 
-### 33. What are the use cases for a const assertion?
+### 33. What are the use cases for a const assertion? [⬆️](#top)
 
-### 34. What are some use cases of template literal types in TypeScript?
+### 34. What are some use cases of template literal types in TypeScript? [⬆️](#top)
 
-### 35. What is Mixin Class in TypeScript?
+### 35. What is Mixin Class in TypeScript? [⬆️](#top)
 
-### List a few rules of private fields in TypeScript
+### List a few rules of private fields in TypeScript [⬆️](#top)
 
-### 36. How to choose between never, unknown, and any in TypeScript?
+### 36. How to choose between never, unknown, and any in TypeScript? [⬆️](#top)
 
-### 37. Explain how and why we could use property decorators in TS?
+### 37. Explain how and why we could use property decorators in TS? [⬆️](#top)
 
-### 38. What does Short-Circuiting mean in TypeScript?
+### 38. What does Short-Circuiting mean in TypeScript? [⬆️](#top)
 
-### 39. What is the unique symbol is used for?
+### 39. What is the unique symbol is used for? [⬆️](#top)
 
-### 40. How to make a readonly tuple type in TypeScript?
+### 40. How to make a readonly tuple type in TypeScript? [⬆️](#top)
 
-### 41. What is the fundamental difference between Optional Chaining (?.) and Non-null assertion operator (!) in TypeScript?
+### 41. What is the fundamental difference between Optional Chaining (?.) and Non-null assertion operator (!) in TypeScript? [⬆️](#top)
 
-### Explain Project References and its benefits
+### Explain Project References and its benefits [⬆️](#top)
 
-### 42. How to check the type of a variable or constant in TypeScript?
+### 42. How to check the type of a variable or constant in TypeScript? [⬆️](#top)
 
-### 43. How TypeScript is optionally statically typed language?
+### 43. How TypeScript is optionally statically typed language? [⬆️](#top)
 
-### 44. What is the default access modifier for members of a class in TypeScript?
+### 44. What is the default access modifier for members of a class in TypeScript? [⬆️](#top)
 
-### 45. What are different components of TypeScript?
+### 45. What are different components of TypeScript? [⬆️](#top)
 
-### 46. How to use external plain JavaScript libraries in TypeScript?
+### 46. How to use external plain JavaScript libraries in TypeScript? [⬆️](#top)
 
-### 47. What is the difference between type and interface in TypeScript?
+### 47. What is the difference between type and interface in TypeScript? [⬆️](#top)
 
-### 48. How to add types to an interface from another interface or extend types in TypeScript?
+### 48. How to add types to an interface from another interface or extend types in TypeScript? [⬆️](#top)
 
-### 49. Does TypeScript supports function overloading?
+### 49. Does TypeScript supports function overloading? [⬆️](#top)
 
-### 50. What is the difference between Private and Protected variables in TypeScript?
+### 50. What is the difference between Private and Protected variables in TypeScript? [⬆️](#top)
 
-### 51. What is Typings in Typescript?
+### 51. What is Typings in Typescript? [⬆️](#top)
 
-### 52. What is the difference between enum and const enums?
+### 52. What is the difference between enum and const enums? [⬆️](#top)
 
-### 53. Why do we need to use abstract keyword for classes and their methods in TypeScript?
+### 53. Why do we need to use abstract keyword for classes and their methods in TypeScript? [⬆️](#top)
 
-### 54. What is Structural Typing?
+### 54. What is Structural Typing? [⬆️](#top)
 
-### 55. How can you allow classes defined in a module to be accessible outside of the module?
+### 55. How can you allow classes defined in a module to be accessible outside of the module? [⬆️](#top)
 
-### 56. Explain what is Currying in TypeScript?
+### 56. Explain what is Currying in TypeScript? [⬆️](#top)
 
-### 57. How to exclude property from type in TypeScript?
+### 57. How to exclude property from type in TypeScript? [⬆️](#top)
 
-### 58. How to define a TypeScript class which has an index signature?
+### 58. How to define a TypeScript class which has an index signature? [⬆️](#top)
 
-### 59. Why we need Index Signature in TypeScript?
+### 59. Why we need Index Signature in TypeScript? [⬆️](#top)
 
-### 60. What is the difference between unknown and any type?
+### 60. What is the difference between unknown and any type? [⬆️](#top)
 
-### 61. Why is the infer keyword needed in TypeScript?
+### 61. Why is the infer keyword needed in TypeScript? [⬆️](#top)
 
-### 62. Explain what is never datatype in TypeScript?
+### 62. Explain what is never datatype in TypeScript? [⬆️](#top)
 
-### 63. What is dynamic import expression?
+### 63. What is dynamic import expression? [⬆️](#top)
 
-### 64. What is the difference between interface vs type statements?
+### 64. What is the difference between interface vs type statements? [⬆️](#top)
 
-### 65. What is Mixin Constructor Type?
+### 65. What is Mixin Constructor Type? [⬆️](#top)
 
-### 66. How does override keyword works in TypeScript?
+### 66. How does override keyword works in TypeScript? [⬆️](#top)
 
-### Explain when to use declare keyword in TypeScript
+### Explain when to use declare keyword in TypeScript [⬆️](#top)
 
-### 67. Is it possible to generate TypeScript declaration files from JS library?
+### 67. Is it possible to generate TypeScript declaration files from JS library? [⬆️](#top)
 
-### 68. What does the tsconfig option lib do?
+### 68. What does the tsconfig option lib do? [⬆️](#top)
 
-### 69. How to make a union type from a type alias or interface properties in TypeScript?
+### 69. How to make a union type from a type alias or interface properties in TypeScript? [⬆️](#top)
 
-### 70. What are Ambients in TypeScripts and when to use them?
+### 70. What are Ambients in TypeScripts and when to use them? [⬆️](#top)
 
-### 71. What is the benefit of import assertions features in TypeScript?
+### 71. What is the benefit of import assertions features in TypeScript? [⬆️](#top)
 
-### 72. What is one thing you would change about TypeScript?
+### 72. What is one thing you would change about TypeScript? [⬆️](#top)
 
-### Explain the difference between declare enum vs declare const enum
+### Explain the difference between declare enum vs declare const enum [⬆️](#top)
 
-### 73. What are the differences between the private keyword and private fields in TypeScript?
+### 73. What are the differences between the private keyword and private fields in TypeScript? [⬆️](#top)
 
-### 74. How the never datatype can be useful?
+### 74. How the never datatype can be useful? [⬆️](#top)
 
-### 75. What is the need of --incremental flag in TypeScript?
+### 75. What is the need of --incremental flag in TypeScript? [⬆️](#top)
 
 ## Unit testing
 
-### 1. What is Unit Testing and why is it important? [⬆️](#top)
+### 1. What is Unit Testing and why is it important? [⬆️](#top)[⬆️](#top)
 
-### 2. What is Test-Driven Development (TDD)? [⬆️](#top)
+### 2. What is Test-Driven Development (TDD)? [⬆️](#top)[⬆️](#top)
 
-### 3. What are mocks and stubs? When would you use them? [⬆️](#top)
+### 3. What are mocks and stubs? When would you use them? [⬆️](#top)[⬆️](#top)
 
-### 4. How do you test asynchronous code? [⬆️](#top)
+### 4. How do you test asynchronous code? [⬆️](#top)[⬆️](#top)
 
-### 5. What is code coverage and why is it important? [⬆️](#top)
+### 5. What is code coverage and why is it important? [⬆️](#top)[⬆️](#top)
 
-### 6. What's the difference between unit tests and integration tests? [⬆️](#top)
+### 6. What's the difference between unit tests and integration tests? [⬆️](#top)[⬆️](#top)
 
-### 7. How do you write testable code? [⬆️](#top)
+### 7. How do you write testable code? [⬆️](#top)[⬆️](#top)
 
-### 8. What are testing best practices? [⬆️](#top)
+### 8. What are testing best practices? [⬆️](#top)[⬆️](#top)
 
-### 9. How do you test React components? [⬆️](#top)
+### 9. How do you test React components? [⬆️](#top)[⬆️](#top)
 
-### 10. What tools do you use for testing JavaScript/TypeScript code? [⬆️](#top)
+### 10. What tools do you use for testing JavaScript/TypeScript code? [⬆️](#top)[⬆️](#top)
 
-### 11. How do you test API endpoints? [⬆️](#top)
+### 11. How do you test API endpoints? [⬆️](#top)[⬆️](#top)
 
-### 12. What is snapshot testing? [⬆️](#top)
+### 12. What is snapshot testing? [⬆️](#top)[⬆️](#top)
 
-### 13. How do you handle test data/test fixtures? [⬆️](#top)
+### 13. How do you handle test data/test fixtures? [⬆️](#top)[⬆️](#top)
 
-### 14. What are common testing patterns? [⬆️](#top)
+### 14. What are common testing patterns? [⬆️](#top)[⬆️](#top)
 
-### 15. How do you maintain tests? [⬆️](#top)
+### 15. How do you maintain tests? [⬆️](#top)[⬆️](#top)
 
-### 1. How to unit test an object with database queries?
+### 1. How to unit test an object with database queries?[⬆️](#top)
 
-### 2. What is the difference between Unit Tests and Functional Tests?
+### 2. What is the difference between Unit Tests and Functional Tests?[⬆️](#top)
 
-### 3. What is Mocking?
+### 3. What is Mocking?[⬆️](#top)
 
-### 4. Should unit tests be written for Getter and Setters?
+### 4. Should unit tests be written for Getter and Setters?[⬆️](#top)
 
-### 5. What's the difference between Mock an object or Spy on it?
+### 5. What's the difference between Mock an object or Spy on it?[⬆️](#top)
 
-### 6. What do I lose by adopting TDD? What are the disadvantages of Test Driven Development?
+### 6. What do I lose by adopting TDD? What are the disadvantages of Test Driven Development?[⬆️](#top)
 
-### 7. Should I Unit Test private methods or only public ones?
+### 7. Should I Unit Test private methods or only public ones?[⬆️](#top)
 
-### 8. What is the fundamental value of Unit Tests vs Integration Tests?
+### 8. What is the fundamental value of Unit Tests vs Integration Tests?[⬆️](#top)
 
-### 9. What's the difference between Unit Tests and Integration Tests?
+### 9. What's the difference between Unit Tests and Integration Tests?[⬆️](#top)
 
-### Name some Unit Testing benefits for devs that you personally experienced
+### Name some Unit Testing benefits for devs that you personally experienced [⬆️](#top)
 
-### 10. When and where should I use Mocking?
+### 10. When and where should I use Mocking? [⬆️](#top)
 
-### 11. How can I unit test a GUI?
+### 11. How can I unit test a GUI? [⬆️](#top)
 
-### 12. Is writing Unit Tests worth it for already exciting functionality?
+### 12. Is writing Unit Tests worth it for already exciting functionality? [⬆️](#top)
 
-### 13. How would you unit test private methods?
+### 13. How would you unit test private methods? [⬆️](#top)
 
-### 14. What is a reasonable Code Coverage % for unit tests (and why)?
+### 14. What is a reasonable Code Coverage % for unit tests (and why)? [⬆️](#top)
 
-### 15. What is Unit test, Integration Test, Smoke test, Regression Test and what are the differences between them?
+### 15. What is Unit test, Integration Test, Smoke test, Regression Test and what are the differences between them? [⬆️](#top)
 
-### 16. Can Unit Testing be successfully added into an existing production project? If so, how and is it worth it?
+### 16. Can Unit Testing be successfully added into an existing production project? If so, how and is it worth it? [⬆️](#top)
 
-### 17. Explain what is Arrange-Act-Assert pattern?
+### 17. Explain what is Arrange-Act-Assert pattern? [⬆️](#top)
 
-### 18. What are best practices for Unit Testing methods that use cache heavily?
+### 18. What are best practices for Unit Testing methods that use cache heavily? [⬆️](#top)
 
-### 19. What's the best strategy for Unit-Testing database-driven applications?
+### 19. What's the best strategy for Unit-Testing database-driven applications? [⬆️](#top)
 
-### 20. What is the best way to unit test a method that doesn't return anything (void)?
+### 20. What is the best way to unit test a method that doesn't return anything (void)? [⬆️](#top)
 
-### 21. How do I test a private function or a class that has private methods, fields or inner classes?
+### 21. How do I test a private function or a class that has private methods, fields or inner classes? [⬆️](#top)
 
-### 22. Is Unit Testing worth the effort?
+### 22. Is Unit Testing worth the effort? [⬆️](#top)
 
 ## VueJS
 
-### 1. What is Vue.js?
+### 1. What is Vue.js?[⬆️](#top)
 
-### 2. What is Vue.js?
+### 2. What is Vue.js?[⬆️](#top)
 
-### 3. How to create an instance of Vue.js?
+### 3. How to create an instance of Vue.js?[⬆️](#top)
 
-### 4. Explain the differences between one-way data flow and two-way data binding?
+### 4. Explain the differences between one-way data flow and two-way data binding?[⬆️](#top)
 
-### 5. What is filters in Vue.js?
+### 5. What is filters in Vue.js?[⬆️](#top)
 
-### 6. What are the Advantages/Disadvantages of Vuejs?
+### 6. What are the Advantages/Disadvantages of Vuejs?[⬆️](#top)
 
-### 7. How can you redirect to another page in Vue.js?
+### 7. How can you redirect to another page in Vue.js?[⬆️](#top)
 
-### 8. How to use local storage with Vue.js?
+### 8. How to use local storage with Vue.js?[⬆️](#top)
 
-### 9. How to deploy Vue.js app?
+### 9. How to deploy Vue.js app?[⬆️](#top)
 
-### 10. Can I pass parameters in computer properties in Vue.js?
+### 10. Can I pass parameters in computer properties in Vue.js?[⬆️](#top)
 
-### 11. What are components props?
+### 11. What are components props?[⬆️](#top)
 
-### Explain the basic logical Vue.js app organisation
+### Explain the basic logical Vue.js app organisation[⬆️](#top)
 
-### 12. How can I fetch query parameters in Vue.js?
+### 12. How can I fetch query parameters in Vue.js?[⬆️](#top)
 
-### 13. What are Components in Vue.js?
+### 13. What are Components in Vue.js?[⬆️](#top)
 
-### 14. What are filters in Vue.js?
+### 14. What are filters in Vue.js?[⬆️](#top)
 
-### 15. What are Directives in Vue.js, List some of them you used?
+### 15. What are Directives in Vue.js, List some of them you used?[⬆️](#top)
 
-### List some features of Vue.js
+### List some features of Vue.js[⬆️](#top)
 
-### 16. How to create Two-Way Bindings in Vue.js?
+### 16. How to create Two-Way Bindings in Vue.js?[⬆️](#top)
 
-### List type of Directive are available in Vue.js.
+### List type of Directive are available in Vue.js.[⬆️](#top)
 
-### 17. How can you prevent layout jumps in Vue.js?
+### 17. How can you prevent layout jumps in Vue.js?[⬆️](#top)
 
-### List some benefits of Vue.js
+### List some benefits of Vue.js[⬆️](#top)
 
-### 18. How to pass an argument to Vue.js filters?
+### 18. How to pass an argument to Vue.js filters?[⬆️](#top)
 
-### 19. How to call function on child component on parent events?
+### 19. How to call function on child component on parent events?[⬆️](#top)
 
-### 20. How to use Gulp with Vue.js?
+### 20. How to use Gulp with Vue.js?[⬆️](#top)
 
-### 21. Are there any drawback of Vue.js you know?
+### 21. Are there any drawback of Vue.js you know?[⬆️](#top)
 
-### 22. Can you force Vue.js to reload/rerender?
+### 22. Can you force Vue.js to reload/rerender?[⬆️](#top)
 
-### 23. How can you bind styles in Vue.js?
+### 23. How can you bind styles in Vue.js?[⬆️](#top)
 
-### 24. What is Vuex?
+### 24. What is Vuex?[⬆️](#top)
 
-### 25. What's the equivalent of Angular Service in Vue.js?
+### 25. What's the equivalent of Angular Service in Vue.js?[⬆️](#top)
 
-### List some types of components communication channels in Vue.js app
+### List some types of components communication channels in Vue.js app[⬆️](#top)
 
-### 26. How do you toggle a class in Vue.js?
+### 26. How do you toggle a class in Vue.js?[⬆️](#top)
 
-### 27. What is a proper way to communicate between sibling components in vuejs 2.0?
+### 27. What is a proper way to communicate between sibling components in vuejs 2.0?[⬆️](#top)
 
-### 28. What is the main difference between a method and a computed value in Vue.js?
+### 28. What is the main difference between a method and a computed value in Vue.js?[⬆️](#top)
 
-### 29. Why we need Vue.js mixins?
+### 29. Why we need Vue.js mixins?[⬆️](#top)
 
-### 30. How can I watch an array length using Vue.js?
+### 30. How can I watch an array length using Vue.js?[⬆️](#top)
 
 ## Web Security
 
-### 1. What is SQL injection?
+### 1. What is SQL injection?[⬆️](#top)
 
-### 2. What is a botnet?
+### 2. What is a botnet?[⬆️](#top)
 
-### 3. What is the difference between Authentication vs Authorization?
+### 3. What is the difference between Authentication vs Authorization?[⬆️](#top)
 
-### 4. What is “Vulnerability”?
+### 4. What is “Vulnerability”?[⬆️](#top)
 
-### 5. List the various methodologies in Security testing?
+### 5. List the various methodologies in Security testing?[⬆️](#top)
 
-### 6. What is Security Testing?
+### 6. What is Security Testing?[⬆️](#top)
 
-### 7. What is a DDOS attack?
+### 7. What is a DDOS attack?[⬆️](#top)
 
-### 8. What is an SSL Certificate?
+### 8. What is an SSL Certificate?[⬆️](#top)
 
-### 9. How to mitigate the SQL Injection risks?
+### 9. How to mitigate the SQL Injection risks?[⬆️](#top)
 
-### 10. What is Cross Site Scripting (XSS)?
+### 10. What is Cross Site Scripting (XSS)?[⬆️](#top)
 
-### 11. Explain what threat arises from not flagging HTTP cookies with tokens as secure?
+### 11. Explain what threat arises from not flagging HTTP cookies with tokens as secure?[⬆️](#top)
 
-### 12. How can I prevent XSS?
+### 12. How can I prevent XSS?[⬆️](#top)
 
-### 13. Why is the Root Certificate important?
+### 13. Why is the Root Certificate important?[⬆️](#top)
 
-### 14. What is CORS and how to enable one?
+### 14. What is CORS and how to enable one?[⬆️](#top)
 
-### 15. What is Intrusion Detection System (IDS)?
+### 15. What is Intrusion Detection System (IDS)?[⬆️](#top)
 
-### 16. What is DOM-based XSS?
+### 16. What is DOM-based XSS?[⬆️](#top)
 
-### 17. How can we Protect Web Applications From Forced Browsing?
+### 17. How can we Protect Web Applications From Forced Browsing?[⬆️](#top)
 
-### 18. Mention what flaw arises from session tokens having poor randomness across a range of values?
+### 18. Mention what flaw arises from session tokens having poor randomness across a range of values?[⬆️](#top)
 
-### 19. What is impersonation?
+### 19. What is impersonation?[⬆️](#top)
 
-### 20. What is Cross-Site Scripting (XSS)?
+### 20. What is Cross-Site Scripting (XSS)?[⬆️](#top)
 
-### 21. What is Session Hijacking?
+### 21. What is Session Hijacking?[⬆️](#top)
 
-### 22. What is Content Security Policy?
+### 22. What is Content Security Policy?[⬆️](#top)
 
-### 23. How to mitigate the risk of Weak authentication and session management?
+### 23. How to mitigate the risk of Weak authentication and session management?[⬆️](#top)
 
-### 24. Mention what threat can be avoided by having unique usernames produced with a high degree of entropy?
+### 24. Mention what threat can be avoided by having unique usernames produced with a high degree of entropy?[⬆️](#top)
 
-### 25. Can XSS be prevented without modifying the source code?
+### 25. Can XSS be prevented without modifying the source code?[⬆️](#top)
 
-### 26. Mention what happens when an application takes user inserted data and sends it to a web browser without proper validation and escaping?
+### 26. Mention what happens when an application takes user inserted data and sends it to a web browser without proper validation and escaping?[⬆️](#top)
 
-### List Top 10 OWASP Vulnerabilities
+### List Top 10 OWASP Vulnerabilities[⬆️](#top)
 
-### 27. What is Cross-site request forgery and how to mitigate it?
+### 27. What is Cross-site request forgery and how to mitigate it?[⬆️](#top)
 
-### 28. What Is Failure to Restrict URL Access?
+### 28. What Is Failure to Restrict URL Access?[⬆️](#top)
 
-### 29. Apart from mailing links of error pages, are there other methods of exploiting XSS?
+### 29. Apart from mailing links of error pages, are there other methods of exploiting XSS?[⬆️](#top)
 
-### 30. How to mitigate the risk of Sensitive Data Exposure?
+### 30. How to mitigate the risk of Sensitive Data Exposure?[⬆️](#top)
 
-### 31. What is HTTP Public Key Pinning and when to use it?
+### 31. What is HTTP Public Key Pinning and when to use it?[⬆️](#top)
 
-### 32. What is ClickJacking?
+### 32. What is ClickJacking?[⬆️](#top)
 
-### 33. Could you explain the difference between penetration testing and other forms of security testing?
+### 33. Could you explain the difference between penetration testing and other forms of security testing?[⬆️](#top)
 
-### Name the elements of PKI
+### Name the elements of PKI[⬆️](#top)
 
-### 34. What is Cross-Site Request Forgery?
+### 34. What is Cross-Site Request Forgery?[⬆️](#top)
 
-### 35. What is the difference between IDS and firewalls?
+### 35. What is the difference between IDS and firewalls?[⬆️](#top)
 
-### 36. What is the difference between encryption, encoding, and hashing?
+### 36. What is the difference between encryption, encoding, and hashing?[⬆️](#top)
 
-### List the attributes of Security Testing
+### List the attributes of Security Testing[⬆️](#top)
 
-### 37. What is PKI?
+### 37. What is PKI?[⬆️](#top)
 
-### 38. What is a Honeypot?
+### 38. What is a Honeypot?[⬆️](#top)
 
-### 39. What information can an attacker steal using XSS?
+### 39. What information can an attacker steal using XSS?[⬆️](#top)
 
-### 40. What is Cross Site Tracing (XST)? How can it be prevented?
+### 40. What is Cross Site Tracing (XST)? How can it be prevented?[⬆️](#top)
 
-### 41. How does SSL/TLS work ?
+### 41. How does SSL/TLS work ?[⬆️](#top)
 
-### 42. If you can decode JWT, how are they secure?
+### 42. If you can decode JWT, how are they secure?[⬆️](#top)
 
-### 43. How to Prevent Breaches Due to Failure to Restrict URL Access?
+### 43. How to Prevent Breaches Due to Failure to Restrict URL Access? [⬆️](#top)
 
-### 44. How to ensure that a file can only be decrypted after a specific date?
+### 44. How to ensure that a file can only be decrypted after a specific date? [⬆️](#top)
 
-### 45. Is it possible to decrypt MD5 hashes? Explain.
+### 45. Is it possible to decrypt MD5 hashes? Explain. [⬆️](#top)
 
-### 46. What is a Bug Bounty?
+### 46. What is a Bug Bounty? [⬆️](#top)
 
-### 47. What is Reflected XSS?
+### 47. What is Reflected XSS? [⬆️](#top)
 
-### 48. What are the types of XSS?
+### 48. What are the types of XSS? [⬆️](#top)
 
-### 49. What is Stored XSS?
+### 49. What is Stored XSS? [⬆️](#top)
 
-### 50. What is HSTS?
+### 50. What is HSTS? [⬆️](#top)
 
-### 51. Explain briefly CORS (Cross-Origin Resource Sharing)?
+### 51. Explain briefly CORS (Cross-Origin Resource Sharing)? [⬆️](#top)
 
-### 52. What are X-Frame-Options?
+### 52. What are X-Frame-Options? [⬆️](#top)
 
-### 53. What's the difference between OpenID and OAuth?
+### 53. What's the difference between OpenID and OAuth? [⬆️](#top)
 
-### 54. Mention what is the basic design of OWASP ESAPI?
+### 54. Mention what is the basic design of OWASP ESAPI? [⬆️](#top)
 
-### 55. How to use Content Security Policy (CSP) against clickjacking?
+### 55. How to use Content Security Policy (CSP) against clickjacking? [⬆️](#top)
 
-### 56. What is Content Security Policy (CSP)?
+### 56. What is Content Security Policy (CSP)? [⬆️](#top)
 
-### 57. How to use CHAP Authentication (Challenge Response Authentication) for webSockets?
+### 57. How to use CHAP Authentication (Challenge Response Authentication) for webSockets? [⬆️](#top)
 
-### 58. How would you secure WebSockets communication on your project?
+### 58. How would you secure WebSockets communication on your project? [⬆️](#top)
 
-### 59. What is a Salt and How Does It Make Password Hashing More Secure?
+### 59. What is a Salt and How Does It Make Password Hashing More Secure? [⬆️](#top)
 
 ## WebSockets
 
-### 1. What are WebSockets and how do they differ from HTTP? [⬆️](#top)
+### 1. What are WebSockets and how do they differ from HTTP? [⬆️](#top)[⬆️](#top)
 
-### 2. When would you use WebSockets instead of REST APIs? [⬆️](#top)
+### 2. When would you use WebSockets instead of REST APIs? [⬆️](#top)[⬆️](#top)
 
-### 3. How do you implement real-time features using WebSockets? [⬆️](#top)
+### 3. How do you implement real-time features using WebSockets? [⬆️](#top)[⬆️](#top)
 
-### 4. What are the security considerations when using WebSockets? [⬆️](#top)
+### 4. What are the security considerations when using WebSockets? [⬆️](#top)[⬆️](#top)
 
-### 5. How do WebSockets handle connection loss? [⬆️](#top)
+### 5. How do WebSockets handle connection loss? [⬆️](#top)[⬆️](#top)
 
-### 6. What is Socket.IO and when would you use it? [⬆️](#top)
+### 6. What is Socket.IO and when would you use it? [⬆️](#top)[⬆️](#top)
 
-### 7. How do you scale WebSocket applications? [⬆️](#top)
+### 7. How do you scale WebSocket applications? [⬆️](#top)[⬆️](#top)
 
-### 8. What are WebSocket events and how do you handle them? [⬆️](#top)
+### 8. What are WebSocket events and how do you handle them? [⬆️](#top)[⬆️](#top)
 
-### 9. How do you test WebSocket applications? [⬆️](#top)
+### 9. How do you test WebSocket applications? [⬆️](#top)[⬆️](#top)
 
-### 10. What are common WebSocket use cases? [⬆️](#top)
+### 10. What are common WebSocket use cases? [⬆️](#top)[⬆️](#top)
 
-### 11. How do you implement authentication in WebSockets? [⬆️](#top)
+### 11. How do you implement authentication in WebSockets? [⬆️](#top)[⬆️](#top)
 
-### 12. What are the alternatives to WebSockets? [⬆️](#top)
+### 12. What are the alternatives to WebSockets? [⬆️](#top)[⬆️](#top)
 
-### 1. What is WebSockets?
+### 1. What is WebSockets?[⬆️](#top)
 
-### 2. What is Short Polling and what problems do we have with it?
+### 2. What is Short Polling and what problems do we have with it?[⬆️](#top)
 
-### 3. Explain what is Server-Sent Events (SSE) / EventSource?
+### 3. Explain what is Server-Sent Events (SSE) / EventSource?[⬆️](#top)
 
-### 4. What do you mean by lower latency interaction?
+### 4. What do you mean by lower latency interaction?[⬆️](#top)
 
-### 5. Why use WebSocket over HTTP?
+### 5. Why use WebSocket over HTTP?[⬆️](#top)
 
-### 6. What is the difference between WebSockets vs. Server-Sent Events/EventSource?
+### 6. What is the difference between WebSockets vs. Server-Sent Events/EventSource?[⬆️](#top)
 
-### Mention some advantages of SSE over WebSockets
+### Mention some advantages of SSE over WebSockets[⬆️](#top)
 
-### 7. Explain what is Long Polling?
+### 7. Explain what is Long Polling?[⬆️](#top)
 
-### 8. Name and explain what different communication techniques on the web do you know?
+### 8. Name and explain what different communication techniques on the web do you know?[⬆️](#top)
 
-### Explain key features of [Socket.io](http://socket.io/)
+### Explain key features of [Socket.io](http://socket.io/)[⬆️](#top)
 
-### 9. WebSockets vs Rest API for real time data? Which to choose?
+### 9. WebSockets vs Rest API for real time data? Which to choose?[⬆️](#top)
 
-### 10. Would WebSockets be able to handle 1,000,000 concurrent connections?
+### 10. Would WebSockets be able to handle 1,000,000 concurrent connections?[⬆️](#top)
 
-### 11. Why would you choose Server-Sent Events over WebSockets?
+### 11. Why would you choose Server-Sent Events over WebSockets?[⬆️](#top)
 
-### 12. When to use WebRTC over WebSockets?
+### 12. When to use WebRTC over WebSockets?[⬆️](#top)
 
-### 13. What are the differences between [Socket.io](http://socket.io/) and WebSockets?
+### 13. What are the differences between [Socket.io](http://socket.io/) and WebSockets?[⬆️](#top)
 
-### 14. Can you suggest how to load balance Web Sockets?
+### 14. Can you suggest how to load balance Web Sockets?[⬆️](#top)
 
-### 15. What are pros and cons of Azure Web PubSub vs SignalR?
+### 15. What are pros and cons of Azure Web PubSub vs SignalR?[⬆️](#top)
 
-### 16. What is WebSockets Frame?
+### 16. What is WebSockets Frame?[⬆️](#top)
 
-### 17. What is Sec-WebSocket-Key for?
+### 17. What is Sec-WebSocket-Key for?[⬆️](#top)
 
-### Explain how does WebSockets protocol work under the hood
+### Explain how does WebSockets protocol work under the hood[⬆️](#top)
 
-### 18. What is the mask in a WebSocket frame?
+### 18. What is the mask in a WebSocket frame?[⬆️](#top)
 
-### 19. What is the fundamental difference between WebSockets and pure TCP?
+### 19. What is the fundamental difference between WebSockets and pure TCP?[⬆️](#top)
 
-### 20. Explain why CDN (in)availability may be a problem for using WebSockets?
+### 20. Explain why CDN (in)availability may be a problem for using WebSockets?[⬆️](#top)
 
-### 21. How to use CHAP Authentication (Challenge Response Authentication) for webSockets?
+### 21. How to use CHAP Authentication (Challenge Response Authentication) for webSockets?[⬆️](#top)
 
-### 22. How would you secure WebSockets communication on your project?
+### 22. How would you secure WebSockets communication on your project?[⬆️](#top)
 
-### 23. How can WebSockets be better than Long-Polling in term of performance?
+### 23. How can WebSockets be better than Long-Polling in term of performance?[⬆️](#top)
 
 ## **API Design**
 
-### 1. What is API Design?
+### 1. What is API Design?[⬆️](#top)
 
-### 2. What REST stands for?
+### 2. What REST stands for?[⬆️](#top)
 
-### 3. What are different types of Web Services?
+### 3. What are different types of Web Services?[⬆️](#top)
 
-### Define what is SOA
+### Define what is SOA[⬆️](#top)
 
-### 4. What are the advantages of Web Services?
+### 4. What are the advantages of Web Services?[⬆️](#top)
 
-### 5. What are the core components of a HTTP Request?
+### 5. What are the core components of a HTTP Request?[⬆️](#top)
 
-### 6. Mention whether you can use GET request instead of PUT to create a resource?
+### 6. Mention whether you can use GET request instead of PUT to create a resource?[⬆️](#top)
 
-### 7. What are advantages of REST web services?
+### 7. What are advantages of REST web services?[⬆️](#top)
 
-### 8. What is cached response?
+### 8. What is cached response?[⬆️](#top)
 
-### 9. Mention what are resources in a REST architecture?
+### 9. Mention what are resources in a REST architecture?[⬆️](#top)
 
-### 10. What is SOAP?
+### 10. What is SOAP?[⬆️](#top)
 
-### 11. Mention some key characteristics of REST?
+### 11. Mention some key characteristics of REST?[⬆️](#top)
 
-### 12. Mention what is the difference between RPC or document style web services? How you determine to which one to choose?
+### 12. Mention what is the difference between RPC or document style web services? How you determine to which one to choose?[⬆️](#top)
 
-### 13. What's the difference between REST & RESTful?
+### 13. What's the difference between REST & RESTful?[⬆️](#top)
 
-### 14. What are the primary security issues of web service?
+### 14. What are the primary security issues of web service?[⬆️](#top)
 
-### 15. What is Payload?
+### 15. What is Payload?[⬆️](#top)
 
-### 16. What are the best practices for caching?
+### 16. What are the best practices for caching?[⬆️](#top)
 
-### 17. What is the purpose of HTTP Status Code?
+### 17. What is the purpose of HTTP Status Code?[⬆️](#top)
 
-### 18. What are disadvantages of SOAP Web Services?
+### 18. What are disadvantages of SOAP Web Services?[⬆️](#top)
 
-### 19. What is statelessness in RESTful Webservices?
+### 19. What is statelessness in RESTful Webservices?[⬆️](#top)
 
-### 20. What are the best practices to create a standard URI for a web service?
+### 20. What are the best practices to create a standard URI for a web service?[⬆️](#top)
 
-### 21. How would you choose between SOAP and REST web services?
+### 21. How would you choose between SOAP and REST web services?[⬆️](#top)
 
-### 22. WebSockets vs Rest API for real time data? Which to choose?
+### 22. WebSockets vs Rest API for real time data? Which to choose?[⬆️](#top)
 
-### 23. What is the use of Accept and Content-Type Headers in HTTP Request?
+### 23. What is the use of Accept and Content-Type Headers in HTTP Request?[⬆️](#top)
 
-### 24. What are disadvantages of REST web services?
+### 24. What are disadvantages of REST web services?[⬆️](#top)
 
-### 25. What are the core components of a HTTP response?
+### 25. What are the core components of a HTTP response?[⬆️](#top)
 
-### 26. Mention what are the different application integration styles?
+### 26. Mention what are the different application integration styles?[⬆️](#top)
 
-### 27. What is UDDI?
+### 27. What is UDDI?[⬆️](#top)
 
-### 28. What are the disadvantages of statelessness in RESTful Webservices?
+### 28. What are the disadvantages of statelessness in RESTful Webservices?[⬆️](#top)
 
-### 29. What are different ways to test web services?
+### 29. What are different ways to test web services?[⬆️](#top)
 
-### 30. Mention what is the difference between PUT and POST?
+### 30. Mention what is the difference between PUT and POST?[⬆️](#top)
 
-### 31. What are the best practices to design a resource representation?
+### 31. What are the best practices to design a resource representation?[⬆️](#top)
 
-### 32. What do you mean by idempotent operation?
+### 32. What do you mean by idempotent operation?[⬆️](#top)
 
-### 33. What is difference between SOA and Web Services?
+### 33. What is difference between SOA and Web Services?[⬆️](#top)
 
-### Explain Cache-control header
+### Explain Cache-control header[⬆️](#top)
 
-### 34. Which header of HTTP response provides control over caching?
+### 34. Which header of HTTP response provides control over caching?[⬆️](#top)
 
-### 35. Explain element?
+### 35. Explain element?[⬆️](#top)
 
-### 36. What are the advantages of statelessness in RESTful Webservices?
+### 36. What are the advantages of statelessness in RESTful Webservices?[⬆️](#top)
 
-### Explain what is the API Gateway pattern
+### Explain what is the API Gateway pattern[⬆️](#top)
 
-### 37. Which type of Webservices methods are to be idempotent?
+### 37. Which type of Webservices methods are to be idempotent?[⬆️](#top)
 
-### Enlist some important constraints for RESTful web services
+### Enlist some important constraints for RESTful web services[⬆️](#top)
 
-### 38. What are the best practices to be followed while designing a secure RESTful web service?
+### 38. What are the best practices to be followed while designing a secure RESTful web service?[⬆️](#top)
 
-### 39. What is difference between OData and REST web services?
+### 39. What is difference between OData and REST web services?[⬆️](#top)
 
-### Name some best practices for better RESTful API design
+### Name some best practices for better RESTful API design[⬆️](#top)
 
-### 40. What is Open API Initiative?
+### 40. What is Open API Initiative?[⬆️](#top)
 
-### 41. Explain the difference between WCF, Web API, WCF REST and Web Service?
+### 41. Explain the difference between WCF, Web API, WCF REST and Web Service?[⬆️](#top)
 
 ## **Availability & Reliability**
 
-### 1. What is Availability?
+### 1. What is Availability?[⬆️](#top)
 
-### 2. What is Reliability?
+### 2. What is Reliability?[⬆️](#top)
 
-### 3. What is Back-Pressure?
+### 3. What is Back-Pressure?[⬆️](#top)
 
-### 4. What Do You Mean By High Availability (HA)?
+### 4. What Do You Mean By High Availability (HA)?[⬆️](#top)
 
-### 5. How Do you update a live heavy traffic site with minimum or Zero Down Time?
+### 5. How Do you update a live heavy traffic site with minimum or Zero Down Time?[⬆️](#top)
 
-### 6. What does it mean "System Shall Be Resilient"?
+### 6. What does it mean "System Shall Be Resilient"?[⬆️](#top)
 
-### 7. What is Fail-over?
+### 7. What is Fail-over?[⬆️](#top)
 
-### Explain Failure in contrast to Error
+### Explain Failure in contrast to Error[⬆️](#top)
 
-### 8. How to choose between CP (consistency) and AP (availability)?
+### 8. How to choose between CP (consistency) and AP (availability)?[⬆️](#top)
 
-### 9. Explain how does Active-Passive Fail-over work?
+### 9. Explain how does Active-Passive Fail-over work?[⬆️](#top)
 
-### 10. What is Active-Active Fail-over?
+### 10. What is Active-Active Fail-over?[⬆️](#top)
 
-### Compare "Fail Fast" vs "Robust" approaches of building software
+### Compare "Fail Fast" vs "Robust" approaches of building software[⬆️](#top)
 
-### Explain how to calculate Availability of multiple system components
+### Explain how to calculate Availability of multiple system components[⬆️](#top)
 
-### 11. What is a crashloop?
+### 11. What is a crashloop?[⬆️](#top)
 
 ## **CAP Theorem**
 
-### 1. What Is CAP Theorem?
+### 1. What Is CAP Theorem?[⬆️](#top)
 
-### 2. Why is CAP Theorem true?
+### 2. Why is CAP Theorem true?[⬆️](#top)
 
-### 3. What does the CAP Theorem actually say?
+### 3. What does the CAP Theorem actually say?[⬆️](#top)
 
-### 4. Can you 'got around' or 'beat' the CAP Theorem?
+### 4. Can you 'got around' or 'beat' the CAP Theorem?[⬆️](#top)
 
-### 5. What is a Partition in CAP Theorem?
+### 5. What is a Partition in CAP Theorem?[⬆️](#top)
 
-### 6. What are A and P in CAP and the difference between them?
+### 6. What are A and P in CAP and the difference between them?[⬆️](#top)
 
-### Name some types of Consistency patterns
+### Name some types of Consistency patterns[⬆️](#top)
 
-### 7. What does atomic (or linearizable) consistency mean?
+### 7. What does atomic (or linearizable) consistency mean?[⬆️](#top)
 
-### 8. What shall you choose when a Partition does occur and why?
+### 8. What shall you choose when a Partition does occur and why?[⬆️](#top)
 
-### 9. Explain when CA from CAP is possible?
+### 9. Explain when CA from CAP is possible?[⬆️](#top)
 
-### 10. How to choose between CP (consistency) and AP (availability)?
+### 10. How to choose between CP (consistency) and AP (availability)?[⬆️](#top)
 
-### 11. Is the C in ACID is not the C in CAP?
+### 11. Is the C in ACID is not the C in CAP?[⬆️](#top)
 
-### 12. Explain what is PACELC Theorem?
+### 12. Explain what is PACELC Theorem?[⬆️](#top)
 
 ## **CDN**
 
-### 1. What is a CDN?
+### 1. What is a CDN?[⬆️](#top)
 
-### 2. Why use a CDN (Content Delivery Network‎)?
+### 2. Why use a CDN (Content Delivery Network‎)?[⬆️](#top)
 
-### 3. Name some advantages of using CDN for static JS files and assets?
+### 3. Name some advantages of using CDN for static JS files and assets?[⬆️](#top)
 
-### 4. What is a CDN origin server?
+### 4. What is a CDN origin server?[⬆️](#top)
 
-### 5. What is Azure CDN (Content Delivery Network) and why to use it?
+### 5. What is Azure CDN (Content Delivery Network) and why to use it?[⬆️](#top)
 
-### 6. What are CDN edge servers?
+### 6. What are CDN edge servers?[⬆️](#top)
 
-### 7. What Is Cache Busting?
+### 7. What Is Cache Busting?[⬆️](#top)
 
-### 8. Why and how to use Cache Busting?
+### 8. Why and how to use Cache Busting?[⬆️](#top)
 
-### 9. How does CDN caching work?
+### 9. How does CDN caching work?[⬆️](#top)
 
-### Name some advantages and disadvantages of Azure CDN
+### Name some advantages and disadvantages of Azure CDN[⬆️](#top)
 
-### 10. Explain why CDN (in)availability may be a problem for using WebSockets?
+### 10. Explain why CDN (in)availability may be a problem for using WebSockets?[⬆️](#top)
 
 ## **Caching**
 
-### 1. What is Caching?
+### 1. What is Caching?[⬆️](#top)
 
-### 2. What is Resultset Caching?
+### 2. What is Resultset Caching?[⬆️](#top)
 
-### Name some Cache Writing Strategies
+### Name some Cache Writing Strategies[⬆️](#top)
 
-### 3. What is Cache Invalidation?
+### 3. What is Cache Invalidation?[⬆️](#top)
 
-### 4. Is Redis just a cache?
+### 4. Is Redis just a cache?[⬆️](#top)
 
-### 5. What usually should be cached?
+### 5. What usually should be cached?[⬆️](#top)
 
-### 6. What are some alternatives to Cache Invalidation?
+### 6. What are some alternatives to Cache Invalidation?[⬆️](#top)
 
-### Name some Cache Invalidation methods
+### Name some Cache Invalidation methods[⬆️](#top)
 
-### 7. What are some disadvantages of Cache Invalidation?
+### 7. What are some disadvantages of Cache Invalidation?[⬆️](#top)
 
-### Explain what is Cache Stampede
+### Explain what is Cache Stampede[⬆️](#top)
 
-### 8. What is the difference between Cache replacement vs Cache invalidation?
+### 8. What is the difference between Cache replacement vs Cache invalidation?[⬆️](#top)
 
-### 9. Why is Cache Invalidation considered difficult?
+### 9. Why is Cache Invalidation considered difficult?[⬆️](#top)
 
-### 10. What are Cache Replacement (or Eviction Policy) algorithms?
+### 10. What are Cache Replacement (or Eviction Policy) algorithms?[⬆️](#top)
 
-### Compare caching at Business Layer vs Caching at Data Layer
+### Compare caching at Business Layer vs Caching at Data Layer[⬆️](#top)
 
-### 11. When to use LRU vs LFU Cache Replacement algorithms?
+### 11. When to use LRU vs LFU Cache Replacement algorithms?[⬆️](#top)
 
-### 12. What are best practices for caching paginated results whose ordering/properties can change?
+### 12. What are best practices for caching paginated results whose ordering/properties can change?[⬆️](#top)
 
-### Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
+### Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites[⬆️](#top)
 
-### Name some Cache Stampede mitigation techniques
+### Name some Cache Stampede mitigation techniques[⬆️](#top)
 
 ## **Clean Architecture**
 
-### 1. What is an Entity in Clean Architecture?
+### 1. What is an Entity in Clean Architecture?[⬆️](#top)
 
-### 2. What do you understand by Clean Architecture approach?
+### 2. What do you understand by Clean Architecture approach?[⬆️](#top)
 
-### 3. How you pass data between modules where they have different models in Clean Architecture?
+### 3. How you pass data between modules where they have different models in Clean Architecture?[⬆️](#top)
 
-### Explain the Data Flow in Clean Architecture
+### Explain the Data Flow in Clean Architecture[⬆️](#top)
 
-### 4. Explain what is Interface Segregation Principle (ISP) in Clean Architecture and what are some of its benefits?
+### 4. Explain what is Interface Segregation Principle (ISP) in Clean Architecture and what are some of its benefits?[⬆️](#top)
 
-### 5. What do you mean by Clean Architecture is Screaming?
+### 5. What do you mean by Clean Architecture is Screaming?[⬆️](#top)
 
-### 6. What are Use Cases in Clean Architecture?
+### 6. What are Use Cases in Clean Architecture?[⬆️](#top)
 
-### Explain what is Dependency Rule in Clean Architecture
+### Explain what is Dependency Rule in Clean Architecture[⬆️](#top)
 
-### Explain the purpose of Clean Architecture Inner and Outer layers
+### Explain the purpose of Clean Architecture Inner and Outer layers[⬆️](#top)
 
-### 7. What is the difference between the Clean and the N-Tier Architectures?
+### 7. What is the difference between the Clean and the N-Tier Architectures?[⬆️](#top)
 
-### 8. How shall we integrate DB Layer access in Clean Architecture?
+### 8. How shall we integrate DB Layer access in Clean Architecture?[⬆️](#top)
 
-### 9. Where should I implement the external API calls logic in Clean Architecture?
+### 9. Where should I implement the external API calls logic in Clean Architecture?[⬆️](#top)
 
-### 10. Explain the control flow of a user interacting with Clean Architecture components?
+### 10. Explain the control flow of a user interacting with Clean Architecture components?[⬆️](#top)
 
-### 11. What is the role of the Controller in Clean Architecture?
+### 11. What is the role of the Controller in Clean Architecture?[⬆️](#top)
 
-### 12. What is the role of the Presenter in Clean Architecture?
+### 12. What is the role of the Presenter in Clean Architecture?[⬆️](#top)
 
-### Compare Onion vs Clean vs Hexagonal Architectures
+### Compare Onion vs Clean vs Hexagonal Architectures[⬆️](#top)
 
-### 13. What is the difference between Request/Response Models and Entities in Clean Architecture?
+### 13. What is the difference between Request/Response Models and Entities in Clean Architecture?[⬆️](#top)
 
-### 14. How and where do you use transactions in the Clean Architecture?
+### 14. How and where do you use transactions in the Clean Architecture?[⬆️](#top)
 
 ## **Concurrency**
 
-### 1. Explain the difference between Asynchronous and Parallel programming?
+### 1. Explain the difference between Asynchronous and Parallel programming?[⬆️](#top)
 
-### 2. What is a Mutex?
+### 2. What is a Mutex?[⬆️](#top)
 
-### 3. What is a Deadlock?
+### 3. What is a Deadlock?[⬆️](#top)
 
-### 4. Is there any difference between a Binary Semaphore and Mutex?
+### 4. Is there any difference between a Binary Semaphore and Mutex?[⬆️](#top)
 
-### 5. What is the difference between Concurrency and Parallelism?
+### 5. What is the difference between Concurrency and Parallelism?[⬆️](#top)
 
-### Write a function that guarantees to never return the same value twice
+### Write a function that guarantees to never return the same value twice[⬆️](#top)
 
-### 6. How much work should I place inside a lock statement?
+### 6. How much work should I place inside a lock statement?[⬆️](#top)
 
-### 7. What is a Race Condition?
+### 7. What is a Race Condition?[⬆️](#top)
 
-### Explain Deadlock to 5 years old
+### Explain Deadlock to 5 years old[⬆️](#top)
 
-### 8. What is the meaning of the term “Thread-Safe”?
+### 8. What is the meaning of the term “Thread-Safe”?[⬆️](#top)
 
-### 9. What's the difference between Deadlock and Livelock?
+### 9. What's the difference between Deadlock and Livelock?[⬆️](#top)
 
-### Provide some real-live examples of Livelock
+### Provide some real-live examples of Livelock[⬆️](#top)
 
-### 10. What are some advantages of Lockless Concurrency?
+### 10. What are some advantages of Lockless Concurrency?[⬆️](#top)
 
-### 11. What is Starvation?
+### 11. What is Starvation?[⬆️](#top)
 
-### Compare Actor Model with Threading Model for concurrency
+### Compare Actor Model with Threading Model for concurrency[⬆️](#top)
 
-### 12. What is Green Thread?
+### 12. What is Green Thread?[⬆️](#top)
 
-### 13. What is a Data Race?
+### 13. What is a Data Race?[⬆️](#top)
 
-### 14. Two customers add a product to the basket in the same time whose the stock was only one (1). What will you do?
+### 14. Two customers add a product to the basket in the same time whose the stock was only one (1). What will you do?[⬆️](#top)
 
-### Explain what is a Race Condition to 5 years old
+### Explain what is a Race Condition to 5 years old[⬆️](#top)
 
-### 15. What is the difference between Race Condition and Data Races? Are they the same?
+### 15. What is the difference between Race Condition and Data Races? Are they the same?[⬆️](#top)
 
-### 16. What happens if you have a "race condition" on the lock itself?
+### 16. What happens if you have a "race condition" on the lock itself?[⬆️](#top)
 
 ## **Cryptography**
 
-### 1. Explain what is Data Encryption?
+### 1. Explain what is Data Encryption?[⬆️](#top)
 
-### 2. What is a key?
+### 2. What is a key?[⬆️](#top)
 
-### 3. Why is the Root Certificate important?
+### 3. Why is the Root Certificate important?[⬆️](#top)
 
-### 4. What are Confusion and Diffusion in Cryptography?
+### 4. What are Confusion and Diffusion in Cryptography?[⬆️](#top)
 
-### Explain difference between Hashing and Encryption algorithms
+### Explain difference between Hashing and Encryption algorithms[⬆️](#top)
 
-### 5. What is Symmetric Encryption?
+### 5. What is Symmetric Encryption?[⬆️](#top)
 
-### Provide an example of non-reciprocal cipher
+### Provide an example of non-reciprocal cipher[⬆️](#top)
 
-### Provide an example on Reciprocal cipher
+### Provide an example on Reciprocal cipher[⬆️](#top)
 
-### Name the elements of PKI
+### Name the elements of PKI[⬆️](#top)
 
-### 6. What is Asymmetric Encryption?
+### 6. What is Asymmetric Encryption?[⬆️](#top)
 
-### 7. What are pros and cons of Public Key Cryptography?
+### 7. What are pros and cons of Public Key Cryptography?[⬆️](#top)
 
-### Explain the role of Digital Certificates in Asymmetric Encryption process
+### Explain the role of Digital Certificates in Asymmetric Encryption process[⬆️](#top)
 
-### 8. What is the difference between encryption, encoding, and hashing?
+### 8. What is the difference between encryption, encoding, and hashing?[⬆️](#top)
 
-### 9. What is PKI?
+### 9. What is PKI?[⬆️](#top)
 
-### 10. What are the differences between MD5, SHA and RSA?
+### 10. What are the differences between MD5, SHA and RSA?[⬆️](#top)
 
-### 11. Why not use symmetric encryption?
+### 11. Why not use symmetric encryption?[⬆️](#top)
 
-### 12. What is the difference Between Block Cipher and Stream Cipher?
+### 12. What is the difference Between Block Cipher and Stream Cipher?[⬆️](#top)
 
-### 13. Is it possible to decrypt MD5 hashes? Explain.
+### 13. Is it possible to decrypt MD5 hashes? Explain.[⬆️](#top)
 
-### 14. What does “key with length of x bits” mean?
+### 14. What does “key with length of x bits” mean?[⬆️](#top)
 
-### 15. How to ensure that a file can only be decrypted after a specific date?
+### 15. How to ensure that a file can only be decrypted after a specific date?[⬆️](#top)
 
-### 16. How is it possible that people observing an HTTPS connection being established wouldn't know how to decrypt it?
+### 16. How is it possible that people observing an HTTPS connection being established wouldn't know how to decrypt it?[⬆️](#top)
 
-### 17. How does SSL/TLS work ?
+### 17. How does SSL/TLS work ?[⬆️](#top)
 
-### 18. What would happen had we not invented asymmetric encryption?
+### 18. What would happen had we not invented asymmetric encryption?[⬆️](#top)
 
-### 19. Explain why the length of the key does matter?
+### 19. Explain why the length of the key does matter?[⬆️](#top)
 
-### 20. What is the difference between a Hash Function and a Cryptographic Hash Function?
+### 20. What is the difference between a Hash Function and a Cryptographic Hash Function?[⬆️](#top)
 
-### 21. What is a Salt and How Does It Make Password Hashing More Secure?
+### 21. What is a Salt and How Does It Make Password Hashing More Secure?[⬆️](#top)
 
-### 22. Explain types of Resistance any Cryptographic Hash Function shall have?
+### 22. Explain types of Resistance any Cryptographic Hash Function shall have?[⬆️](#top)
 
 ## **DDD**
 
-### 1. What is Domain Driven Design?
+### 1. What is Domain Driven Design?[⬆️](#top)
 
-### 2. What is Domain in DDD?
+### 2. What is Domain in DDD?[⬆️](#top)
 
-### 3. How would you describe what is Domain Driven Design from the developer point of view?
+### 3. How would you describe what is Domain Driven Design from the developer point of view?[⬆️](#top)
 
-### 4. What is a Domain Model in DDD?
+### 4. What is a Domain Model in DDD?[⬆️](#top)
 
-### 5. What is a Specification in DDD?
+### 5. What is a Specification in DDD?[⬆️](#top)
 
-### 6. What are the fundamental components of Domain-Driven Design?
+### 6. What are the fundamental components of Domain-Driven Design?[⬆️](#top)
 
-### 7. List some advantages of Domain-Driven Design. Why developers shall use it?
+### 7. List some advantages of Domain-Driven Design. Why developers shall use it?[⬆️](#top)
 
-### 8. What is the distinction between Value Types and Entities in DDD?
+### 8. What is the distinction between Value Types and Entities in DDD?[⬆️](#top)
 
-### What is the purpose of Service in Domain-Driven Design (DDD)
+### What is the purpose of Service in Domain-Driven Design (DDD)[⬆️](#top)
 
-### 9. What is Domain in DDD?
+### 9. What is Domain in DDD?[⬆️](#top)
 
-### Explain the concept of Repository in the context of DDD
+### Explain the concept of Repository in the context of DDD[⬆️](#top)
 
-### 10. What is the difference between Value vs Entity Objects in DDD?
+### 10. What is the difference between Value vs Entity Objects in DDD?[⬆️](#top)
 
-### 11. What is the difference between Domain Objects, POCO, Services, Repositories and Entities?
+### 11. What is the difference between Domain Objects, POCO, Services, Repositories and Entities?[⬆️](#top)
 
-### 12. What is the difference between Behavior-Driven Development (BDD) vs Domain-Driven Design (DDD)?
+### 12. What is the difference between Behavior-Driven Development (BDD) vs Domain-Driven Design (DDD)?[⬆️](#top)
 
-### 13. What is Event Storming in DDD?
+### 13. What is Event Storming in DDD?[⬆️](#top)
 
-### 14. What is the Command and Query Responsibility Segregation (CQRS) Pattern?
+### 14. What is the Command and Query Responsibility Segregation (CQRS) Pattern?[⬆️](#top)
 
-### Name some benefits of CQRS Pattern
+### Name some benefits of CQRS Pattern[⬆️](#top)
 
-### Describe what is the Event Sourcing Pattern
+### Describe what is the Event Sourcing Pattern[⬆️](#top)
 
-### 15. What's an Aggregate Root in DDD?
+### 15. What's an Aggregate Root in DDD?[⬆️](#top)
 
-### 16. What is the differences between Strategic Patterns and Tactical Patterns?
+### 16. What is the differences between Strategic Patterns and Tactical Patterns?[⬆️](#top)
 
-### 17. What is a Model in DDD?
+### 17. What is a Model in DDD?[⬆️](#top)
 
-### 18. What is the difference between DTOs and ViewModels in DDD?
+### 18. What is the difference between DTOs and ViewModels in DDD?[⬆️](#top)
 
-### Explain the different layers in DDD
+### Explain the different layers in DDD[⬆️](#top)
 
-### 19. What types of issues does an Aggregate solve in DDD?
+### 19. What types of issues does an Aggregate solve in DDD?[⬆️](#top)
 
-### 20. What does Bounded Context mean in DDD?
+### 20. What does Bounded Context mean in DDD?[⬆️](#top)
 
-### 21. Mention how can you give objects an Unique Identity in DDD?
+### 21. Mention how can you give objects an Unique Identity in DDD?[⬆️](#top)
 
-### 22. What does it mean to focus on Problem Space rather than the Solution Space?
+### 22. What does it mean to focus on Problem Space rather than the Solution Space?[⬆️](#top)
 
-### 23. What is the difference between DAO and Repository in DDD?
+### 23. What is the difference between DAO and Repository in DDD?[⬆️](#top)
 
-### 24. What is the difference between Infrastructure Service and Repository in DDD?
+### 24. What is the difference between Infrastructure Service and Repository in DDD?[⬆️](#top)
 
-### 25. What is the difference between Factory and Repository in DDD?
+### 25. What is the difference between Factory and Repository in DDD?[⬆️](#top)
 
-### 26. What is Context Mapping's purpose in DDD?
+### 26. What is Context Mapping's purpose in DDD?[⬆️](#top)
 
-### 27. What is Core Domain, Supporting Subdomain, and Generic Subdomain in DDD?
+### 27. What is Core Domain, Supporting Subdomain, and Generic Subdomain in DDD?[⬆️](#top)
 
-### 28. What exactly are the Anti-Corruption layers in DDD? Provide an example.
+### 28. What exactly are the Anti-Corruption layers in DDD? Provide an example.[⬆️](#top)
 
-### Provide some examples of Infrastructural Services in DDD
+### Provide some examples of Infrastructural Services in DDD[⬆️](#top)
 
-### 29. What are Aggregates in Domain-Driven Design?
+### 29. What are Aggregates in Domain-Driven Design?[⬆️](#top)
 
-### 30. What is main difference between Domain vs Application vs Infrastructure Services?
+### 30. What is main difference between Domain vs Application vs Infrastructure Services?[⬆️](#top)
 
-### 31. Can we use the CQRS without the Event Sourcing?
+### 31. Can we use the CQRS without the Event Sourcing?[⬆️](#top)
 
-### 32. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
+### 32. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.[⬆️](#top)
 
 ## **Databases**
 
-### 1. What is Normalisation?
+### 1. What is Normalisation?[⬆️](#top)
 
-### 2. What are the advantages of NoSQL over traditional RDBMS?
+### 2. What are the advantages of NoSQL over traditional RDBMS?[⬆️](#top)
 
-### 3. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?
+### 3. What is the difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?[⬆️](#top)
 
-### 4. What Is ACID Property Of A System?
+### 4. What Is ACID Property Of A System?[⬆️](#top)
 
-### Define ACID Properties
+### Define ACID Properties[⬆️](#top)
 
-### 5. How a database index can help performance?
+### 5. How a database index can help performance?[⬆️](#top)
 
-### 6. What is Optimistic Locking?
+### 6. What is Optimistic Locking?[⬆️](#top)
 
-### 7. What is Denormalization?
+### 7. What is Denormalization?[⬆️](#top)
 
-### 8. What are the difference between Clustered and a Non-clustered index?
+### 8. What are the difference between Clustered and a Non-clustered index?[⬆️](#top)
 
-### 9. When should I use a NoSQL database instead of a relational database?
+### 9. When should I use a NoSQL database instead of a relational database?[⬆️](#top)
 
-### 10. What's the difference between a Primary Key and a Unique Key?
+### 10. What's the difference between a Primary Key and a Unique Key?[⬆️](#top)
 
-### 11. When would you use NoSQL?
+### 11. When would you use NoSQL?[⬆️](#top)
 
-### 12. How do you off load work from the Database?
+### 12. How do you off load work from the Database?[⬆️](#top)
 
-### 13. What is BASE property of a system?
+### 13. What is BASE property of a system?[⬆️](#top)
 
-### 14. What Is Sharding?
+### 14. What Is Sharding?[⬆️](#top)
 
-### 15. How do you track record relations in NoSQL?
+### 15. How do you track record relations in NoSQL?[⬆️](#top)
 
-### Explain eventual consistency in context of NoSQL
+### Explain eventual consistency in context of NoSQL[⬆️](#top)
 
-### 16. How does B-trees Index work?
+### 16. How does B-trees Index work?[⬆️](#top)
 
-### Explain the difference between Exclusive Lock and Update Lock
+### Explain the difference between Exclusive Lock and Update Lock[⬆️](#top)
 
-### 17. What is the cost of having a database index?
+### 17. What is the cost of having a database index?[⬆️](#top)
 
-### 18. How do you make schema changes to a live database without downtime?
+### 18. How do you make schema changes to a live database without downtime?[⬆️](#top)
 
-### 19. Why you should never use GUIDs as part of clustered index?
+### 19. Why you should never use GUIDs as part of clustered index?[⬆️](#top)
 
-### 20. What is the difference between B-Tree, R-Tree and Hash indexing?
+### 20. What is the difference between B-Tree, R-Tree and Hash indexing?[⬆️](#top)
 
-### 21. Is the C in ACID is not the C in CAP?
+### 21. Is the C in ACID is not the C in CAP?[⬆️](#top)
 
-### 22. What is Index Cardinality and why does it matter?
+### 22. What is Index Cardinality and why does it matter?[⬆️](#top)
 
-### 23. What Does Eventually Consistent Mean?
+### 23. What Does Eventually Consistent Mean?[⬆️](#top)
 
-### 24. Explain the differences in conceptual data design with NoSQL databases?
+### 24. Explain the differences in conceptual data design with NoSQL databases?[⬆️](#top)
 
-### 25. How does database Indexing work?
+### 25. How does database Indexing work?[⬆️](#top)
 
-### 26. What is Optimistic Locking and Pessimistic Locking?
+### 26. What is Optimistic Locking and Pessimistic Locking?[⬆️](#top)
 
-### Name some disadvantages of a Hash index
+### Name some disadvantages of a Hash index[⬆️](#top)
 
-### 27. What are some other types of Indexes (vs B-Trees)?
+### 27. What are some other types of Indexes (vs B-Trees)?[⬆️](#top)
 
 ## **Docker**
 
-### 1. What is Docker?
+### 1. What is Docker?[⬆️](#top)
 
-### 2. What is the difference between CMD and ENTRYPOINT in a Dockerfile?
+### 2. What is the difference between CMD and ENTRYPOINT in a Dockerfile?[⬆️](#top)
 
-### 3. What is the difference between a Docker image and a container?
+### 3. What is the difference between a Docker image and a container?[⬆️](#top)
 
-### 4. What are the various states that a Docker container can be in at any given point in time?
+### 4. What are the various states that a Docker container can be in at any given point in time?[⬆️](#top)
 
-### 5. What is Build Cache in Docker?
+### 5. What is Build Cache in Docker?[⬆️](#top)
 
-### 6. What is Docker container?
+### 6. What is Docker container?[⬆️](#top)
 
-### 7. Can you remove (‘docker rm’) a container that is paused?
+### 7. Can you remove (‘docker rm’) a container that is paused?[⬆️](#top)
 
-### 8. When would you use ‘docker kill’ or ‘docker rm -f’?
+### 8. When would you use ‘docker kill’ or ‘docker rm -f’?[⬆️](#top)
 
-### 9. Is there a way to identify the status of a Docker container?
+### 9. Is there a way to identify the status of a Docker container?[⬆️](#top)
 
-### 10. What’s the difference between a repository and a registry?
+### 10. What’s the difference between a repository and a registry?[⬆️](#top)
 
-### 11. What are the most common instructions in Dockerfile?
+### 11. What are the most common instructions in Dockerfile?[⬆️](#top)
 
-### 12. What is the difference between the COPY and ADD commands in a Dockerfile?
+### 12. What is the difference between the COPY and ADD commands in a Dockerfile?[⬆️](#top)
 
-### 13. What is Docker hub?
+### 13. What is Docker hub?[⬆️](#top)
 
-### 14. How to build envrionment-agnostic systems with Docker?
+### 14. How to build envrionment-agnostic systems with Docker?[⬆️](#top)
 
-### 15. What does Containerization mean?
+### 15. What does Containerization mean?[⬆️](#top)
 
-### 16. How to link containers?
+### 16. How to link containers?[⬆️](#top)
 
-### 17. What is the difference between ‘docker run’ and ‘docker create’?
+### 17. What is the difference between ‘docker run’ and ‘docker create’?[⬆️](#top)
 
-### 18. What is Docker image?
+### 18. What is Docker image?[⬆️](#top)
 
-### 19. Do I lose my data when the Docker container exits?
+### 19. Do I lose my data when the Docker container exits?[⬆️](#top)
 
-### 20. What type of applications - Stateless or Stateful are more suitable for Docker Container?
+### 20. What type of applications - Stateless or Stateful are more suitable for Docker Container?[⬆️](#top)
 
-### 21. What is the difference between “expose” and “publish” in Docker?
+### 21. What is the difference between “expose” and “publish” in Docker?[⬆️](#top)
 
-### Explain basic Docker usage workflow
+### Explain basic Docker usage workflow[⬆️](#top)
 
-### 22. What happens if you add more than one CMD instruction to a Dockerfile?
+### 22. What happens if you add more than one CMD instruction to a Dockerfile?[⬆️](#top)
 
-### 23. What is virtualisation?
+### 23. What is virtualisation?[⬆️](#top)
 
-### 24. How will you monitor Docker in production?
+### 24. How will you monitor Docker in production?[⬆️](#top)
 
-### 25. Docker Compose vs. Dockerfile - which is better?
+### 25. Docker Compose vs. Dockerfile - which is better?[⬆️](#top)
 
-### 26. What is the preferred way of removing containers - ‘docker rm -f’ or ‘docker stop’ then followed by a ‘docker rm’?
+### 26. What is the preferred way of removing containers - ‘docker rm -f’ or ‘docker stop’ then followed by a ‘docker rm’?[⬆️](#top)
 
-### 27. What is the difference between Docker Image and Layer?
+### 27. What is the difference between Docker Image and Layer?[⬆️](#top)
 
-### 28. What is the default CPU limit set for a container?
+### 28. What is the default CPU limit set for a container?[⬆️](#top)
 
-### 29. What is the purpose of EXPOSE command in Dockerfile?
+### 29. What is the purpose of EXPOSE command in Dockerfile?[⬆️](#top)
 
-### 30. Can you create containers wihout their own PID namespace?
+### 30. Can you create containers wihout their own PID namespace?[⬆️](#top)
 
-### 31. What exactly do you mean by “Dockerized node”? Can this node be on-premises or in the cloud?
+### 31. What exactly do you mean by “Dockerized node”? Can this node be on-premises or in the cloud?[⬆️](#top)
 
-### 32. How can we control the startup order of services in Docker compose?
+### 32. How can we control the startup order of services in Docker compose?[⬆️](#top)
 
-### 33. Could you explain what is Emulation?
+### 33. Could you explain what is Emulation?[⬆️](#top)
 
-### 34. What is the difference between CMD and ENTRYPOINT in a Dockerfile?
+### 34. What is the difference between CMD and ENTRYPOINT in a Dockerfile?[⬆️](#top)
 
-### 35. What is Hypervisor?
+### 35. What is Hypervisor?[⬆️](#top)
 
-### 36. What is Docker Swarm?
+### 36. What is Docker Swarm?[⬆️](#top)
 
-### 37. Should I use Vagrant or Docker for creating an isolated environment?
+### 37. Should I use Vagrant or Docker for creating an isolated environment?[⬆️](#top)
 
-### 38. What is the difference between Kubernetes and Docker?
+### 38. What is the difference between Kubernetes and Docker?[⬆️](#top)
 
-### Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes
+### Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes[⬆️](#top)
 
-### 39. Which problems does a Container Orchestration solve?
+### 39. Which problems does a Container Orchestration solve?[⬆️](#top)
 
-### 40. Explain what are some Pods usage patterns?
+### 40. Explain what are some Pods usage patterns?[⬆️](#top)
 
-### Explain a use case for Docker
+### Explain a use case for Docker[⬆️](#top)
 
-### 41. How is Container different from a Virtual Machine?
+### 41. How is Container different from a Virtual Machine?[⬆️](#top)
 
-### 42. Why do we need Kubernetes (and other orchestrators) above containers?
+### 42. Why do we need Kubernetes (and other orchestrators) above containers?[⬆️](#top)
 
-### 43. How virtualization works at low level?
+### 43. How virtualization works at low level?[⬆️](#top)
 
-### 44. Can you explain dockerfile ONBUILD instruction?
+### 44. Can you explain dockerfile ONBUILD instruction?[⬆️](#top)
 
-### 45. Can you run Docker containers natively on Windows?
+### 45. Can you run Docker containers natively on Windows?[⬆️](#top)
 
-### 46. What is an orphant volume and how to remove it?
+### 46. What is an orphant volume and how to remove it?[⬆️](#top)
 
-### 47. How is Docker different from a virtual machine?
+### 47. How is Docker different from a virtual machine?[⬆️](#top)
 
-### 48. Is it good practice to run stateful applications on Docker? What are the scenarios where Docker best fits in?
+### 48. Is it good practice to run stateful applications on Docker? What are the scenarios where Docker best fits in?[⬆️](#top)
 
-### 49. What are the different kinds of namespaces available in a Container?
+### 49. What are the different kinds of namespaces available in a Container?[⬆️](#top)
 
-### 50. What is Paravirtualization?
+### 50. What is Paravirtualization?[⬆️](#top)
 
-### 51. What is the difference between Docker RUN, CMD and ENTRYPOINT?
+### 51. What is the difference between Docker RUN, CMD and ENTRYPOINT?[⬆️](#top)
 
-### 52. When you limit the memory for a container, does it reserve (guarantee) the memory?
+### 52. When you limit the memory for a container, does it reserve (guarantee) the memory?[⬆️](#top)
 
-### 53. Is it possible to generate a Dockerfile from an image?
+### 53. Is it possible to generate a Dockerfile from an image?[⬆️](#top)
 
-### 54. What's the difference between pm2 and pm2-runtime and when to use one?
+### 54. What's the difference between pm2 and pm2-runtime and when to use one?[⬆️](#top)
 
-### 55. Why did Docker jump from version 1.13 to 17.03?
+### 55. Why did Docker jump from version 1.13 to 17.03?[⬆️](#top)
 
-### 56. Can you explain a relationship between container runtime and container orchestration?
+### 56. Can you explain a relationship between container runtime and container orchestration?[⬆️](#top)
 
-### 57. How containers works at low level?
+### 57. How containers works at low level?[⬆️](#top)
 
-### 58. Why Docker compose does not wait for a container to be ready before moving on to start next service in dependency order?
+### 58. Why Docker compose does not wait for a container to be ready before moving on to start next service in dependency order?[⬆️](#top)
 
-### Name some limitations of containers vs VM
+### Name some limitations of containers vs VM[⬆️](#top)
 
-### 59. How does Docker run containers in non-Linux systems?
+### 59. How does Docker run containers in non-Linux systems?[⬆️](#top)
 
-### 60. How to use Docker with multiple environments?
+### 60. How to use Docker with multiple environments?[⬆️](#top)
 
 ## **Kubernetes**
 
-### 1. What is Kubernetes? Why organizations are using it?
+### 1. What is Kubernetes? Why organizations are using it?[⬆️](#top)
 
-### 2. What is a Kubernetes Cluster?
+### 2. What is a Kubernetes Cluster?[⬆️](#top)
 
-### 3. What is a Pod?
+### 3. What is a Pod?[⬆️](#top)
 
-### 4. How can containers within a pod communicate with each other?
+### 4. How can containers within a pod communicate with each other?[⬆️](#top)
 
-### 5. What does a Pod do?
+### 5. What does a Pod do?[⬆️](#top)
 
-### 6. What is Kubernetes, exactly?
+### 6. What is Kubernetes, exactly?[⬆️](#top)
 
-### 7. What happens when a master fails? What happens when a worker fails?
+### 7. What happens when a master fails? What happens when a worker fails?[⬆️](#top)
 
-### 8. What are namespaces? What is the problem with using one default namespace?
+### 8. What are namespaces? What is the problem with using one default namespace?[⬆️](#top)
 
-### 9. What does it mean that "pods are ephemeral"?
+### 9. What does it mean that "pods are ephemeral"?[⬆️](#top)
 
-### 10. What is a DaemonSet?
+### 10. What is a DaemonSet?[⬆️](#top)
 
-### 11. Why may you have Pod is in a Pending state?
+### 11. Why may you have Pod is in a Pending state?[⬆️](#top)
 
-### 12. What is an Ingress Controller?
+### 12. What is an Ingress Controller?[⬆️](#top)
 
-### 13. Explain what is a Master Node and what component does it consist of?
+### 13. Explain what is a Master Node and what component does it consist of?[⬆️](#top)
 
-### 14. When to use StatefulSet?
+### 14. When to use StatefulSet?[⬆️](#top)
 
-### 15. What is a StatefulSet in Kubernetes?
+### 15. What is a StatefulSet in Kubernetes?[⬆️](#top)
 
-### 16. What are the benefits of a Pod?
+### 16. What are the benefits of a Pod?[⬆️](#top)
 
-### 17. Explain what are some Pods usage patterns?
+### 17. Explain what are some Pods usage patterns?[⬆️](#top)
 
-### 18. Which problems does a Container Orchestration solve?
+### 18. Which problems does a Container Orchestration solve?[⬆️](#top)
 
-### Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes
+### Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes[⬆️](#top)
 
-### 19. What is the difference between Kubernetes and Docker?
+### 19. What is the difference between Kubernetes and Docker?[⬆️](#top)
 
-### 20. How does Kubernetes use etcd?
+### 20. How does Kubernetes use etcd?[⬆️](#top)
 
-### 21. How to rollback a Deployment?
+### 21. How to rollback a Deployment?[⬆️](#top)
 
-### 22. Why do we need Kubernetes (and other orchestrators) above containers?
+### 22. Why do we need Kubernetes (and other orchestrators) above containers?[⬆️](#top)
 
-### 23. How does StatefulSets use differ from the use of "stateless" Pods with Persistent Volumes?
+### 23. How does StatefulSets use differ from the use of "stateless" Pods with Persistent Volumes?[⬆️](#top)
 
-### 24. How do I build a High Availability (HA) cluster?
+### 24. How do I build a High Availability (HA) cluster?[⬆️](#top)
 
-### 25. Can you explain a relationship between container runtime and container orchestration?
+### 25. Can you explain a relationship between container runtime and container orchestration?[⬆️](#top)
 
-### 26. Explain what are Taints in Kubernetes?
+### 26. Explain what are Taints in Kubernetes?[⬆️](#top)
 
 ## **Layering & Middleware**
 
-### 1. Why is it a good idea for “lower” application layers not to be aware of “higher” ones?
+### 1. Why is it a good idea for “lower” application layers not to be aware of “higher” ones?[⬆️](#top)
 
-### 2. What Is Middle Tier Clustering?
+### 2. What Is Middle Tier Clustering?[⬆️](#top)
 
-### Explain the different layers in DDD
+### Explain the different layers in DDD[⬆️](#top)
 
-### 3. What is the difference between Domain Objects, POCO, Services, Repositories and Entities?
+### 3. What is the difference between Domain Objects, POCO, Services, Repositories and Entities?[⬆️](#top)
 
-### 4. How shall we integrate DB Layer access in Clean Architecture?
+### 4. How shall we integrate DB Layer access in Clean Architecture?[⬆️](#top)
 
-### Explain the purpose of Clean Architecture Inner and Outer layers
+### Explain the purpose of Clean Architecture Inner and Outer layers[⬆️](#top)
 
-### Explain what is Dependency Rule in Clean Architecture
+### Explain what is Dependency Rule in Clean Architecture[⬆️](#top)
 
-### 5. Why should you structure your solution by components?
+### 5. Why should you structure your solution by components?[⬆️](#top)
 
-### 6. Why layering your application is important? Provide some bad layering example.
+### 6. Why layering your application is important? Provide some bad layering example.[⬆️](#top)
 
-### 7. How to handle exceptions in a layered application?
+### 7. How to handle exceptions in a layered application?[⬆️](#top)
 
-### 8. Why should I isolate my domain entities from my presentation layer?
+### 8. Why should I isolate my domain entities from my presentation layer?[⬆️](#top)
 
-### 9. What are best practices for Unit Testing methods that use cache heavily?
+### 9. What are best practices for Unit Testing methods that use cache heavily?[⬆️](#top)
 
-### 10. What is main difference between Domain vs Application vs Infrastructure Services?
+### 10. What is main difference between Domain vs Application vs Infrastructure Services?[⬆️](#top)
 
-### Provide some examples of Infrastructural Services in DDD
+### Provide some examples of Infrastructural Services in DDD[⬆️](#top)
 
-### 11. What is the difference between Infrastructure Service and Repository in DDD?
+### 11. What is the difference between Infrastructure Service and Repository in DDD?[⬆️](#top)
 
-### 12. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
+### 12. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.[⬆️](#top)
 
 ## **Load Balancing**
 
-### 1. What Is Load Balancing?
+### 1. What Is Load Balancing?[⬆️](#top)
 
-### Name some advantages of Round-Robin Load Balancing
+### Name some advantages of Round-Robin Load Balancing[⬆️](#top)
 
-### 2. What Is Round-Robin Load Balancing?
+### 2. What Is Round-Robin Load Balancing?[⬆️](#top)
 
-### 3. What are some variants of Round-Robin Load Balancing algorithm?
+### 3. What are some variants of Round-Robin Load Balancing algorithm?[⬆️](#top)
 
-### 4. Explain what is Reverse Proxy Server?
+### 4. Explain what is Reverse Proxy Server?[⬆️](#top)
 
-### 5. What Is a TCP Load Balancer?
+### 5. What Is a TCP Load Balancer?[⬆️](#top)
 
-### 6. What is the Difference Between Weighted Load Balancing vs Round Robin Load Balancing?
+### 6. What is the Difference Between Weighted Load Balancing vs Round Robin Load Balancing?[⬆️](#top)
 
-### 7. What Is Load Balancing Fail Over?
+### 7. What Is Load Balancing Fail Over?[⬆️](#top)
 
-### 8. What Is Sticky Session Load Balancing? What Do You Mean By "Session Affinity"?
+### 8. What Is Sticky Session Load Balancing? What Do You Mean By "Session Affinity"?[⬆️](#top)
 
-### 9. What is the difference between Session Affinity and Sticky Session?
+### 9. What is the difference between Session Affinity and Sticky Session?[⬆️](#top)
 
-### 10. Why should we use Load Balancer (except preventing overloading)?
+### 10. Why should we use Load Balancer (except preventing overloading)?[⬆️](#top)
 
-### 11. What affect does SSL have on the way load balancing works?
+### 11. What affect does SSL have on the way load balancing works?[⬆️](#top)
 
-### 12. What Is IP Address Affinity Technique For Load Balancing?
+### 12. What Is IP Address Affinity Technique For Load Balancing?[⬆️](#top)
 
-### 13. What are the Pros and Cons of the "sticky session" load balancing strategy?
+### 13. What are the Pros and Cons of the "sticky session" load balancing strategy?[⬆️](#top)
 
-### 14. What is the different between Layer7 vs Layer4 load balancing?
+### 14. What is the different between Layer7 vs Layer4 load balancing?[⬆️](#top)
 
-### 15. When to choose Round-Robin load‑balancing method?
+### 15. When to choose Round-Robin load‑balancing method?[⬆️](#top)
 
-### 16. What are some Load Balancing Algorithms you know?
+### 16. What are some Load Balancing Algorithms you know?[⬆️](#top)
 
-### 17. What Are The Issues With Sticky Session?
+### 17. What Are The Issues With Sticky Session?[⬆️](#top)
 
-### Name some metrics for traffic routing?
+### Name some metrics for traffic routing?[⬆️](#top)
 
-### 18. What Is a UDP Load Balancer?
+### 18. What Is a UDP Load Balancer?[⬆️](#top)
 
-### 19. Explain what is “Power of Two Random Choices” Load Balancing?
+### 19. Explain what is “Power of Two Random Choices” Load Balancing?[⬆️](#top)
 
-### Compare UDP Load Balancer vs TCP Load Balancer?
+### Compare UDP Load Balancer vs TCP Load Balancer?[⬆️](#top)
 
 ## **Microservices**
 
-### List down the advantages of Microservices Architecture.
+### List down the advantages of Microservices Architecture.[⬆️](#top)
 
-### 1. Why Would You Opt For Microservices Architecture?
+### 1. Why Would You Opt For Microservices Architecture?[⬆️](#top)
 
-### Define Microservice Architecture?
+### Define Microservice Architecture?[⬆️](#top)
 
-### 2. What are smart endpoints and dumb pipes?
+### 2. What are smart endpoints and dumb pipes?[⬆️](#top)
 
-### 3. What is the difference between a proxy server and a reverse proxy server?
+### 3. What is the difference between a proxy server and a reverse proxy server?[⬆️](#top)
 
-### 4. How can we perform Cross-Functional testing?
+### 4. How can we perform Cross-Functional testing?[⬆️](#top)
 
-### 5. What Are The Fundamentals Of Microservices Design?
+### 5. What Are The Fundamentals Of Microservices Design?[⬆️](#top)
 
-### 6. What are the challenges you face while working Microservice Architectures?
+### 6. What are the challenges you face while working Microservice Architectures?[⬆️](#top)
 
-### 7. What are main differences between Microservices and Monolithic Architecture?
+### 7. What are main differences between Microservices and Monolithic Architecture?[⬆️](#top)
 
-### 8. What is the difference between Monolithic, SOA and Microservices Architecture?
+### 8. What is the difference between Monolithic, SOA and Microservices Architecture?[⬆️](#top)
 
-### 9. What are the features of Microservices?
+### 9. What are the features of Microservices?[⬆️](#top)
 
-### 10. Whether do you find GraphQL the right fit for designing microservice architecture?
+### 10. Whether do you find GraphQL the right fit for designing microservice architecture?[⬆️](#top)
 
-### 11. How does Microservice Architecture work?
+### 11. How does Microservice Architecture work?[⬆️](#top)
 
-### 12. What are the standard patterns of orchestrating microservices?
+### 12. What are the standard patterns of orchestrating microservices?[⬆️](#top)
 
-### Mention some benefits and drawbacks of an API Gateway
+### Mention some benefits and drawbacks of an API Gateway[⬆️](#top)
 
-### 13. What are the pros and cons of Microservice Architecture?
+### 13. What are the pros and cons of Microservice Architecture?[⬆️](#top)
 
-### 14. What is Materialized View pattern and when will you use it?
+### 14. What is Materialized View pattern and when will you use it?[⬆️](#top)
 
-### Explain what is the API Gateway pattern
+### Explain what is the API Gateway pattern[⬆️](#top)
 
-### 15. How should the various services share a common DB Schema and code?
+### 15. How should the various services share a common DB Schema and code?[⬆️](#top)
 
-### 16. What is the role of an architect in Microservices architecture?
+### 16. What is the role of an architect in Microservices architecture?[⬆️](#top)
 
-### 17. What do you understand by Distributed Transaction?
+### 17. What do you understand by Distributed Transaction?[⬆️](#top)
 
-### 18. What is Idempotence?
+### 18. What is Idempotence?[⬆️](#top)
 
-### 19. Can we create State Machines out of Microservices?
+### 19. Can we create State Machines out of Microservices?[⬆️](#top)
 
-### 20. What do you understand by Contract Testing?
+### 20. What do you understand by Contract Testing?[⬆️](#top)
 
-### 21. How would you implement SSO for Microservice Architecture?
+### 21. How would you implement SSO for Microservice Architecture?[⬆️](#top)
 
-### 22. Name the main differences between SOA and Microservices?
+### 22. Name the main differences between SOA and Microservices?[⬆️](#top)
 
-### Provide an example of "smart pipes" and "dumb endpoint"
+### Provide an example of "smart pipes" and "dumb endpoint"[⬆️](#top)
 
-### 23. Why would one use sagas over 2PC and vice versa?
+### 23. Why would one use sagas over 2PC and vice versa?[⬆️](#top)
 
-### 24. What Did The Law Stated By Melvin Conway Implied?
+### 24. What Did The Law Stated By Melvin Conway Implied?[⬆️](#top)
 
-### 25. What is the most accepted transaction strategy for microservices?
+### 25. What is the most accepted transaction strategy for microservices?[⬆️](#top)
 
-### 26. What are Reactive Extensions in Microservices?
+### 26. What are Reactive Extensions in Microservices?[⬆️](#top)
 
-### 27. What is a Consumer-Driven Contract (CDC)?
+### 27. What is a Consumer-Driven Contract (CDC)?[⬆️](#top)
 
-### 28. What is the difference between Cohesion and Coupling?
+### 28. What is the difference between Cohesion and Coupling?[⬆️](#top)
 
-### 29. What does it mean that shifting to microservices creates a run-time problem?
+### 29. What does it mean that shifting to microservices creates a run-time problem?[⬆️](#top)
 
 ## **NoSQL**
 
-### 1. What are NoSQL databases? What are the different types of NoSQL databases?
+### 1. What are NoSQL databases? What are the different types of NoSQL databases?[⬆️](#top)
 
-### 2. What do you understand by NoSQL databases? Explain.
+### 2. What do you understand by NoSQL databases? Explain.[⬆️](#top)
 
-### Explain difference between scaling horizontally and vertically for databases
+### Explain difference between scaling horizontally and vertically for databases[⬆️](#top)
 
-### 3. What are the advantages of NoSQL over traditional RDBMS?
+### 3. What are the advantages of NoSQL over traditional RDBMS?[⬆️](#top)
 
-### 4. How does column-oriented NoSQL differ from document-oriented?
+### 4. How does column-oriented NoSQL differ from document-oriented?[⬆️](#top)
 
-### 5. When would you use NoSQL?
+### 5. When would you use NoSQL?[⬆️](#top)
 
-### 6. What does Document-oriented vs. Key-Value mean in context of NoSQL?
+### 6. What does Document-oriented vs. Key-Value mean in context of NoSQL?[⬆️](#top)
 
-### 7. When should I use a NoSQL database instead of a relational database?
+### 7. When should I use a NoSQL database instead of a relational database?[⬆️](#top)
 
-### 8. What is Selectivity of the query in MongoDB?
+### 8. What is Selectivity of the query in MongoDB?[⬆️](#top)
 
-### 9. What is BASE property of a system?
+### 9. What is BASE property of a system?[⬆️](#top)
 
-### Explain use of transactions in NoSQL
+### Explain use of transactions in NoSQL[⬆️](#top)
 
-### 10. How do you track record relations in NoSQL?
+### 10. How do you track record relations in NoSQL?[⬆️](#top)
 
-### 11. Explain how would you keep document change history in NoSQL DB?
+### 11. Explain how would you keep document change history in NoSQL DB?[⬆️](#top)
 
-### Explain BASE terminology in a context of NoSQL
+### Explain BASE terminology in a context of NoSQL[⬆️](#top)
 
-### Explain eventual consistency in context of NoSQL
+### Explain eventual consistency in context of NoSQL[⬆️](#top)
 
 ### 12. Is the C in ACID is not the C in CAP?
 
@@ -4678,251 +4678,251 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ## **Reactive Systems**
 
-### 1. What is Scalability of the Reactive System?
+### 1. What is Scalability of the Reactive System?[⬆️](#top)
 
-### Name Some Characteristic of Reactive Systems
+### Name Some Characteristic of Reactive Systems[⬆️](#top)
 
-### 2. What is Actor Model?
+### 2. What is Actor Model?[⬆️](#top)
 
-### 3. What Does Asynchrony Mean in the Context of Reactive Systems?
+### 3. What Does Asynchrony Mean in the Context of Reactive Systems?[⬆️](#top)
 
-### 4. What are some benefits of Reactive Systems?
+### 4. What are some benefits of Reactive Systems?[⬆️](#top)
 
-### 5. What Does It Mean to be Responsive for a Reactive System?
+### 5. What Does It Mean to be Responsive for a Reactive System?[⬆️](#top)
 
-### 6. What Does It Mean to be Elastic for a Reactive System?
+### 6. What Does It Mean to be Elastic for a Reactive System?[⬆️](#top)
 
-### 7. What Does It Mean to be Resilient for a Reactive System?
+### 7. What Does It Mean to be Resilient for a Reactive System?[⬆️](#top)
 
-### 8. What Does It Mean to be Message Driven for a Reactive System?
+### 8. What Does It Mean to be Message Driven for a Reactive System?[⬆️](#top)
 
-### Explain Message-Driven vs Event-Driven Approaches
+### Explain Message-Driven vs Event-Driven Approaches[⬆️](#top)
 
-### 9. What does Amdahl's Law mean?
+### 9. What does Amdahl's Law mean?[⬆️](#top)
 
 ## **SOA**
 
-### 1. What is WSDL?
+### 1. What is WSDL?[⬆️](#top)
 
-### Define what is SOA
+### Define what is SOA[⬆️](#top)
 
-### 2. What is SOAP?
+### 2. What is SOAP?[⬆️](#top)
 
-### 3. What is UDDI?
+### 3. What is UDDI?[⬆️](#top)
 
-### 4. What is the difference between Monolithic, SOA and Microservices Architecture?
+### 4. What is the difference between Monolithic, SOA and Microservices Architecture?[⬆️](#top)
 
-### 5. What are the various approaches available for developing SOAP based web services?
+### 5. What are the various approaches available for developing SOAP based web services?[⬆️](#top)
 
-### 6. Explain WSDL?
+### 6. Explain WSDL?[⬆️](#top)
 
-### 7. What are disadvantages of SOAP Web Services?
+### 7. What are disadvantages of SOAP Web Services?[⬆️](#top)
 
-### 8. How would you choose between SOAP and REST web services?
+### 8. How would you choose between SOAP and REST web services?[⬆️](#top)
 
-### 9. What are advantages of SOAP Web Services?
+### 9. What are advantages of SOAP Web Services?[⬆️](#top)
 
-### 10. What are different components of WSDL?
+### 10. What are different components of WSDL?[⬆️](#top)
 
-### 11. What are the different elements of WSDL documents?
+### 11. What are the different elements of WSDL documents?[⬆️](#top)
 
-### 12. What are the elements of a SOAP message?
+### 12. What are the elements of a SOAP message?[⬆️](#top)
 
-### 13. What are the important characteristics of SOAP envelope element?
+### 13. What are the important characteristics of SOAP envelope element?[⬆️](#top)
 
-### 14. What are the two attributes of element in WSDL?
+### 14. What are the two attributes of element in WSDL?[⬆️](#top)
 
-### 15. Enlist the operation types response used in WSDL?
+### 15. Enlist the operation types response used in WSDL?[⬆️](#top)
 
-### 16. What is difference between SOA and Web Services?
+### 16. What is difference between SOA and Web Services?[⬆️](#top)
 
-### 17. Explain the message element in WSDL?
+### 17. Explain the message element in WSDL?[⬆️](#top)
 
-### 18. What is difference between Top Down and Bottom Up approach in SOAP Web Services?
+### 18. What is difference between Top Down and Bottom Up approach in SOAP Web Services?[⬆️](#top)
 
-### 19. Name the main differences between SOA and Microservices?
+### 19. Name the main differences between SOA and Microservices?[⬆️](#top)
 
-### 20. Is binding between SOAP and WSDL possible?
+### 20. Is binding between SOAP and WSDL possible?[⬆️](#top)
 
 ## **Software Architecture**
 
-### 1. What Is Load Balancing?
+### 1. What Is Load Balancing? [⬆️](#top)
 
-### 2. What Is CAP Theorem?
+### 2. What Is CAP Theorem? [⬆️](#top)
 
-### 3. What is Test Driven Development?
+### 3. What is Test Driven Development? [⬆️](#top)
 
-### 4. What does the expression “Fail Early” mean, and when would you want to do so?
+### 4. What does the expression “Fail Early” mean, and when would you want to do so? [⬆️](#top)
 
-### 5. What defines a software architect?
+### 5. What defines a software architect? [⬆️](#top)
 
-### 6. Why is it a good idea for “lower” application layers not to be aware of “higher” ones?
+### 6. Why is it a good idea for “lower” application layers not to be aware of “higher” ones? [⬆️](#top)
 
-### 7. Why Do You Need Clustering?
+### 7. Why Do You Need Clustering? [⬆️](#top)
 
-### 8. What is meant by the KISS principle?
+### 8. What is meant by the KISS principle? [⬆️](#top)
 
-### 9. What Is A Cluster?
+### 9. What Is A Cluster? [⬆️](#top)
 
-### 10. What Is Scalability?
+### 10. What Is Scalability? [⬆️](#top)
 
-### 11. Why use WebSocket over HTTP?
+### 11. Why use WebSocket over HTTP? [⬆️](#top)
 
-### Define Microservice Architecture
+### Define Microservice Architecture [⬆️](#top)
 
-### 12. What is Domain Driven Design?
+### 12. What is Domain Driven Design? [⬆️](#top)
 
-### 13. What do you understand by Clean Architecture approach?
+### 13. What do you understand by Clean Architecture approach? [⬆️](#top)
 
-### 14. What do you mean by lower latency interaction?
+### 14. What do you mean by lower latency interaction? [⬆️](#top)
 
-### 15. What is a Model in DDD?
+### 15. What is a Model in DDD? [⬆️](#top)
 
-### 16. In OOP, what is the difference between the Repository Pattern and a Service Layer?
+### 16. In OOP, what is the difference between the Repository Pattern and a Service Layer? [⬆️](#top)
 
-### 17. What does SOLID stand for? What are its principles?
+### 17. What does SOLID stand for? What are its principles? [⬆️](#top)
 
-### 18. Is Unit Of Work equals Transaction? Or it is more than that?
+### 18. Is Unit Of Work equals Transaction? Or it is more than that? [⬆️](#top)
 
-### 19. How can you keep one copy of your utility code and let multiple consumer components use and deploy it?
+### 19. How can you keep one copy of your utility code and let multiple consumer components use and deploy it? [⬆️](#top)
 
-### 20. "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+### 20. "People who like this also like... ". How would you implement this feature in an e-commerce shop? [⬆️](#top)
 
-### 21. What does program to interfaces, not implementations mean?
+### 21. What does program to interfaces, not implementations mean? [⬆️](#top)
 
-### 22. Explain the Single Responsibility Principle (SRP)?
+### 22. Explain the Single Responsibility Principle (SRP)? [⬆️](#top)
 
-### 23. What is the difference between DTOs and ViewModels in DDD?
+### 23. What is the difference between DTOs and ViewModels in DDD? [⬆️](#top)
 
-### 24. What are the DRY and DIE principles?
+### 24. What are the DRY and DIE principles? [⬆️](#top)
 
-### Name some Performance Testing best practices
+### Name some Performance Testing best practices [⬆️](#top)
 
-### 25. Is it better to return NULL or empty values from functions/methods where the return value is not present?
+### 25. Is it better to return NULL or empty values from functions/methods where the return value is not present? [⬆️](#top)
 
-### 26. What is Domain in DDD?
+### 26. What is Domain in DDD? [⬆️](#top)
 
-### 27. What is difference between Fault Tolerance and Fault Resilience?
+### 27. What is difference between Fault Tolerance and Fault Resilience? [⬆️](#top)
 
-### Name some Performance Testing metrics to measure
+### Name some Performance Testing metrics to measure [⬆️](#top)
 
-### 28. What is the difference between Concurrency and Parallelism?
+### 28. What is the difference between Concurrency and Parallelism? [⬆️](#top)
 
-### 29. What does it mean "System Shall Be Resilient"?
+### 29. What does it mean "System Shall Be Resilient"? [⬆️](#top)
 
-### 30. Explain what is Interface Segregation Principle (ISP) in Clean Architecture and what are some of its benefits?
+### 30. Explain what is Interface Segregation Principle (ISP) in Clean Architecture and what are some of its benefits? [⬆️](#top)
 
-### 31. What Is Session Replication?
+### 31. What Is Session Replication? [⬆️](#top)
 
-### 32. What Is Sticky Session Load Balancing? What Do You Mean By "Session Affinity"?
+### 32. What Is Sticky Session Load Balancing? What Do You Mean By "Session Affinity"? [⬆️](#top)
 
-### 33. WebSockets vs Rest API for real time data? Which to choose?
+### 33. WebSockets vs Rest API for real time data? Which to choose? [⬆️](#top)
 
-### 34. What Do You Mean By High Availability (HA)?
+### 34. What Do You Mean By High Availability (HA)? [⬆️](#top)
 
-### Describe what is the Event Sourcing Pattern
+### Describe what is the Event Sourcing Pattern [⬆️](#top)
 
-### 35. What Is Middle Tier Clustering?
+### 35. What Is Middle Tier Clustering? [⬆️](#top)
 
-### 36. How Do you update a live heavy traffic site with minimum or Zero Down Time?
+### 36. How Do you update a live heavy traffic site with minimum or Zero Down Time? [⬆️](#top)
 
-### Name some benefits of CQRS Pattern
+### Name some benefits of CQRS Pattern [⬆️](#top)
 
-### 37. What Is ACID Property Of A System?
+### 37. What Is ACID Property Of A System? [⬆️](#top)
 
-### 38. What is the Command and Query Responsibility Segregation (CQRS) Pattern?
+### 38. What is the Command and Query Responsibility Segregation (CQRS) Pattern? [⬆️](#top)
 
-### 39. What is the difference between Monolithic, SOA and Microservices Architecture?
+### 39. What is the difference between Monolithic, SOA and Microservices Architecture? [⬆️](#top)
 
-### Explain the purpose of Clean Architecture Inner and Outer layers
+### Explain the purpose of Clean Architecture Inner and Outer layers [⬆️](#top)
 
-### 40. What is the difference between the Clean and the N-Tier Architectures?
+### 40. What is the difference between the Clean and the N-Tier Architectures? [⬆️](#top)
 
-### 41. What is the difference between Behavior-Driven Development (BDD) vs Domain-Driven Design (DDD)?
+### 41. What is the difference between Behavior-Driven Development (BDD) vs Domain-Driven Design (DDD)? [⬆️](#top)
 
-### 42. What is Bad Design?
+### 42. What is Bad Design? [⬆️](#top)
 
-### 43. What is Back-Pressure?
+### 43. What is Back-Pressure? [⬆️](#top)
 
-### 44. What is Elasticity (in contrast to Scalability)?
+### 44. What is Elasticity (in contrast to Scalability)? [⬆️](#top)
 
-### 45. What Is Load Balancing Fail Over?
+### 45. What Is Load Balancing Fail Over? [⬆️](#top)
 
-### 46. Compare Onion vs Clean vs Hexagonal Architectures
+### 46. Compare Onion vs Clean vs Hexagonal Architectures [⬆️](#top)
 
-### 47. What is Unit test, Integration Test, Smoke test, Regression Test and what are the differences between them?
+### 47. What is Unit test, Integration Test, Smoke test, Regression Test and what are the differences between them? [⬆️](#top)
 
-### 48. How do you off load work from the Database?
+### 48. How do you off load work from the Database? [⬆️](#top)
 
-### 49. Explain what is Cache Stampede
+### 49. Explain what is Cache Stampede [⬆️](#top)
 
-### 50. Compare "Fail Fast" vs "Robust" approaches of building software
+### 50. Compare "Fail Fast" vs "Robust" approaches of building software [⬆️](#top)
 
-### 51. What will you choose: Repository Pattern or "smart" business objects?
+### 51. What will you choose: Repository Pattern or "smart" business objects? [⬆️](#top)
 
-### 52. Is Repository Pattern as same as Active Record Pattern?
+### 52. Is Repository Pattern as same as Active Record Pattern? [⬆️](#top)
 
-### 53. How should I be grouping my Repositories when using Repository Pattern?
+### 53. How should I be grouping my Repositories when using Repository Pattern? [⬆️](#top)
 
-### 54. What is the Dependency Inversion Principle (DIP) and why is it important?
+### 54. What is the Dependency Inversion Principle (DIP) and why is it important? [⬆️](#top)
 
-### 55. What is relationship between Repository and Unit of Work?
+### 55. What is relationship between Repository and Unit of Work? [⬆️](#top)
 
-### 56. What is BASE property of a system?
+### 56. What is BASE property of a system? [⬆️](#top)
 
-### 57. Two customers add a product to the basket in the same time whose the stock was only one (1). What will you do?
+### 57. Two customers add a product to the basket in the same time whose the stock was only one (1). What will you do? [⬆️](#top)
 
-### 58. Provide Definition Of Location Transparency
+### 58. Provide Definition Of Location Transparency [⬆️](#top)
 
-### 59. Explain Failure in contrast to Error
+### 59. Explain Failure in contrast to Error [⬆️](#top)
 
-### 60. What Is Sharding?
+### 60. What Is Sharding? [⬆️](#top)
 
-### 61. What Is IP Address Affinity Technique For Load Balancing?
+### 61. What Is IP Address Affinity Technique For Load Balancing? [⬆️](#top)
 
-### 62. Why should I isolate my domain entities from my presentation layer?
+### 62. Why should I isolate my domain entities from my presentation layer? [⬆️](#top)
 
-### 63. Why should you structure your solution by components?
+### 63. Why should you structure your solution by components? [⬆️](#top)
 
-### 64. Why layering your application is important? Provide some bad layering example.
+### 64. Why layering your application is important? Provide some bad layering example. [⬆️](#top)
 
-### 65. Explain threads to your grandparents
+### 65. Explain threads to your grandparents [⬆️](#top)
 
-### 66. What is actor model in context of a programming language?
+### 66. What is actor model in context of a programming language? [⬆️](#top)
 
-### 67. How to handle exceptions in a layered application?
+### 67. How to handle exceptions in a layered application? [⬆️](#top)
 
-### 68. What is GOD class and why should we avoid it?
+### 68. What is GOD class and why should we avoid it? [⬆️](#top)
 
-### 69. Defend the monolithic architecture.
+### 69. Defend the monolithic architecture. [⬆️](#top)
 
-### 70. What's the difference between principles YAGNI and KISS?
+### 70. What's the difference between principles YAGNI and KISS? [⬆️](#top)
 
-### 71. What Is Shared Nothing Architecture? How Does It Scale?
+### 71. What Is Shared Nothing Architecture? How Does It Scale? [⬆️](#top)
 
-### 72. What does Amdahl's Law mean?
+### 72. What does Amdahl's Law mean? [⬆️](#top)
 
-### 73. How do I test a private function or a class that has private methods, fields or inner classes?
+### 73. How do I test a private function or a class that has private methods, fields or inner classes? [⬆️](#top)
 
-### 74. What is the difference between Cohesion and Coupling?
+### 74. What is the difference between Cohesion and Coupling? [⬆️](#top)
 
-### 75. Can we use the CQRS without the Event Sourcing?
+### 75. Can we use the CQRS without the Event Sourcing? [⬆️](#top)
 
-### 76. What is the most accepted transaction strategy for microservices?
+### 76. What is the most accepted transaction strategy for microservices? [⬆️](#top)
 
-### 77. What Does Eventually Consistent Mean?
+### 77. What Does Eventually Consistent Mean? [⬆️](#top)
 
-### 78. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
+### 78. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain. [⬆️](#top)
 
-### 79. What are heuristic exceptions?
+### 79. What are heuristic exceptions? [⬆️](#top)
 
-### 80. What are best practices for caching paginated results whose ordering/properties can change?
+### 80. What are best practices for caching paginated results whose ordering/properties can change? [⬆️](#top)
 
-### 81. Are you familiar with The Twelve-Factor App principles?
+### 81. Are you familiar with The Twelve-Factor App principles? [⬆️](#top)
 
-### 82. Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
+### 82. Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites [⬆️](#top)
 
-### 83. Why is writing software difficult? What makes maintaining software hard?
+### 83. Why is writing software difficult? What makes maintaining software hard? [⬆️](#top)
 
 ## How to Use This Document
 
