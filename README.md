@@ -2492,40 +2492,52 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ## React
 
-**1. How does React work?**
+### 1. How does React work?
+
 React creates a virtual DOM in memory, which is a lightweight copy of the real DOM. When state changes, React updates the virtual DOM first, then efficiently updates only the changed parts in the real DOM using a diffing algorithm. This makes UI updates fast and efficient.
 
-**2. What are React Hooks?**
+### 2. What are React Hooks?
+
 React Hooks are special functions that let you use state and other React features in functional components. Common hooks include useState, useEffect, and useContext. They help manage state, side effects, and context without writing class components.
 
-**3. What is Context API in ReactJS?**
+### 3. What is Context API in ReactJS?
+
 The Context API allows you to share data (like themes or user info) across the component tree without passing props manually at every level. It helps avoid prop drilling and makes global state management easier for certain use cases.
 
-**4. What are the major features of ReactJS?**
+### 4. What are the major features of ReactJS?
+
 Major features include: component-based architecture, virtual DOM, JSX syntax, unidirectional data flow, support for hooks, and strong ecosystem for state management and routing.
 
-**5. What are the advantages of ReactJS?**
+### 5. What are the advantages of ReactJS?
+
 React offers fast rendering with the virtual DOM, reusable components, easier debugging, a large community, and flexibility to integrate with other libraries or frameworks.
 
-**6. What are props in React?**
+### 6. What are props in React?
+
 Props (short for properties) are read-only inputs passed from parent to child components. They allow data and event handlers to be shared between components, making them reusable and dynamic.
 
-**7. What is the use of refs?**
+### 7. What is the use of refs?
+
 Refs provide a way to access and interact with DOM elements or React elements directly, bypassing the normal data flow. They're useful for managing focus, text selection, or triggering animations.
 
-**8. How would you write an inline style in React?**
+### 8. How would you write an inline style in React?
+
 Inline styles are written as objects using camelCase property names. Example: <div style={{ backgroundColor: 'red', fontSize: 16 }}>Hello</div>
 
-**9. What is React?**
+### 9. What is React?
+
 React is a JavaScript library for building user interfaces, especially single-page applications. It lets you create reusable UI components and efficiently update the UI when data changes.
 
-**10. What are inline conditional expressions in ReactJS?**
+### 10. What are inline conditional expressions in ReactJS?
+
 Inline conditional expressions let you render content based on conditions, often using the ternary operator or logical &&. Example: {isLoggedIn ? <Logout /> : <Login />}
 
-**11. What are refs used for in React?**
+### 11. What are refs used for in React?
+
 Refs are used to directly access or modify DOM nodes or React elements, such as focusing an input, reading values, or integrating with third-party libraries.
 
-**12. What is useState() in React?**
+### 12. What is useState() in React?
+
 useState is a React Hook that lets you add state to functional components. It returns a state variable and a function to update it.
 Code example:
 
@@ -2533,14 +2545,17 @@ Code example:
 const [count, setCount] = useState(0);
 ```
 
-**13. What's the difference between a Controlled component and an Uncontrolled one in React?**
+### 13. What's the difference between a Controlled component and an Uncontrolled one in React?
+
 Controlled components have their state managed by React via props and state, while uncontrolled components store their own state internally, often accessed via refs.
 Detailed explanation: Controlled components are preferred for form handling as they allow validation and state management in React, while uncontrolled components are useful for simple use cases or integrating with non-React code.
 
-**14. What are advantages of using React Hooks?**
+### 14. What are advantages of using React Hooks?
+
 Hooks allow you to use state and lifecycle features in functional components, promote code reuse, and make components easier to test and maintain.
 
-**15. What are Stateful components in React?**
+### 15. What are Stateful components in React?
+
 Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
 **16. What is Reconciliation in ReactJS?**
@@ -2925,11 +2940,13 @@ const inputRef = useRef();
 
 ## React hooks
 
-**1. What are React Hooks?**
+### 1. What are React Hooks?
+
 Hooks are functions that let you use state and other React features in functional components. They provide a more direct way to work with component logic.
 Detailed explanation: Hooks were introduced in React 16.8 to allow you to use state and other React features without writing class components.
 
-**2. What is useState() in React?**
+### 2. What is useState() in React?
+
 useState is a Hook that lets you add React state to functional components.
 Code example:
 
@@ -2938,7 +2955,8 @@ const [count, setCount] = useState(0);
 const [user, setUser] = useState({ name: "", age: 0 });
 ```
 
-**3. How to call loading function with React useEffect only once?**
+### 3. How to call loading function with React useEffect only once?
+
 To run an effect only once, pass an empty dependency array to useEffect.
 Code example:
 
@@ -2948,7 +2966,8 @@ useEffect(() => {
 }, []);
 ```
 
-**4. How to access DOM elements in React?**
+### 4. How to access DOM elements in React?
+
 Use the useRef hook to access DOM elements directly in functional components.
 Code example:
 
@@ -2959,11 +2978,13 @@ const inputRef = useRef();
 // Access: inputRef.current.focus();
 ```
 
-**5. What are advantages of using React Hooks?**
+### 5. What are advantages of using React Hooks?
+
 Hooks provide reusability of stateful logic, cleaner code organization, and avoid the complexity of class lifecycle methods.
 Detailed explanation: They eliminate the need for HOCs and render props patterns, and make it easier to reuse stateful logic between components.
 
-**6. What are production use cases for the useRef?**
+### 6. What are production use cases for the useRef?
+
 useRef is commonly used for:
 
 - Storing mutable values that don't trigger re-renders
@@ -2976,11 +2997,13 @@ const countRef = useRef(0); // Persists between renders
 const prevCountRef = useRef(); // Store previous value
 ```
 
-**7. What does Batching mean in ReactJS?**
+### 7. What does Batching mean in ReactJS?
+
 Batching is React's way of grouping multiple state updates into a single re-render for better performance.
 Detailed explanation: When multiple state updates occur within a single event handler or effect, React batches them together to avoid unnecessary re-renders.
 
-**8. What are common use cases for the useMemo?**
+### 8. What are common use cases for the useMemo?
+
 useMemo is used for:
 
 - Expensive calculations
