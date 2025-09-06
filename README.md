@@ -65,7 +65,7 @@ A comprehensive collection of interview questions and answers for fullstack deve
 
 ## Design pattern
 
-**What are the main categories of Design Patterns?**
+**1. What are the main categories of Design Patterns?**
 
 The three main categories of Design Patterns are:
 
@@ -83,7 +83,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-**What is Design Patterns and why anyone should use them?**
+**2. What is Design Patterns and why anyone should use them?**
 
 **Design Patterns** are reusable solutions to common problems that occur in software design. They represent best practices developed by experienced programmers over time.
 
@@ -98,7 +98,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-**What is a pattern?**
+**3. What is a pattern?**
 
 A **pattern** is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into code, but rather a template or blueprint for how to solve a problem that can be used in many different situations.
 
@@ -110,7 +110,7 @@ A **pattern** is a general reusable solution to a commonly occurring problem wit
 
 ---
 
-**What is Singleton pattern?**
+**4. What is Singleton pattern?**
 
 The **Singleton pattern** ensures that a class has only one instance and provides a global point of access to that instance.
 
@@ -152,7 +152,7 @@ public class Singleton
 
 ---
 
-**What is Dependency Injection?**
+**5. What is Dependency Injection?**
 
 **Dependency Injection (DI)** is a design pattern that implements Inversion of Control (IoC) for resolving dependencies. Instead of a class creating its dependencies internally, they are provided (injected) from external sources.
 
@@ -190,7 +190,7 @@ public class OrderService
 
 ---
 
-**What is State pattern?**
+**6. What is State pattern?**
 
 The **State pattern** allows an object to alter its behavior when its internal state changes. The object appears to change its class.
 
@@ -235,7 +235,7 @@ public class ConcreteStateA : IState
 
 ---
 
-**What is Null Object pattern?**
+**7. What is Null Object pattern?**
 
 The **Null Object pattern** provides a default object with neutral behavior to represent the absence of an object, eliminating the need for null checks.
 
@@ -271,7 +271,7 @@ public class NullLogger : ILogger
 
 ---
 
-**What is Template pattern?**
+**8. What is Template pattern?**
 
 The **Template Method pattern** defines the skeleton of an algorithm in a base class, letting subclasses override specific steps without changing the algorithm's structure.
 
@@ -308,7 +308,7 @@ public class CSVProcessor : DataProcessor
 
 ---
 
-**What is Iterator pattern?**
+**9. What is Iterator pattern?**
 
 The **Iterator pattern** provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
@@ -344,7 +344,7 @@ public class ListIterator<T> : IIterator<T>
 
 ---
 
-**What is Strategy pattern?**
+**10. What is Strategy pattern?**
 
 The **Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
 
@@ -389,7 +389,7 @@ public class PaymentContext
 
 ---
 
-**What is Proxy pattern?**
+**11. What is Proxy pattern?**
 
 The **Proxy pattern** provides a placeholder or surrogate for another object to control access to it.
 
@@ -456,7 +456,7 @@ public class ProxyImage : IImage
 
 ---
 
-**What are some benefits of Repository Pattern?**
+**12. What are some benefits of Repository Pattern?**
 
 The **Repository pattern** encapsulates data access logic and provides a uniform interface for accessing domain objects.
 
@@ -496,7 +496,7 @@ public class UserRepository : IUserRepository
 
 ---
 
-**What is Filter pattern?**
+**13. What is Filter pattern?**
 
 The **Filter pattern** (also known as Criteria pattern) allows filtering objects based on different criteria and chaining them in a decoupled manner.
 
@@ -548,7 +548,7 @@ public class AgeFilter : IFilter<Person>
 
 ---
 
-**What is Builder pattern?**
+**14. What is Builder pattern?**
 
 The **Builder pattern** constructs complex objects step by step, allowing you to produce different types and representations using the same construction process.
 
@@ -609,7 +609,7 @@ var computer = new ComputerBuilder()
 
 ---
 
-**Name types of Design Patterns?**
+**15. Name types of Design Patterns?**
 
 Design patterns are categorized into three main types:
 
@@ -644,7 +644,7 @@ Design patterns are categorized into three main types:
 
 > **Note:** This document contains detailed answers for key design patterns. The remaining questions in this section follow the same comprehensive format. For the complete set of answers to all 139 design pattern questions, each would include detailed explanations, code examples, use cases, benefits, and trade-offs.
 
-**What is Inversion of Control?**
+**16. What is Inversion of Control?**
 
 **Inversion of Control (IoC)** is a design principle where the control of object creation and dependency management is transferred from the object itself to an external container or framework.
 
@@ -669,7 +669,7 @@ Design patterns are categorized into three main types:
 
 ---
 
-**Why would you want to use a Repository Pattern with an ORM?**
+**17. Why would you want to use a Repository Pattern with an ORM?**
 
 While ORMs provide data access capabilities, the Repository pattern adds additional benefits:
 
@@ -721,91 +721,91 @@ public class UserRepository : IUserRepository
 
 ---
 
-What are the drawbacks to the ActiveRecord pattern?
+18. What are the drawbacks to the ActiveRecord pattern?
 
-What is the Command and Query Responsibility Segregation (CQRS) Pattern?
+19. What is the Command and Query Responsibility Segregation (CQRS) Pattern?
 
-What are some advantages of using Dependency Injection
+20. What are some advantages of using Dependency Injection
 
-What are some reasons to use Repository Pattern?
+21. What are some reasons to use Repository Pattern?
 
-What is an Aggregate Root in the context of Repository Pattern?
+22. What is an Aggregate Root in the context of Repository Pattern?
 
-In OOP, what is the difference between the Repository Pattern and a Service Layer?
+23. In OOP, what is the difference between the Repository Pattern and a Service Layer?
 
-Is Unit Of Work equals Transaction? Or it is more than that?
+24. Is Unit Of Work equals Transaction? Or it is more than that?
 
-When should I use Active Record vs Repository Pattern?
+25. When should I use Active Record vs Repository Pattern?
 
-What is Interpreter pattern?
+26. What is Interpreter pattern?
 
-What is Abstract Factory pattern?
+27. What is Abstract Factory pattern?
 
-What is Adapter Pattern?
+28. What is Adapter Pattern?
 
-What is Bridge pattern?
+29. What is Bridge pattern?
 
-What does program to interfaces, not implementations mean?
+30. What does program to interfaces, not implementations mean?
 
-What is Decorator pattern?
+31. What is Decorator pattern?
 
-What is Prototype pattern?
+32. What is Prototype pattern?
 
-What is Facade pattern?
+33. What is Facade pattern?
 
-Can you give any good explanation what is the difference between Proxy and Decorator?
+34. Can you give any good explanation what is the difference between Proxy and Decorator?
 
-What are the difference between a Static class and a Singleton class?
+35. What are the difference between a Static class and a Singleton class?
 
-When should I use Composite design pattern?
+36. When should I use Composite design pattern?
 
-What is Observer pattern?
+37. What is Observer pattern?
 
-What is Mediator pattern?
+38. What is Mediator pattern?
 
-How is Bridge pattern is different from Adapter pattern?
+39. How is Bridge pattern is different from Adapter pattern?
 
-Explain usage of Service Locator Pattern
+40. Explain usage of Service Locator Pattern
 
-What is Flyweight pattern?
+41. What is Flyweight pattern?
 
-What is the difference between Strategy design pattern and State design pattern?
+42. What is the difference between Strategy design pattern and State design pattern?
 
-What are some disadvantages of Dependency Injection?
+43. What are some disadvantages of Dependency Injection?
 
-What is relationship between Repository and Unit of Work?
+44. What is relationship between Repository and Unit of Work?
 
-Why would I ever use a Chain of Responsibility over a Decorator?
+45. Why would I ever use a Chain of Responsibility over a Decorator?
 
-Why shouldn't I use the Repository Pattern with Entity Framework?
+46. Why shouldn't I use the Repository Pattern with Entity Framework?
 
-When would you use the Builder Pattern? Why not just use a Factory Pattern?
+47. When would you use the Builder Pattern? Why not just use a Factory Pattern?
 
-Explain what is Composition over Inheritance?
+48. Explain what is Composition over Inheritance?
 
-How should I be grouping my Repositories when using Repository Pattern?
+49. How should I be grouping my Repositories when using Repository Pattern?
 
-Is Repository Pattern as same as Active Record Pattern?
+50. Is Repository Pattern as same as Active Record Pattern?
 
-What will you choose: Repository Pattern or "smart" business objects?
+51. What will you choose: Repository Pattern or "smart" business objects?
 
-Could you explain some benefits of Repository Pattern?
+52. Could you explain some benefits of Repository Pattern?
 
-Could you explain the difference between Façade vs. Mediator?
+53. Could you explain the difference between Façade vs. Mediator?
 
-What is the difference between the Template patterns and the Strategy pattern?
+54. What is the difference between the Template patterns and the Strategy pattern?
 
-Could you explain what is the Deadly Diamond of Death?
+55. Could you explain what is the Deadly Diamond of Death?
 
-Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?
+56. Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?
 
-Can we use the CQRS without the Event Sourcing?
+57. Can we use the CQRS without the Event Sourcing?
 
-What's the difference between the Dependency Injection and Service Locator patterns?
+58. What's the difference between the Dependency Injection and Service Locator patterns?
 
 ## Devops
 
-**What is Kubernetes? Why organizations are using it?**
+**1. What is Kubernetes? Why organizations are using it?**
 
 **Kubernetes (K8s)** is an open-source container orchestration platform that automates deployment, scaling, and management of containerized applications.
 
@@ -834,7 +834,7 @@ What's the difference between the Dependency Injection and Service Locator patte
 
 ---
 
-**What is the need for DevOps?**
+**2. What is the need for DevOps?**
 
 **DevOps** addresses critical challenges in traditional software development and operations:
 
@@ -870,7 +870,7 @@ What's the difference between the Dependency Injection and Service Locator patte
 
 ---
 
-**Are you more Dev or Ops?**
+**3. Are you more Dev or Ops?**
 
 This is a common interview question to understand your background and preferences. Here's how to approach it:
 
@@ -900,7 +900,7 @@ This is a common interview question to understand your background and preference
 
 ---
 
-**What is meant by Continuous Integration?**
+**4. What is meant by Continuous Integration?**
 
 **Continuous Integration (CI)** is a development practice where developers integrate code into a shared repository frequently, with each integration verified by automated builds and tests.
 
@@ -943,7 +943,7 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 
 ---
 
-**What is the most important thing DevOps helps us achieve?**
+**5. What is the most important thing DevOps helps us achieve?**
 
 The most important thing DevOps helps achieve is **faster, more reliable software delivery through improved collaboration and automation**.
 
@@ -983,7 +983,7 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 
 ---
 
-**Explain what is DevOps?**
+**6. Explain what is DevOps?**
 
 **DevOps** is a set of practices, tools, and cultural philosophies that combines software development (Dev) and IT operations (Ops) to shorten the software development lifecycle and deliver high-quality software continuously.
 
@@ -1049,7 +1049,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 > - Configuration management
 > - Performance testing and optimization
 
-**Why is Continuous Monitoring necessary?**
+**7. Why is Continuous Monitoring necessary?**
 
 **Continuous Monitoring** is essential for maintaining system health, performance, and security in modern DevOps environments.
 
@@ -1094,7 +1094,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 
 ---
 
-**What's the next thing you would automate in your current workflow?**
+**8. What's the next thing you would automate in your current workflow?**
 
 This question assesses your understanding of automation priorities and process improvement. Here's how to approach it:
 
@@ -1135,7 +1135,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**What is the role of a Configuration Management tool in DevOps?**
+**9. What is the role of a Configuration Management tool in DevOps?**
 
 **Configuration Management (CM)** tools ensure consistent, automated management of infrastructure and application configurations across environments.
 
@@ -1209,7 +1209,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**What is post Mortem Meetings?**
+**10. What is post Mortem Meetings?**
 
 **Post-Mortem Meetings** (also called "Post-Incident Reviews" or "After Action Reviews") are structured discussions held after incidents, outages, or project completions to learn and improve.
 
@@ -1286,7 +1286,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**How have you handled failed deployments?**
+**11. How have you handled failed deployments?**
 
 This question assesses your experience with incident response and deployment recovery strategies.
 
@@ -1372,241 +1372,241 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 > - Performance optimization and capacity planning
 > - Disaster recovery and business continuity
 
-What is the function of CI (Continuous Integration) server?
+12. What is the function of CI (Continuous Integration) server?
 
-What does Containerization mean?
+13. What does Containerization mean?
 
-What are the success factors for Continuous Integration?
+14. What are the success factors for Continuous Integration?
 
-Mention what are the key aspects or principle behind DevOps?
+15. Mention what are the key aspects or principle behind DevOps?
 
-Can we consider DevOps as an Agile methodology?
+16. Can we consider DevOps as an Agile methodology?
 
-What are the advantages of DevOps?
+17. What are the advantages of DevOps?
 
-What is DevOps engineer's duty with regards to Agile development?
+18. What is DevOps engineer's duty with regards to Agile development?
 
-Which are the top DevOps tools? Which tools have you worked on?
+19. Which are the top DevOps tools? Which tools have you worked on?
 
-How is DevOps different from Agile/SDLC?
+20. How is DevOps different from Agile/SDLC?
 
-How do all DevOps tools work together?
+21. How do all DevOps tools work together?
 
-Which problems does a Container Orchestration solve?
+22. Which problems does a Container Orchestration solve?
 
-What is the difference between Kubernetes and Docker?
+23. What is the difference between Kubernetes and Docker?
 
-How Do you update a live heavy traffic site with minimum or Zero Down Time?
+24. How Do you update a live heavy traffic site with minimum or Zero Down Time?
 
-Classify Cloud Platforms by category
+25. Classify Cloud Platforms by category
 
-What do you know about Serverless model?
+26. What do you know about Serverless model?
 
-What is Chef?
+27. What is Chef?
 
-Explain a use case for Docker
+28. Explain a use case for Docker
 
-Tell me about the worst-run/best-run outage you’ve been a part of. What made it bad/well-run?
+29. Tell me about the worst-run/best-run outage you've been a part of. What made it bad/well-run?
 
-What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+30. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
 
-Explain Blue-Green deployment technique
+31. Explain Blue-Green deployment technique
 
-If something breaks in production, how do you know about it?
+32. If something breaks in production, how do you know about it?
 
-How would you prepare for a migration from one platform to another?
+33. How would you prepare for a migration from one platform to another?
 
-What's the difference between a Blue/Green Deployment and a Rolling Deployment?
+34. What's the difference between a Blue/Green Deployment and a Rolling Deployment?
 
-How would you make key aspects of a software system traceable?
+35. How would you make key aspects of a software system traceable?
 
-What is the difference between Resource Allocation and Resource Provisioning?
+36. What is the difference between Resource Allocation and Resource Provisioning?
 
-How would you assess how deployable a system is?
+37. How would you assess how deployable a system is?
 
-What is Vagrant and what is it used for?
+38. What is Vagrant and what is it used for?
 
-What is Continuous Monitoring?
+39. What is Continuous Monitoring?
 
-Why Continuous Integration is important for Agile?
+40. Why Continuous Integration is important for Agile?
 
-How is Container different from a Virtual Machine?
+41. How is Container different from a Virtual Machine?
 
-How would you deploy software to 5000 nodes?
+42. How would you deploy software to 5000 nodes?
 
-How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
+43. How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
 
-What is Canary Releasing?
+44. What is Canary Releasing?
 
-Can you explain a relationship between container runtime and container orchestration?
+45. Can you explain a relationship between container runtime and container orchestration?
 
 ## Entity Framework
 
-What are the benefits of using EF?
+1. What are the benefits of using EF?
 
-What is Entity Framework?
+2. What is Entity Framework?
 
-What is Conceptual Model?
+3. What is Conceptual Model?
 
-What is Mapping?
+4. What is Mapping?
 
-What is pluralize and singularize in the Entity Framework?
+5. What is pluralize and singularize in the Entity Framework?
 
-What is the purpose of a DBContext class?
+6. What is the purpose of a DBContext class?
 
-What is migration in Entity Framework?
+7. What is migration in Entity Framework?
 
-Mention in what all scenarios Entity Framework can be applicable?
+8. Mention in what all scenarios Entity Framework can be applicable?
 
-What are scalar and navigation properties in Entity Framework?
+9. What are scalar and navigation properties in Entity Framework?
 
-Mention what is Code First Approach and Model First Approach in Entity Framework?
+10. Mention what is Code First Approach and Model First Approach in Entity Framework?
 
-What is Code First approach in Entity Framework?
+11. What is Code First approach in Entity Framework?
 
-What is Storage Model?
+12. What is Storage Model?
 
-How can we handle concurrency in Entity Framework?
+13. How can we handle concurrency in Entity Framework?
 
-Explain Lazy Loading, Eager Loading, and Explicit Loading?
+14. Explain Lazy Loading, Eager Loading, and Explicit Loading?
 
-Could you explain the difference between Optimistic vs Pessimistic locking?
+15. Could you explain the difference between Optimistic vs Pessimistic locking?
 
-What are POCO classes in Entity Framework?
+16. What are POCO classes in Entity Framework?
 
-What is Optimistic Locking?
+17. What is Optimistic Locking?
 
-What are complex types in Entity Framework?
+18. What are complex types in Entity Framework?
 
-What are the different approaches supported in the Entity Framework to create Entity Model?
+19. What are the different approaches supported in the Entity Framework to create Entity Model?
 
-What is EF Data Access Architecture?
+20. What is EF Data Access Architecture?
 
-Can you explain Lazy Loading in a detailed manner?
+21. Can you explain Lazy Loading in a detailed manner?
 
-What are the advantages and disadvantages of Database First Approach?
+22. What are the advantages and disadvantages of Database First Approach?
 
-What are the advantages of Model First Approach?
+23. What are the advantages of Model First Approach?
 
-What is Eager Loading?
+24. What is Eager Loading?
 
-What is the role of Entity Client Data Provider?
+25. What is the role of Entity Client Data Provider?
 
-What are the components of Entity Framework Architecture?
+26. What are the components of Entity Framework Architecture?
 
-Explain how you can load related entities in EF?
+27. Explain how you can load related entities in EF?
 
-What is the importance of EDMX file in Entity Framework?
+28. What is the importance of EDMX file in Entity Framework?
 
-What are the advantages/disadvantages of Code First Approach?
+29. What are the advantages/disadvantages of Code First Approach?
 
-When would you use EF6 vs EF Core?
+30. When would you use EF6 vs EF Core?
 
-Which type of loading is good in which scenario?
+31. Which type of loading is good in which scenario?
 
-Can you explain CSDL, SSDL and MSL sections in an EDMX file?
+32. Can you explain CSDL, SSDL and MSL sections in an EDMX file?
 
-What are T4 templates?
+33. What are T4 templates?
 
-Is DbContext thread safe?
+34. Is DbContext thread safe?
 
-How can you enhance the performance of Entity Framework?
+35. How can you enhance the performance of Entity Framework?
 
-What is the difference between ObjectContext and DbContext?
+36. What is the difference between ObjectContext and DbContext?
 
-What is faster - [ADO.NET](http://ado.net/) or [ADO.NET](http://ado.net/) Entity Framework?
+37. What is faster - [ADO.NET](http://ado.net/) or [ADO.NET](http://ado.net/) Entity Framework?
 
-Name some differences between Express vs Recoverable messages
+38. Name some differences between Express vs Recoverable messages
 
-What types of system generated messages do you know?
+39. What types of system generated messages do you know?
 
-Why shouldn't I use the Repository Pattern with Entity Framework?
+40. Why shouldn't I use the Repository Pattern with Entity Framework?
 
-What is relationship between Repository and Unit of Work?
+41. What is relationship between Repository and Unit of Work?
 
-What are the disadvantages of using static DbContext?
+42. What are the disadvantages of using static DbContext?
 
-What is the difference between POCO, Code First, and simple EF approach?
+43. What is the difference between POCO, Code First, and simple EF approach?
 
-Could you explain Pessimistic locking?
+44. Could you explain Pessimistic locking?
 
-What’s the difference between LINQ to SQL and Entity Framework?
+45. What's the difference between LINQ to SQL and Entity Framework?
 
-What is the difference between Code First, Model First and Database First?
+46. What is the difference between Code First, Model First and Database First?
 
-How can we do pessimistic locking in Entity Framework?
+47. How can we do pessimistic locking in Entity Framework?
 
-What is the difference between Automatic Migration vs Code-base Migration?
+48. What is the difference between Automatic Migration vs Code-base Migration?
 
-What difference does .AsNoTracking() make?
+49. What difference does .AsNoTracking() make?
 
-What are the advantages and disadvantages of creating a Global Entities Context for the application (i.e. one static instance)?
+50. What are the advantages and disadvantages of creating a Global Entities Context for the application (i.e. one static instance)?
 
-When would you use SaveChanges(false) + AcceptAllChanges()?
+51. When would you use SaveChanges(false) + AcceptAllChanges()?
 
-What is client wins and store wins mode in Entity Framework concurrency?
+52. What is client wins and store wins mode in Entity Framework concurrency?
 
-What's the difference between .SaveChanges() and .AcceptAllChanges()?
+53. What's the difference between .SaveChanges() and .AcceptAllChanges()?
 
-Can I use Entity Framework 6 in .Net Core?
+54. Can I use Entity Framework 6 in .Net Core?
 
 ## Git
 
-What is difference between Git vs SVN?
+1. What is difference between Git vs SVN?
 
-What is Git?
+2. What is Git?
 
-What is the command to write a commit message in Git?
+3. What is the command to write a commit message in Git?
 
-What's the difference between a pull request and a branch?
+4. What's the difference between a pull request and a branch?
 
-What is Git fork? What is difference between fork, branch and clone?
+5. What is Git fork? What is difference between fork, branch and clone?
 
-How does the Centralized Workflow work?
+6. How does the Centralized Workflow work?
 
-What is the difference between git pull and git fetch?
+7. What is the difference between git pull and git fetch?
 
-Tell me the difference between HEAD, working tree and index, in Git?
+8. Tell me the difference between HEAD, working tree and index, in Git?
 
-How to revert previous commit in git?
+9. How to revert previous commit in git?
 
-What is a "bare git" repository?
+10. What is a "bare git" repository?
 
-When should I use git stash?
+11. When should I use git stash?
 
-Explain the advantages of Forking Workflow
+12. Explain the advantages of Forking Workflow
 
-What is git cherry-pick?
+13. What is git cherry-pick?
 
-Could you explain the Gitflow workflow?
+14. Could you explain the Gitflow workflow?
 
-When would you use git clone over git clone --bare?
+15. When would you use git clone over git clone --bare?
 
-What is the difference between git clone, git clone --bare and git clone --mirror?
+16. What is the difference between git clone, git clone --bare and git clone --mirror?
 
-How do you make an existing repository bare?
+17. How do you make an existing repository bare?
 
-When would you use git clone over git clone --mirror?
+18. When would you use git clone over git clone --mirror?
 
-When would you use git clone --bare over git clone --mirror?
+19. When would you use git clone --bare over git clone --mirror?
 
-Can you explain what git reset does in plain English?
+20. Can you explain what git reset does in plain English?
 
-What is the HEAD in Git?
+21. What is the HEAD in Git?
 
-What is difference between git stash pop and git stash apply?
+22. What is difference between git stash pop and git stash apply?
 
-Do you know how to easily undo a git rebase?
+23. Do you know how to easily undo a git rebase?
 
-What are "git hooks"?
+24. What are "git hooks"?
 
-What are the type of git hooks?
+25. What are the type of git hooks?
 
-How can you use git bisect to determine the source of a (regression) bug?
+26. How can you use git bisect to determine the source of a (regression) bug?
 
-When do you use git rebase instead of git merge?
+27. When do you use git rebase instead of git merge?
 
-What is git bisect? How can you use it to determine the source of a (regression) bug?
+28. What is git bisect? How can you use it to determine the source of a (regression) bug?
 
 ## Graphql
 
