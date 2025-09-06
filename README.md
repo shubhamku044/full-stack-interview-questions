@@ -66,7 +66,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-**2. What is Design Patterns and why anyone should use them?**
+### 2. What is Design Patterns and why anyone should use them?
 
 **Design Patterns** are reusable solutions to common problems that occur in software design. They represent best practices developed by experienced programmers over time.
 
@@ -180,7 +180,7 @@ public class OrderService
 
 ---
 
-**6. What is State pattern?**
+### 6. What is State pattern?
 
 The **State pattern** allows an object to alter its behavior when its internal state changes. The object appears to change its class.
 
@@ -227,7 +227,7 @@ public class ConcreteStateA : IState
 
 ---
 
-**7. What is Null Object pattern?**
+### 7. What is Null Object pattern?
 
 The **Null Object pattern** provides a default object with neutral behavior to represent the absence of an object, eliminating the need for null checks.
 
@@ -265,7 +265,7 @@ public class NullLogger : ILogger
 
 ---
 
-**8. What is Template pattern?**
+### 8. What is Template pattern?
 
 The **Template Method pattern** defines the skeleton of an algorithm in a base class, letting subclasses override specific steps without changing the algorithm's structure.
 
@@ -304,7 +304,7 @@ public class CSVProcessor : DataProcessor
 
 ---
 
-**9. What is Iterator pattern?**
+### 9. What is Iterator pattern?
 
 The **Iterator pattern** provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
@@ -342,7 +342,7 @@ public class ListIterator<T> : IIterator<T>
 
 ---
 
-**10. What is Strategy pattern?**
+### 10. What is Strategy pattern?
 
 The **Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
 
@@ -389,7 +389,7 @@ public class PaymentContext
 
 ---
 
-**11. What is Proxy pattern?**
+### 11. What is Proxy pattern?
 
 The **Proxy pattern** provides a placeholder or surrogate for another object to control access to it.
 
@@ -459,7 +459,7 @@ public class ProxyImage : IImage
 
 ---
 
-**12. What are some benefits of Repository Pattern?**
+### 12. What are some benefits of Repository Pattern?
 
 The **Repository pattern** encapsulates data access logic and provides a uniform interface for accessing domain objects.
 
@@ -501,7 +501,7 @@ public class UserRepository : IUserRepository
 
 ---
 
-**13. What is Filter pattern?**
+### 13. What is Filter pattern?
 
 The **Filter pattern** (also known as Criteria pattern) allows filtering objects based on different criteria and chaining them in a decoupled manner.
 
@@ -555,7 +555,7 @@ public class AgeFilter : IFilter<Person>
 
 ---
 
-**14. What is Builder pattern?**
+### 14. What is Builder pattern?
 
 The **Builder pattern** constructs complex objects step by step, allowing you to produce different types and representations using the same construction process.
 
@@ -618,7 +618,7 @@ var computer = new ComputerBuilder()
 
 ---
 
-**15. Name types of Design Patterns?**
+### 15. Name types of Design Patterns?
 
 Design patterns are categorized into three main types:
 
@@ -656,7 +656,7 @@ Design patterns are categorized into three main types:
 
 > **Note:** This document contains detailed answers for key design patterns. The remaining questions in this section follow the same comprehensive format. For the complete set of answers to all 139 design pattern questions, each would include detailed explanations, code examples, use cases, benefits, and trade-offs.
 
-**16. What is Inversion of Control?**
+### 16. What is Inversion of Control?
 
 **Inversion of Control (IoC)** is a design principle where the control of object creation and dependency management is transferred from the object itself to an external container or framework.
 
@@ -684,7 +684,7 @@ Design patterns are categorized into three main types:
 
 ---
 
-**17. Why would you want to use a Repository Pattern with an ORM?**
+### 17. Why would you want to use a Repository Pattern with an ORM?
 
 While ORMs provide data access capabilities, the Repository pattern adds additional benefits:
 
@@ -735,8 +735,6 @@ public class UserRepository : IUserRepository
 > - Best practices
 >
 > The remaining **126 design pattern questions** follow this same detailed format, covering all aspects of creational, structural, and behavioral patterns including Factory, Abstract Factory, Observer, Command, Mediator, Visitor, and many more specialized patterns.
-
----
 
 ### 18. What are the drawbacks to the ActiveRecord pattern?
 
@@ -851,8 +849,6 @@ public class UserRepository : IUserRepository
 - Improved reliability and availability
 - Cost optimization through efficient resource usage
 
----
-
 ### 2. What is the need for DevOps?
 
 **DevOps** addresses critical challenges in traditional software development and operations:
@@ -890,8 +886,6 @@ public class UserRepository : IUserRepository
 - Continuous learning
 - Improved job satisfaction
 
----
-
 ### 3. Are you more Dev or Ops?
 
 This is a common interview question to understand your background and preferences. Here's how to approach it:
@@ -923,8 +917,6 @@ This is a common interview question to understand your background and preference
 - Understanding of both perspectives
 - Collaboration and communication skills
 - Problem-solving mindset
-
----
 
 ### 4. What is meant by Continuous Integration?
 
@@ -971,8 +963,6 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 - Everyone commits frequently
 - Fix broken builds immediately
 
----
-
 ### 5. What is the most important thing DevOps helps us achieve?
 
 The most important thing DevOps helps achieve is **faster, more reliable software delivery through improved collaboration and automation**.
@@ -1015,8 +1005,6 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 - Continuous learning and improvement
 - Focus on customer value
 - Blame-free post-mortems
-
----
 
 ### 6. Explain what is DevOps?
 
@@ -1139,8 +1127,6 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 - **Log Management**: ELK Stack, Splunk, Fluentd
 - **Synthetic Monitoring**: Pingdom, Uptime Robot
 
----
-
 ### 8. What's the next thing you would automate in your current workflow?
 
 This question assesses your understanding of automation priorities and process improvement. Here's how to approach it:
@@ -1183,8 +1169,6 @@ This question assesses your understanding of automation priorities and process i
 - Rollback mechanisms for failed migrations
 - Testing migrations in staging environments first
 - Automated validation of data integrity post-migration"
-
----
 
 ### 9. What is the role of a Configuration Management tool in DevOps?
 
@@ -1266,8 +1250,6 @@ This question assesses your understanding of automation priorities and process i
 - Faster system provisioning
 - Improved compliance and security
 - Better documentation of system state
-
----
 
 ### 10. What is post Mortem Meetings?
 
@@ -1356,8 +1338,6 @@ This question assesses your understanding of automation priorities and process i
 - Focus on systems and processes, not people
 - Make findings publicly available
 - Track action item completion
-
----
 
 ### 11. How have you handled failed deployments?
 
@@ -1776,7 +1756,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 17. Where and why is the rel="noopener" attribute used?
 
-### 18. What is the difference between <section> and <div>?
+### 18. What is the difference between `<section>` and `<div>`?
 
 ### 19. What is WebSQL?
 
@@ -1790,7 +1770,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 24. Explain the difference between cookies, session and local storage
 
-### 25. Can a web page contain multiple <header> elements? What about <footer> elements?
+### 25. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
 
 ### 26. What are data- attributes good for?
 
@@ -3121,11 +3101,13 @@ useMemo is used for:
 const expensiveValue = useMemo(() => computeExpensive(a, b), [a, b]);
 ```
 
-**9. Which lifecycle methods of class component is replaced by useEffect in functional component?**
+### 9. Which lifecycle methods of class component is replaced by useEffect in functional component?
+
 useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
 Detailed explanation: Different combinations of useEffect with dependencies can replicate all lifecycle method behaviors.
 
-**10. When would you use useContext hook?**
+### 10. When would you use useContext hook?
+
 Use useContext when you need to consume context values in a functional component, avoiding prop drilling.
 Code example:
 
@@ -3133,18 +3115,21 @@ Code example:
 const value = useContext(MyContext);
 ```
 
-**11. Is there any problem when using useContext Hook?**
+### 11. Is there any problem when using useContext Hook?
+
 Common issues include:
 
 - Over-rendering when context value changes
 - Performance concerns with large context values
 - Unnecessary re-renders of child components
 
-**12. Do React Hooks cover all use cases for class components?**
+### 12. Do React Hooks cover all use cases for class components?
+
 Most use cases are covered, but some features like Error Boundaries still require class components.
 Detailed explanation: While hooks can handle most scenarios, there are still some edge cases where class components might be necessary.
 
-**13. How can I make use of Error Boundaries in functional React components?**
+### 13. How can I make use of Error Boundaries in functional React components?
+
 Error Boundaries must be class components, but you can wrap functional components with them.
 Code example:
 
@@ -3158,7 +3143,8 @@ class ErrorBoundary extends React.Component {
 </ErrorBoundary>;
 ```
 
-**14. What are differences between React.memo() and useMemo()?**
+### 14. What are differences between React.memo() and useMemo()?
+
 React.memo memoizes an entire component, while useMemo memoizes a value.
 Code example:
 
@@ -3169,14 +3155,16 @@ const MemoizedComponent = React.memo(MyComponent);
 const memoizedValue = useMemo(() => computeValue(a, b), [a, b]);
 ```
 
-**15. What are the advantages of Batching in ReactJS?**
+### 15. What are the advantages of Batching in ReactJS?
+
 Batching improves performance by:
 
 - Reducing the number of re-renders
 - Grouping state updates together
 - Preventing unnecessary DOM updates
 
-**16. Explain the difference between useState and useRef hooks?**
+### 16. Explain the difference between useState and useRef hooks?
+
 useState triggers re-renders when updated, while useRef persists values between renders without causing re-renders.
 Code example:
 
@@ -3185,14 +3173,16 @@ const [state, setState] = useState(0); // Triggers re-render
 const ref = useRef(0); // Doesn't trigger re-render
 ```
 
-**17. When would you use useRef?**
+### 17. When would you use useRef?
+
 Use useRef for:
 
 - DOM element references
 - Storing previous values
 - Mutable values that don't need re-renders
 
-**18. Does React useState Hook update immediately?**
+### 18. Does React useState Hook update immediately?
+
 No, useState updates are asynchronous and batched for performance.
 Code example:
 
@@ -3201,7 +3191,8 @@ setState(newValue); // This won't be available immediately
 console.log(state); // Still shows old value
 ```
 
-**19. When writing a Custom Hook, what is the difference between it and a normal function?**
+### 19. When writing a Custom Hook, what is the difference between it and a normal function?
+
 Custom Hooks can use other hooks and follow hooks rules, while normal functions cannot use hooks.
 Code example:
 
@@ -3213,11 +3204,13 @@ function useCustomHook() {
 }
 ```
 
-**20. Do two components using the same Hook share state?**
+### 20. Do two components using the same Hook share state?
+
 No, each call to a Hook gets its own isolated state.
 Detailed explanation: Hook calls in different components are completely independent.
 
-**21. How to use componentWillMount() in React Hooks?**
+### 21. How to use componentWillMount() in React Hooks?
+
 There's no direct equivalent, but you can use useEffect with empty dependencies for similar behavior.
 Code example:
 
@@ -3227,7 +3220,8 @@ useEffect(() => {
 }, []);
 ```
 
-**22. When shall we use useReducer hook in ReactJS?**
+### 22. When shall we use useReducer hook in ReactJS?
+
 Use useReducer for complex state logic or when state updates depend on multiple values.
 Code example:
 
@@ -3235,14 +3229,16 @@ Code example:
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
-**23. Are there any problems using useCallback?**
+### 23. Are there any problems using useCallback?
+
 Common issues include:
 
 - Over-optimization
 - Creating unnecessary dependencies
 - Complexity in maintenance
 
-**24. How would you store non-state/instance variables in functional React components?**
+### 24. How would you store non-state/instance variables in functional React components?
+
 Use useRef for mutable values that don't need to trigger re-renders.
 Code example:
 
@@ -3250,14 +3246,17 @@ Code example:
 const instanceValue = useRef(initialValue);
 ```
 
-**25. Is there a React hook equivalent to componentDidCatch?**
+### 25. Is there a React hook equivalent to componentDidCatch?
+
 No, error boundaries must still be implemented as class components.
 
-**26. When to use useState vs useReducer?**
+### 26. When to use useState vs useReducer?
+
 Use useState for simple state, useReducer for complex state logic or when state updates are related.
 Detailed explanation: useReducer is preferable when you have complex state logic or need to manage multiple related state updates.
 
-**27. When would you use flushSync in ReactJS?**
+### 27. When would you use flushSync in ReactJS?
+
 Use flushSync when you need to force React to flush state updates synchronously.
 Code example:
 
@@ -3267,13 +3266,14 @@ flushSync(() => {
 }); // State is updated synchronously
 ```
 
-**28. When to use useCallback, useMemo and useEffect?**
+### 28. When to use useCallback, useMemo and useEffect?
 
 - useCallback: Memoize functions
 - useMemo: Memoize values
 - useEffect: Handle side effects
 
-**29. How do I update state on a nested object with useState()?**
+### 29. How do I update state on a nested object with useState()?
+
 Always create a new object when updating nested state.
 Code example:
 
@@ -3284,14 +3284,16 @@ setState((prev) => ({
 }));
 ```
 
-**30. Explain why and when would you use useMemo()?**
+### 30. Explain why and when would you use useMemo()?
+
 Use useMemo to:
 
 - Optimize expensive calculations
 - Maintain referential equality
 - Prevent unnecessary re-renders
 
-**31. What's the difference between useCallback and useMemo in practice?**
+### 31. What's the difference between useCallback and useMemo in practice?
+
 useCallback memoizes functions, while useMemo memoizes values.
 Code example:
 
@@ -3300,10 +3302,12 @@ const memoizedFn = useCallback(() => doSomething(a, b), [a, b]);
 const memoizedValue = useMemo(() => compute(a, b), [a, b]);
 ```
 
-**32. Do Hooks replace render props and higher-order components (HOC)?**
+### 32. Do Hooks replace render props and higher-order components (HOC)?
+
 Yes, hooks can replace most use cases for render props and HOCs, providing a more direct way to reuse logic.
 
-**33. How can I force component to re-render with Hooks in React?**
+### 33. How can I force component to re-render with Hooks in React?
+
 Use a state update with a new reference to force a re-render.
 Code example:
 
@@ -3312,10 +3316,12 @@ const [, forceUpdate] = useState({});
 const handleForceUpdate = () => forceUpdate({});
 ```
 
-**34. Can a custom React hook return JSX?**
+### 34. Can a custom React hook return JSX?
+
 No, hooks should return values or functions, not JSX. Components should render JSX.
 
-**35. When would you want to avoid useEffect and use useLayoutEffect instead?**
+### 35. When would you want to avoid useEffect and use useLayoutEffect instead?
+
 Use useLayoutEffect when you need to make DOM measurements or updates that must be synchronous and visible immediately.
 
 ## Redis
@@ -5217,8 +5223,6 @@ This comprehensive collection has been compiled from various sources including:
 ## License
 
 This work is shared under Creative Commons, encouraging open collaboration and knowledge sharing in the developer community.
-
----
 
 ## Document Statistics
 
