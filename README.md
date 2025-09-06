@@ -100,7 +100,7 @@ A comprehensive collection of interview questions and answers for fullstack deve
 
 ## Design pattern
 
-### 1. What are the main categories of Design Patterns? [↑](#top)
+### 1. What are the main categories of Design Patterns? [⬆️](#top)
 
 The three main categories of Design Patterns are:
 
@@ -120,7 +120,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-### 2. What is Design Patterns and why anyone should use them? [↑](#top)
+### 2. What is Design Patterns and why anyone should use them? [⬆️](#top)
 
 **Design Patterns** are reusable solutions to common problems that occur in software design. They represent best practices developed by experienced programmers over time.
 
@@ -136,7 +136,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-### 3. What is a pattern?
+### 3. What is a pattern? [⬆️](#top)
 
 A **pattern** is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into code, but rather a template or blueprint for how to solve a problem that can be used in many different situations.
 
@@ -149,7 +149,7 @@ A **pattern** is a general reusable solution to a commonly occurring problem wit
 
 ---
 
-### 4. What is Singleton pattern?
+### 4. What is Singleton pattern? [⬆️](#top)
 
 The **Singleton pattern** ensures that a class has only one instance and provides a global point of access to that instance.
 
@@ -193,7 +193,7 @@ public class Singleton
 
 ---
 
-### 5. What is Dependency Injection?
+### 5. What is Dependency Injection? [⬆️](#top)
 
 **Dependency Injection (DI)** is a design pattern that implements Inversion of Control (IoC) for resolving dependencies. Instead of a class creating its dependencies internally, they are provided (injected) from external sources.
 
@@ -234,7 +234,7 @@ public class OrderService
 
 ---
 
-### 6. What is State pattern?
+### 6. What is State pattern? [⬆️](#top)
 
 The **State pattern** allows an object to alter its behavior when its internal state changes. The object appears to change its class.
 
@@ -281,7 +281,7 @@ public class ConcreteStateA : IState
 
 ---
 
-### 7. What is Null Object pattern?
+### 7. What is Null Object pattern? [⬆️](#top)
 
 The **Null Object pattern** provides a default object with neutral behavior to represent the absence of an object, eliminating the need for null checks.
 
@@ -319,7 +319,7 @@ public class NullLogger : ILogger
 
 ---
 
-### 8. What is Template pattern?
+### 8. What is Template pattern? [⬆️](#top)
 
 The **Template Method pattern** defines the skeleton of an algorithm in a base class, letting subclasses override specific steps without changing the algorithm's structure.
 
@@ -358,7 +358,7 @@ public class CSVProcessor : DataProcessor
 
 ---
 
-### 9. What is Iterator pattern?
+### 9. What is Iterator pattern? [⬆️](#top)
 
 The **Iterator pattern** provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
@@ -396,7 +396,7 @@ public class ListIterator<T> : IIterator<T>
 
 ---
 
-### 10. What is Strategy pattern?
+### 10. What is Strategy pattern? [⬆️](#top)
 
 The **Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
 
@@ -443,7 +443,7 @@ public class PaymentContext
 
 ---
 
-### 11. What is Proxy pattern?
+### 11. What is Proxy pattern? [⬆️](#top)
 
 The **Proxy pattern** provides a placeholder or surrogate for another object to control access to it.
 
@@ -513,7 +513,7 @@ public class ProxyImage : IImage
 
 ---
 
-### 12. What are some benefits of Repository Pattern?
+### 12. What are some benefits of Repository Pattern? [⬆️](#top)
 
 The **Repository pattern** encapsulates data access logic and provides a uniform interface for accessing domain objects.
 
@@ -555,7 +555,7 @@ public class UserRepository : IUserRepository
 
 ---
 
-### 13. What is Filter pattern?
+### 13. What is Filter pattern? [⬆️](#top)
 
 The **Filter pattern** (also known as Criteria pattern) allows filtering objects based on different criteria and chaining them in a decoupled manner.
 
@@ -609,7 +609,7 @@ public class AgeFilter : IFilter<Person>
 
 ---
 
-### 14. What is Builder pattern?
+### 14. What is Builder pattern? [⬆️](#top)
 
 The **Builder pattern** constructs complex objects step by step, allowing you to produce different types and representations using the same construction process.
 
@@ -672,7 +672,7 @@ var computer = new ComputerBuilder()
 
 ---
 
-### 15. Name types of Design Patterns?
+### 15. Name types of Design Patterns? [⬆️](#top)
 
 Design patterns are categorized into three main types:
 
@@ -874,7 +874,7 @@ public class UserRepository : IUserRepository
 
 ## Devops
 
-### 1. What is Kubernetes? Why organizations are using it?
+### 1. What is Kubernetes? Why organizations are using it? [⬆️](#top)
 
 **Kubernetes (K8s)** is an open-source container orchestration platform that automates deployment, scaling, and management of containerized applications.
 
@@ -1490,39 +1490,39 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ## Graphql
 
-### 1. What is an exclamation point in GraphQL?
+### 1. What is an exclamation point in GraphQL? [⬆️](#top)
 
-### 2. What is GraphQL?
+### 2. What is GraphQL? [⬆️](#top)
 
-### 3. Is GraphQL only for React/JavaScript Developers?
+### 3. Is GraphQL only for React/JavaScript Developers? [⬆️](#top)
 
-### 4. Is GraphQL a Database Technology?
+### 4. Is GraphQL a Database Technology? [⬆️](#top)
 
-### 5. What is difference between Mutation and Query?
+### 5. What is difference between Mutation and Query? [⬆️](#top)
 
-### 6. Where is GraphQL useful?
+### 6. Where is GraphQL useful? [⬆️](#top)
 
-### 7. What is GraphQL schema?
+### 7. What is GraphQL schema? [⬆️](#top)
 
-### 8. How do you handle errors in GraphQL?
+### 8. How do you handle errors in GraphQL? [⬆️](#top)
 
-### 9. Compare and contrast REST and GraphQL
+### 9. Compare and contrast REST and GraphQL [⬆️](#top)
 
-### 10. How do you implement Authentication and Authorization in GraphQL?
+### 10. How do you implement Authentication and Authorization in GraphQL? [⬆️](#top)
 
-### 11. How do you optimize performance in GraphQL?
+### 11. How do you optimize performance in GraphQL? [⬆️](#top)
 
-### 12. What are the main operations in GraphQL?
+### 12. What are the main operations in GraphQL? [⬆️](#top)
 
-### 13. What are the key concepts of GraphQL?
+### 13. What are the key concepts of GraphQL? [⬆️](#top)
 
-### 14. What are the advantages and disadvantages of GraphQL?
+### 14. What are the advantages and disadvantages of GraphQL? [⬆️](#top)
 
-### 15. How do you handle mutations in GraphQL?
+### 15. How do you handle mutations in GraphQL? [⬆️](#top)
 
-### 16. How do you ensure security in a GraphQL API?
+### 16. How do you ensure security in a GraphQL API? [⬆️](#top)
 
-### 17. When would you choose GraphQL over REST?
+### 17. When would you choose GraphQL over REST? [⬆️](#top)
 
 ## HTML5
 
@@ -3458,35 +3458,35 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ## Unit testing
 
-### 1. What is Unit Testing and why is it important?
+### 1. What is Unit Testing and why is it important? [⬆️](#top)
 
-### 2. What is Test-Driven Development (TDD)?
+### 2. What is Test-Driven Development (TDD)? [⬆️](#top)
 
-### 3. What are mocks and stubs? When would you use them?
+### 3. What are mocks and stubs? When would you use them? [⬆️](#top)
 
-### 4. How do you test asynchronous code?
+### 4. How do you test asynchronous code? [⬆️](#top)
 
-### 5. What is code coverage and why is it important?
+### 5. What is code coverage and why is it important? [⬆️](#top)
 
-### 6. What's the difference between unit tests and integration tests?
+### 6. What's the difference between unit tests and integration tests? [⬆️](#top)
 
-### 7. How do you write testable code?
+### 7. How do you write testable code? [⬆️](#top)
 
-### 8. What are testing best practices?
+### 8. What are testing best practices? [⬆️](#top)
 
-### 9. How do you test React components?
+### 9. How do you test React components? [⬆️](#top)
 
-### 10. What tools do you use for testing JavaScript/TypeScript code?
+### 10. What tools do you use for testing JavaScript/TypeScript code? [⬆️](#top)
 
-### 11. How do you test API endpoints?
+### 11. How do you test API endpoints? [⬆️](#top)
 
-### 12. What is snapshot testing?
+### 12. What is snapshot testing? [⬆️](#top)
 
-### 13. How do you handle test data/test fixtures?
+### 13. How do you handle test data/test fixtures? [⬆️](#top)
 
-### 14. What are common testing patterns?
+### 14. What are common testing patterns? [⬆️](#top)
 
-### 15. How do you maintain tests?
+### 15. How do you maintain tests? [⬆️](#top)
 
 ### 1. How to unit test an object with database queries?
 
@@ -3734,29 +3734,29 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ## WebSockets
 
-### 1. What are WebSockets and how do they differ from HTTP?
+### 1. What are WebSockets and how do they differ from HTTP? [⬆️](#top)
 
-### 2. When would you use WebSockets instead of REST APIs?
+### 2. When would you use WebSockets instead of REST APIs? [⬆️](#top)
 
-### 3. How do you implement real-time features using WebSockets?
+### 3. How do you implement real-time features using WebSockets? [⬆️](#top)
 
-### 4. What are the security considerations when using WebSockets?
+### 4. What are the security considerations when using WebSockets? [⬆️](#top)
 
-### 5. How do WebSockets handle connection loss?
+### 5. How do WebSockets handle connection loss? [⬆️](#top)
 
-### 6. What is Socket.IO and when would you use it?
+### 6. What is Socket.IO and when would you use it? [⬆️](#top)
 
-### 7. How do you scale WebSocket applications?
+### 7. How do you scale WebSocket applications? [⬆️](#top)
 
-### 8. What are WebSocket events and how do you handle them?
+### 8. What are WebSocket events and how do you handle them? [⬆️](#top)
 
-### 9. How do you test WebSocket applications?
+### 9. How do you test WebSocket applications? [⬆️](#top)
 
-### 10. What are common WebSocket use cases?
+### 10. What are common WebSocket use cases? [⬆️](#top)
 
-### 11. How do you implement authentication in WebSockets?
+### 11. How do you implement authentication in WebSockets? [⬆️](#top)
 
-### 12. What are the alternatives to WebSockets?
+### 12. What are the alternatives to WebSockets? [⬆️](#top)
 
 ### 1. What is WebSockets?
 
