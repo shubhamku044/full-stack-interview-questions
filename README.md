@@ -6,9 +6,8 @@ A comprehensive collection of interview questions and answers for fullstack deve
 
 ### Programming & Frameworks
 
-- [Design Patterns](#design-pattern) (39 questions)
+- [Design Patterns](#design-pattern) (17 questions)
 - [Object-Oriented Programming (OOP)](#oop) (51 questions)
-- [Entity Framework](#entity-framework) (53 questions)
 - [React](#react) (116 questions)
 - [React Hooks](#react-hooks) (35 questions)
 - [Redux](#redux) (35 questions)
@@ -19,28 +18,26 @@ A comprehensive collection of interview questions and answers for fullstack deve
 
 ### Web Technologies
 
-- [HTML5](#html5) (45 questions)
-- [WebSockets](#websockets) (23 questions)
-- [PWA (Progressive Web Apps)](#pwa) (21 questions)
-- [GraphQL](#graphql) (21 questions)
+- [HTML5](#html5) (22 questions)
+- [WebSockets](#websockets) (12 questions)
+- [GraphQL](#graphql) (17 questions)
 - [Web Security](#web-security) (59 questions)
 
 ### Databases & Data
 
-- [MySQL](#mysql) (44 questions)
-- [SQL](#sql) (29 questions)
-- [Redis](#redis) (25 questions)
+- [SQL & MySQL](#sql) (35 questions)
+- [Redis](#redis) (15 questions)
 
 ### DevOps & Infrastructure
 
-- [DevOps](#devops) (31 questions)
+- [DevOps](#devops) (33 questions)
 
 ### Development Practices
 
-- [Unit Testing](#unit-testing) (22 questions)
-- [Git](#git) (26 questions)
+- [Unit Testing](#unit-testing) (15 questions)
+- [Git](#git) (20 questions)
 
-### Total: **1,410** Interview Questions with Detailed Answers
+### Total: **759** Interview Questions with Detailed Answers
 
 ---
 
@@ -1378,43 +1375,19 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 26. What do you know about Serverless model?
 
-### 27. What is Chef?
+### 27. What is Continuous Integration?
 
-### 28. Explain a use case for Docker
+### 28. What is Docker and why is it important for development?
 
-### 29. Tell me about the worst-run/best-run outage you've been a part of. What made it bad/well-run?
+### 29. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
 
-### 30. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+### 30. What is the purpose of containerization in modern web development?
 
-### 31. Explain Blue-Green deployment technique
+### 31. How do you handle production deployments?
 
-### 32. If something breaks in production, how do you know about it?
+### 32. What is Continuous Monitoring and why is it important?
 
-### 33. How would you prepare for a migration from one platform to another?
-
-### 34. What's the difference between a Blue/Green Deployment and a Rolling Deployment?
-
-### 35. How would you make key aspects of a software system traceable?
-
-### 36. What is the difference between Resource Allocation and Resource Provisioning?
-
-### 37. How would you assess how deployable a system is?
-
-### 38. What is Vagrant and what is it used for?
-
-### 39. What is Continuous Monitoring?
-
-### 40. Why Continuous Integration is important for Agile?
-
-### 41. How is Container different from a Virtual Machine?
-
-### 42. How would you deploy software to 5000 nodes?
-
-### 43. How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
-
-### 44. What is Canary Releasing?
-
-### 45. Can you explain a relationship between container runtime and container orchestration?
+### 33. How do you ensure zero-downtime deployments?
 
 ## Git
 
@@ -1446,33 +1419,17 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 14. Could you explain the Gitflow workflow?
 
-### 15. When would you use git clone over git clone --bare?
+### 15. What is git reset and when would you use it?
 
-### 16. What is the difference between git clone, git clone --bare and git clone --mirror?
+### 16. What is the HEAD in Git?
 
-### 17. How do you make an existing repository bare?
+### 17. What is the difference between git stash pop and git stash apply?
 
-### 18. When would you use git clone over git clone --mirror?
+### 18. When do you use git rebase instead of git merge?
 
-### 19. When would you use git clone --bare over git clone --mirror?
+### 19. What are git hooks and why are they useful?
 
-### 20. Can you explain what git reset does in plain English?
-
-### 21. What is the HEAD in Git?
-
-### 22. What is difference between git stash pop and git stash apply?
-
-### 23. Do you know how to easily undo a git rebase?
-
-### 24. What are "git hooks"?
-
-### 25. What are the type of git hooks?
-
-### 26. How can you use git bisect to determine the source of a (regression) bug?
-
-### 27. When do you use git rebase instead of git merge?
-
-### 28. What is git bisect? How can you use it to determine the source of a (regression) bug?
+### 20. How do you resolve merge conflicts in Git?
 
 ## Graphql
 
@@ -1490,37 +1447,25 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 7. What is GraphQL schema?
 
-### 8. How to do Error Handling in GraphQL?
+### 8. How do you handle errors in GraphQL?
 
-### 9. Whether do you find GraphQL the right fit for designing microservice architecture?
+### 9. Compare and contrast REST and GraphQL
 
-### 10. Explain the main difference between REST and GraphQL
+### 10. How do you implement Authentication and Authorization in GraphQL?
 
-### 11. Does GraphQL support offline usage?
+### 11. How do you optimize performance in GraphQL?
 
-### 12. How to do Authentication and Authorization in GraphQL?
+### 12. What are the main operations in GraphQL?
 
-### 13. How to do Server-Side Caching in GraphQL?
+### 13. What are the key concepts of GraphQL?
 
-### 14. What kind of operations could GraphQL schema have?
+### 14. What are the advantages and disadvantages of GraphQL?
 
-### 15. List the key concepts of the GraphQL query language
+### 15. How do you handle mutations in GraphQL?
 
-### 16. Are there any disadvantages to GraphQL?
+### 16. How do you ensure security in a GraphQL API?
 
-### 17. Can you make a GraphQL type both an input and output type?
-
-### 18. How to implement a set of GraphQL mutations in single transaction?
-
-### 19. How do you prevent nested attack on GraphQL server?
-
-### 20. Is it possible to use inheritance with GraphQL input types?
-
-### 21. How to respond with different status codes in GraphQL?
-
-### 22. What is AST in GraphQL?
-
-### 23. What the criteria set is for deciding when to use GraphQL vs. HATEOAS?
+### 17. When would you choose GraphQL over REST?
 
 ## HTML5
 
@@ -1544,63 +1489,29 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 10. What is the difference between span and div?
 
-### 11. What is Character Encoding?
+### 11. What are defer and async attributes on a `<script>` tag?
 
-### 12. When is it appropriate to use the small element?
+### 12. What is the purpose of cache busting and how can you achieve it?
 
-### 13. What are defer and async attributes on a `<script>` tag?
+### 13. What are Web Workers and when would you use them?
 
-### 14. What is the purpose of cache busting and how can you achieve it?
+### 14. What is the difference between `<section>` and `<div>`?
 
-### 15. What are some differences that XHTML has compared to HTML?
+### 15. What does a DOCTYPE do?
 
-### 16. What are Web Workers?
+### 16. Describe the difference between cookies, sessionStorage and localStorage.
 
-### 17. Where and why is the rel="noopener" attribute used?
+### 17. What is the DOM and how does it work?
 
-### 18. What is the difference between `<section>` and `<div>`?
+### 18. What are data- attributes and when should you use them?
 
-### 19. What is WebSQL?
+### 19. Explain the difference between block elements and inline elements.
 
-### 20. What does a DOCTYPE do?
+### 20. How do you handle internationalization in HTML?
 
-### 21. Describe the difference between a 'cookie', 'sessionStorage' and 'localStorage'.
+### 21. What are the key features of HTML5?
 
-### 22. What is the DOM?
-
-### 23. What is HTML5 Web Storage? Explain localStorage and sessionStorage.
-
-### 24. Explain the difference between cookies, session and local storage
-
-### 25. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
-
-### 26. What are data- attributes good for?
-
-### 27. Discuss the differences between an HTML specification and a browser's implementation thereof.
-
-### 28. What is WebSQL?
-
-### 29. What is an optional tag?
-
-### 30. Explain the difference between block elements and inline elements
-
-### 31. How do you change the direction of html text?
-
-### 32. How do you serve a page with content in multiple languages?
-
-### 33. Have you used different HTML templating languages before?
-
-### 34. Explain almost standard, full standard and quirks mode
-
-### 35. How do you set IE compatibility mode?
-
-### 36. What's new in HTML 5?
-
-### 37. What is the purpose of 'main' element?
-
-### 38. What's the difference between Full Standard, Almost Standard and Quirks Mode?
-
-### 39. What are the building blocks of HTML5?
+### 22. How do you optimize web page performance using HTML features?
 
 ### 40. Why to use HTML5 semantic tags?
 
@@ -3490,6 +3401,36 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ## Unit testing
 
+### 1. What is Unit Testing and why is it important?
+
+### 2. What is Test-Driven Development (TDD)?
+
+### 3. What are mocks and stubs? When would you use them?
+
+### 4. How do you test asynchronous code?
+
+### 5. What is code coverage and why is it important?
+
+### 6. What's the difference between unit tests and integration tests?
+
+### 7. How do you write testable code?
+
+### 8. What are testing best practices?
+
+### 9. How do you test React components?
+
+### 10. What tools do you use for testing JavaScript/TypeScript code?
+
+### 11. How do you test API endpoints?
+
+### 12. What is snapshot testing?
+
+### 13. How do you handle test data/test fixtures?
+
+### 14. What are common testing patterns?
+
+### 15. How do you maintain tests?
+
 ### 1. How to unit test an object with database queries?
 
 ### 2. What is the difference between Unit Tests and Functional Tests?
@@ -3735,6 +3676,30 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 ### 59. What is a Salt and How Does It Make Password Hashing More Secure?
 
 ## WebSockets
+
+### 1. What are WebSockets and how do they differ from HTTP?
+
+### 2. When would you use WebSockets instead of REST APIs?
+
+### 3. How do you implement real-time features using WebSockets?
+
+### 4. What are the security considerations when using WebSockets?
+
+### 5. How do WebSockets handle connection loss?
+
+### 6. What is Socket.IO and when would you use it?
+
+### 7. How do you scale WebSocket applications?
+
+### 8. What are WebSocket events and how do you handle them?
+
+### 9. How do you test WebSocket applications?
+
+### 10. What are common WebSocket use cases?
+
+### 11. How do you implement authentication in WebSockets?
+
+### 12. What are the alternatives to WebSockets?
 
 ### 1. What is WebSockets?
 
