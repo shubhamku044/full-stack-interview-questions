@@ -1612,61 +1612,61 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 6. How are VARCHAR and CHAR different. Talk about cases where you will use one over other. [⬆️](#top)
 
-### 7. What is Primary Key Constraint and Unique Key Constraints?
+### 7. What is Primary Key Constraint and Unique Key Constraints? [⬆️](#top)
 
-### 8. What is self referencing foreign key? Give an example.
+### 8. What is self referencing foreign key? Give an example. [⬆️](#top)
 
-### 9. Explain foreign key constraint in MySQL
+### 9. Explain foreign key constraint in MySQL [⬆️](#top)
 
-### 10. Explain DEFAULT constraint in MySQL
+### 10. Explain DEFAULT constraint in MySQL [⬆️](#top)
 
-### 11. What are different integer data types in MySQL? How can you use unsigned integer in MySQL?
+### 11. What are different integer data types in MySQL? How can you use unsigned integer in MySQL? [⬆️](#top)
 
-### 12. What is the use of DELIMETER command in MySQL?
+### 12. What is the use of DELIMETER command in MySQL? [⬆️](#top)
 
-### 13. What are key constraints. What different types of constraints are there in MySQL?
+### 13. What are key constraints. What different types of constraints are there in MySQL? [⬆️](#top)
 
-### 14. What are REPEAT, LOOP and WHILE statements used for?
+### 14. What are REPEAT, LOOP and WHILE statements used for? [⬆️](#top)
 
-### 15. What is difference between BLOB and TEXT in MySQL?
+### 15. What is difference between BLOB and TEXT in MySQL? [⬆️](#top)
 
-### 16. What happens if a parent row which is referenced by child row is being deleted in case of foreign key constraint?
+### 16. What happens if a parent row which is referenced by child row is being deleted in case of foreign key constraint? [⬆️](#top)
 
-### 17. What are different TEXT data types in MySQL. What is difference between TEXT and VARCHAR?
+### 17. What are different TEXT data types in MySQL. What is difference between TEXT and VARCHAR? [⬆️](#top)
 
-### 18. What is MySQL Workbench?
+### 18. What is MySQL Workbench? [⬆️](#top)
 
-### 19. What is the use of IN and BETWEEN in MySQL queries?
+### 19. What is the use of IN and BETWEEN in MySQL queries? [⬆️](#top)
 
-### 20. What different stored objects are supported in MySQL?
+### 20. What different stored objects are supported in MySQL? [⬆️](#top)
 
-### 21. What is a trigger. What are different type of triggers in MySQL?
+### 21. What is a trigger. What are different type of triggers in MySQL? [⬆️](#top)
 
-### 22. What is index in MySQL? What is advantage of index?
+### 22. What is index in MySQL? What is advantage of index? [⬆️](#top)
 
-### 23. What is the difference between commands create database and create schema in MySQL?
+### 23. What is the difference between commands create database and create schema in MySQL? [⬆️](#top)
 
-### 24. What is mysqldump?
+### 24. What is mysqldump? [⬆️](#top)
 
-### 25. Both TIMESTAMP and DATETIME are used to store data and time. Explain difference between them and when should one be used?
+### 25. Both TIMESTAMP and DATETIME are used to store data and time. Explain difference between them and when should one be used? [⬆️](#top)
 
-### 26. What is Stored Function in MySQL. How are they different from Stored Procedure?
+### 26. What is Stored Function in MySQL. How are they different from Stored Procedure? [⬆️](#top)
 
-### 27. What are Derived Columns. What possible problems can a derived column pose?
+### 27. What are Derived Columns. What possible problems can a derived column pose? [⬆️](#top)
 
-### 28. Explain the use of FEDERATED tables in MySQL
+### 28. Explain the use of FEDERATED tables in MySQL [⬆️](#top)
 
-### 29. How can VIEW be used to provide security layer for your app?
+### 29. How can VIEW be used to provide security layer for your app? [⬆️](#top)
 
-### 30. Explain GRANT command in MySQL
+### 30. Explain GRANT command in MySQL [⬆️](#top)
 
-### 31. What is cursor used in MySQL? What are properties of MySQL cursor?
+### 31. What is cursor used in MySQL? What are properties of MySQL cursor? [⬆️](#top)
 
-### 32. What are some advantages and disadvantages of stored procedures in MySQL?
+### 32. What are some advantages and disadvantages of stored procedures in MySQL? [⬆️](#top)
 
-### 33. What is faster, one big query or many small queries?
+### 33. What is faster, one big query or many small queries? [⬆️](#top)
 
-### 34. What is autocommit in MySQL? Can you run a transaction without disabling autocommit?
+### 34. What is autocommit in MySQL? Can you run a transaction without disabling autocommit? [⬆️](#top)
 
 ### 35. What is Memory Storage Engine in MySQL? What are heap tables?
 
