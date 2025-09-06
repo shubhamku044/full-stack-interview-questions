@@ -1610,7 +1610,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 5. Describe BLOB in MySQL. What is it used for? [⬆️](#top)
 
-### 6. How are VARCHAR and CHAR different. Talk about cases where you will use one over other.
+### 6. How are VARCHAR and CHAR different. Talk about cases where you will use one over other. [⬆️](#top)
 
 ### 7. What is Primary Key Constraint and Unique Key Constraints?
 
