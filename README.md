@@ -2493,51 +2493,39 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 ## React
 
 **1. How does React work?**
-
 React creates a virtual DOM in memory, which is a lightweight copy of the real DOM. When state changes, React updates the virtual DOM first, then efficiently updates only the changed parts in the real DOM using a diffing algorithm. This makes UI updates fast and efficient.
 
 **2. What are React Hooks?**
-
 React Hooks are special functions that let you use state and other React features in functional components. Common hooks include useState, useEffect, and useContext. They help manage state, side effects, and context without writing class components.
 
 **3. What is Context API in ReactJS?**
-
 The Context API allows you to share data (like themes or user info) across the component tree without passing props manually at every level. It helps avoid prop drilling and makes global state management easier for certain use cases.
 
 **4. What are the major features of ReactJS?**
-
 Major features include: component-based architecture, virtual DOM, JSX syntax, unidirectional data flow, support for hooks, and strong ecosystem for state management and routing.
 
 **5. What are the advantages of ReactJS?**
-
 React offers fast rendering with the virtual DOM, reusable components, easier debugging, a large community, and flexibility to integrate with other libraries or frameworks.
 
 **6. What are props in React?**
-
 Props (short for properties) are read-only inputs passed from parent to child components. They allow data and event handlers to be shared between components, making them reusable and dynamic.
 
 **7. What is the use of refs?**
-
 Refs provide a way to access and interact with DOM elements or React elements directly, bypassing the normal data flow. They're useful for managing focus, text selection, or triggering animations.
 
 **8. How would you write an inline style in React?**
-
 Inline styles are written as objects using camelCase property names. Example: <div style={{ backgroundColor: 'red', fontSize: 16 }}>Hello</div>
 
 **9. What is React?**
-
 React is a JavaScript library for building user interfaces, especially single-page applications. It lets you create reusable UI components and efficiently update the UI when data changes.
 
 **10. What are inline conditional expressions in ReactJS?**
-
 Inline conditional expressions let you render content based on conditions, often using the ternary operator or logical &&. Example: {isLoggedIn ? <Logout /> : <Login />}
 
 **11. What are refs used for in React?**
-
 Refs are used to directly access or modify DOM nodes or React elements, such as focusing an input, reading values, or integrating with third-party libraries.
 
 **12. What is useState() in React?**
-
 useState is a React Hook that lets you add state to functional components. It returns a state variable and a function to update it.
 Code example:
 
@@ -2546,29 +2534,23 @@ const [count, setCount] = useState(0);
 ```
 
 **13. What's the difference between a Controlled component and an Uncontrolled one in React?**
-
 Controlled components have their state managed by React via props and state, while uncontrolled components store their own state internally, often accessed via refs.
 Detailed explanation: Controlled components are preferred for form handling as they allow validation and state management in React, while uncontrolled components are useful for simple use cases or integrating with non-React code.
 
 **14. What are advantages of using React Hooks?**
-
 Hooks allow you to use state and lifecycle features in functional components, promote code reuse, and make components easier to test and maintain.
 
 **15. What are Stateful components in React?**
-
 Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
 **16. What is Reconciliation in ReactJS?**
-
 Reconciliation is the process React uses to update the DOM by comparing the new virtual DOM with the previous one and applying only the necessary changes.
 Detailed explanation: React's reconciliation algorithm (diffing) ensures only the parts of the DOM that actually changed are updated, improving performance.
 
 **17. What is the difference between Component and Container in Redux?**
-
 Components are presentational and focus on UI, while containers are connected to Redux and handle data, state, and logic, passing props to components.
 
 **18. What is JSX?**
-
 JSX is a syntax extension for JavaScript that looks like HTML. It lets you write UI code in a declarative way, which React transforms into JavaScript calls.
 Code example:
 
@@ -2577,7 +2559,6 @@ const element = <h1>Hello, world!</h1>;
 ```
 
 **19. What are Higher-Order Components (HOC) in React?**
-
 HOCs are functions that take a component and return a new component with enhanced behavior or additional props, enabling code reuse and abstraction.
 Code example:
 
@@ -2591,19 +2572,15 @@ function withLogger(WrappedComponent) {
 ```
 
 **20. What is the difference between Element and Component in ReactJS?**
-
 An element is a plain object describing what to render, while a component is a function or class that returns elements and defines behavior.
 
 **21. What is the difference between state and props?**
-
 State is managed within a component and can change over time, while props are passed from parent to child and are read-only.
 
 **22. What is the difference between a Presentational component and a Container component?**
-
 Presentational components focus on how things look and receive data via props, while container components handle how things work, managing state and logic.
 
 **23. What are Controlled components in ReactJS?**
-
 Controlled components are form elements whose values are controlled by React state, making it easy to validate and manage user input.
 Code example:
 
@@ -2612,7 +2589,6 @@ Code example:
 ```
 
 **24. What are portals in React and when do we need them?**
-
 Portals let you render children into a DOM node outside the parent component hierarchy. They're useful for modals, tooltips, or overlays.
 Code example:
 
@@ -2621,7 +2597,6 @@ ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
 ```
 
 **25. What are Fragments in React?**
-
 Fragments let you group multiple elements without adding extra nodes to the DOM. Use <></> or <React.Fragment> to wrap children.
 Code example:
 
@@ -2633,7 +2608,6 @@ Code example:
 ```
 
 **26. How to create refs in React?**
-
 Use React.createRef() in class components or the useRef() hook in functional components to create refs.
 Code example:
 
@@ -2643,47 +2617,36 @@ const inputRef = useRef();
 ```
 
 **27. What is the purpose of callback function as an argument of setState?**
-
 The callback runs after state has been updated and the component has re-rendered, useful for actions that depend on the updated state.
 
 **28. What are two types of components in ReactJS?**
-
 Class components and functional components. Class components use lifecycle methods, while functional components use hooks.
 
 **29. What are the advantages of using React?**
-
 Fast rendering, reusable components, strong community, easy integration, and a rich ecosystem for state management and routing.
 
 **30. What is state in React?**
-
 State is a built-in object that stores data or UI information that can change over time, triggering re-renders when updated.
 
 **31. What are the limitations of React?**
-
 React is only the view layer, requires additional libraries for routing and state management, and can have a learning curve for beginners.
 
 **32. What is the purpose of using super constructor with props argument in React?**
-
 It ensures that the parent class (React.Component) receives the props, making them available as this.props in the constructor.
 
 **33. What are Stateless components in React?**
-
 Stateless components are functional components that do not manage or hold any state; they simply render UI based on props.
 
 **34. What is the difference between state and props?**
-
 State is internal and mutable, while props are external and immutable, passed from parent to child.
 
 **35. What are the differences between a Class component and Functional component?**
-
 Class components use ES6 classes, support lifecycle methods, and manage state with this.state. Functional components are simpler, use hooks for state and effects, and are easier to test.
 
 **36. What happens when you call setState?**
-
 React schedules a re-render, merges the new state with the current state, and updates the UI accordingly.
 
 **37. When rendering a list what is a key and what is it's purpose?**
-
 A key is a unique identifier for each list item, helping React efficiently update and reorder items during re-renders.
 Code example:
 
@@ -2694,12 +2657,10 @@ Code example:
 ```
 
 **38. What happens during the lifecycle of a React component?**
-
 Components mount, update, and unmount. Lifecycle methods or hooks let you run code at each stage, such as fetching data or cleaning up resources.
 Detailed explanation: Mounting (componentDidMount/useEffect), updating (componentDidUpdate/useEffect), and unmounting (componentWillUnmount/cleanup in useEffect) are the main phases.
 
 **39. How to call loading function with React useEffect only once?**
-
 Pass an empty dependency array to useEffect: useEffect(() => { loadData(); }, []);
 Code example:
 
@@ -2710,7 +2671,6 @@ useEffect(() => {
 ```
 
 **40. How to access DOM elements in React?**
-
 Use refs (useRef or createRef) and attach them to elements. Access the DOM node via ref.current.
 Code example:
 
@@ -2965,81 +2925,269 @@ const inputRef = useRef();
 
 ## React hooks
 
-1. What are React Hooks?
+**1. What are React Hooks?**
+Hooks are functions that let you use state and other React features in functional components. They provide a more direct way to work with component logic.
+Detailed explanation: Hooks were introduced in React 16.8 to allow you to use state and other React features without writing class components.
 
-2. What is useState() in React?
+**2. What is useState() in React?**
+useState is a Hook that lets you add React state to functional components.
+Code example:
 
-3. How to call loading function with React useEffect only once?
+```jsx
+const [count, setCount] = useState(0);
+const [user, setUser] = useState({ name: "", age: 0 });
+```
 
-4. How to access DOM elements in React?
+**3. How to call loading function with React useEffect only once?**
+To run an effect only once, pass an empty dependency array to useEffect.
+Code example:
 
-5. What are advantages of using React Hooks?
+```jsx
+useEffect(() => {
+  fetchData(); // This runs only on mount
+}, []);
+```
 
-6. What are production use cases for the useRef?
+**4. How to access DOM elements in React?**
+Use the useRef hook to access DOM elements directly in functional components.
+Code example:
 
-7. What does Batching mean in ReactJS?
+```jsx
+const inputRef = useRef();
+// Later in JSX
+<input ref={inputRef} />;
+// Access: inputRef.current.focus();
+```
 
-8. What are common use cases for the useMemo?
+**5. What are advantages of using React Hooks?**
+Hooks provide reusability of stateful logic, cleaner code organization, and avoid the complexity of class lifecycle methods.
+Detailed explanation: They eliminate the need for HOCs and render props patterns, and make it easier to reuse stateful logic between components.
 
-9. Which lifecycle methods of class component is replaced by useEffect in functional component?
+**6. What are production use cases for the useRef?**
+useRef is commonly used for:
 
-Compare React Context Api with useContext React hook
+- Storing mutable values that don't trigger re-renders
+- Accessing DOM elements directly
+- Storing previous values
+  Code example:
 
-10. When would you use useContext hook?
+```jsx
+const countRef = useRef(0); // Persists between renders
+const prevCountRef = useRef(); // Store previous value
+```
 
-11. Is there any problem when using useContext Hook?
+**7. What does Batching mean in ReactJS?**
+Batching is React's way of grouping multiple state updates into a single re-render for better performance.
+Detailed explanation: When multiple state updates occur within a single event handler or effect, React batches them together to avoid unnecessary re-renders.
 
-Compare useState and useReducer implementations
+**8. What are common use cases for the useMemo?**
+useMemo is used for:
 
-12. Do React Hooks cover all use cases for class components?
+- Expensive calculations
+- Referential equality in dependencies
+- Preventing unnecessary re-renders
+  Code example:
 
-13. How can I make use of Error Boundaries in functional React components?
+```jsx
+const expensiveValue = useMemo(() => computeExpensive(a, b), [a, b]);
+```
 
-14. What are differences between React.memo() and useMemo()?
+**9. Which lifecycle methods of class component is replaced by useEffect in functional component?**
+useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
+Detailed explanation: Different combinations of useEffect with dependencies can replicate all lifecycle method behaviors.
 
-15. What are the advantages of Batching in ReactJS?
+**10. When would you use useContext hook?**
+Use useContext when you need to consume context values in a functional component, avoiding prop drilling.
+Code example:
 
-16. Explain the difference between useState and useRef hooks?
+```jsx
+const value = useContext(MyContext);
+```
 
-17. When would you use useRef?
+**11. Is there any problem when using useContext Hook?**
+Common issues include:
 
-18. Does React useState Hook update immediately?
+- Over-rendering when context value changes
+- Performance concerns with large context values
+- Unnecessary re-renders of child components
 
-19. When writing a Custom Hook, what is the difference between it and a normal function?
+**12. Do React Hooks cover all use cases for class components?**
+Most use cases are covered, but some features like Error Boundaries still require class components.
+Detailed explanation: While hooks can handle most scenarios, there are still some edge cases where class components might be necessary.
 
-20. Do two components using the same Hook share state?
+**13. How can I make use of Error Boundaries in functional React components?**
+Error Boundaries must be class components, but you can wrap functional components with them.
+Code example:
 
-21. How to use componentWillMount() in React Hooks?
+```jsx
+class ErrorBoundary extends React.Component {
+  // Error boundary implementation
+}
+// Usage
+<ErrorBoundary>
+  <FunctionalComponent />
+</ErrorBoundary>;
+```
 
-22. When shall we use useReducer hook in ReactJS?
+**14. What are differences between React.memo() and useMemo()?**
+React.memo memoizes an entire component, while useMemo memoizes a value.
+Code example:
 
-Explain the use of useLayoutEffect React Hook
+```jsx
+// React.memo for component memoization
+const MemoizedComponent = React.memo(MyComponent);
+// useMemo for value memoization
+const memoizedValue = useMemo(() => computeValue(a, b), [a, b]);
+```
 
-23. Are there any problems using useCallback?
+**15. What are the advantages of Batching in ReactJS?**
+Batching improves performance by:
 
-24. How would you store non-state/instance variables in functional React components?
+- Reducing the number of re-renders
+- Grouping state updates together
+- Preventing unnecessary DOM updates
 
-25. Is there a React hook equivalent to componentDidCatch?
+**16. Explain the difference between useState and useRef hooks?**
+useState triggers re-renders when updated, while useRef persists values between renders without causing re-renders.
+Code example:
 
-26. When to use useState vs useReducer?
+```jsx
+const [state, setState] = useState(0); // Triggers re-render
+const ref = useRef(0); // Doesn't trigger re-render
+```
 
-27. When would you use flushSync in ReactJS?
+**17. When would you use useRef?**
+Use useRef for:
 
-28. When to use useCallback, useMemo and useEffect?
+- DOM element references
+- Storing previous values
+- Mutable values that don't need re-renders
 
-29. How do I update state on a nested object with useState()?
+**18. Does React useState Hook update immediately?**
+No, useState updates are asynchronous and batched for performance.
+Code example:
 
-30. Explain why and when would you use useMemo()?
+```jsx
+setState(newValue); // This won't be available immediately
+console.log(state); // Still shows old value
+```
 
-31. What's the difference between useCallback and useMemo in practice?
+**19. When writing a Custom Hook, what is the difference between it and a normal function?**
+Custom Hooks can use other hooks and follow hooks rules, while normal functions cannot use hooks.
+Code example:
 
-32. Do Hooks replace render props and higher-order components (HOC)?
+```jsx
+// Custom Hook
+function useCustomHook() {
+  const [value, setValue] = useState(0);
+  return value;
+}
+```
 
-33. How can I force component to re-render with Hooks in React?
+**20. Do two components using the same Hook share state?**
+No, each call to a Hook gets its own isolated state.
+Detailed explanation: Hook calls in different components are completely independent.
 
-34. Can a custom React hook return JSX?
+**21. How to use componentWillMount() in React Hooks?**
+There's no direct equivalent, but you can use useEffect with empty dependencies for similar behavior.
+Code example:
 
-35. When would you want to avoid useEffect and use useLayoutEffect instead?
+```jsx
+useEffect(() => {
+  // This runs after first render
+}, []);
+```
+
+**22. When shall we use useReducer hook in ReactJS?**
+Use useReducer for complex state logic or when state updates depend on multiple values.
+Code example:
+
+```jsx
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+**23. Are there any problems using useCallback?**
+Common issues include:
+
+- Over-optimization
+- Creating unnecessary dependencies
+- Complexity in maintenance
+
+**24. How would you store non-state/instance variables in functional React components?**
+Use useRef for mutable values that don't need to trigger re-renders.
+Code example:
+
+```jsx
+const instanceValue = useRef(initialValue);
+```
+
+**25. Is there a React hook equivalent to componentDidCatch?**
+No, error boundaries must still be implemented as class components.
+
+**26. When to use useState vs useReducer?**
+Use useState for simple state, useReducer for complex state logic or when state updates are related.
+Detailed explanation: useReducer is preferable when you have complex state logic or need to manage multiple related state updates.
+
+**27. When would you use flushSync in ReactJS?**
+Use flushSync when you need to force React to flush state updates synchronously.
+Code example:
+
+```jsx
+flushSync(() => {
+  setState(newValue);
+}); // State is updated synchronously
+```
+
+**28. When to use useCallback, useMemo and useEffect?**
+
+- useCallback: Memoize functions
+- useMemo: Memoize values
+- useEffect: Handle side effects
+
+**29. How do I update state on a nested object with useState()?**
+Always create a new object when updating nested state.
+Code example:
+
+```jsx
+setState((prev) => ({
+  ...prev,
+  nested: { ...prev.nested, value: newValue },
+}));
+```
+
+**30. Explain why and when would you use useMemo()?**
+Use useMemo to:
+
+- Optimize expensive calculations
+- Maintain referential equality
+- Prevent unnecessary re-renders
+
+**31. What's the difference between useCallback and useMemo in practice?**
+useCallback memoizes functions, while useMemo memoizes values.
+Code example:
+
+```jsx
+const memoizedFn = useCallback(() => doSomething(a, b), [a, b]);
+const memoizedValue = useMemo(() => compute(a, b), [a, b]);
+```
+
+**32. Do Hooks replace render props and higher-order components (HOC)?**
+Yes, hooks can replace most use cases for render props and HOCs, providing a more direct way to reuse logic.
+
+**33. How can I force component to re-render with Hooks in React?**
+Use a state update with a new reference to force a re-render.
+Code example:
+
+```jsx
+const [, forceUpdate] = useState({});
+const handleForceUpdate = () => forceUpdate({});
+```
+
+**34. Can a custom React hook return JSX?**
+No, hooks should return values or functions, not JSX. Components should render JSX.
+
+**35. When would you want to avoid useEffect and use useLayoutEffect instead?**
+Use useLayoutEffect when you need to make DOM measurements or updates that must be synchronous and visible immediately.
 
 ## Redis
 
