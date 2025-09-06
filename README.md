@@ -1668,19 +1668,19 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 34. What is autocommit in MySQL? Can you run a transaction without disabling autocommit? [⬆️](#top)
 
-### 35. What is Memory Storage Engine in MySQL? What are heap tables?
+### 35. What is Memory Storage Engine in MySQL? What are heap tables? [⬆️](#top)
 
-### 36. What is master-slave replication in MySQL? What are its advantages?
+### 36. What is master-slave replication in MySQL? What are its advantages? [⬆️](#top)
 
-### 37. What is advantage of FULLTEXT over LIKE for performing text search in MySQL?
+### 37. What is advantage of FULLTEXT over LIKE for performing text search in MySQL? [⬆️](#top)
 
-### 38. Compare MySQL and PostgresSQL
+### 38. Compare MySQL and PostgresSQL [⬆️](#top)
 
-### 39. What are differences between MyISAM and InnoDB database engines commonly used in MySQL?
+### 39. What are differences between MyISAM and InnoDB database engines commonly used in MySQL? [⬆️](#top)
 
-### 40. What is database engine or storage engine? Mention few storage engines supported by MySQL and their use.
+### 40. What is database engine or storage engine? Mention few storage engines supported by MySQL and their use. [⬆️](#top)
 
-### 41. What does OPTIMIZE TABLE command do in MySQL?
+### 41. What does OPTIMIZE TABLE command do in MySQL? [⬆️](#top)
 
 ### 42. Which partitioning types does MySQL support?
 
