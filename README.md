@@ -822,7 +822,7 @@ public class UserRepository : IUserRepository
 
 ## Devops
 
-**1. What is Kubernetes? Why organizations are using it?**
+### 1. What is Kubernetes? Why organizations are using it?
 
 **Kubernetes (K8s)** is an open-source container orchestration platform that automates deployment, scaling, and management of containerized applications.
 
@@ -853,7 +853,7 @@ public class UserRepository : IUserRepository
 
 ---
 
-**2. What is the need for DevOps?**
+### 2. What is the need for DevOps?
 
 **DevOps** addresses critical challenges in traditional software development and operations:
 
@@ -892,7 +892,7 @@ public class UserRepository : IUserRepository
 
 ---
 
-**3. Are you more Dev or Ops?**
+### 3. Are you more Dev or Ops?
 
 This is a common interview question to understand your background and preferences. Here's how to approach it:
 
@@ -926,7 +926,7 @@ This is a common interview question to understand your background and preference
 
 ---
 
-**4. What is meant by Continuous Integration?**
+### 4. What is meant by Continuous Integration?
 
 **Continuous Integration (CI)** is a development practice where developers integrate code into a shared repository frequently, with each integration verified by automated builds and tests.
 
@@ -973,7 +973,7 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 
 ---
 
-**5. What is the most important thing DevOps helps us achieve?**
+### 5. What is the most important thing DevOps helps us achieve?
 
 The most important thing DevOps helps achieve is **faster, more reliable software delivery through improved collaboration and automation**.
 
@@ -1018,7 +1018,7 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 
 ---
 
-**6. Explain what is DevOps?**
+### 6. Explain what is DevOps?
 
 **DevOps** is a set of practices, tools, and cultural philosophies that combines software development (Dev) and IT operations (Ops) to shorten the software development lifecycle and deliver high-quality software continuously.
 
@@ -1090,7 +1090,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 > - Configuration management
 > - Performance testing and optimization
 
-**7. Why is Continuous Monitoring necessary?**
+### 7. Why is Continuous Monitoring necessary?
 
 **Continuous Monitoring** is essential for maintaining system health, performance, and security in modern DevOps environments.
 
@@ -1141,7 +1141,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 
 ---
 
-**8. What's the next thing you would automate in your current workflow?**
+### 8. What's the next thing you would automate in your current workflow?
 
 This question assesses your understanding of automation priorities and process improvement. Here's how to approach it:
 
@@ -1186,7 +1186,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**9. What is the role of a Configuration Management tool in DevOps?**
+### 9. What is the role of a Configuration Management tool in DevOps?
 
 **Configuration Management (CM)** tools ensure consistent, automated management of infrastructure and application configurations across environments.
 
@@ -1269,7 +1269,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**10. What is post Mortem Meetings?**
+### 10. What is post Mortem Meetings?
 
 **Post-Mortem Meetings** (also called "Post-Incident Reviews" or "After Action Reviews") are structured discussions held after incidents, outages, or project completions to learn and improve.
 
@@ -1359,7 +1359,7 @@ This question assesses your understanding of automation priorities and process i
 
 ---
 
-**11. How have you handled failed deployments?**
+### 11. How have you handled failed deployments?
 
 This question assesses your experience with incident response and deployment recovery strategies.
 
@@ -2558,14 +2558,17 @@ Hooks allow you to use state and lifecycle features in functional components, pr
 
 Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
-**16. What is Reconciliation in ReactJS?**
+### 16. What is Reconciliation in ReactJS?
+
 Reconciliation is the process React uses to update the DOM by comparing the new virtual DOM with the previous one and applying only the necessary changes.
 Detailed explanation: React's reconciliation algorithm (diffing) ensures only the parts of the DOM that actually changed are updated, improving performance.
 
-**17. What is the difference between Component and Container in Redux?**
+### 17. What is the difference between Component and Container in Redux?
+
 Components are presentational and focus on UI, while containers are connected to Redux and handle data, state, and logic, passing props to components.
 
-**18. What is JSX?**
+### 18. What is JSX?
+
 JSX is a syntax extension for JavaScript that looks like HTML. It lets you write UI code in a declarative way, which React transforms into JavaScript calls.
 Code example:
 
@@ -2573,7 +2576,8 @@ Code example:
 const element = <h1>Hello, world!</h1>;
 ```
 
-**19. What are Higher-Order Components (HOC) in React?**
+### 19. What are Higher-Order Components (HOC) in React?
+
 HOCs are functions that take a component and return a new component with enhanced behavior or additional props, enabling code reuse and abstraction.
 Code example:
 
@@ -2586,16 +2590,20 @@ function withLogger(WrappedComponent) {
 }
 ```
 
-**20. What is the difference between Element and Component in ReactJS?**
+### 20. What is the difference between Element and Component in ReactJS?
+
 An element is a plain object describing what to render, while a component is a function or class that returns elements and defines behavior.
 
-**21. What is the difference between state and props?**
+### 21. What is the difference between state and props?
+
 State is managed within a component and can change over time, while props are passed from parent to child and are read-only.
 
-**22. What is the difference between a Presentational component and a Container component?**
+### 22. What is the difference between a Presentational component and a Container component?
+
 Presentational components focus on how things look and receive data via props, while container components handle how things work, managing state and logic.
 
-**23. What are Controlled components in ReactJS?**
+### 23. What are Controlled components in ReactJS?
+
 Controlled components are form elements whose values are controlled by React state, making it easy to validate and manage user input.
 Code example:
 
@@ -2603,7 +2611,8 @@ Code example:
 <input value={value} onChange={(e) => setValue(e.target.value)} />
 ```
 
-**24. What are portals in React and when do we need them?**
+### 24. What are portals in React and when do we need them?
+
 Portals let you render children into a DOM node outside the parent component hierarchy. They're useful for modals, tooltips, or overlays.
 Code example:
 
@@ -2611,7 +2620,8 @@ Code example:
 ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
 ```
 
-**25. What are Fragments in React?**
+### 25. What are Fragments in React?
+
 Fragments let you group multiple elements without adding extra nodes to the DOM. Use <></> or <React.Fragment> to wrap children.
 Code example:
 
@@ -2622,7 +2632,8 @@ Code example:
 </>
 ```
 
-**26. How to create refs in React?**
+### 26. How to create refs in React?
+
 Use React.createRef() in class components or the useRef() hook in functional components to create refs.
 Code example:
 
@@ -2631,37 +2642,48 @@ const inputRef = useRef();
 <input ref={inputRef} />;
 ```
 
-**27. What is the purpose of callback function as an argument of setState?**
+### 27. What is the purpose of callback function as an argument of setState?
+
 The callback runs after state has been updated and the component has re-rendered, useful for actions that depend on the updated state.
 
-**28. What are two types of components in ReactJS?**
+### 28. What are two types of components in ReactJS?
+
 Class components and functional components. Class components use lifecycle methods, while functional components use hooks.
 
-**29. What are the advantages of using React?**
+### 29. What are the advantages of using React?
+
 Fast rendering, reusable components, strong community, easy integration, and a rich ecosystem for state management and routing.
 
-**30. What is state in React?**
+### 30. What is state in React?
+
 State is a built-in object that stores data or UI information that can change over time, triggering re-renders when updated.
 
-**31. What are the limitations of React?**
+### 31. What are the limitations of React?
+
 React is only the view layer, requires additional libraries for routing and state management, and can have a learning curve for beginners.
 
-**32. What is the purpose of using super constructor with props argument in React?**
+### 32. What is the purpose of using super constructor with props argument in React?
+
 It ensures that the parent class (React.Component) receives the props, making them available as this.props in the constructor.
 
-**33. What are Stateless components in React?**
+### 33. What are Stateless components in React?
+
 Stateless components are functional components that do not manage or hold any state; they simply render UI based on props.
 
-**34. What is the difference between state and props?**
+### 34. What is the difference between state and props?
+
 State is internal and mutable, while props are external and immutable, passed from parent to child.
 
-**35. What are the differences between a Class component and Functional component?**
+### 35. What are the differences between a Class component and Functional component?
+
 Class components use ES6 classes, support lifecycle methods, and manage state with this.state. Functional components are simpler, use hooks for state and effects, and are easier to test.
 
-**36. What happens when you call setState?**
+### 36. What happens when you call setState?
+
 React schedules a re-render, merges the new state with the current state, and updates the UI accordingly.
 
-**37. When rendering a list what is a key and what is it's purpose?**
+### 37. When rendering a list what is a key and what is it's purpose?
+
 A key is a unique identifier for each list item, helping React efficiently update and reorder items during re-renders.
 Code example:
 
@@ -2671,11 +2693,13 @@ Code example:
 }
 ```
 
-**38. What happens during the lifecycle of a React component?**
+### 38. What happens during the lifecycle of a React component?
+
 Components mount, update, and unmount. Lifecycle methods or hooks let you run code at each stage, such as fetching data or cleaning up resources.
 Detailed explanation: Mounting (componentDidMount/useEffect), updating (componentDidUpdate/useEffect), and unmounting (componentWillUnmount/cleanup in useEffect) are the main phases.
 
-**39. How to call loading function with React useEffect only once?**
+### 39. How to call loading function with React useEffect only once?
+
 Pass an empty dependency array to useEffect: useEffect(() => { loadData(); }, []);
 Code example:
 
@@ -2685,7 +2709,8 @@ useEffect(() => {
 }, []);
 ```
 
-**40. How to access DOM elements in React?**
+### 40. How to access DOM elements in React?
+
 Use refs (useRef or createRef) and attach them to elements. Access the DOM node via ref.current.
 Code example:
 
@@ -2695,247 +2720,328 @@ const inputRef = useRef();
 // Access: inputRef.current
 ```
 
-41. How is React different from AngularJS (1.x)?
+### 41. How is React different from AngularJS (1.x)?
+
     React is a library focused on the view layer, uses a virtual DOM, and one-way data flow. AngularJS is a full framework with two-way data binding and real DOM updates.
 
-42. What does it mean for a component to be mounted in React?
+### 42. What does it mean for a component to be mounted in React?
+
     Mounting means the component has been created and inserted into the DOM. It's the initial phase of a component's lifecycle.
 
-43. When would you use useRef?
+### 43. When would you use useRef?
+
     Use useRef to persist values across renders without causing re-renders, or to access DOM elements directly.
 
-44. What is the difference between ShadowDOM and VirtualDOM?
+### 44. What is the difference between ShadowDOM and VirtualDOM?
+
     Shadow DOM is a browser feature for encapsulating styles and markup. Virtual DOM is a React concept for efficient UI updates.
 
-45. Compare useState and useReducer implementations
+### 45. Compare useState and useReducer implementations
+
     useState is simpler for basic state, while useReducer is better for complex state logic or when state depends on previous values.
 
-46. Do React Hooks cover all use cases for class components?
+### 46. Do React Hooks cover all use cases for class components?
+
     Most use cases are covered, but some features like error boundaries still require class components.
 
-47. How can I make use of Error Boundaries in functional React components?
+### 47. How can I make use of Error Boundaries in functional React components?
+
     Error boundaries must be class components, but you can wrap functional components with a class-based error boundary.
 
-48. Which lifecycle methods of class component is replaced by useEffect in functional component?
+### 48. Which lifecycle methods of class component is replaced by useEffect in functional component?
+
     useEffect can replace componentDidMount, componentDidUpdate, and componentWillUnmount.
 
-49. How would you pass data from child to parent component in React?
+### 49. How would you pass data from child to parent component in React?
+
     Pass a callback function from parent to child as a prop, and call it in the child with the data as an argument.
 
-50. What would be the common mistake of function being called every time the component renders?
+### 50. What would be the common mistake of function being called every time the component renders?
+
     Defining functions or values inside the component body without memoization, causing them to be recreated on every render.
 
-51. What are Uncontrolled components?
+### 51. What are Uncontrolled components?
+
     Uncontrolled components manage their own state internally, typically accessed via refs, rather than being controlled by React state.
 
-52. What do these three dots (...) in React do?
+### 52. What do these three dots (...) in React do?
+
     The spread operator (...) is used to copy or merge objects/arrays, or to pass props to components.
 
-53. What is Key and benefit of using it in lists?
+### 53. What is Key and benefit of using it in lists?
+
     A key uniquely identifies list items, helping React optimize rendering and avoid unnecessary re-renders.
 
-54. What are the advantages of Batching in ReactJS?
+### 54. What are the advantages of Batching in ReactJS?
+
     Batching groups multiple state updates into a single render, improving performance and reducing unnecessary renders.
 
-55. How would you prevent a component from rendering in React?
+### 55. How would you prevent a component from rendering in React?
+
     Return null from the component's render method or use conditional rendering to skip rendering.
 
-56. Why React uses className over class attribute?
+### 56. Why React uses className over class attribute?
+
     class is a reserved word in JavaScript, so React uses className to avoid conflicts and match the DOM property.
 
-57. What does Batching mean in ReactJS?
+### 57. What does Batching mean in ReactJS?
+
     Batching means combining multiple state updates into a single render cycle for better performance.
 
-58. What is prop drilling and how can you avoid it?
+### 58. What is prop drilling and how can you avoid it?
+
     Prop drilling is passing data through many layers of components. Avoid it using Context API or state management libraries.
 
-59. What is Components Composition in React?
+### 59. What is Components Composition in React?
+
     Component composition means building complex UIs by combining simpler components, promoting reusability and flexibility.
 
-60. What's the difference between useRef and createRef?
+### 60. What's the difference between useRef and createRef?
+
     useRef is used in functional components and persists across renders. createRef is used in class components and creates a new ref each time.
 
-61. What's wrong with using Context in React?
+### 61. What's wrong with using Context in React?
+
     Overusing Context can lead to unnecessary re-renders and make code harder to maintain. It's best for global data that rarely changes.
 
-62. What is StrictMode in React?
+### 62. What is StrictMode in React?
+
     StrictMode is a tool for highlighting potential problems in an application. It activates additional checks and warnings for its descendants.
 
-63. Why do class methods need to be bound to a class instance?
+### 63. Why do class methods need to be bound to a class instance?
+
     In JavaScript, class methods lose their context when passed as callbacks. Binding ensures 'this' refers to the class instance.
 
-64. What is children prop?
+### 64. What is children prop?
+
     The children prop is a special prop that lets you pass elements or components as content between a component's opening and closing tags.
 
-65. What are Stateless components in React?
+### 65. What are Stateless components in React?
+
     Stateless components are functional components that do not manage state and simply render UI based on props.
 
-66. What is the difference between createElement and cloneElement?
+### 66. What is the difference between createElement and cloneElement?
+
     createElement creates a new React element, while cloneElement clones an existing one and can add or override props.
 
-67. Are you familiar with Flux in the context of React?
+### 67. Are you familiar with Flux in the context of React?
+
     Yes, Flux is an architecture for managing data flow in React apps, emphasizing unidirectional data flow and centralized state management.
 
-68. What is the significance of keys in ReactJS?
+### 68. What is the significance of keys in ReactJS?
+
     Keys help React identify which items have changed, are added, or are removed, optimizing list rendering.
 
-69. What's the typical pattern for rendering a list of components from an array in React?
+### 69. What's the typical pattern for rendering a list of components from an array in React?
+
     Use the map() function to iterate over the array and return a component for each item, assigning a unique key to each.
 
-70. What does shouldComponentUpdate do and why is it important?
+### 70. What does shouldComponentUpdate do and why is it important?
+
     shouldComponentUpdate lets you control whether a component re-renders, improving performance by preventing unnecessary updates.
 
-71. What's the typical flow of data like in a React + Redux app?
+### 71. What's the typical flow of data like in a React + Redux app?
+
     Data flows from the Redux store to components via props, and user actions dispatch actions to update the store.
 
-72. What's the difference between an Element and a Component in React?
+### 72. What's the difference between an Element and a Component in React?
+
     An element is a plain object describing what to render, while a component is a function or class that returns elements.
 
-73. What are some limitations of things you shouldn't do in the component's render method in React?
+### 73. What are some limitations of things you shouldn't do in the component's render method in React?
+
     Avoid side effects, modifying state, or making async calls in render. Only return UI elements.
 
-74. Name the different lifecycle methods for a class components
+### 74. Name the different lifecycle methods for a class components
+
     Common methods: constructor, componentDidMount, shouldComponentUpdate, componentDidUpdate, componentWillUnmount, render.
 
-75. What is the point of shouldComponentUpdate() method?
+### 75. What is the point of shouldComponentUpdate() method?
+
     It lets you prevent unnecessary re-renders by returning false if the component doesn't need to update.
 
-76. What are Pure Components?
+### 76. What are Pure Components?
+
     Pure components automatically implement a shallow comparison of props and state to avoid unnecessary re-renders.
 
-77. What is the difference between HTML and React event handling?
+### 77. What is the difference between HTML and React event handling?
+
     React uses camelCase event names and passes events as SyntheticEvent objects, providing cross-browser compatibility.
 
-78. How to bind methods or event handlers in JSX callbacks?
+### 78. How to bind methods or event handlers in JSX callbacks?
+
     Bind them in the constructor, use arrow functions, or use class fields syntax to ensure correct 'this' context.
 
-79. What is {this.props.children} and when you should use it?
+### 79. What is {this.props.children} and when you should use it?
+
     {this.props.children} renders child elements passed between a component's tags. Use it for wrapper or layout components.
 
-80. What is Lifting State Up in ReactJS?
+### 80. What is Lifting State Up in ReactJS?
+
     Lifting state up means moving shared state to the closest common ancestor so multiple components can access and update it.
 
-81. What are forward refs?
+### 81. What are forward refs?
+
     Forward refs let you pass a ref through a component to access a child DOM node or React element directly.
 
-82. Why we should not update state directly?
+### 82. Why we should not update state directly?
+
     Directly mutating state can lead to unpredictable UI and bugs. Always use setState or the updater function to ensure React tracks changes.
 
-83. What are the lifecycle methods of ReactJS class components?
+### 83. What are the lifecycle methods of ReactJS class components?
+
     Mounting: constructor, componentDidMount; Updating: shouldComponentUpdate, componentDidUpdate; Unmounting: componentWillUnmount; plus render.
 
-84. What are Error Boundaries in ReactJS?
+### 84. What are Error Boundaries in ReactJS?
+
     Error boundaries are special class components that catch JavaScript errors in their child component tree and display a fallback UI.
 
-85. What are the different phases of ReactJS component lifecycle?
+### 85. What are the different phases of ReactJS component lifecycle?
+
     Mounting, updating, and unmounting are the main phases of a React component's lifecycle.
 
-86. What is the purpose of super(props)?
+### 86. What is the purpose of super(props)?
+
     It passes props to the parent class (React.Component), making them available as this.props in the constructor.
 
-87. When to use useCallback, useMemo and useEffect?
+### 87. When to use useCallback, useMemo and useEffect?
+
     useCallback: memoize functions; useMemo: memoize values; useEffect: run side effects after render.
 
-88. Why doesn't this.props.children.map work?
+### 88. Why doesn't this.props.children.map work?
+
     this.props.children may not always be an array. Use React.Children.map to safely iterate over children.
 
-89. Can you do Components Inheritance in React?
+### 89. Can you do Components Inheritance in React?
+
     It's possible but discouraged. React favors composition over inheritance for code reuse and flexibility.
 
-90. How to apply validation on props in ReactJS?
+### 90. How to apply validation on props in ReactJS?
+
     Use PropTypes or TypeScript to define and validate prop types for your components.
 
-91. What is difference between Incremental DOM and Virtual DOM?
+### 91. What is difference between Incremental DOM and Virtual DOM?
+
     Virtual DOM (React) creates a copy of the DOM and diffs it. Incremental DOM (used by some frameworks) updates the DOM as it traverses the tree.
 
-92. When would you use flushSync in ReactJS?
+### 92. When would you use flushSync in ReactJS?
+
     Use flushSync to force React to flush state updates synchronously, useful for immediate UI updates in event handlers.
 
-93. Describe Flux vs MVC?
+### 93. Describe Flux vs MVC?
+
     Flux enforces unidirectional data flow and centralized state, while MVC separates concerns into Model, View, and Controller with bidirectional flow.
 
-94. Can you force a React component to rerender without calling setState?
+### 94. Can you force a React component to rerender without calling setState?
+
     You can use forceUpdate() in class components, but it's rarely recommended. In functional components, change state to trigger a re-render.
 
-95. When shall we use useReducer hook in ReactJS?
+### 95. When shall we use useReducer hook in ReactJS?
+
     Use useReducer for complex state logic, especially when state depends on previous values or involves multiple sub-values.
 
-96. When to use useState vs useReducer?
+### 96. When to use useState vs useReducer?
+
     useState is best for simple state, while useReducer is better for complex or interrelated state logic.
 
-97. Explain the Virtual DOM concept in React
+### 97. Explain the Virtual DOM concept in React
+
     The virtual DOM is a lightweight copy of the real DOM. React updates it first, then efficiently updates the real DOM based on differences.
 
-98. How would you store non-state/instance variables in functional React components?
+### 98. How would you store non-state/instance variables in functional React components?
+
     Use the useRef hook to store mutable values that persist across renders but don't trigger re-renders.
 
-99. Explain why and when would you use useMemo()?
+### 99. Explain why and when would you use useMemo()?
+
     useMemo memoizes expensive calculations, preventing unnecessary recalculations on every render. Use it for performance optimization.
 
-100.  Why does React use SyntheticEvents?
+### 100. Why does React use SyntheticEvents?
+
       SyntheticEvents provide a consistent, cross-browser wrapper around native events, normalizing behavior and improving compatibility.
 
-101.  What is the difference between using constructor vs getInitialState in React?
+### 101. What is the difference between using constructor vs getInitialState in React?
+
       getInitialState is used in older React (createClass). In ES6 classes, use the constructor to initialize state.
 
-102.  Why would you need to bind event handlers to this?
+### 102. Why would you need to bind event handlers to this?
+
       Binding ensures that 'this' inside the handler refers to the component instance, allowing access to state and props.
 
-103.  What is the second argument that can optionally be passed to setState and what is its purpose?
+### 103. What is the second argument that can optionally be passed to setState and what is its purpose?
+
       The second argument is a callback function that runs after the state update and re-render are complete.
 
-104.  What's a Pure Functional Component in React?
+### 104. What's a Pure Functional Component in React?
+
       A pure functional component renders the same output for the same props and has no side effects.
 
-105.  When is it important to pass props to super(), and why?
+### 105. When is it important to pass props to super(), and why?
+
       Always pass props to super() in the constructor to make them available as this.props in the component.
 
-106.  How to conditionally add attributes to React components?
+### 106. How to conditionally add attributes to React components?
+
       Use JavaScript expressions or the spread operator to add attributes based on conditions. Example: <input disabled={isDisabled} />
 
-107.  Describe how events are handled in React
+### 107. Describe how events are handled in React
+
       Events are handled using camelCase props and functions. React wraps events in SyntheticEvent for cross-browser consistency.
 
-108.  When would you use StrictMode component in React?
+### 108. When would you use StrictMode component in React?
+
       Use StrictMode during development to catch potential problems and ensure best practices.
 
-109.  How would you go about investigating slow React application rendering?
+### 109. How would you go about investigating slow React application rendering?
+
       Use React DevTools Profiler, check for unnecessary re-renders, optimize components with memoization, and review state management.
 
-110.  Does React re-render all components and sub components every time setState is called?
+### 110. Does React re-render all components and sub components every time setState is called?
+
       No, only the component whose state changed and its children are re-rendered, unless prevented by shouldComponentUpdate or React.memo.
 
-111.  How to create Props Proxy for HOC component?
+### 111. How to create Props Proxy for HOC component?
+
       Pass all received props to the wrapped component using the spread operator: <WrappedComponent {...props} />
 
-112.  What's the difference between useCallback and useMemo in practice?
+### 112. What's the difference between useCallback and useMemo in practice?
+
       useCallback memoizes functions, while useMemo memoizes computed values.
 
-113.  How to avoid the need for binding in React?
+### 113. How to avoid the need for binding in React?
+
       Use arrow functions or class fields syntax to automatically bind methods to the class instance.
 
-114.  What is the key architectural difference between a JavaScript library such as React and a JavaScript framework such as Angular?
+### 114. What is the key architectural difference between a JavaScript library such as React and a JavaScript framework such as Angular?
+
       React is a library focused on the view layer, giving you more flexibility. Angular is a full framework with built-in solutions for routing, state, and more.
 
-115.  How does React renderer work exactly when we call setState?
+### 115. How does React renderer work exactly when we call setState?
+
       React schedules a re-render, updates the virtual DOM, diffs it with the previous version, and applies minimal changes to the real DOM.
 
-116.  How to use React.memo()?
+### 116. How to use React.memo()?
+
       Wrap a functional component with React.memo to memoize it, preventing unnecessary re-renders when props haven't changed.
 
-117.  What is React Fiber?
+### 117. What is React Fiber?
+
       React Fiber is the new reconciliation engine in React 16+, enabling incremental rendering and better performance.
 
-118.  Can a custom React hook return JSX?
+### 118. Can a custom React hook return JSX?
+
       No, hooks should return values or functions, not JSX. Only components should return JSX.
 
-119.  Explain some difference between Flux and AngularJS (1.x) approach
+### 119. Explain some difference between Flux and AngularJS (1.x) approach
+
       Flux uses unidirectional data flow and centralized state, while AngularJS uses two-way data binding and a more tightly coupled architecture.
 
-120.  What is the order of useInsertionEffect, useEffect and useLayoutEffect hooks at component generation ?
+### 120. What is the order of useInsertionEffect, useEffect and useLayoutEffect hooks at component generation ?
+
       useInsertionEffect runs first, then useLayoutEffect, and finally useEffect after painting.
 
-121.  What is a Pure Function?
+### 121. What is a Pure Function?
+
       A pure function always returns the same output for the same input and has no side effects.
 
 ## React hooks
