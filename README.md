@@ -5,61 +5,37 @@ A comprehensive collection of interview questions and answers for fullstack deve
 ## Table of Contents
 
 ### Programming & Frameworks
-- [Design Patterns](#design-pattern) (139 questions)
-- [Object-Oriented Programming (OOP)](#oop) (115 questions)
-- [Entity Framework](#entity-framework) (110 questions)
-- [React](#react) (244 questions)
-- [React Hooks](#react-hooks) (78 questions)
-- [Redux](#redux) (70 questions)
-- [Node.js](#nodejs) (226 questions)
-- [Python](#python) (150 questions)
-- [TypeScript](#typescript) (163 questions)
-- [VueJS](#vuejs) (70 questions)
+- [Design Patterns](#design-pattern) (39 questions)
+- [Object-Oriented Programming (OOP)](#oop) (51 questions)
+- [Entity Framework](#entity-framework) (53 questions)
+- [React](#react) (116 questions)
+- [React Hooks](#react-hooks) (35 questions)
+- [Redux](#redux) (35 questions)
+- [Node.js](#nodejs) (100 questions)
+- [Python](#python) (71 questions)
+- [TypeScript](#typescript) (75 questions)
+- [VueJS](#vuejs) (30 questions)
 
 ### Web Technologies
-- [HTML5](#html5) (108 questions)
-- [WebSockets](#websockets) (57 questions)
-- [PWA (Progressive Web Apps)](#pwa) (44 questions)
-- [GraphQL](#graphql) (46 questions)
-- [API Design](#api-design) (95 questions)
-- [Web Security](#web-security) (126 questions)
+- [HTML5](#html5) (45 questions)
+- [WebSockets](#websockets) (23 questions)
+- [PWA (Progressive Web Apps)](#pwa) (21 questions)
+- [GraphQL](#graphql) (21 questions)
+- [Web Security](#web-security) (59 questions)
 
 ### Databases & Data
-- [MySQL](#mysql) (100 questions)
-- [SQL](#sql) (70 questions)
-- [Redis](#redis) (53 questions)
-- [NoSQL](#nosql) (28 questions)
-- [Databases (General)](#databases) (65 questions)
+- [MySQL](#mysql) (44 questions)
+- [SQL](#sql) (29 questions)
+- [Redis](#redis) (25 questions)
 
 ### DevOps & Infrastructure
-- [DevOps](#devops) (92 questions)
-- [Docker](#docker) (130 questions)
-- [Kubernetes](#kubernetes) (55 questions)
-- [CDN](#cdn) (24 questions)
-- [Caching](#caching) (38 questions)
-
-### System Design & Architecture
-- [Software Architecture](#software-architecture) (199 questions)
-- [Microservices](#microservices) (70 questions)
-- [Clean Architecture](#clean-architecture) (37 questions)
-- [Domain-Driven Design (DDD)](#ddd) (78 questions)
-- [SOA (Service-Oriented Architecture)](#soa) (42 questions)
-- [Reactive Systems](#reactive-systems) (24 questions)
-
-### Core Computer Science
-- [Concurrency](#concurrency) (44 questions)
-- [CAP Theorem](#cap-theorem) (18 questions)
-- [Availability & Reliability](#availability--reliability) (29 questions)
-- [Load Balancing](#load-balancing) (46 questions)
-- [Cryptography](#cryptography) (55 questions)
-- [Layering & Middleware](#layering--middleware) (32 questions)
+- [DevOps](#devops) (31 questions)
 
 ### Development Practices
-- [Unit Testing](#unit-testing) (46 questions)
-- [Software Testing](#software-testing) (58 questions)
-- [Git](#git) (56 questions)
+- [Unit Testing](#unit-testing) (22 questions)
+- [Git](#git) (26 questions)
 
-### Total: **3,394** Interview Questions with Detailed Answers
+### Total: **1,410** Interview Questions with Detailed Answers
 
 ---
 
@@ -3484,7 +3460,6 @@ Name some best practices for better RESTful API design
 
 41. Explain the difference between WCF, Web API, WCF REST and Web Service?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABr0lEQVRIieWUu0oDURCGvygpvATENgoKRoiKYKM+hoqkzRvEl1DTe0FEwVrEgIgoaKFVwFdQSZc0XoMJEdG1OP+yx0027IqF4A+Hc2b2n5kzM3sG/guWAMe3cmEMO0IGmAqp+xHGgBLm1rPAjM4lfYuEGHAFFIAMsAl8yuE70A106ezo24a4Bdm2rUqW5lo3gDUgbfHS0jVa8LNBznuBskg7QBG4ASbbXGhSnCKwK9sykGhFXrUIcek6tY9iSlDVOgRSPk4cqMhHvlWAeaAmwqkycp0/0lyKeyBpZX8mfQ2YC0p5GqiLOCFdQfKxHA4AJ9LtizMhuS4fbfEqco/kquSkxRmU7tnKwJHtN4R5aI72WAhuE/wBpi3dsPYL7duY8gzqDHCufcjyF1iiObwmn+E1OYVpqL/JD8CIOKGanBehgvebutkkMQ190TqwnIdGgugPLTKCRsU630cFwLUu4cIB3oAVS25CDLjEvNQMZpB94A07F/2YHjwBfZbDFOa3DgzQCuN449rFInCEeXALvgyWowYA2PMZbOOVcCvAYaQAOZ/BHab5U8DtbwT4u/gChHiUAqpCVj8AAAAASUVORK5CYII=)
 
 ## **Availability & Reliability**
 
@@ -3516,7 +3491,6 @@ Explain how to calculate Availability of multiple system components
 
 11. What is a crashloop?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABX0lEQVRIie3UTUpcURAF4E/BYEITyAKipMUliAkNSaMg6CggLsCJZkv+IFlHgh3RBYjiwAQEg7MnRIWeadBBlaHRpvs9jTMPXLjUPe+cenVvFc/4D2hgHXs4Rxs/sYbpfh8P9DgbxVc0cYEf+I2/GEnxN9jBIo6qZD2ZomdYwssunKE8K5LXKCs+hlMc4m0J/ggO8AfjZQzmRY3flc0oTQps6l32R2EJ1/j4VAbD4pWtdQYHO/Y1fMtVqyi+ihls4T0+Y6OTUBPP7TrXTkWTTVxiH1e5b3USWhm8StI9Qh/cTXD7NsHbEh1jQTzNo9wfVzBoYxbfc81l7B42xEUNVxCvhKb4xeWnMhgQtS9E85RFHb9Ek/bFuGj7g5ImoyleiDFTCo00KUS5XnThvMIXcWdnmOgm1Gtu1MWlf0qRlhjXg2JONfFa9MAiTspmfxdTWBFPuJ3Z7mbsw0NFn/EPN4pUVFJ2iZjEAAAAAElFTkSuQmCC)
 
 ## **CAP Theorem**
 
@@ -3546,7 +3520,6 @@ Name some types of Consistency patterns
 
 12. Explain what is PACELC Theorem?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABNElEQVRIieXUSy4EURTG8V9rjzb0iBV4xxaE0AsQYyZMWYFHgtgDCQM2YAEihC3oCDsQMSOIRBvUQUmaLt1twpecpHLuOf9zb9V3i/+m9ohfURH3uMPkbwzYQzlir9HwVpRSA0qRa5iWA3wWUY5cQ9SLBzxhGAN4jBhoxIBDyY7XU7mNyB0jVw98NkBXKKTybbiItZla4Z24DkixwvoYXnCD7loG7Kpuyf2o2fkpfDR2d4ueb+q6JCd4wURWeNrzcxnq56P2UvJtqmo1Gk5lc0gOR9GzUq24z2fPZ1W/j7sx+F3hm+fXfgB/03r0nqhw8jwWVfZ8VhWitxysvNSkA0zF82bsohaNYynFnM6hSfLuWmqEfqVnFJolHt7GguT6n9cJHsEQtoL9rg51/rhCuWD9Eb0Cr7xLLdAZ4oIAAAAASUVORK5CYII=)
 
 ## **CDN**
 
@@ -3572,7 +3545,6 @@ Name some advantages and disadvantages of Azure CDN
 
 10. Explain why CDN (in)availability may be a problem for using WebSockets?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABSklEQVRIie3TSyuEcRQG8F9oUm47uWTWLPgermGDsLZQFDufQbbkQ4gkZcFGmI3LF7BgxwJlQRSL90wmZubVsJynTud9z+V5zv9GFVWgHovI4Tksh4XI/QmduMQHTrEWdhaxC3RUSp7BFR7QXyQ/iMcQyVQisCCZshh5HkNRM1+JQE6yLb+pOymVrC3y348xTGALBykCPRjGG1pwLVnVD2R9HegH3jGZNj6mojbfdxFcPya/lBzoNJpLkG1gvUSuGTPBce7b7gyG+nTKtEdh5TCr4HLURLA3/F5K82+wG76vUOApfNs/CLSHfywMZvGKbeUfTdoWZbATXF1QF4kbrGBVctj7uIvcGjajMY9RjGAOSxFrxQC6sYzbYhOMSx7Oi69r14VDyT2/D3uLWLag7iV6x8qssCQagjBPdoymSojKoTFEDuO7iv/BJ+WWU2NvzrM3AAAAAElFTkSuQmCC)
 
 ## **Caching**
 
@@ -3612,7 +3584,6 @@ Cache miss-storm: Dealing with concurrency when caching invalidates for high-tra
 
 Name some Cache Stampede mitigation techniques
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAbklEQVRIiWNgGI7Ag4GB4TEDA8N/EvEjqF6C4BEZhiNbQhDAFJMKsOpjIsMgksCoBaMWjFowHCxgwSNHTnmEAQbUB4wE9MJ8yIjGRwGEfIBcBJNVjGOz4DEWF6GzcfEfMxABPBjIq9WIrjKHFgAAzxs/I4KuVEAAAAAASUVORK5CYII=)
 
 ## **Clean Architecture**
 
@@ -3652,7 +3623,6 @@ Compare Onion vs Clean vs Hexagonal Architectures
 
 14. How and where do you use transactions in the Clean Architecture?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1UlEQVR4nO2UQQrCMBBF30LdW7yEohexvYt6Fatn0YXHECx4BbV7LVRSRihSm5mouz7Iqj+ZZP70Q8cXLIFSuZzWRARcDAVuwMhSYCMbDwrtXrRuj4oxcAcewNSgL4AZhhuttTeyvDgJ7GlU88yd0UgfyES0IHzqzsCgSbASwUmKWekBx09j6554lY9zwonljPy9xfUeOlEoSZuH3h568HrY2kMFLw+zNg/jH4xp7BPvRJgaCmwN0WL+9ScSK4UyWirSgLBLMTD8d1wjo1YqV0i0dFDxBPtXbdkncbvRAAAAAElFTkSuQmCC)
 
 ## **Concurrency**
 
@@ -3698,7 +3668,6 @@ Explain what is a Race Condition to 5 years old
 
 16. What happens if you have a "race condition" on the lock itself?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAjUlEQVRIie3SsQ3CMBBA0bcCXTIAYSdCwWYwQ7IJzJG0lFAQFyS2FSUSlb9kWbr7uupT2MgFT7zwQLvRWXBCj3fk9WhWOkmCOOKKw/SPkWM5J8mIG+rZvMZ92q9xCvtpfdMLCZ43OgsadOIJdjiudJIEcfCb4BA5lnOShASr2byyzDTnFPZTMk1SMv0/H6jpd58+yXDzAAAAAElFTkSuQmCC)
 
 ## **Cryptography**
 
@@ -3756,7 +3725,6 @@ Explain the role of Digital Certificates in Asymmetric Encryption process
 
 22. Explain types of Resistance any Cryptographic Hash Function shall have?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAB4ElEQVRIid3Uu05VQRQG4I+DnNrOeCnsvbyCiYmgiVEOIceob6EP4fGGWlIqKtqYWFgQra0gRk0UUYyFCHYk2sKxmLWTYV/gYKd/Mpm9/1mXmTVrfv53tNHFYyzid4zF4Lph81eYwDL6WMUsbseYDa6PL+jsJnALN8J5HqPB1dmNYSFsrzfYVXAzHKaxZwD7YfTCp7eT8UQYTpX4duzwB1YiULn2d8J3vCl4W6r5fOwqRw8bmImxgWs1J1nAZ4zUJejGDkZr1lbwIPufCa6MsYgxWRD5pXTwE69qHA/ga/a/HFwZL7GmoUyfpPbL0ZLast8wbql2zlPpnWBrl+xXPXYHV8LpW2ntMK7iNZ5l/HecqUtQhyMxX5Yu9mzs/IV0qRdwtJRgC/IEqzhYWi+OvxHzo0iwN+PKJToktXMlwTxOhsNmcMU8HAEvRoKCy22KZCeky64keI5LOIW54N7FfB/vM9vjOBbfbzN+FPsiVgVtSbgWssRDUqesq3bQuiQrQ9lm32BJw0MjdU0fd5sMtsE9qVzndjIslHR6u51kyMWuLB+1aEnC1pfKNaZZrk9LZdmMJAPJdYFxSbj60vN/IqnslPTw1mJtCed3EzjHiCRcD/ERv2J8kARv0mBl/IfxB8nkgMUjbIaGAAAAAElFTkSuQmCC)
 
 ## **DDD**
 
@@ -3836,7 +3804,6 @@ Provide some examples of Infrastructural Services in DDD
 
 32. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABqUlEQVRIie3UP2gUURDH8U9OI1iIrUQFC8HEUltLEVIZO0FNLJRgr3ZWFqJXHHZCOisFBW30iFYnaqOCguAVileZIomNxOAfzuLNwuPc3dMDLcQfLMu++f5m3uzOPv5rBO3EXXzEG8zXsPPoBnsnvLXagBdYRgtt9DFTwh6JWDvYlfA26grsDdNcPDfwFjdK2JsRKxKeDO9UDg1W68d9LFsb82squH4d1MBzrOIqHobhcAk7E7EHwa7iWcmmf9IO3Jbe6WucqmFPB7OCW9g+LPkf1XmsSW2XXS8xIe3yVQ23hnNF0vwDfpLe4f2S4uO4iLPhaeICvpaw09iPLbAxC/SwFdfxYcB0JmOKTS3j2gA3gaN4X9bBIekP/oJ7kWwzDmCfNC3TwbZxUJq4x/iMXRHfJE3dYkl3prCAd1iXpqMjHQl5t+Ox1glmPTwLmCxL/Fd1RTrkflddXB4GtaRRa45QoBneVhVwXPVsf8dsxs7FWhV/rADzD/cES9gmne3dLPYNj7LnDi4N+PdI59MSnlZ1MSn9A70qoEa98A6dot04MUKB2fD+Y/oBA+55uat/ppEAAAAASUVORK5CYII=)
 
 ## **Databases**
 
@@ -3902,7 +3869,6 @@ Name some disadvantages of a Hash index
 
 27. What are some other types of Indexes (vs B-Trees)?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAjElEQVRIid2VSwqAMAxER/FyxUu59Cwey/YeujEoWuxMNkEHQqGfeaQpKfBHjQAKgE2MDCAxgOwwt1gZgG1WVT3XO4wkfR8wvKx56vBQaAad6FXNODQDVdWMQ58p0xoWnLcwAZgZKNt37uY234SovehqTkEUQM28Cfl+Ny3HyBZbVoL2q5ncQFYxNdgBTShqcIc71l4AAAAASUVORK5CYII=)
 
 ## **Docker**
 
@@ -4034,7 +4000,6 @@ Name some limitations of containers vs VM
 
 60. How to use Docker with multiple environments?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABlklEQVRYhe3WMUhVYRQH8F+aJCi9IMegcGlwaCoiCqRwtqHdqSGlXBvaGhpapCGopjb3oraGRMWxlqIxEBSlwiIUydfwnYtyebd37/X1hnp/+Ljfd+455/+/h3MPHz387zhSwqdZEFNkr4S+OkGdRE/AP41B3FKhOZu5VdcOJ7Ac9qluC+jDmwP2zzjaTQF34ryK9dhf76aAD3G+gduxf1pGQKewE6RDGIn9d7zAPZz52wI2g7QR53yldvEIxw4GDbRwPOwai9yNyD+KlXi3ieN55VsdFnA38g7jPJ5hD9uYaFW6rHkmW72sgQF8yolaxbWigPlwetAhAbOR7wteY0aqRiFuRsD7NokXsdDG52QQ7+FyCbFI4/NHiLj6B78FvG2T63HkmS9LnmFOcVOVxaT05T9xuqqABtYOIWDcfhWnq5JnuGD/l3yuTeMEBqUpl03BJ3XJM4zjayTbwH1clJqrP55npXk/Fz5N/MJDNS+oeZzCK+UHzxKuVCUpo/ScdKm4JDXVCL5JFfoojdeXeFeVvIce4DfbVsbNw65A/AAAAABJRU5ErkJggg==)
 
 ## **Kubernetes**
 
@@ -4092,7 +4057,6 @@ Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes
 
 26. Explain what are Taints in Kubernetes?
 
-[](data:image/png;base64,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)
 
 ## **Layering & Middleware**
 
@@ -4128,7 +4092,6 @@ Provide some examples of Infrastructural Services in DDD
 
 12. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAsklEQVRIie2VMQ6DMAxFXwEJ9YBdGXs5pE49TMXAOTqUwuJKEMXBgCNVar+UxbG/820ngS9DKcsdBXABHkAPXIHKm3gM1qFEJdAA3YywE5tmN5UuduLYSa1++wOscYVFlieylShEDdxZTo3W5FF8awuxNj0hYcyenKY1ydpFWy3Vp14n4Myy6S/gKUFvoAVusjfMFKfiNivZ6qfi3+QfaHK259qiyOXDSSVyJQ6R7dPfjQn0yKkX4JyybgAAAABJRU5ErkJggg==)
 
 ## **Load Balancing**
 
@@ -4168,23 +4131,22 @@ Name some advantages of Round-Robin Load Balancing
 
 17. What Are The Issues With Sticky Session?
 
-Name some metrics for traffic routing
+Name some metrics for traffic routing?
 
 18. What Is a UDP Load Balancer?
 
 19. Explain what is “Power of Two Random Choices” Load Balancing?
 
-Compare UDP Load Balancer vs TCP Load Balancer
+Compare UDP Load Balancer vs TCP Load Balancer?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAYklEQVRIiWNgGAVUBv+hmGjARCOHjFowagGdLShnwEz/MH49tRyCbAnVDcdmCdGGM5NgwVEGBgZGBgaGgwwMDI0kOW1IA0Y0PkklJTHm0jwfsBByARr4T6Q8HNDcB6OAIAAA18AT+/jkcK8AAAAASUVORK5CYII=)
 
 ## **Microservices**
 
-List down the advantages of Microservices Architecture
+List down the advantages of Microservices Architecture.
 
 1. Why Would You Opt For Microservices Architecture?
 
-Define Microservice Architecture
+Define Microservice Architecture?
 
 2. What are smart endpoints and dumb pipes?
 
@@ -4248,7 +4210,6 @@ Provide an example of "smart pipes" and "dumb endpoint"
 
 29. What does it mean that shifting to microservices creates a run-time problem?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABv0lEQVRIieXUu2pUURQG4C9GcIhFioiCkLGbkEbRzlikFfQZFBIRKyGP4KVS0GglihNiZRuNaC02JmQKhXjpYh5AE8fCIKPFXofZTjLjcbTLDwvW+ffa66zrZrfjAb6E3N/JYG8fTvfhEr7hHF5iAOexhP24h+99+AZ38DPkLQ7iUOgFf7tf54exFRHWMIQLmA69FmdbYfvXGJNKsxjfC1nUC8E9C5van5wdxwo+hzSCm0UzbJqYDym4TdwtE+11/AiHs6FfwzFUe2Sw2CuDq3iPOXzNLsGTiG4ubK6gItV/SurBmB49OIsWVrGGxxjJzkeCWwubFs7EWecU3dop+gY+SHNeoIqLIaMZX8FHqUd78Fya+ylc7vABxuPP9YybjJIUUW0GV6Ae/Dhe6bLJBQalSWhhIrhlqRTVkFVpU+FU2D6Ku6UwHBHNxHcTN7Lzm9qjOBO2w2WdD0Y0LZzsyOBIyDu8jrOJsJ0vm0HRg4cZN4kN7R5s6N6DrhjI9Ib0Eh7VfglHcTr0F1gPvYI3UslOlMmA3/dg3fY9OBDcJ9v3oDSKTa5LY5lv8tPg6tqb/E/o9hb9N3S+pivB7TL8AjO5jH9LySfOAAAAAElFTkSuQmCC)
 
 ## **NoSQL**
 
@@ -4286,7 +4247,6 @@ Explain eventual consistency in context of NoSQL
 
 13. Explain the differences in conceptual data design with NoSQL databases?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAkklEQVRIie2VQQ6AIAwER+Pj1Fd59J3gP/TiAUm1rSLx4CaEQKDTdkOAyhqBCKzOYdad4C6A+4KmtmSwOwCrJ5MVmLfI44kJkgMsnqSQ+W2ACikBOEAa4XC6n6/PAJIagE7JzqKzJIEK78BbwZUfYhs/V8GV2aKqV6Bl+HtQXhpg2Wfv9xmtCQxAcAIC0FsBj7UBMPBtoA/42xkAAAAASUVORK5CYII=)
 
 ## **Reactive Systems**
 
@@ -4312,7 +4272,6 @@ Explain Message-Driven vs Event-Driven Approaches
 
 9. What does Amdahl's Law mean?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABGklEQVRIie3Vvy5EQRTH8U9EKSzbKURDvMImGqJR09KIxyDxCESr8KeRqDQKhajEK5CIKBSStXvRU9whN3cze+dua7/JKc7knPnNOZM5w5CaNHCGDN81LcNp2OOP0ZLAIdZwhK+ahxvDVhDbjAVl2K+5cZEDdIsLI6WAcXQiyU3cBGtGYt4xUVwotyjGLK6wEPx7rOKxKjFV4Fbe45fgT+I6CPel3KIYO2jhKVgLuymJqRWclPyHYJWkVjAw/0dgA3MFf16f11ok9ZL35A/od3zc4VPv5feQWsEy3jATrIOVlMTUCp6xiIvgr6M9iMAHpiKxbSxV7NeUD8yowCW25SP3NeWEBaZD7nm/oIb84gb5cLo4VpqmQyr5AXLORnMA6L+7AAAAAElFTkSuQmCC)
 
 ## **SOA**
 
@@ -4358,7 +4317,6 @@ Define what is SOA
 
 20. Is binding between SOAP and WSDL possible?
 
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAyElEQVRIieVVQQ7CMAwzCO1PjPfB4FvAfrLxjXEgFVGatiYCIYGlHdbMdttYGfAvGAEs5rkwxBVpsET5a2etA3ACcMNzt1pQi6b6DGAQbhNH5NdhjUr1A2Mwy8dbQjChVydpwpKBR0Ot+Jng0QZhnm7yiPyemShWeTYRHlpRrPK8mNoosnB5nsFbsXHWIg0u8vQJrk6dafLLvI/FtIbwNPWQRkXv7K40KnbyPjEGAyFYqu8Zg05M0kkYg0nEs3H9lR+Oh2iEfwB3OvVuYZRBE5oAAAAASUVORK5CYII=)
 
 ## **Software Architecture**
 
@@ -4476,11 +4434,11 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 
 51. What will you choose: Repository Pattern or "smart" business objects?
 
-52. Is Repository Pattern as same as Active Record Pattern?
+ 52. Is Repository Pattern as same as Active Record Pattern?
 
 53. How should I be grouping my Repositories when using Repository Pattern?
 
-54. What is the Dependency Inversion Principle (DIP) and why is it important?
+ 54. What is the Dependency Inversion Principle (DIP) and why is it important?
 
 55. What is relationship between Repository and Unit of Work?
 
@@ -4510,7 +4468,7 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 
 62. What is GOD class and why should we avoid it?
 
-Defend the monolithic architecture.
+64. Defend the monolithic architecture.
 
 63. What's the difference between principles YAGNI and KISS?
 
@@ -4536,75 +4494,9 @@ Defend the monolithic architecture.
 
 74. Are you familiar with The Twelve-Factor App principles?
 
-Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
+75. Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
 
 75. Why is writing software difficult? What makes maintaining software hard?
-
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABIUlEQVRIie3VvUpDQRCG4Seawiq34SVIiGDlRdhoq2kstTMBwdpCa70Ae22DYqF9jH+VjW3ASpNjsZsYl5xgjGJhXlg47Mx8A7Pf7mHKmBRQRQtdZOjgCKUkdy3Gsph7g42o0Wc2KariANc4wUUsXMUKrvAUc9t4wWXMm8MmnmP9UFo4HbJfxiNesZ1XjDM0R8R1UM+JlXCM+xH19ajRp5gkzAgzHUZbmPsosqjxSfBXmTaYuMGDcHDpGnTS4IXbSQVSF6XsYj5+bwkX6ly4fD0a2Itai6iMEsxQ+0asR01i8z8/gx9v0JW8hmNSiBq5De6wMEGDMm4HN1IX7eNQeBUbeEviFcFNKUUsYVn4J+RSiAlNH97+yurEmnWTjfg/8g5yV05vIUgdHQAAAABJRU5ErkJggg==)
-
-## **Software Testing**
-
-[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABKUlEQVRIid3VsS9DURgF8B9RRKSr2dZ/gNrYmihDFyO72K06Shpb05FJMPsrdBIMEomRNBLpYiBVQ6+ged7rezXgJHe43znfOffd+3Ivfx0jCfws1hI0J7jNuoANdND9ZnSwntX8HTvBrB/dwMVidNj0/x8wlkIbdQ4/GrDbN9/OEhiFfdxF1O8DNxQKeEIjgmsErpDVPIcmWpiJ4GcC1wza1KjqHWwFK2ij3KepBE01rXkRLz72uBwCliO0B0FbHNR8Ctd6F1h+AH0+aG8wPUhAXe8SW4zRLOABh2G+FHrqSeYlvKKWoNvS2/vWp1ot9JbiGi9wiYmEgElsYr6vdoXzuMY2jmT77XI4xmOcaM/3j8ug48v2Rj2Zq5jDeMoveMYZTlP2/XK8AbrnTn3JBJHzAAAAAElFTkSuQmCC)
-
-Name some performance testing steps
-
-1. How to unit test an object with database queries?
-
-2. What is profiling?
-
-3. What is Mocking?
-
-Name the difference between Acceptance Test and Functional Test
-
-4. What is the difference between load and stress testing?
-
-5. What is Load Testing?
-
-Name most common problems observed in performance testing
-
-Explain the purpose of Scalability testing
-
-6. What is a reasonable Code Coverage % for unit tests (and why)?
-
-7. Is writing Unit Tests worth it for already exciting functionality?
-
-8. What is the fundamental value of Unit Tests vs Integration Tests?
-
-Name some performance testing mistakes
-
-9. What do I lose by adopting TDD? What are the disadvantages of Test Driven Development?
-
-Name some Performance Testing metrics to measure
-
-10. What is Endurance Testing?
-
-Name some Performance Testing best practices
-
-Name some types of performance testing for software
-
-11. What is Stress Testing?
-
-12. How to interpret load/stress test metrics?
-
-13. Can Unit Testing be successfully added into an existing production project? If so, how and is it worth it?
-
-14. What is Spike Testing?
-
-15. What are best practices for Unit Testing methods that use cache heavily?
-
-Explain some load testing metrics
-
-16. What's the difference between Faking, Mocking, and Stubbing?
-
-17. What is Unit test, Integration Test, Smoke test, Regression Test and what are the differences between them?
-
-18. Is Unit Testing worth the effort?
-
-19. Could you name some common Performance Testing fallacies?
-
-20. Why would you conduct Volume Testing?
-
----
 
 ## How to Use This Document
 
