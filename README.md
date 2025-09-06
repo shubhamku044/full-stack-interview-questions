@@ -1588,7 +1588,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 48. Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute. [⬆️](#top)
 
-### 49. Could you generate a public key in HTML?
+### 49. Could you generate a public key in HTML? [⬆️](#top)
 
 ### 50. What are Web Components?
 
