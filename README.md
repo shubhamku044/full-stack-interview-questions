@@ -5,6 +5,7 @@ A comprehensive collection of interview questions and answers for fullstack deve
 ## Table of Contents
 
 ### Programming & Frameworks
+
 - [Design Patterns](#design-pattern) (39 questions)
 - [Object-Oriented Programming (OOP)](#oop) (51 questions)
 - [Entity Framework](#entity-framework) (53 questions)
@@ -17,6 +18,7 @@ A comprehensive collection of interview questions and answers for fullstack deve
 - [VueJS](#vuejs) (30 questions)
 
 ### Web Technologies
+
 - [HTML5](#html5) (45 questions)
 - [WebSockets](#websockets) (23 questions)
 - [PWA (Progressive Web Apps)](#pwa) (21 questions)
@@ -24,14 +26,17 @@ A comprehensive collection of interview questions and answers for fullstack deve
 - [Web Security](#web-security) (59 questions)
 
 ### Databases & Data
+
 - [MySQL](#mysql) (44 questions)
 - [SQL](#sql) (29 questions)
 - [Redis](#redis) (25 questions)
 
 ### DevOps & Infrastructure
+
 - [DevOps](#devops) (31 questions)
 
 ### Development Practices
+
 - [Unit Testing](#unit-testing) (22 questions)
 - [Git](#git) (26 questions)
 
@@ -46,10 +51,12 @@ A comprehensive collection of interview questions and answers for fullstack deve
 The three main categories of Design Patterns are:
 
 1. **Creational Patterns**: Deal with object creation mechanisms
+
    - Singleton, Factory, Abstract Factory, Builder, Prototype
    - Focus on how objects are created and initialized
 
 2. **Structural Patterns**: Deal with object composition and relationships
+
    - Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
    - Focus on how objects are structured and composed
 
@@ -64,6 +71,7 @@ The three main categories of Design Patterns are:
 **Design Patterns** are reusable solutions to common problems that occur in software design. They represent best practices developed by experienced programmers over time.
 
 **Why use Design Patterns:**
+
 - **Reusability**: Proven solutions that can be applied to similar problems
 - **Communication**: Provide a common vocabulary for developers
 - **Best Practices**: Encapsulate years of experience and expertise
@@ -79,6 +87,7 @@ The three main categories of Design Patterns are:
 A **pattern** is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into code, but rather a template or blueprint for how to solve a problem that can be used in many different situations.
 
 **Key characteristics of a pattern:**
+
 - **Name**: A descriptive and memorable name
 - **Problem**: Description of when to apply the pattern
 - **Solution**: Elements that make up the design, relationships, responsibilities
@@ -91,14 +100,15 @@ A **pattern** is a general reusable solution to a commonly occurring problem wit
 The **Singleton pattern** ensures that a class has only one instance and provides a global point of access to that instance.
 
 **Implementation:**
+
 ```csharp
 public class Singleton
 {
     private static Singleton _instance;
     private static readonly object _lockObject = new object();
-    
+
     private Singleton() { } // Private constructor
-    
+
     public static Singleton Instance
     {
         get
@@ -118,6 +128,7 @@ public class Singleton
 ```
 
 **Use cases:**
+
 - Database connections
 - Configuration settings
 - Logging services
@@ -133,11 +144,13 @@ public class Singleton
 **Dependency Injection (DI)** is a design pattern that implements Inversion of Control (IoC) for resolving dependencies. Instead of a class creating its dependencies internally, they are provided (injected) from external sources.
 
 **Types of DI:**
+
 1. **Constructor Injection**: Dependencies passed through constructor
 2. **Property Injection**: Dependencies set through public properties
 3. **Method Injection**: Dependencies passed as method parameters
 
 **Example:**
+
 ```csharp
 // Without DI
 public class OrderService
@@ -149,7 +162,7 @@ public class OrderService
 public class OrderService
 {
     private IEmailService emailService;
-    
+
     public OrderService(IEmailService emailService) // Constructor injection
     {
         this.emailService = emailService;
@@ -158,6 +171,7 @@ public class OrderService
 ```
 
 **Benefits:**
+
 - Loose coupling
 - Easier testing (mock dependencies)
 - Better maintainability
@@ -171,11 +185,13 @@ public class OrderService
 The **State pattern** allows an object to alter its behavior when its internal state changes. The object appears to change its class.
 
 **Key components:**
+
 - **Context**: Maintains a reference to a state object
 - **State**: Defines interface for state-specific behavior
 - **ConcreteState**: Implements behavior associated with a state
 
 **Example:**
+
 ```csharp
 public interface IState
 {
@@ -185,12 +201,12 @@ public interface IState
 public class Context
 {
     private IState state;
-    
+
     public void SetState(IState state)
     {
         this.state = state;
     }
-    
+
     public void Request()
     {
         state.Handle(this);
@@ -216,6 +232,7 @@ public class ConcreteStateA : IState
 The **Null Object pattern** provides a default object with neutral behavior to represent the absence of an object, eliminating the need for null checks.
 
 **Example:**
+
 ```csharp
 public interface ILogger
 {
@@ -240,6 +257,7 @@ public class NullLogger : ILogger
 ```
 
 **Benefits:**
+
 - Eliminates null reference exceptions
 - Simplifies code by removing null checks
 - Provides default behavior
@@ -252,6 +270,7 @@ public class NullLogger : ILogger
 The **Template Method pattern** defines the skeleton of an algorithm in a base class, letting subclasses override specific steps without changing the algorithm's structure.
 
 **Example:**
+
 ```csharp
 public abstract class DataProcessor
 {
@@ -262,7 +281,7 @@ public abstract class DataProcessor
         ProcessRawData();
         WriteData();
     }
-    
+
     protected abstract void ReadData();
     protected abstract void ProcessRawData();
     protected abstract void WriteData();
@@ -277,6 +296,7 @@ public class CSVProcessor : DataProcessor
 ```
 
 **Benefits:**
+
 - Code reuse
 - Consistent algorithm structure
 - Easy to extend
@@ -289,6 +309,7 @@ public class CSVProcessor : DataProcessor
 The **Iterator pattern** provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
 **Example:**
+
 ```csharp
 public interface IIterator<T>
 {
@@ -300,19 +321,20 @@ public class ListIterator<T> : IIterator<T>
 {
     private List<T> list;
     private int position = 0;
-    
+
     public ListIterator(List<T> list)
     {
         this.list = list;
     }
-    
+
     public bool HasNext() => position < list.Count;
-    
+
     public T Next() => list[position++];
 }
 ```
 
 **Benefits:**
+
 - Uniform traversal interface
 - Supports multiple simultaneous traversals
 - Encapsulates iteration logic
@@ -325,6 +347,7 @@ public class ListIterator<T> : IIterator<T>
 The **Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
 
 **Example:**
+
 ```csharp
 public interface IPaymentStrategy
 {
@@ -344,12 +367,12 @@ public class PayPalPayment : IPaymentStrategy
 public class PaymentContext
 {
     private IPaymentStrategy strategy;
-    
+
     public void SetStrategy(IPaymentStrategy strategy)
     {
         this.strategy = strategy;
     }
-    
+
     public void ExecutePayment(decimal amount)
     {
         strategy.Pay(amount);
@@ -358,6 +381,7 @@ public class PaymentContext
 ```
 
 **Benefits:**
+
 - Runtime algorithm selection
 - Easy to add new strategies
 - Eliminates conditional statements
@@ -370,12 +394,14 @@ public class PaymentContext
 The **Proxy pattern** provides a placeholder or surrogate for another object to control access to it.
 
 **Types of Proxies:**
+
 1. **Virtual Proxy**: Controls access to expensive-to-create objects
 2. **Protection Proxy**: Controls access based on permissions
 3. **Remote Proxy**: Represents objects in different address spaces
 4. **Smart Proxy**: Adds additional behavior when accessing objects
 
 **Example:**
+
 ```csharp
 public interface IImage
 {
@@ -385,18 +411,18 @@ public interface IImage
 public class RealImage : IImage
 {
     private string filename;
-    
+
     public RealImage(string filename)
     {
         this.filename = filename;
         LoadFromDisk();
     }
-    
+
     private void LoadFromDisk()
     {
         Console.WriteLine($"Loading {filename}");
     }
-    
+
     public void Display()
     {
         Console.WriteLine($"Displaying {filename}");
@@ -407,12 +433,12 @@ public class ProxyImage : IImage
 {
     private RealImage realImage;
     private string filename;
-    
+
     public ProxyImage(string filename)
     {
         this.filename = filename;
     }
-    
+
     public void Display()
     {
         if (realImage == null)
@@ -425,6 +451,7 @@ public class ProxyImage : IImage
 ```
 
 **Benefits:**
+
 - Controls access to objects
 - Lazy initialization
 - Caching and performance optimization
@@ -437,6 +464,7 @@ public class ProxyImage : IImage
 The **Repository pattern** encapsulates data access logic and provides a uniform interface for accessing domain objects.
 
 **Benefits:**
+
 1. **Testability**: Easy to mock for unit testing
 2. **Centralized Query Logic**: All queries for an entity type in one place
 3. **Flexibility**: Can switch data sources without affecting business logic
@@ -446,6 +474,7 @@ The **Repository pattern** encapsulates data access logic and provides a uniform
 7. **Transaction Management**: Easier to manage transactions
 
 **Example:**
+
 ```csharp
 public interface IUserRepository
 {
@@ -459,12 +488,12 @@ public interface IUserRepository
 public class UserRepository : IUserRepository
 {
     private readonly DbContext context;
-    
+
     public UserRepository(DbContext context)
     {
         this.context = context;
     }
-    
+
     public User GetById(int id) => context.Users.Find(id);
     // ... other implementations
 }
@@ -477,6 +506,7 @@ public class UserRepository : IUserRepository
 The **Filter pattern** (also known as Criteria pattern) allows filtering objects based on different criteria and chaining them in a decoupled manner.
 
 **Example:**
+
 ```csharp
 public interface IFilter<T>
 {
@@ -487,13 +517,13 @@ public class AndFilter<T> : IFilter<T>
 {
     private IFilter<T> filter1;
     private IFilter<T> filter2;
-    
+
     public AndFilter(IFilter<T> filter1, IFilter<T> filter2)
     {
         this.filter1 = filter1;
         this.filter2 = filter2;
     }
-    
+
     public IEnumerable<T> Filter(IEnumerable<T> items)
     {
         return filter2.Filter(filter1.Filter(items));
@@ -503,12 +533,12 @@ public class AndFilter<T> : IFilter<T>
 public class AgeFilter : IFilter<Person>
 {
     private int minAge;
-    
+
     public AgeFilter(int minAge)
     {
         this.minAge = minAge;
     }
-    
+
     public IEnumerable<Person> Filter(IEnumerable<Person> people)
     {
         return people.Where(p => p.Age >= minAge);
@@ -517,6 +547,7 @@ public class AgeFilter : IFilter<Person>
 ```
 
 **Benefits:**
+
 - Flexible filtering logic
 - Easy to combine filters
 - Reusable filter components
@@ -529,6 +560,7 @@ public class AgeFilter : IFilter<Person>
 The **Builder pattern** constructs complex objects step by step, allowing you to produce different types and representations using the same construction process.
 
 **Example:**
+
 ```csharp
 public class Computer
 {
@@ -541,31 +573,31 @@ public class Computer
 public class ComputerBuilder
 {
     private Computer computer = new Computer();
-    
+
     public ComputerBuilder SetCPU(string cpu)
     {
         computer.CPU = cpu;
         return this;
     }
-    
+
     public ComputerBuilder SetRAM(string ram)
     {
         computer.RAM = ram;
         return this;
     }
-    
+
     public ComputerBuilder SetStorage(string storage)
     {
         computer.Storage = storage;
         return this;
     }
-    
+
     public ComputerBuilder SetGPU(string gpu)
     {
         computer.GPU = gpu;
         return this;
     }
-    
+
     public Computer Build() => computer;
 }
 
@@ -578,6 +610,7 @@ var computer = new ComputerBuilder()
 ```
 
 **Benefits:**
+
 - Control over construction process
 - Fluent interface
 - Immutable objects
@@ -590,6 +623,7 @@ var computer = new ComputerBuilder()
 Design patterns are categorized into three main types:
 
 **1. Creational Patterns (5 patterns):**
+
 - **Singleton**: Ensures only one instance exists
 - **Factory Method**: Creates objects without specifying exact classes
 - **Abstract Factory**: Creates families of related objects
@@ -597,6 +631,7 @@ Design patterns are categorized into three main types:
 - **Prototype**: Creates objects by cloning existing instances
 
 **2. Structural Patterns (7 patterns):**
+
 - **Adapter**: Allows incompatible interfaces to work together
 - **Bridge**: Separates abstraction from implementation
 - **Composite**: Composes objects into tree structures
@@ -606,6 +641,7 @@ Design patterns are categorized into three main types:
 - **Proxy**: Controls access to another object
 
 **3. Behavioral Patterns (11 patterns):**
+
 - **Chain of Responsibility**: Passes requests along handler chain
 - **Command**: Encapsulates requests as objects
 - **Iterator**: Provides sequential access to elements
@@ -625,18 +661,21 @@ Design patterns are categorized into three main types:
 **Inversion of Control (IoC)** is a design principle where the control of object creation and dependency management is transferred from the object itself to an external container or framework.
 
 **Key Concepts:**
+
 - Objects don't create their dependencies directly
 - Dependencies are provided by external mechanism
 - Reduces coupling between classes
 - Makes code more testable and maintainable
 
 **Implementation Methods:**
+
 1. **Dependency Injection**: Constructor, Property, or Method injection
 2. **Service Locator**: Central registry for services
 3. **Factory Pattern**: Factory creates and manages dependencies
 4. **Template Method**: Framework calls application code
 
 **Benefits:**
+
 - Loose coupling
 - Better testability
 - Easier maintenance
@@ -661,6 +700,7 @@ While ORMs provide data access capabilities, the Repository pattern adds additio
 8. **Future Flexibility**: Easier to switch ORMs or data sources
 
 **Example:**
+
 ```csharp
 public interface IUserRepository
 {
@@ -672,7 +712,7 @@ public interface IUserRepository
 public class UserRepository : IUserRepository
 {
     private readonly DbContext context;
-    
+
     public async Task<User> GetActiveUserByEmailAsync(string email)
     {
         return await context.Users
@@ -685,14 +725,15 @@ public class UserRepository : IUserRepository
 ---
 
 > **Note on Design Patterns Section:**
-> 
+>
 > This section demonstrates the comprehensive answer format used throughout this document. Each question includes:
+>
 > - Clear, concise explanations
 > - Practical code examples
 > - Use cases and benefits
 > - Implementation details
 > - Best practices
-> 
+>
 > The remaining **126 design pattern questions** follow this same detailed format, covering all aspects of creational, structural, and behavioral patterns including Factory, Abstract Factory, Observer, Command, Mediator, Visitor, and many more specialized patterns.
 
 ---
@@ -797,12 +838,14 @@ public class UserRepository : IUserRepository
 8. **Ecosystem**: Rich ecosystem of tools and integrations
 
 **Key Components:**
+
 - **Pods**: Smallest deployable units
 - **Services**: Network abstraction for pods
 - **Deployments**: Manage pod replicas
 - **ConfigMaps/Secrets**: Configuration and sensitive data management
 
 **Business Benefits:**
+
 - Reduced operational overhead
 - Faster time to market
 - Improved reliability and availability
@@ -826,12 +869,14 @@ public class UserRepository : IUserRepository
 **DevOps Benefits:**
 
 **Technical Benefits:**
+
 - Faster deployment frequency
 - Shorter lead time for changes
 - Lower failure rate of new releases
 - Faster recovery from failures
 
 **Business Benefits:**
+
 - Faster time to market
 - Improved customer satisfaction
 - Reduced costs
@@ -839,6 +884,7 @@ public class UserRepository : IUserRepository
 - Increased innovation
 
 **Cultural Benefits:**
+
 - Better collaboration
 - Shared responsibility
 - Continuous learning
@@ -851,24 +897,28 @@ public class UserRepository : IUserRepository
 This is a common interview question to understand your background and preferences. Here's how to approach it:
 
 **If More Dev-Oriented:**
+
 - "I have a strong development background with experience in [languages/frameworks]"
 - "I'm passionate about writing clean, maintainable code"
 - "I understand the importance of automation and have implemented CI/CD pipelines"
 - "I'm eager to learn more about infrastructure and operations"
 
 **If More Ops-Oriented:**
+
 - "I have extensive experience in system administration and infrastructure"
 - "I'm passionate about automation, monitoring, and system reliability"
 - "I understand development processes and can bridge the gap between teams"
 - "I'm eager to learn more about modern development practices"
 
 **Balanced Approach:**
+
 - "I believe DevOps is about bridging the gap between development and operations"
 - "I have experience in both areas and enjoy working at the intersection"
 - "I'm passionate about the entire software lifecycle, from code to production"
 - "I believe in shared responsibility and continuous learning"
 
 **Key Points to Emphasize:**
+
 - Willingness to learn and adapt
 - Understanding of both perspectives
 - Collaboration and communication skills
@@ -889,11 +939,13 @@ This is a common interview question to understand your background and preference
 5. **Shared Repository**: Single source of truth for code
 
 **CI Process:**
+
 ```
 Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Staging
 ```
 
 **CI Tools:**
+
 - **Jenkins**: Popular open-source CI/CD server
 - **GitLab CI/CD**: Built into GitLab
 - **GitHub Actions**: Native GitHub CI/CD
@@ -902,6 +954,7 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 - **Travis CI**: Cloud-based CI/CD
 
 **Benefits:**
+
 - **Early Bug Detection**: Issues found quickly
 - **Reduced Integration Problems**: Smaller, more frequent integrations
 - **Faster Development**: Automated processes save time
@@ -909,6 +962,7 @@ Code Commit → Trigger Build → Run Tests → Report Results → Deploy to Sta
 - **Better Collaboration**: Shared understanding of code state
 
 **Best Practices:**
+
 - Maintain a single source repository
 - Automate the build process
 - Make builds self-testing
@@ -926,16 +980,19 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 **Primary Goals:**
 
 1. **Faster Time to Market**
+
    - Reduced lead time from idea to production
    - More frequent releases
    - Rapid feedback loops
 
 2. **Improved Quality and Reliability**
+
    - Automated testing at all stages
    - Consistent deployment processes
    - Reduced human error
 
 3. **Better Collaboration**
+
    - Shared responsibility for quality and stability
    - Improved communication between teams
    - Aligned goals and metrics
@@ -946,12 +1003,14 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
    - Proactive problem resolution
 
 **Key Metrics DevOps Improves:**
+
 - **Deployment Frequency**: How often we deploy
 - **Lead Time**: Time from commit to production
 - **Mean Time to Recovery**: How quickly we recover from failures
 - **Change Failure Rate**: Percentage of deployments causing failures
 
 **Cultural Impact:**
+
 - Shared ownership and accountability
 - Continuous learning and improvement
 - Focus on customer value
@@ -972,6 +1031,7 @@ The most important thing DevOps helps achieve is **faster, more reliable softwar
 5. **Infrastructure as Code (IaC)**: Managing infrastructure through code
 
 **DevOps Lifecycle:**
+
 ```
 Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → Plan
 ```
@@ -979,12 +1039,14 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 **Key Practices:**
 
 **Development Practices:**
+
 - Version control and branching strategies
 - Code review and pair programming
 - Test-driven development (TDD)
 - Continuous integration
 
 **Operations Practices:**
+
 - Infrastructure as Code
 - Configuration management
 - Automated deployments
@@ -1000,6 +1062,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 6. **Cloud Platforms**: AWS, Azure, GCP
 
 **Benefits:**
+
 - **Speed**: Faster development and deployment cycles
 - **Reliability**: More stable releases and faster recovery
 - **Scale**: Ability to manage complex systems efficiently
@@ -1007,14 +1070,16 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 - **Security**: Security integrated throughout the pipeline (DevSecOps)
 
 **Cultural Aspects:**
+
 - Shared responsibility for application success
 - Emphasis on learning from failures
 - Continuous improvement mindset
 - Customer-focused approach
 
 > **Note on DevOps Section:**
-> 
+>
 > This section provides comprehensive answers to key DevOps concepts and practices. The remaining **86 DevOps questions** cover topics including:
+>
 > - Container technologies (Docker, Kubernetes)
 > - CI/CD pipelines and best practices
 > - Infrastructure as Code
@@ -1032,21 +1097,25 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 **Why It's Necessary:**
 
 1. **Early Problem Detection**
+
    - Identify issues before they impact users
    - Proactive rather than reactive approach
    - Reduced mean time to detection (MTTD)
 
 2. **Performance Optimization**
+
    - Track application and infrastructure performance
    - Identify bottlenecks and optimization opportunities
    - Ensure SLA compliance
 
 3. **Security and Compliance**
+
    - Detect security threats and anomalies
    - Ensure compliance with regulations
    - Audit trail for changes and access
 
 4. **Capacity Planning**
+
    - Predict resource needs
    - Optimize cost through right-sizing
    - Plan for scaling requirements
@@ -1057,12 +1126,14 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
    - Data-driven decision making
 
 **Key Monitoring Areas:**
+
 - **Infrastructure**: CPU, memory, disk, network
 - **Applications**: Response times, error rates, throughput
 - **Security**: Failed logins, unauthorized access attempts
 - **Business Metrics**: User engagement, conversion rates
 
 **Monitoring Tools:**
+
 - **Application Performance**: New Relic, Datadog, AppDynamics
 - **Infrastructure**: Prometheus, Nagios, Zabbix
 - **Log Management**: ELK Stack, Splunk, Fluentd
@@ -1077,6 +1148,7 @@ This question assesses your understanding of automation priorities and process i
 **Assessment Framework:**
 
 1. **Identify Pain Points**
+
    - Manual, repetitive tasks
    - Error-prone processes
    - Time-consuming activities
@@ -1091,12 +1163,14 @@ This question assesses your understanding of automation priorities and process i
 **Common Automation Candidates:**
 
 **High Priority:**
+
 - **Testing Automation**: Unit, integration, and end-to-end tests
 - **Deployment Pipeline**: Automated CI/CD with rollback capabilities
 - **Environment Provisioning**: Infrastructure as Code (IaC)
 - **Security Scanning**: Automated vulnerability and compliance checks
 
 **Medium Priority:**
+
 - **Database Migrations**: Automated schema updates
 - **Documentation Generation**: Auto-generated API docs, runbooks
 - **Backup and Recovery**: Automated backup testing and recovery procedures
@@ -1104,6 +1178,7 @@ This question assesses your understanding of automation priorities and process i
 
 **Example Answer:**
 "Currently, I would prioritize automating our database migration process. We're manually running migrations, which is time-consuming and error-prone. I would implement:
+
 - Automated migration scripts in our CI/CD pipeline
 - Rollback mechanisms for failed migrations
 - Testing migrations in staging environments first
@@ -1118,16 +1193,19 @@ This question assesses your understanding of automation priorities and process i
 **Key Roles:**
 
 1. **Consistency and Standardization**
+
    - Ensure identical configurations across environments
    - Eliminate configuration drift
    - Standardize system setup and maintenance
 
 2. **Automation**
+
    - Automate repetitive configuration tasks
    - Reduce manual errors
    - Accelerate deployment processes
 
 3. **Version Control**
+
    - Track configuration changes over time
    - Enable rollback to previous configurations
    - Audit trail for compliance
@@ -1140,26 +1218,31 @@ This question assesses your understanding of automation priorities and process i
 **Popular CM Tools:**
 
 **Ansible:**
+
 - Agentless, uses SSH
 - YAML-based playbooks
 - Simple and easy to learn
 
 **Puppet:**
+
 - Agent-based architecture
 - Declarative language (Puppet DSL)
 - Strong reporting and compliance features
 
 **Chef:**
+
 - Agent-based with Ruby DSL
 - "Cookbooks" and "recipes" concept
 - Good for complex configurations
 
 **SaltStack:**
+
 - Fast, scalable execution
 - Event-driven automation
 - Remote execution capabilities
 
 **Example Ansible Playbook:**
+
 ```yaml
 ---
 - hosts: webservers
@@ -1169,7 +1252,7 @@ This question assesses your understanding of automation priorities and process i
       yum:
         name: nginx
         state: present
-    
+
     - name: Start nginx service
       service:
         name: nginx
@@ -1178,6 +1261,7 @@ This question assesses your understanding of automation priorities and process i
 ```
 
 **Benefits:**
+
 - Reduced configuration errors
 - Faster system provisioning
 - Improved compliance and security
@@ -1192,11 +1276,13 @@ This question assesses your understanding of automation priorities and process i
 **Purpose:**
 
 1. **Learning from Failures**
+
    - Understand what went wrong and why
    - Identify root causes, not just symptoms
    - Extract lessons to prevent recurrence
 
 2. **Blame-Free Environment**
+
    - Focus on process and system improvements
    - Encourage honest discussion
    - Build psychological safety
@@ -1209,51 +1295,62 @@ This question assesses your understanding of automation priorities and process i
 **Post-Mortem Process:**
 
 **1. Preparation (1-3 days after incident)**
+
 - Gather timeline and data
 - Collect logs and metrics
 - Interview involved team members
 
 **2. Meeting (1-2 hours)**
+
 - Review incident timeline
 - Identify contributing factors
 - Discuss what went well
 - Define action items
 
 **3. Follow-up**
+
 - Document findings and action items
 - Assign owners and deadlines
 - Track implementation progress
 
 **Post-Mortem Template:**
+
 ```markdown
 # Incident Post-Mortem
 
 ## Incident Summary
-- Date/Time: 
-- Duration: 
-- Impact: 
-- Severity: 
+
+- Date/Time:
+- Duration:
+- Impact:
+- Severity:
 
 ## Timeline
+
 - HH:MM - Event description
 
 ## Root Cause Analysis
+
 - Primary cause
 - Contributing factors
 
 ## What Went Well
+
 - Effective responses
 - Good processes
 
 ## What Could Be Improved
+
 - Process gaps
 - Tool limitations
 
 ## Action Items
+
 - [ ] Action item (Owner, Due date)
 ```
 
 **Best Practices:**
+
 - Hold within 48-72 hours of incident
 - Include all relevant stakeholders
 - Focus on systems and processes, not people
@@ -1269,16 +1366,19 @@ This question assesses your experience with incident response and deployment rec
 **Immediate Response Steps:**
 
 1. **Assess Impact**
+
    - Determine scope of failure
    - Identify affected users/systems
    - Evaluate severity level
 
 2. **Communication**
+
    - Notify stakeholders immediately
    - Update status pages
    - Establish communication channels
 
 3. **Rollback Decision**
+
    - Evaluate rollback feasibility
    - Consider data integrity implications
    - Execute rollback if safe
@@ -1291,17 +1391,20 @@ This question assesses your experience with incident response and deployment rec
 **Recovery Strategies:**
 
 **1. Automated Rollback**
+
 ```bash
 # Blue-Green deployment rollback
 kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 ```
 
 **2. Canary Rollback**
+
 - Reduce traffic to new version
 - Gradually shift back to stable version
 - Monitor metrics during transition
 
 **3. Database Considerations**
+
 - Check for schema changes
 - Evaluate data migration impact
 - Consider forward-fix vs rollback
@@ -1310,16 +1413,19 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 "In my previous role, we had a deployment that caused a 50% increase in API response times. Here's how I handled it:
 
 1. **Immediate Action** (5 minutes):
+
    - Noticed alerts and checked monitoring dashboards
    - Confirmed deployment correlation
    - Initiated rollback using our blue-green deployment
 
 2. **Communication** (10 minutes):
+
    - Notified incident channel
    - Updated status page
    - Informed customer support team
 
 3. **Analysis** (30 minutes):
+
    - Identified inefficient database query in new code
    - Confirmed rollback restored performance
    - Gathered logs for post-mortem
@@ -1330,6 +1436,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
    - Enhanced monitoring for query performance"
 
 **Prevention Strategies:**
+
 - Comprehensive testing environments
 - Gradual rollout strategies
 - Feature flags for quick disable
@@ -1337,8 +1444,9 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 - Performance monitoring and alerting
 
 > **Note on DevOps Section Completion:**
-> 
+>
 > This section demonstrates comprehensive DevOps knowledge with practical examples and real-world scenarios. The remaining **80+ DevOps questions** cover advanced topics including:
+>
 > - Advanced deployment strategies (Blue-Green, Canary, Rolling)
 > - Container orchestration and Kubernetes
 > - Infrastructure as Code (Terraform, CloudFormation)
@@ -2384,247 +2492,436 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ## React
 
-1. How does React work?
+**1. How does React work?**
+React creates a virtual DOM in memory, which is a lightweight copy of the real DOM. When state changes, React updates the virtual DOM first, then efficiently updates only the changed parts in the real DOM using a diffing algorithm. This makes UI updates fast and efficient.
 
-2. What are React Hooks?
+**2. What are React Hooks?**
+React Hooks are special functions that let you use state and other React features in functional components. Common hooks include useState, useEffect, and useContext. They help manage state, side effects, and context without writing class components.
 
-3. What is Context API in ReactJS?
+**3. What is Context API in ReactJS?**
+The Context API allows you to share data (like themes or user info) across the component tree without passing props manually at every level. It helps avoid prop drilling and makes global state management easier for certain use cases.
 
-4. What are the major features of ReactJS?
+**4. What are the major features of ReactJS?**
+Major features include: component-based architecture, virtual DOM, JSX syntax, unidirectional data flow, support for hooks, and strong ecosystem for state management and routing.
 
-5. What are the advantages of ReactJS?
+**5. What are the advantages of ReactJS?**
+React offers fast rendering with the virtual DOM, reusable components, easier debugging, a large community, and flexibility to integrate with other libraries or frameworks.
 
-6. What are props in React?
+**6. What are props in React?**
+Props (short for properties) are read-only inputs passed from parent to child components. They allow data and event handlers to be shared between components, making them reusable and dynamic.
 
-7. What is the use of refs?
+**7. What is the use of refs?**
+Refs provide a way to access and interact with DOM elements or React elements directly, bypassing the normal data flow. They're useful for managing focus, text selection, or triggering animations.
 
-8. How would you write an inline style in React?
+**8. How would you write an inline style in React?**
+Inline styles are written as objects using camelCase property names. Example: <div style={{ backgroundColor: 'red', fontSize: 16 }}>Hello</div>
 
-9. What is React?
+**9. What is React?**
+React is a JavaScript library for building user interfaces, especially single-page applications. It lets you create reusable UI components and efficiently update the UI when data changes.
 
-10. What are inline conditional expressions in ReactJS?
+**10. What are inline conditional expressions in ReactJS?**
+Inline conditional expressions let you render content based on conditions, often using the ternary operator or logical &&. Example: {isLoggedIn ? <Logout /> : <Login />}
 
-11. What are refs used for in React?
+**11. What are refs used for in React?**
+Refs are used to directly access or modify DOM nodes or React elements, such as focusing an input, reading values, or integrating with third-party libraries.
 
-12. What is useState() in React?
+**12. What is useState() in React?**
+useState is a React Hook that lets you add state to functional components. It returns a state variable and a function to update it.
+Code example:
 
-13. What's the difference between a Controlled component and an Uncontrolled one in React?
+```jsx
+const [count, setCount] = useState(0);
+```
 
-14. What are advantages of using React Hooks?
+**13. What's the difference between a Controlled component and an Uncontrolled one in React?**
+Controlled components have their state managed by React via props and state, while uncontrolled components store their own state internally, often accessed via refs.
+Detailed explanation: Controlled components are preferred for form handling as they allow validation and state management in React, while uncontrolled components are useful for simple use cases or integrating with non-React code.
 
-15. What are Stateful components in React?
+**14. What are advantages of using React Hooks?**
+Hooks allow you to use state and lifecycle features in functional components, promote code reuse, and make components easier to test and maintain.
 
-16. What is Reconciliation in ReactJS?
+**15. What are Stateful components in React?**
+Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
-17. What is the difference between Component and Container in Redux?
+**16. What is Reconciliation in ReactJS?**
+Reconciliation is the process React uses to update the DOM by comparing the new virtual DOM with the previous one and applying only the necessary changes.
+Detailed explanation: React's reconciliation algorithm (diffing) ensures only the parts of the DOM that actually changed are updated, improving performance.
 
-18. What is JSX?
+**17. What is the difference between Component and Container in Redux?**
+Components are presentational and focus on UI, while containers are connected to Redux and handle data, state, and logic, passing props to components.
 
-19. What are Higher-Order Components (HOC) in React?
+**18. What is JSX?**
+JSX is a syntax extension for JavaScript that looks like HTML. It lets you write UI code in a declarative way, which React transforms into JavaScript calls.
+Code example:
 
-20. What is the difference between Element and Component in ReactJS?
+```jsx
+const element = <h1>Hello, world!</h1>;
+```
 
-21. What is the difference between state and props?
+**19. What are Higher-Order Components (HOC) in React?**
+HOCs are functions that take a component and return a new component with enhanced behavior or additional props, enabling code reuse and abstraction.
+Code example:
 
-22. What is the difference between a Presentational component and a Container component?
+```jsx
+function withLogger(WrappedComponent) {
+  return function (props) {
+    console.log("Props:", props);
+    return <WrappedComponent {...props} />;
+  };
+}
+```
 
-23. What are Controlled components in ReactJS?
+**20. What is the difference between Element and Component in ReactJS?**
+An element is a plain object describing what to render, while a component is a function or class that returns elements and defines behavior.
 
-24. What are portals in React and when do we need them?
+**21. What is the difference between state and props?**
+State is managed within a component and can change over time, while props are passed from parent to child and are read-only.
 
-25. What are Fragments in React?
+**22. What is the difference between a Presentational component and a Container component?**
+Presentational components focus on how things look and receive data via props, while container components handle how things work, managing state and logic.
 
-26. How to create refs in React?
+**23. What are Controlled components in ReactJS?**
+Controlled components are form elements whose values are controlled by React state, making it easy to validate and manage user input.
+Code example:
 
-27. What is the purpose of callback function as an argument of setState?
+```jsx
+<input value={value} onChange={(e) => setValue(e.target.value)} />
+```
 
-28. What are two types of components in ReactJS?
+**24. What are portals in React and when do we need them?**
+Portals let you render children into a DOM node outside the parent component hierarchy. They're useful for modals, tooltips, or overlays.
+Code example:
 
-29. What are the advantages of using React?
+```jsx
+ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
+```
 
-30. What is state in React?
+**25. What are Fragments in React?**
+Fragments let you group multiple elements without adding extra nodes to the DOM. Use <></> or <React.Fragment> to wrap children.
+Code example:
 
-31. What are the limitations of React?
+```jsx
+<>
+  <Child1 />
+  <Child2 />
+</>
+```
 
-32. What is the purpose of using super constructor with props argument in React?
+**26. How to create refs in React?**
+Use React.createRef() in class components or the useRef() hook in functional components to create refs.
+Code example:
 
-33. What are Stateless components in React?
+```jsx
+const inputRef = useRef();
+<input ref={inputRef} />;
+```
 
-34. What is the difference between state and props?
+**27. What is the purpose of callback function as an argument of setState?**
+The callback runs after state has been updated and the component has re-rendered, useful for actions that depend on the updated state.
 
-35. What are the differences between a Class component and Functional component?
+**28. What are two types of components in ReactJS?**
+Class components and functional components. Class components use lifecycle methods, while functional components use hooks.
 
-36. What happens when you call setState?
+**29. What are the advantages of using React?**
+Fast rendering, reusable components, strong community, easy integration, and a rich ecosystem for state management and routing.
 
-37. When rendering a list what is a key and what is it's purpose?
+**30. What is state in React?**
+State is a built-in object that stores data or UI information that can change over time, triggering re-renders when updated.
 
-38. What happens during the lifecycle of a React component?
+**31. What are the limitations of React?**
+React is only the view layer, requires additional libraries for routing and state management, and can have a learning curve for beginners.
 
-39. How to call loading function with React useEffect only once?
+**32. What is the purpose of using super constructor with props argument in React?**
+It ensures that the parent class (React.Component) receives the props, making them available as this.props in the constructor.
 
-40. How to access DOM elements in React?
+**33. What are Stateless components in React?**
+Stateless components are functional components that do not manage or hold any state; they simply render UI based on props.
+
+**34. What is the difference between state and props?**
+State is internal and mutable, while props are external and immutable, passed from parent to child.
+
+**35. What are the differences between a Class component and Functional component?**
+Class components use ES6 classes, support lifecycle methods, and manage state with this.state. Functional components are simpler, use hooks for state and effects, and are easier to test.
+
+**36. What happens when you call setState?**
+React schedules a re-render, merges the new state with the current state, and updates the UI accordingly.
+
+**37. When rendering a list what is a key and what is it's purpose?**
+A key is a unique identifier for each list item, helping React efficiently update and reorder items during re-renders.
+Code example:
+
+```jsx
+{
+  items.map((item) => <li key={item.id}>{item.name}</li>);
+}
+```
+
+**38. What happens during the lifecycle of a React component?**
+Components mount, update, and unmount. Lifecycle methods or hooks let you run code at each stage, such as fetching data or cleaning up resources.
+Detailed explanation: Mounting (componentDidMount/useEffect), updating (componentDidUpdate/useEffect), and unmounting (componentWillUnmount/cleanup in useEffect) are the main phases.
+
+**39. How to call loading function with React useEffect only once?**
+Pass an empty dependency array to useEffect: useEffect(() => { loadData(); }, []);
+Code example:
+
+```jsx
+useEffect(() => {
+  loadData();
+}, []);
+```
+
+**40. How to access DOM elements in React?**
+Use refs (useRef or createRef) and attach them to elements. Access the DOM node via ref.current.
+Code example:
+
+```jsx
+const inputRef = useRef();
+<input ref={inputRef} />;
+// Access: inputRef.current
+```
 
 41. How is React different from AngularJS (1.x)?
+    React is a library focused on the view layer, uses a virtual DOM, and one-way data flow. AngularJS is a full framework with two-way data binding and real DOM updates.
 
 42. What does it mean for a component to be mounted in React?
+    Mounting means the component has been created and inserted into the DOM. It's the initial phase of a component's lifecycle.
 
 43. When would you use useRef?
+    Use useRef to persist values across renders without causing re-renders, or to access DOM elements directly.
 
 44. What is the difference between ShadowDOM and VirtualDOM?
+    Shadow DOM is a browser feature for encapsulating styles and markup. Virtual DOM is a React concept for efficient UI updates.
 
 45. Compare useState and useReducer implementations
+    useState is simpler for basic state, while useReducer is better for complex state logic or when state depends on previous values.
 
 46. Do React Hooks cover all use cases for class components?
+    Most use cases are covered, but some features like error boundaries still require class components.
 
 47. How can I make use of Error Boundaries in functional React components?
+    Error boundaries must be class components, but you can wrap functional components with a class-based error boundary.
 
 48. Which lifecycle methods of class component is replaced by useEffect in functional component?
+    useEffect can replace componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 49. How would you pass data from child to parent component in React?
+    Pass a callback function from parent to child as a prop, and call it in the child with the data as an argument.
 
 50. What would be the common mistake of function being called every time the component renders?
+    Defining functions or values inside the component body without memoization, causing them to be recreated on every render.
 
 51. What are Uncontrolled components?
+    Uncontrolled components manage their own state internally, typically accessed via refs, rather than being controlled by React state.
 
 52. What do these three dots (...) in React do?
+    The spread operator (...) is used to copy or merge objects/arrays, or to pass props to components.
 
 53. What is Key and benefit of using it in lists?
+    A key uniquely identifies list items, helping React optimize rendering and avoid unnecessary re-renders.
 
 54. What are the advantages of Batching in ReactJS?
+    Batching groups multiple state updates into a single render, improving performance and reducing unnecessary renders.
 
 55. How would you prevent a component from rendering in React?
+    Return null from the component's render method or use conditional rendering to skip rendering.
 
 56. Why React uses className over class attribute?
+    class is a reserved word in JavaScript, so React uses className to avoid conflicts and match the DOM property.
 
 57. What does Batching mean in ReactJS?
+    Batching means combining multiple state updates into a single render cycle for better performance.
 
 58. What is prop drilling and how can you avoid it?
+    Prop drilling is passing data through many layers of components. Avoid it using Context API or state management libraries.
 
 59. What is Components Composition in React?
+    Component composition means building complex UIs by combining simpler components, promoting reusability and flexibility.
 
 60. What's the difference between useRef and createRef?
+    useRef is used in functional components and persists across renders. createRef is used in class components and creates a new ref each time.
 
 61. What's wrong with using Context in React?
+    Overusing Context can lead to unnecessary re-renders and make code harder to maintain. It's best for global data that rarely changes.
 
 62. What is StrictMode in React?
+    StrictMode is a tool for highlighting potential problems in an application. It activates additional checks and warnings for its descendants.
 
 63. Why do class methods need to be bound to a class instance?
+    In JavaScript, class methods lose their context when passed as callbacks. Binding ensures 'this' refers to the class instance.
 
 64. What is children prop?
+    The children prop is a special prop that lets you pass elements or components as content between a component's opening and closing tags.
 
 65. What are Stateless components in React?
+    Stateless components are functional components that do not manage state and simply render UI based on props.
 
 66. What is the difference between createElement and cloneElement?
+    createElement creates a new React element, while cloneElement clones an existing one and can add or override props.
 
 67. Are you familiar with Flux in the context of React?
+    Yes, Flux is an architecture for managing data flow in React apps, emphasizing unidirectional data flow and centralized state management.
 
 68. What is the significance of keys in ReactJS?
+    Keys help React identify which items have changed, are added, or are removed, optimizing list rendering.
 
 69. What's the typical pattern for rendering a list of components from an array in React?
+    Use the map() function to iterate over the array and return a component for each item, assigning a unique key to each.
 
 70. What does shouldComponentUpdate do and why is it important?
+    shouldComponentUpdate lets you control whether a component re-renders, improving performance by preventing unnecessary updates.
 
 71. What's the typical flow of data like in a React + Redux app?
+    Data flows from the Redux store to components via props, and user actions dispatch actions to update the store.
 
 72. What's the difference between an Element and a Component in React?
+    An element is a plain object describing what to render, while a component is a function or class that returns elements.
 
 73. What are some limitations of things you shouldn't do in the component's render method in React?
+    Avoid side effects, modifying state, or making async calls in render. Only return UI elements.
 
 74. Name the different lifecycle methods for a class components
+    Common methods: constructor, componentDidMount, shouldComponentUpdate, componentDidUpdate, componentWillUnmount, render.
 
 75. What is the point of shouldComponentUpdate() method?
+    It lets you prevent unnecessary re-renders by returning false if the component doesn't need to update.
 
 76. What are Pure Components?
+    Pure components automatically implement a shallow comparison of props and state to avoid unnecessary re-renders.
 
 77. What is the difference between HTML and React event handling?
+    React uses camelCase event names and passes events as SyntheticEvent objects, providing cross-browser compatibility.
 
 78. How to bind methods or event handlers in JSX callbacks?
+    Bind them in the constructor, use arrow functions, or use class fields syntax to ensure correct 'this' context.
 
 79. What is {this.props.children} and when you should use it?
+    {this.props.children} renders child elements passed between a component's tags. Use it for wrapper or layout components.
 
 80. What is Lifting State Up in ReactJS?
+    Lifting state up means moving shared state to the closest common ancestor so multiple components can access and update it.
 
 81. What are forward refs?
+    Forward refs let you pass a ref through a component to access a child DOM node or React element directly.
 
 82. Why we should not update state directly?
+    Directly mutating state can lead to unpredictable UI and bugs. Always use setState or the updater function to ensure React tracks changes.
 
 83. What are the lifecycle methods of ReactJS class components?
+    Mounting: constructor, componentDidMount; Updating: shouldComponentUpdate, componentDidUpdate; Unmounting: componentWillUnmount; plus render.
 
 84. What are Error Boundaries in ReactJS?
+    Error boundaries are special class components that catch JavaScript errors in their child component tree and display a fallback UI.
 
 85. What are the different phases of ReactJS component lifecycle?
+    Mounting, updating, and unmounting are the main phases of a React component's lifecycle.
 
 86. What is the purpose of super(props)?
+    It passes props to the parent class (React.Component), making them available as this.props in the constructor.
 
 87. When to use useCallback, useMemo and useEffect?
+    useCallback: memoize functions; useMemo: memoize values; useEffect: run side effects after render.
 
 88. Why doesn't this.props.children.map work?
+    this.props.children may not always be an array. Use React.Children.map to safely iterate over children.
 
 89. Can you do Components Inheritance in React?
+    It's possible but discouraged. React favors composition over inheritance for code reuse and flexibility.
 
 90. How to apply validation on props in ReactJS?
+    Use PropTypes or TypeScript to define and validate prop types for your components.
 
 91. What is difference between Incremental DOM and Virtual DOM?
+    Virtual DOM (React) creates a copy of the DOM and diffs it. Incremental DOM (used by some frameworks) updates the DOM as it traverses the tree.
 
 92. When would you use flushSync in ReactJS?
+    Use flushSync to force React to flush state updates synchronously, useful for immediate UI updates in event handlers.
 
 93. Describe Flux vs MVC?
+    Flux enforces unidirectional data flow and centralized state, while MVC separates concerns into Model, View, and Controller with bidirectional flow.
 
 94. Can you force a React component to rerender without calling setState?
+    You can use forceUpdate() in class components, but it's rarely recommended. In functional components, change state to trigger a re-render.
 
 95. When shall we use useReducer hook in ReactJS?
+    Use useReducer for complex state logic, especially when state depends on previous values or involves multiple sub-values.
 
 96. When to use useState vs useReducer?
+    useState is best for simple state, while useReducer is better for complex or interrelated state logic.
 
 97. Explain the Virtual DOM concept in React
+    The virtual DOM is a lightweight copy of the real DOM. React updates it first, then efficiently updates the real DOM based on differences.
 
 98. How would you store non-state/instance variables in functional React components?
+    Use the useRef hook to store mutable values that persist across renders but don't trigger re-renders.
 
 99. Explain why and when would you use useMemo()?
+    useMemo memoizes expensive calculations, preventing unnecessary recalculations on every render. Use it for performance optimization.
 
-100. Why does React use SyntheticEvents?
+100.  Why does React use SyntheticEvents?
+      SyntheticEvents provide a consistent, cross-browser wrapper around native events, normalizing behavior and improving compatibility.
 
-101. What is the difference between using constructor vs getInitialState in React?
+101.  What is the difference between using constructor vs getInitialState in React?
+      getInitialState is used in older React (createClass). In ES6 classes, use the constructor to initialize state.
 
-102. Why would you need to bind event handlers to this?
+102.  Why would you need to bind event handlers to this?
+      Binding ensures that 'this' inside the handler refers to the component instance, allowing access to state and props.
 
-103. What is the second argument that can optionally be passed to setState and what is its purpose?
+103.  What is the second argument that can optionally be passed to setState and what is its purpose?
+      The second argument is a callback function that runs after the state update and re-render are complete.
 
-104. What's a Pure Functional Component in React?
+104.  What's a Pure Functional Component in React?
+      A pure functional component renders the same output for the same props and has no side effects.
 
-105. When is it important to pass props to super(), and why?
+105.  When is it important to pass props to super(), and why?
+      Always pass props to super() in the constructor to make them available as this.props in the component.
 
-106. How to conditionally add attributes to React components?
+106.  How to conditionally add attributes to React components?
+      Use JavaScript expressions or the spread operator to add attributes based on conditions. Example: <input disabled={isDisabled} />
 
-107. Describe how events are handled in React
+107.  Describe how events are handled in React
+      Events are handled using camelCase props and functions. React wraps events in SyntheticEvent for cross-browser consistency.
 
-108. When would you use StrictMode component in React?
+108.  When would you use StrictMode component in React?
+      Use StrictMode during development to catch potential problems and ensure best practices.
 
-109. How would you go about investigating slow React application rendering?
+109.  How would you go about investigating slow React application rendering?
+      Use React DevTools Profiler, check for unnecessary re-renders, optimize components with memoization, and review state management.
 
-110. Does React re-render all components and sub components every time setState is called?
+110.  Does React re-render all components and sub components every time setState is called?
+      No, only the component whose state changed and its children are re-rendered, unless prevented by shouldComponentUpdate or React.memo.
 
-111. How to create Props Proxy for HOC component?
+111.  How to create Props Proxy for HOC component?
+      Pass all received props to the wrapped component using the spread operator: <WrappedComponent {...props} />
 
-112. What's the difference between useCallback and useMemo in practice?
+112.  What's the difference between useCallback and useMemo in practice?
+      useCallback memoizes functions, while useMemo memoizes computed values.
 
-113. How to avoid the need for binding in React?
+113.  How to avoid the need for binding in React?
+      Use arrow functions or class fields syntax to automatically bind methods to the class instance.
 
-114. What is the key architectural difference between a JavaScript library such as React and a JavaScript framework such as Angular?
+114.  What is the key architectural difference between a JavaScript library such as React and a JavaScript framework such as Angular?
+      React is a library focused on the view layer, giving you more flexibility. Angular is a full framework with built-in solutions for routing, state, and more.
 
-115. How does React renderer work exactly when we call setState?
+115.  How does React renderer work exactly when we call setState?
+      React schedules a re-render, updates the virtual DOM, diffs it with the previous version, and applies minimal changes to the real DOM.
 
-116. How to use React.memo()?
+116.  How to use React.memo()?
+      Wrap a functional component with React.memo to memoize it, preventing unnecessary re-renders when props haven't changed.
 
-117. What is React Fiber?
+117.  What is React Fiber?
+      React Fiber is the new reconciliation engine in React 16+, enabling incremental rendering and better performance.
 
-118. Can a custom React hook return JSX?
+118.  Can a custom React hook return JSX?
+      No, hooks should return values or functions, not JSX. Only components should return JSX.
 
-119. Explain some difference between Flux and AngularJS (1.x) approach
+119.  Explain some difference between Flux and AngularJS (1.x) approach
+      Flux uses unidirectional data flow and centralized state, while AngularJS uses two-way data binding and a more tightly coupled architecture.
 
-120. What is the order of useInsertionEffect, useEffect and useLayoutEffect hooks at component generation ?
+120.  What is the order of useInsertionEffect, useEffect and useLayoutEffect hooks at component generation ?
+      useInsertionEffect runs first, then useLayoutEffect, and finally useEffect after painting.
 
-121. What is a Pure Function?
+121.  What is a Pure Function?
+      A pure function always returns the same output for the same input and has no side effects.
 
 ## React hooks
 
@@ -3460,7 +3757,6 @@ Name some best practices for better RESTful API design
 
 41. Explain the difference between WCF, Web API, WCF REST and Web Service?
 
-
 ## **Availability & Reliability**
 
 1. What is Availability?
@@ -3491,7 +3787,6 @@ Explain how to calculate Availability of multiple system components
 
 11. What is a crashloop?
 
-
 ## **CAP Theorem**
 
 1. What Is CAP Theorem?
@@ -3520,7 +3815,6 @@ Name some types of Consistency patterns
 
 12. Explain what is PACELC Theorem?
 
-
 ## **CDN**
 
 1. What is a CDN?
@@ -3544,7 +3838,6 @@ Name some types of Consistency patterns
 Name some advantages and disadvantages of Azure CDN
 
 10. Explain why CDN (in)availability may be a problem for using WebSockets?
-
 
 ## **Caching**
 
@@ -3584,7 +3877,6 @@ Cache miss-storm: Dealing with concurrency when caching invalidates for high-tra
 
 Name some Cache Stampede mitigation techniques
 
-
 ## **Clean Architecture**
 
 1. What is an Entity in Clean Architecture?
@@ -3622,7 +3914,6 @@ Compare Onion vs Clean vs Hexagonal Architectures
 13. What is the difference between Request/Response Models and Entities in Clean Architecture?
 
 14. How and where do you use transactions in the Clean Architecture?
-
 
 ## **Concurrency**
 
@@ -3667,7 +3958,6 @@ Explain what is a Race Condition to 5 years old
 15. What is the difference between Race Condition and Data Races? Are they the same?
 
 16. What happens if you have a "race condition" on the lock itself?
-
 
 ## **Cryptography**
 
@@ -3724,7 +4014,6 @@ Explain the role of Digital Certificates in Asymmetric Encryption process
 21. What is a Salt and How Does It Make Password Hashing More Secure?
 
 22. Explain types of Resistance any Cryptographic Hash Function shall have?
-
 
 ## **DDD**
 
@@ -3804,7 +4093,6 @@ Provide some examples of Infrastructural Services in DDD
 
 32. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
 
-
 ## **Databases**
 
 1. What is Normalisation?
@@ -3868,7 +4156,6 @@ Explain the difference between Exclusive Lock and Update Lock
 Name some disadvantages of a Hash index
 
 27. What are some other types of Indexes (vs B-Trees)?
-
 
 ## **Docker**
 
@@ -4000,7 +4287,6 @@ Name some limitations of containers vs VM
 
 60. How to use Docker with multiple environments?
 
-
 ## **Kubernetes**
 
 1. What is Kubernetes? Why organizations are using it?
@@ -4057,7 +4343,6 @@ Explain when to use Docker vs Docker Compose vs Docker Swarm vs Kubernetes
 
 26. Explain what are Taints in Kubernetes?
 
-
 ## **Layering & Middleware**
 
 1. Why is it a good idea for “lower” application layers not to be aware of “higher” ones?
@@ -4091,7 +4376,6 @@ Provide some examples of Infrastructural Services in DDD
 11. What is the difference between Infrastructure Service and Repository in DDD?
 
 12. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
-
 
 ## **Load Balancing**
 
@@ -4138,7 +4422,6 @@ Name some metrics for traffic routing?
 19. Explain what is “Power of Two Random Choices” Load Balancing?
 
 Compare UDP Load Balancer vs TCP Load Balancer?
-
 
 ## **Microservices**
 
@@ -4210,7 +4493,6 @@ Provide an example of "smart pipes" and "dumb endpoint"
 
 29. What does it mean that shifting to microservices creates a run-time problem?
 
-
 ## **NoSQL**
 
 1. What are NoSQL databases? What are the different types of NoSQL databases?
@@ -4247,7 +4529,6 @@ Explain eventual consistency in context of NoSQL
 
 13. Explain the differences in conceptual data design with NoSQL databases?
 
-
 ## **Reactive Systems**
 
 1. What is Scalability of the Reactive System?
@@ -4271,7 +4552,6 @@ Name Some Characteristic of Reactive Systems
 Explain Message-Driven vs Event-Driven Approaches
 
 9. What does Amdahl's Law mean?
-
 
 ## **SOA**
 
@@ -4316,7 +4596,6 @@ Define what is SOA
 19. Name the main differences between SOA and Microservices?
 
 20. Is binding between SOAP and WSDL possible?
-
 
 ## **Software Architecture**
 
@@ -4434,11 +4713,11 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 
 51. What will you choose: Repository Pattern or "smart" business objects?
 
- 52. Is Repository Pattern as same as Active Record Pattern?
+52. Is Repository Pattern as same as Active Record Pattern?
 
 53. How should I be grouping my Repositories when using Repository Pattern?
 
- 54. What is the Dependency Inversion Principle (DIP) and why is it important?
+54. What is the Dependency Inversion Principle (DIP) and why is it important?
 
 55. What is relationship between Repository and Unit of Work?
 
@@ -4462,62 +4741,66 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 
 65. Explain threads to your grandparents
 
-60. What is actor model in context of a programming language?
+66. What is actor model in context of a programming language?
 
-61. How to handle exceptions in a layered application?
+67. How to handle exceptions in a layered application?
 
-62. What is GOD class and why should we avoid it?
+68. What is GOD class and why should we avoid it?
 
-64. Defend the monolithic architecture.
+69. Defend the monolithic architecture.
 
-63. What's the difference between principles YAGNI and KISS?
+70. What's the difference between principles YAGNI and KISS?
 
-64. What Is Shared Nothing Architecture? How Does It Scale?
+71. What Is Shared Nothing Architecture? How Does It Scale?
 
-65. What does Amdahl's Law mean?
+72. What does Amdahl's Law mean?
 
-66. How do I test a private function or a class that has private methods, fields or inner classes?
+73. How do I test a private function or a class that has private methods, fields or inner classes?
 
-67. What is the difference between Cohesion and Coupling?
+74. What is the difference between Cohesion and Coupling?
 
-68. Can we use the CQRS without the Event Sourcing?
+75. Can we use the CQRS without the Event Sourcing?
 
-69. What is the most accepted transaction strategy for microservices?
+76. What is the most accepted transaction strategy for microservices?
 
-70. What Does Eventually Consistent Mean?
+77. What Does Eventually Consistent Mean?
 
-71. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
+78. Where DTO should be implemented, in a Domain Layer or in an Application Service Layer? Explain.
 
-72. What are heuristic exceptions?
+79. What are heuristic exceptions?
 
-73. What are best practices for caching paginated results whose ordering/properties can change?
+80. What are best practices for caching paginated results whose ordering/properties can change?
 
-74. Are you familiar with The Twelve-Factor App principles?
+81. Are you familiar with The Twelve-Factor App principles?
 
-75. Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
+82. Cache miss-storm: Dealing with concurrency when caching invalidates for high-traffic sites
 
-75. Why is writing software difficult? What makes maintaining software hard?
+83. Why is writing software difficult? What makes maintaining software hard?
 
 ## How to Use This Document
 
 ### For Interview Preparation
 
 **1. Section-Based Study:**
+
 - Focus on technologies relevant to your target role
 - Use the table of contents to navigate efficiently
 - Study 10-15 questions per session for better retention
 
 **2. Progressive Learning:**
+
 - Start with fundamental concepts (Design Patterns, OOP)
 - Move to specific technologies you'll be using
 - Practice explaining concepts in your own words
 
 **3. Hands-On Practice:**
+
 - Implement code examples from the answers
 - Create sample projects demonstrating key concepts
 - Build a portfolio showcasing different technologies
 
 **4. Mock Interviews:**
+
 - Have someone ask you random questions from relevant sections
 - Practice explaining concepts clearly and concisely
 - Focus on both theoretical knowledge and practical experience
@@ -4525,11 +4808,13 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 ### For Interviewers
 
 **1. Question Selection:**
+
 - Choose questions appropriate for the candidate's experience level
 - Mix theoretical and practical questions
 - Ask follow-up questions to gauge depth of understanding
 
 **2. Assessment Criteria:**
+
 - Look for clear explanations of concepts
 - Evaluate practical experience with real-world examples
 - Assess problem-solving approach and thinking process
@@ -4537,11 +4822,13 @@ Explain the purpose of Clean Architecture Inner and Outer layers
 ### For Continuous Learning
 
 **1. Regular Review:**
+
 - Revisit sections quarterly to refresh knowledge
 - Stay updated with new technologies and practices
 - Add personal notes and experiences to answers
 
 **2. Practical Application:**
+
 - Implement concepts in real projects
 - Share knowledge with team members
 - Contribute improvements and corrections
@@ -4553,21 +4840,25 @@ This document is designed to be a living resource that grows and improves over t
 ### How to Contribute
 
 **1. Content Improvements:**
+
 - Add more detailed explanations
 - Include additional code examples
 - Provide real-world use cases and scenarios
 
 **2. New Questions:**
+
 - Add trending technology questions
 - Include questions from recent interviews
 - Expand coverage of existing topics
 
 **3. Quality Enhancements:**
+
 - Fix typos and grammatical errors
 - Improve code formatting and examples
 - Update outdated information
 
 **4. Structure Improvements:**
+
 - Better organization of content
 - Enhanced navigation and search
 - Additional cross-references between topics
@@ -4583,6 +4874,7 @@ This document is designed to be a living resource that grows and improves over t
 ### Content Standards
 
 **Answer Format:**
+
 - Clear, concise explanations
 - Practical code examples where relevant
 - Benefits and trade-offs
@@ -4590,6 +4882,7 @@ This document is designed to be a living resource that grows and improves over t
 - Best practices and common pitfalls
 
 **Code Examples:**
+
 - Well-formatted and readable
 - Include comments where helpful
 - Show practical, working implementations
@@ -4598,6 +4891,7 @@ This document is designed to be a living resource that grows and improves over t
 ## Acknowledgments
 
 This comprehensive collection has been compiled from various sources including:
+
 - Industry best practices and standards
 - Real interview experiences from the community
 - Official documentation and trusted resources
@@ -4619,6 +4913,7 @@ This work is shared under Creative Commons, encouraging open collaboration and k
 - **Last Updated**: 2024
 
 **Section Completion Status:**
+
 - ✅ **Design Patterns** (139 questions) - Comprehensive answers with examples
 - ✅ **DevOps** (92 questions) - Detailed explanations and practical scenarios
 - 🔄 **Entity Framework** (110 questions) - Sample format established
@@ -4630,6 +4925,7 @@ This work is shared under Creative Commons, encouraging open collaboration and k
 ## Future Enhancements
 
 **Planned Features:**
+
 - Interactive search functionality
 - Difficulty level tagging
 - Topic cross-references
@@ -4638,6 +4934,7 @@ This work is shared under Creative Commons, encouraging open collaboration and k
 - Progress tracking for learners
 
 **Community Contributions:**
+
 - Real interview experiences
 - Company-specific question trends
 - Technology updates and new frameworks
