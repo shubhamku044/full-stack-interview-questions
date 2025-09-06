@@ -1674,7 +1674,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 8. What is a self closing tag?
 
-9. Briefly describe the correct usage of the following HTML5 semantic elements: <header>, <article>, <section>, <footer>
+9. Briefly describe the correct usage of the following HTML5 semantic elements: `<header>`, `<article>`, `<section>`, `<footer>`
 
 10. What is the difference between span and div?
 
@@ -1682,7 +1682,7 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 12. When is it appropriate to use the small element?
 
-13. What are defer and async attributes on a <script> tag?
+13. What are defer and async attributes on a `<script>` tag?
 
 14. What is the purpose of cache busting and how can you achieve it?
 
