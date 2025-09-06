@@ -1,4 +1,4 @@
-# Fullstack Interview Questions
+# Fullstack Interview Questions <a name="top"></a>
 
 A comprehensive collection of interview questions and answers for fullstack developers, covering all major technologies and concepts.
 
@@ -41,9 +41,66 @@ A comprehensive collection of interview questions and answers for fullstack deve
 
 ---
 
+## Detailed Question List
+
+### Design Patterns Questions
+
+1. [What are the main categories of Design Patterns?](#1-what-are-the-main-categories-of-design-patterns)
+2. [What is Design Patterns and why anyone should use them?](#2-what-is-design-patterns-and-why-anyone-should-use-them)
+3. [What is a pattern?](#3-what-is-a-pattern)
+4. [What is Singleton pattern?](#4-what-is-singleton-pattern)
+5. [What is Dependency Injection?](#5-what-is-dependency-injection)
+6. [What is State pattern?](#6-what-is-state-pattern)
+7. [What is Null Object pattern?](#7-what-is-null-object-pattern)
+8. [What is Template pattern?](#8-what-is-template-pattern)
+9. [What is Iterator pattern?](#9-what-is-iterator-pattern)
+10. [What is Strategy pattern?](#10-what-is-strategy-pattern)
+11. [What is Proxy pattern?](#11-what-is-proxy-pattern)
+12. [What are some benefits of Repository Pattern?](#12-what-are-some-benefits-of-repository-pattern)
+13. [What is Filter pattern?](#13-what-is-filter-pattern)
+14. [What is Builder pattern?](#14-what-is-builder-pattern)
+15. [Name types of Design Patterns?](#15-name-types-of-design-patterns)
+16. [What is Inversion of Control?](#16-what-is-inversion-of-control)
+17. [Why would you want to use a Repository Pattern with an ORM?](#17-why-would-you-want-to-use-a-repository-pattern-with-an-orm)
+
+### Unit Testing Questions
+
+1. [What is Unit Testing and why is it important?](#1-what-is-unit-testing-and-why-is-it-important)
+2. [What is Test-Driven Development (TDD)?](#2-what-is-test-driven-development-tdd)
+3. [What are mocks and stubs?](#3-what-are-mocks-and-stubs-when-would-you-use-them)
+4. [How do you test asynchronous code?](#4-how-do-you-test-asynchronous-code)
+5. [What is code coverage?](#5-what-is-code-coverage-and-why-is-it-important)
+6. [What's the difference between unit tests and integration tests?](#6-whats-the-difference-between-unit-tests-and-integration-tests)
+7. [How do you write testable code?](#7-how-do-you-write-testable-code)
+8. [What are testing best practices?](#8-what-are-testing-best-practices)
+9. [How do you test React components?](#9-how-do-you-test-react-components)
+10. [What tools do you use for testing JavaScript/TypeScript code?](#10-what-tools-do-you-use-for-testing-javascripttypescript-code)
+11. [How do you test API endpoints?](#11-how-do-you-test-api-endpoints)
+12. [What is snapshot testing?](#12-what-is-snapshot-testing)
+13. [How do you handle test data/test fixtures?](#13-how-do-you-handle-test-datatest-fixtures)
+14. [What are common testing patterns?](#14-what-are-common-testing-patterns)
+15. [How do you maintain tests?](#15-how-do-you-maintain-tests)
+
+### WebSocket Questions
+
+1. [What are WebSockets and how do they differ from HTTP?](#1-what-are-websockets-and-how-do-they-differ-from-http)
+2. [When would you use WebSockets instead of REST APIs?](#2-when-would-you-use-websockets-instead-of-rest-apis)
+3. [How do you implement real-time features using WebSockets?](#3-how-do-you-implement-real-time-features-using-websockets)
+4. [What are the security considerations when using WebSockets?](#4-what-are-the-security-considerations-when-using-websockets)
+5. [How do WebSockets handle connection loss?](#5-how-do-websockets-handle-connection-loss)
+6. [What is Socket.IO and when would you use it?](#6-what-is-socketio-and-when-would-you-use-it)
+7. [How do you scale WebSocket applications?](#7-how-do-you-scale-websocket-applications)
+8. [What are WebSocket events and how do you handle them?](#8-what-are-websocket-events-and-how-do-you-handle-them)
+9. [How do you test WebSocket applications?](#9-how-do-you-test-websocket-applications)
+10. [What are common WebSocket use cases?](#10-what-are-common-websocket-use-cases)
+11. [How do you implement authentication in WebSockets?](#11-how-do-you-implement-authentication-in-websockets)
+12. [What are the alternatives to WebSockets?](#12-what-are-the-alternatives-to-websockets)
+
+---
+
 ## Design pattern
 
-### 1. What are the main categories of Design Patterns?
+### 1. What are the main categories of Design Patterns? [↑](#top)
 
 The three main categories of Design Patterns are:
 
@@ -63,7 +120,7 @@ The three main categories of Design Patterns are:
 
 ---
 
-### 2. What is Design Patterns and why anyone should use them?
+### 2. What is Design Patterns and why anyone should use them? [↑](#top)
 
 **Design Patterns** are reusable solutions to common problems that occur in software design. They represent best practices developed by experienced programmers over time.
 
