@@ -1682,611 +1682,611 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ### 41. What does OPTIMIZE TABLE command do in MySQL? [⬆️](#top)
 
-### 42. Which partitioning types does MySQL support?
+### 42. Which partitioning types does MySQL support? [⬆️](#top)
 
-### 43. What are some major differences between MySQL and Oracle database?
+### 43. What are some major differences between MySQL and Oracle database? [⬆️](#top)
 
-### 44. What are the differences between MongoDB and MySQL?
+### 44. What are the differences between MongoDB and MySQL? [⬆️](#top)
 
-### 45. Why you should never use GUIDs as part of clustered index?
+### 45. Why you should never use GUIDs as part of clustered index? [⬆️](#top)
 
-### 46. How do you make schema changes to a live database without downtime?
+### 46. How do you make schema changes to a live database without downtime? [⬆️](#top)
 
-### 47. Which is better for JOIN & INSERT - PostgreSQL or MySQL?
+### 47. Which is better for JOIN & INSERT - PostgreSQL or MySQL? [⬆️](#top)
 
-### 48. What is the use of SAVEPOINT in MySQL?
+### 48. What is the use of SAVEPOINT in MySQL? [⬆️](#top)
 
-### 49. How many tables can a trigger associate to in MySQL? Can a trigger be associated to a view?
+### 49. How many tables can a trigger associate to in MySQL? Can a trigger be associated to a view? [⬆️](#top)
 
-### 50. What happens to a trigger in MySQL if an operation which trigger is associated with fails? Does the trigger execute?
+### 50. What happens to a trigger in MySQL if an operation which trigger is associated with fails? Does the trigger execute? [⬆️](#top)
 
-### 51. What is difference between horizontal and vertical partitioning? Does MySQL support both horizontal and vertical partitioning?
+### 51. What is difference between horizontal and vertical partitioning? Does MySQL support both horizontal and vertical partitioning? [⬆️](#top)
 
 ## Nodejs
 
-### 1. What npm is used for?
+### 1. What npm is used for? [⬆️](#top)
 
-### 2. What's the difference between process.cwd() vs \_\_dirname?
+### 2. What's the difference between process.cwd() vs \_\_dirname? [⬆️](#top)
 
-### 3. What is the file package.json?
+### 3. What is the file package.json? [⬆️](#top)
 
-### 4. Name some Built-in Globals in Node.js
+### 4. Name some Built-in Globals in Node.js [⬆️](#top)
 
-### 5. What do you mean by Asynchronous API?
+### 5. What do you mean by Asynchronous API? [⬆️](#top)
 
-### 6. What are the benefits of using Node.js?
+### 6. What are the benefits of using Node.js? [⬆️](#top)
 
-### 7. What is Callback Hell and what is the main cause of it?
+### 7. What is Callback Hell and what is the main cause of it? [⬆️](#top)
 
-### 8. Why does Node.js prefer Error-First Callback?
+### 8. Why does Node.js prefer Error-First Callback? [⬆️](#top)
 
-### 9. What does Promisifying technique mean in Node.js?
+### 9. What does Promisifying technique mean in Node.js? [⬆️](#top)
 
-### 10. What is V8?
+### 10. What is V8? [⬆️](#top)
 
-### 11. What is libuv?
+### 11. What is libuv? [⬆️](#top)
 
-### 12. What are the key features of Node.js?
+### 12. What are the key features of Node.js? [⬆️](#top)
 
-### 13. What is Callback?
+### 13. What is Callback? [⬆️](#top)
 
-### 14. Why we always require modules at the top of a file? Can we require modules inside of functions?
+### 14. Why we always require modules at the top of a file? Can we require modules inside of functions? [⬆️](#top)
 
-### 15. What is the difference between returning a callback and just calling a callback?
+### 15. What is the difference between returning a callback and just calling a callback? [⬆️](#top)
 
-### 16. Explain the difference between local and global npm packages installation
+### 16. Explain the difference between local and global npm packages installation[⬆️](#top)
 
-### 17. How do you debug Node.js applications?
+### 17. How do you debug Node.js applications?[⬆️](#top)
 
-### 18. What is N-API in Node.js?
+### 18. What is N-API in Node.js?[⬆️](#top)
 
-### 19. What are the use cases for the Node.js vm core module?
+### 19. What are the use cases for the Node.js vm core module?[⬆️](#top)
 
-### 20. Provide your favourite reasons to use Node.js
+### 20. Provide your favourite reasons to use Node.js[⬆️](#top)
 
-### 21. Provide some of the reasons not to use Node.js
+### 21. Provide some of the reasons not to use Node.js[⬆️](#top)
 
-### 22. What exactly does module.exports do in Node.js, and what would a simple example be?
+### 22. What exactly does module.exports do in Node.js, and what would a simple example be?[⬆️](#top)
 
-### 23. What is the difference between require(x) and ES6 import x in Node.js?
+### 23. What is the difference between require(x) and ES6 import x in Node.js?[⬆️](#top)
 
-### 24. Are you familiar with differences between Node.js modules and ES6 modules?
+### 24. Are you familiar with differences between Node.js modules and ES6 modules?[⬆️](#top)
 
-### 25. What is the relationship between Node.js and V8?
+### 25. What is the relationship between Node.js and V8?[⬆️](#top)
 
-### 26. Explain the concept of Domain in Node.js
+### 26. Explain the concept of Domain in Node.js[⬆️](#top)
 
-### 27. What is Mocha in Node.js userland?
+### 27. What is Mocha in Node.js userland?[⬆️](#top)
 
-### 28. What are express.json() and express.urlencoded() in Express.js?
+### 28. What are express.json() and express.urlencoded() in Express.js?[⬆️](#top)
 
-### 29. Is there any difference between res.send and return res.send in Express.js?
+### 29. Is there any difference between res.send and return res.send in Express.js?[⬆️](#top)
 
-### 30. What is the difference between cluster and worker_threads packages in Node.js?
+### 30. What is the difference between cluster and worker_threads packages in Node.js?[⬆️](#top)
 
-### 31. When would you use global variables in Node.js? Are they always bad?
+### 31. When would you use global variables in Node.js? Are they always bad?[⬆️](#top)
 
-### 32. How to use global variable in Node.js?
+### 32. How to use global variable in Node.js?[⬆️](#top)
 
-### 33. What is the difference between browser global scope and Node.js global scope?
+### 33. What is the difference between browser global scope and Node.js global scope?[⬆️](#top)
 
-### 34. What is the purpose of using assert module in Node.js
+### 34. What is the purpose of using assert module in Node.js[⬆️](#top)
 
-### 35. What is chai and chai-http in Node.js userland?
+### 35. What is chai and chai-http in Node.js userland?[⬆️](#top)
 
-### 36. What is export default in JavaScript?
+### 36. What is export default in JavaScript?[⬆️](#top)
 
-### 37. Would you use Node.js assert library vs. other assert libraries like chai? Why?
+### 37. Would you use Node.js assert library vs. other assert libraries like chai? Why?[⬆️](#top)
 
-### 38. What is the meaning of the @ prefix on npm package?
+### 38. What is the meaning of the @ prefix on npm package?[⬆️](#top)
 
-### 39. Which one is better: Node.js built in cluster or PM2 clustering?
+### 39. Which one is better: Node.js built in cluster or PM2 clustering?[⬆️](#top)
 
-### 40. When would you use cluster module in Node.js?
+### 40. When would you use cluster module in Node.js?[⬆️](#top)
 
-### 41. What is the purpose of pm2 save?
+### 41. What is the purpose of pm2 save?[⬆️](#top)
 
-### 42. How do I run a Node.js app as a background service?
+### 42. How do I run a Node.js app as a background service?[⬆️](#top)
 
-### 43. Is an Event Emitter Synchronous or Asynchronous?
+### 43. Is an Event Emitter Synchronous or Asynchronous?[⬆️](#top)
 
-### 44. Explain the order of Event Listeners execution in Node.js
+### 44. Explain the order of Event Listeners execution in Node.js[⬆️](#top)
 
-### 45. What is stream and what are types of streams available in Node.js?
+### 45. What is stream and what are types of streams available in Node.js?[⬆️](#top)
 
-### 46. When should I use EventEmitter?
+### 46. When should I use EventEmitter?[⬆️](#top)
 
-### 47. What is Event Loop in Node.js?
+### 47. What is Event Loop in Node.js?[⬆️](#top)
 
-### 48. What's the Event Loop?
+### 48. What's the Event Loop?[⬆️](#top)
 
-### 49. What is the difference between setTimeout(fn,0) vs setImmediate(fn)?
+### 49. What is the difference between setTimeout(fn,0) vs setImmediate(fn)?[⬆️](#top)
 
-### 50. When should we use Node.js?
+### 50. When should we use Node.js?[⬆️](#top)
 
-### 51. What is difference between synchronous and asynchronous method of fs module?
+### 51. What is difference between synchronous and asynchronous method of fs module?[⬆️](#top)
 
-### 52. How to avoid Callback Hell in Node.js?
+### 52. How to avoid Callback Hell in Node.js?[⬆️](#top)
 
-### 53. How does Node.js handle Child Threads?
+### 53. How does Node.js handle Child Threads?[⬆️](#top)
 
-### 54. Could we run an external process with Node.js?
+### 54. Could we run an external process with Node.js?[⬆️](#top)
 
-### 55. How does concurrency work in Node.js?
+### 55. How does concurrency work in Node.js?[⬆️](#top)
 
-### 56. What is the preferred method of resolving unhandled exceptions in Node.js?
+### 56. What is the preferred method of resolving unhandled exceptions in Node.js?[⬆️](#top)
 
-### 57. Explain how does Node.js work?
+### 57. Explain how does Node.js work?[⬆️](#top)
 
-### 58. What Are Buffer and why to use them in Node.js?
+### 58. What Are Buffer and why to use them in Node.js?[⬆️](#top)
 
-### 59. What is Stream Chaining in Node.js?
+### 59. What is Stream Chaining in Node.js?[⬆️](#top)
 
-### 60. What is a Blocking Code in Node.js?
+### 60. What is a Blocking Code in Node.js?[⬆️](#top)
 
-### 61. What are Event Emitters?
+### 61. What are Event Emitters?[⬆️](#top)
 
-### 62. Compare PM2 Cluster Mode vs. Node.js Cluster module usage
+### 62. Compare PM2 Cluster Mode vs. Node.js Cluster module usage[⬆️](#top)
 
-### 63. Do I need Dependency Injection in Node.js and how to deal with it?
+### 63. Do I need Dependency Injection in Node.js and how to deal with it?[⬆️](#top)
 
-### 64. How can you have one global variable between all clustered workers in Node.js?
+### 64. How can you have one global variable between all clustered workers in Node.js?[⬆️](#top)
 
-### 65. What are the Timing features of Node.js?
+### 65. What are the Timing features of Node.js?[⬆️](#top)
 
-### 66. How would you prevent Callback Hell without using promises, async or generators?
+### 66. How would you prevent Callback Hell without using promises, async or generators?[⬆️](#top)
 
-### 67. What is the difference between pm2 restart and pm2 reload?
+### 67. What is the difference between pm2 restart and pm2 reload?[⬆️](#top)
 
-### 68. Does Node.js support multi-core platforms? And is it capable of utilizing all the cores?
+### 68. Does Node.js support multi-core platforms? And is it capable of utilizing all the cores?[⬆️](#top)
 
-### 69. What is the difference between Cluster and Fork mode in PM2?
+### 69. What is the difference between Cluster and Fork mode in PM2?[⬆️](#top)
 
-### 70. Explain usage of NODE_ENV
+### 70. Explain usage of NODE_ENV[⬆️](#top)
 
-### 71. What is the difference between the child_process spawn and execute functions in Node.js? When to use each one?
+### 71. What is the difference between the child_process spawn and execute functions in Node.js? When to use each one?[⬆️](#top)
 
-### 72. What is the difference between fork() & spawn() in Node.js?
+### 72. What is the difference between fork() & spawn() in Node.js?[⬆️](#top)
 
-### 73. List some differences between CommonJS module loader and ECMAScript module loader
+### 73. List some differences between CommonJS module loader and ECMAScript module loader[⬆️](#top)
 
-### 74. Is an Event Emitter synchronous or asynchronous?
+### 74. Is an Event Emitter synchronous or asynchronous?[⬆️](#top)
 
-### 75. What is Piping in Node?
+### 75. What is Piping in Node?[⬆️](#top)
 
-### 76. How to gracefully shutdown Node.js server?
+### 76. How to gracefully shutdown Node.js server?[⬆️](#top)
 
-### 77. What is LTS releases of Node.js why should you care?
+### 77. What is LTS releases of Node.js why should you care?[⬆️](#top)
 
-### 78. Explain what is Arrange-Act-Assert pattern?
+### 78. Explain what is Arrange-Act-Assert pattern?[⬆️](#top)
 
-### 79. Compare strict vs legacy mode for Assert module in Node.js
+### 79. Compare strict vs legacy mode for Assert module in Node.js[⬆️](#top)
 
-### 80. What is the purpose of \_\_filename variable in Node.js?
+### 80. What is the purpose of \_\_filename variable in Node.js?[⬆️](#top)
 
-### 81. What's the difference between dependencies, devDependencies and peerDependencies in package.json file?
+### 81. What's the difference between dependencies, devDependencies and peerDependencies in package.json file?[⬆️](#top)
 
-### 82. Can Node.js work without V8?
+### 82. Can Node.js work without V8?[⬆️](#top)
 
-### 83. When to use Synchronous vs Asynchronous code in Node.js?
+### 83. When to use Synchronous vs Asynchronous code in Node.js?[⬆️](#top)
 
-### 84. How would you handle errors for async code in Node.js?
+### 84. How would you handle errors for async code in Node.js?[⬆️](#top)
 
-### 85. Is it possible to use Class in Node.js?
+### 85. Is it possible to use Class in Node.js?[⬆️](#top)
 
-### 86. How does the Cluster module work? What's the difference between it and a load balancer?
+### 86. How does the Cluster module work? What's the difference between it and a load balancer?[⬆️](#top)
 
-### 87. How the V8 engine works?
+### 87. How the V8 engine works?[⬆️](#top)
 
-### 88. Why to use Buffer instead of binary string to handle binary data ?
+### 88. Why to use Buffer instead of binary string to handle binary data ?[⬆️](#top)
 
-### 89. When not to use Node.js?
+### 89. When not to use Node.js?[⬆️](#top)
 
-### 90. Does JavaScript have a map function to iterate over an object properties?
+### 90. Does JavaScript have a map function to iterate over an object properties?[⬆️](#top)
 
-### 91. Is Node.js entirely based on a single-thread?
+### 91. Is Node.js entirely based on a single-thread?[⬆️](#top)
 
-### 92. What are async functions in Node? Provide some examples.
+### 92. What are async functions in Node? Provide some examples.[⬆️](#top)
 
-### 93. When would you use import \* as X from 'X' ?
+### 93. When would you use import \* as X from 'X' ?[⬆️](#top)
 
-### 94. Why should you separate Express app and server?
+### 94. Why should you separate Express app and server?[⬆️](#top)
 
-### 95. What is the purpose of using hidden classes in V8?
+### 95. What is the purpose of using hidden classes in V8?[⬆️](#top)
 
-### 96. How does libuv work under the hood?
+### 96. How does libuv work under the hood? [⬆️](#top)
 
-### 97. Why Node.js devs tend to lean towards the Module Requiring vs Dependency Injection?
+### 97. Why Node.js devs tend to lean towards the Module Requiring vs Dependency Injection?[⬆️](#top)
 
-### 98. What is V8 Templates?
+### 98. What is V8 Templates?[⬆️](#top)
 
-### 99. How many threads does Node actually create?
+### 99. How many threads does Node actually create?[⬆️](#top)
 
-### 100. Explain what is Reactor Pattern in Node.js?
+### 100. Explain what is Reactor Pattern in Node.js?[⬆️](#top)
 
-### 101. What is the difference between process.nextTick() and setImmediate()?
+### 101. What is the difference between process.nextTick() and setImmediate()?[⬆️](#top)
 
-### 102. Can Node.js use other engines than V8?
+### 102. Can Node.js use other engines than V8?[⬆️](#top)
 
-### 103. Explain some Error Handling approaches in Node.js you know about. Which one will you use?
+### 103. Explain some Error Handling approaches in Node.js you know about. Which one will you use?[⬆️](#top)
 
-### 104. Why do we need C++ Addons in Node.js?
+### 104. Why do we need C++ Addons in Node.js?[⬆️](#top)
 
-### 105. How V8 compiles JavaScript code?
+### 105. How V8 compiles JavaScript code?[⬆️](#top)
 
-### 106. How would you implement process communication when using cluster module in Node.js?
+### 106. How would you implement process communication when using cluster module in Node.js?[⬆️](#top)
 
-### 107. What is the difference between cluster.fork() vs child_process.fork() in Node.js?
+### 107. What is the difference between cluster.fork() vs child_process.fork() in Node.js?[⬆️](#top)
 
-### 108. How would you scale Node application?
+### 108. How would you scale Node application?[⬆️](#top)
 
-### 109. Does the cluster in Node.js utilizes same event loop?
+### 109. Does the cluster in Node.js utilizes same event loop?[⬆️](#top)
 
-### 110. What's the difference between pm2 and pm2-runtime and when to use one?
+### 110. What's the difference between pm2 and pm2-runtime and when to use one?[⬆️](#top)
 
-### 111. Does JavaScript pass by references or pass by values?
+### 111. Does JavaScript pass by references or pass by values?[⬆️](#top)
 
-### 112. How to solve Process out of Memory Exception in Node.js ?
+### 112. How to solve Process out of Memory Exception in Node.js ?[⬆️](#top)
 
 ## OOP
 
-### 1. What is Inheritance?
+### 1. What is Inheritance?[⬆️](#top)
 
-### 2. What is Object-Oriented Programming (OOP)?
+### 2. What is Object-Oriented Programming (OOP)?[⬆️](#top)
 
-### 3. Why is the virtual keyword used in code?
+### 3. Why is the virtual keyword used in code?[⬆️](#top)
 
-### 4. What is the difference between procedural and object-oriented programming?
+### 4. What is the difference between procedural and object-oriented programming?[⬆️](#top)
 
-### 5. What is a class?
+### 5. What is a class?[⬆️](#top)
 
-### 6. Explain the basic features of OOPs
+### 6. Explain the basic features of OOPs[⬆️](#top)
 
-### 7. Can you inherit private members of a class?
+### 7. Can you inherit private members of a class?[⬆️](#top)
 
-### 8. What is the difference between a class and a structure?
+### 8. What is the difference between a class and a structure?[⬆️](#top)
 
-### 9. What is the relationship between a class and an object?
+### 9. What is the relationship between a class and an object?[⬆️](#top)
 
-### 10. What is an object?
+### 10. What is an object?[⬆️](#top)
 
-### 11. Explain the concept of Constructor
+### 11. Explain the concept of Constructor[⬆️](#top)
 
-### 12. What is Encapsulation?
+### 12. What is Encapsulation?[⬆️](#top)
 
-### 13. What is Polymorphism?
+### 13. What is Polymorphism?[⬆️](#top)
 
-### 14. How could you define Abstraction in OOP?
+### 14. How could you define Abstraction in OOP?[⬆️](#top)
 
-### 15. How can you prevent your class to be inherited further?
+### 15. How can you prevent your class to be inherited further?[⬆️](#top)
 
-### 16. What do you mean by Data Encapsulation?
+### 16. What do you mean by Data Encapsulation?[⬆️](#top)
 
-### 17. What's the difference between a method and a function in OOP context?
+### 17. What's the difference between a method and a function in OOP context?[⬆️](#top)
 
-### 18. Can you specify the accessibility modifier for methods inside the interface?
+### 18. Can you specify the accessibility modifier for methods inside the interface?[⬆️](#top)
 
-### 19. Is it possible for a class to inherit the constructor of its base class?
+### 19. Is it possible for a class to inherit the constructor of its base class?[⬆️](#top)
 
-### 20. What are similarities between a class and a structure?
+### 20. What are similarities between a class and a structure?[⬆️](#top)
 
-### 21. What are the different ways a method can be Overloaded?
+### 21. What are the different ways a method can be Overloaded?[⬆️](#top)
 
-### 22. Interface or an Abstract class: which one to use?
+### 22. Interface or an Abstract class: which one to use?[⬆️](#top)
 
-### 23. What is Unit Of Work?
+### 23. What is Unit Of Work?[⬆️](#top)
 
-### 24. What is the difference between Interface and Abstract Class?
+### 24. What is the difference between Interface and Abstract Class?[⬆️](#top)
 
-### 25. How can you prevent a class from overriding in C#?
+### 25. How can you prevent a class from overriding in C#?[⬆️](#top)
 
-### 26. What is the difference between Virtual method and Abstract method?
+### 26. What is the difference between Virtual method and Abstract method?[⬆️](#top)
 
-### 27. When should I use a struct instead of a class?
+### 27. When should I use a struct instead of a class?[⬆️](#top)
 
-### 28. What is Polymorphism, what is it for, and how is it used?
+### 28. What is Polymorphism, what is it for, and how is it used?[⬆️](#top)
 
-### 29. What are abstract classes? What are the distinct characteristics of an abstract class?
+### 29. What are abstract classes? What are the distinct characteristics of an abstract class?[⬆️](#top)
 
-### 30. State the features of an Interface
+### 30. State the features of an Interface[⬆️](#top)
 
-### 31. How is method overriding different from method overloading?
+### 31. How is method overriding different from method overloading?[⬆️](#top)
 
-### 32. What is a static constructor?
+### 32. What is a static constructor?[⬆️](#top)
 
-### 33. What exactly is the difference between an Interface and abstract class?
+### 33. What exactly is the difference between an Interface and abstract class?[⬆️](#top)
 
-### 34. Differentiate between an abstract class and an interface
+### 34. Differentiate between an abstract class and an interface[⬆️](#top)
 
-### 35. Does .NET support Multiple Inheritance?
+### 35. Does .NET support Multiple Inheritance?[⬆️](#top)
 
-### 36. What is Coupling in OOP?
+### 36. What is Coupling in OOP?[⬆️](#top)
 
-### 37. What is the difference between an abstract function and a virtual function?
+### 37. What is the difference between an abstract function and a virtual function?[⬆️](#top)
 
-### 38. What is Cohesion in OOP?
+### 38. What is Cohesion in OOP?[⬆️](#top)
 
-### 39. Can you declare an overridden method to be static if the original method is not static?
+### 39. Can you declare an overridden method to be static if the original method is not static?[⬆️](#top)
 
-### 40. Could you explain some benefits of Repository Pattern?
+### 40. Could you explain some benefits of Repository Pattern?[⬆️](#top)
 
-### 41. Explain the concept of Destructor
+### 41. Explain the concept of Destructor[⬆️](#top)
 
-### 42. Explain different types of Inheritance
+### 42. Explain different types of Inheritance[⬆️](#top)
 
-### 43. What's the advantage of using getters and setters - that only get and set - instead of simply using public fields for those variables?
+### 43. What's the advantage of using getters and setters - that only get and set - instead of simply using public fields for those variables?[⬆️](#top)
 
-### 44. How to solve Circular Reference?
+### 44. How to solve Circular Reference?[⬆️](#top)
 
-### 45. When should I use an Interface and when should I use a Base Class?
+### 45. When should I use an Interface and when should I use a Base Class?[⬆️](#top)
 
-### 46. What is the difference between Cohesion and Coupling?
+### 46. What is the difference between Cohesion and Coupling?[⬆️](#top)
 
-### 47. What is the difference between Association, Aggregation and Composition?
+### 47. What is the difference between Association, Aggregation and Composition?[⬆️](#top)
 
-### 48. Why doesn't C# allow static methods to implement an interface?
+### 48. Why doesn't C# allow static methods to implement an interface?[⬆️](#top)
 
-### 49. Can you provide a simple explanation of methods vs. functions in OOP context?
+### 49. Can you provide a simple explanation of methods vs. functions in OOP context?[⬆️](#top)
 
-### 50. Can you declare a private class in a namespace?
+### 50. Can you declare a private class in a namespace?[⬆️](#top)
 
-### 51. Could you elaborate Polymorphism vs Overriding vs Overloading?
+### 51. Could you elaborate Polymorphism vs Overriding vs Overloading?[⬆️](#top)
 
-### 52. You have defined a destructor in a class that you have developed by using the C#, but the destructor never executed. Why?
+### 52. You have defined a destructor in a class that you have developed by using the C#, but the destructor never executed. Why?[⬆️](#top)
 
-### 53. What is the difference between a Mixin and Inheritance?
+### 53. What is the difference between a Mixin and Inheritance?[⬆️](#top)
 
-### 54. What is LSP (Liskov Substitution Principle) and what are some examples of its use (good and bad)?
+### 54. What is LSP (Liskov Substitution Principle) and what are some examples of its use (good and bad)?[⬆️](#top)
 
-### 55. In terms that an OOP programmer would understand (without any functional programming background), what is a monad?
+### 55. In terms that an OOP programmer would understand (without any functional programming background), what is a monad?[⬆️](#top)
 
-### 56. Why prefer Composition over Inheritance? What trade-offs are there for each approach? When should you choose Inheritance over Composition?
+### 56. Why prefer Composition over Inheritance? What trade-offs are there for each approach? When should you choose Inheritance over Composition?[⬆️](#top)
 
-### 57. What does it mean to Program to an Interface?
+### 57. What does it mean to Program to an Interface?[⬆️](#top)
 
 ## PWA
 
-### 1. What is a progressive web app?
+### 1. What is a progressive web app?[⬆️](#top)
 
-### 2. Why do we need a web manifest for PWA?
+### 2. Why do we need a web manifest for PWA?[⬆️](#top)
 
-### 3. What are some benefits of PWA?
+### 3. What are some benefits of PWA?[⬆️](#top)
 
-### 4. What makes an app a PWA?
+### 4. What makes an app a PWA?[⬆️](#top)
 
-### 5. What features do Progressive Web Apps have that native apps lacks?
+### 5. What features do Progressive Web Apps have that native apps lacks?[⬆️](#top)
 
-### 6. What is a service worker?
+### 6. What is a service worker?[⬆️](#top)
 
-### 7. What is the differences between a Hybrid Mobile App and a Progressive Web App?
+### 7. What is the differences between a Hybrid Mobile App and a Progressive Web App?[⬆️](#top)
 
-### 8. What is CacheStorage?
+### 8. What is CacheStorage?[⬆️](#top)
 
-### 9. What are some disadvantages of PWA?
+### 9. What are some disadvantages of PWA?[⬆️](#top)
 
-### 10. What is IndexedDB and how is it used by PWA?
+### 10. What is IndexedDB and how is it used by PWA?[⬆️](#top)
 
-### 11. What are some requirements to make the website installable as PWA?
+### 11. What are some requirements to make the website installable as PWA?[⬆️](#top)
 
-### 12. What is a fetch event?
+### 12. What is a fetch event?[⬆️](#top)
 
-### 13. What are some service worker's caching strategies do you know?
+### 13. What are some service worker's caching strategies do you know?[⬆️](#top)
 
-### 14. How to update a service worker?
+### 14. How to update a service worker?[⬆️](#top)
 
-### 15. What is App Shell?
+### 15. What is App Shell?[⬆️](#top)
 
-### 16. Explain the service worker lifecycle
+### 16. Explain the service worker lifecycle[⬆️](#top)
 
-### 17. What are some requirements to app shell?
+### 17. What are some requirements to app shell?[⬆️](#top)
 
-### 18. What about PWA for iOS?
+### 18. What about PWA for iOS?[⬆️](#top)
 
-### 19. Is it possible to have multiple service workers?
+### 19. Is it possible to have multiple service workers?[⬆️](#top)
 
-### 20. What are some benefits of an app shell architecture with a service worker?
+### 20. What are some benefits of an app shell architecture with a service worker?[⬆️](#top)
 
-### 21. Is it possible to have truly persistent storage in a PWA and why may you want one?
+### 21. Is it possible to have truly persistent storage in a PWA and why may you want one?[⬆️](#top)
 
-### 22. What can service workers do that web workers cannot?
+### 22. What can service workers do that web workers cannot?[⬆️](#top)
 
 ## Python
 
-### 1. What are the built-in types available In Python?
+### 1. What are the built-in types available In Python?[⬆️](#top)
 
-### 2. How do I modify a string?
+### 2. How do I modify a string?[⬆️](#top)
 
-### 3. Name some characteristics of Python?
+### 3. Name some characteristics of Python?[⬆️](#top)
 
-### 4. How the string does get converted to a number?
+### 4. How the string does get converted to a number?[⬆️](#top)
 
-### 5. Name some benefits of Python
+### 5. Name some benefits of Python[⬆️](#top)
 
-### 6. What are descriptors?
+### 6. What are descriptors?[⬆️](#top)
 
-### 7. What are local variables and global variables in Python?
+### 7. What are local variables and global variables in Python?[⬆️](#top)
 
-### 8. What is Lambda Functions in Python?
+### 8. What is Lambda Functions in Python?[⬆️](#top)
 
-### 9. Explain what is Linear (Sequential) Search and when may we use one?
+### 9. Explain what is Linear (Sequential) Search and when may we use one?[⬆️](#top)
 
-### 10. When to use a tuple vs list vs dictionary in Python?
+### 10. When to use a tuple vs list vs dictionary in Python?[⬆️](#top)
 
-### 11. Does Python have a switch-case statement?
+### 11. Does Python have a switch-case statement?[⬆️](#top)
 
-### 12. What is Negative Index in Python?
+### 12. What is Negative Index in Python?[⬆️](#top)
 
-### 13. What are the rules for local and global variables in Python?
+### 13. What are the rules for local and global variables in Python?[⬆️](#top)
 
-### 14. What is the difference between range and xrange functions in Python?
+### 14. What is the difference between range and xrange functions in Python?[⬆️](#top)
 
-### 15. What does this stuff mean: \*args, \*\*kwargs? Why would we use it?
+### 15. What does this stuff mean: \*args, \*\*kwargs? Why would we use it?[⬆️](#top)
 
-### 16. What is Pickling and Unpickling?
+### 16. What is Pickling and Unpickling?[⬆️](#top)
 
-### 17. What is a None value?
+### 17. What is a None value?[⬆️](#top)
 
-### 18. How can I create a copy of an object in Python?
+### 18. How can I create a copy of an object in Python?[⬆️](#top)
 
-### 19. How can you share global variables across modules?
+### 19. How can you share global variables across modules?[⬆️](#top)
 
-### 20. What are the key differences between Python 2 and 3?
+### 20. What are the key differences between Python 2 and 3?[⬆️](#top)
 
-### 21. What is a Callable?
+### 21. What is a Callable?[⬆️](#top)
 
-### 22. What is the function of self?
+### 22. What is the function of self?[⬆️](#top)
 
-### 23. What are virtualenvs?
+### 23. What are virtualenvs?[⬆️](#top)
 
-### 24. What does an x = y or z assignment do in Python?
+### 24. What does an x = y or z assignment do in Python?[⬆️](#top)
 
-### 25. What are the Dunder/Magic/Special methods in Python? Name a few.
+### 25. What are the Dunder/Magic/Special methods in Python? Name a few.[⬆️](#top)
 
-### 26. What are the Wheels and Eggs? What is the difference?
+### 26. What are the Wheels and Eggs? What is the difference?[⬆️](#top)
 
-### 27. What is the difference between range and xrange? How has this changed over time?
+### 27. What is the difference between range and xrange? How has this changed over time?[⬆️](#top)
 
-### 28. What is introspection/reflection and does Python support it?
+### 28. What is introspection/reflection and does Python support it?[⬆️](#top)
 
-### 29. What is the python with statement designed for?
+### 29. What is the python with statement designed for?[⬆️](#top)
 
-### 30. What does the Python nonlocal statement do (in Python 3.0 and later)?
+### 30. What does the Python nonlocal statement do (in Python 3.0 and later)?[⬆️](#top)
 
-### 31. Explain how to use Slicing in Python?
+### 31. Explain how to use Slicing in Python?[⬆️](#top)
 
-### 32. What are Decorators in Python?
+### 32. What are Decorators in Python?[⬆️](#top)
 
-### 33. What is a Jump (or Block) Search?
+### 33. What is a Jump (or Block) Search?[⬆️](#top)
 
-### 34. Explain what is Interpolation Search
+### 34. Explain what is Interpolation Search[⬆️](#top)
 
-### 35. Explain how does Python memory management work?
+### 35. Explain how does Python memory management work?[⬆️](#top)
 
-### 36. What's the difference between the list methods append() and extend()?
+### 36. What's the difference between the list methods append() and extend()?[⬆️](#top)
 
-### 37. Why would you use the pass statement?
+### 37. Why would you use the pass statement?[⬆️](#top)
 
-### 38. Is it possible to have static methods in Python?
+### 38. Is it possible to have static methods in Python?[⬆️](#top)
 
-### 39. Is there a tool to help find bugs or perform static analysis?
+### 39. Is there a tool to help find bugs or perform static analysis?[⬆️](#top)
 
-### 40. What is Monkey Patching and is it ever a good idea?
+### 40. What is Monkey Patching and is it ever a good idea?[⬆️](#top)
 
-### 41. Explain the UnboundLocalError exception and how to avoid it?
+### 41. Explain the UnboundLocalError exception and how to avoid it?[⬆️](#top)
 
-### 42. What are immutable objects in Python?
+### 42. What are immutable objects in Python?[⬆️](#top)
 
-### 43. What's the difference between lists and tuples?
+### 43. What's the difference between lists and tuples?[⬆️](#top)
 
-### 44. What is Cython?
+### 44. What is Cython?[⬆️](#top)
 
-### 45. What is the difference between old style and new style classes in Python?
+### 45. What is the difference between old style and new style classes in Python?[⬆️](#top)
 
-### 46. Why are Python's private methods not actually private?
+### 46. Why are Python's private methods not actually private?[⬆️](#top)
 
-### 47. What is an alternative to GIL?
+### 47. What is an alternative to GIL?[⬆️](#top)
 
-### 48. Explain how you reverse a generator?
+### 48. Explain how you reverse a generator?[⬆️](#top)
 
-### 49. What is the difference between deep and shallow copy?
+### 49. What is the difference between deep and shallow copy?[⬆️](#top)
 
-### 50. What is Monkey Patching? How to use it in Python?
+### 50. What is Monkey Patching? How to use it in Python?[⬆️](#top)
 
-### 51. What are the advantages of NumPy over regular Python lists?
+### 51. What are the advantages of NumPy over regular Python lists?[⬆️](#top)
 
-### 52. Why aren't Python nested functions called closures?
+### 52. Why aren't Python nested functions called closures?[⬆️](#top)
 
-### 53. What is the difference between a function decorated with @staticmethod and one decorated with @classmethod?
+### 53. What is the difference between a function decorated with @staticmethod and one decorated with @classmethod?[⬆️](#top)
 
-### 54. How to work with transitive dependencies?
+### 54. How to work with transitive dependencies?[⬆️](#top)
 
-### 55. Why Python (CPython and others) uses the GIL?
+### 55. Why Python (CPython and others) uses the GIL?[⬆️](#top)
 
-### 56. What is the purpose of the single underscore \_ variable in Python?
+### 56. What is the purpose of the single underscore \_ variable in Python?[⬆️](#top)
 
-### 57. What are metaclasses in Python?
+### 57. What are metaclasses in Python?[⬆️](#top)
 
-### 58. Is it a good idea to use multi-thread to speed your Python code?
+### 58. Is it a good idea to use multi-thread to speed your Python code?[⬆️](#top)
 
-### 59. What is GIL?
+### 59. What is GIL?[⬆️](#top)
 
-### 60. How is set() implemented internally?
+### 60. How is set() implemented internally?[⬆️](#top)
 
-### 61. What is MRO in Python? How does it work?
+### 61. What is MRO in Python? How does it work?[⬆️](#top)
 
-### 62. Can you explain Closures (as they relate to Python)?
+### 62. Can you explain Closures (as they relate to Python)?[⬆️](#top)
 
-### 63. How is memory managed in Python?
+### 63. How is memory managed in Python?[⬆️](#top)
 
-### 64. Why are default values shared between objects?
+### 64. Why are default values shared between objects?[⬆️](#top)
 
-### 65. What's the difference between a Python module and a Python package?
+### 65. What's the difference between a Python module and a Python package?[⬆️](#top)
 
-### 66. What is the difference between @staticmethod and @classmethod?
+### 66. What is the difference between @staticmethod and @classmethod?[⬆️](#top)
 
-### 67. Describe Python's Garbage Collection mechanism in brief
+### 67. Describe Python's Garbage Collection mechanism in brief[⬆️](#top)
 
-### 68. Is there a simple, elegant way to define singletons?
+### 68. Is there a simple, elegant way to define singletons?[⬆️](#top)
 
-### 69. Why use else in try/except construct in Python?
+### 69. Why use else in try/except construct in Python?[⬆️](#top)
 
-### 70. What is a global interpreter lock (GIL) and why is it an issue?
+### 70. What is a global interpreter lock (GIL) and why is it an issue?[⬆️](#top)
 
-### 71. Is there any downside to the -O flag apart from missing on the built-in debugging information?
+### 71. Is there any downside to the -O flag apart from missing on the built-in debugging information?[⬆️](#top)
 
-### 72. Why would you use metaclasses?
+### 72. Why would you use metaclasses?[⬆️](#top)
 
-### 73. What does Python optimisation (-O or PYTHONOPTIMIZE) do?
+### 73. What does Python optimisation (-O or PYTHONOPTIMIZE) do?[⬆️](#top)
 
-### 74. Why isn't all memory freed when Python exits?
+### 74. Why isn't all memory freed when Python exits?[⬆️](#top)
 
 ## React
 
-### 1. How does React work?
+### 1. How does React work? [⬆️](#top)
 
 React creates a virtual DOM in memory, which is a lightweight copy of the real DOM. When state changes, React updates the virtual DOM first, then efficiently updates only the changed parts in the real DOM using a diffing algorithm. This makes UI updates fast and efficient.
 
-### 2. What are React Hooks?
+### 2. What are React Hooks? [⬆️](#top)
 
 React Hooks are special functions that let you use state and other React features in functional components. Common hooks include useState, useEffect, and useContext. They help manage state, side effects, and context without writing class components.
 
-### 3. What is Context API in ReactJS?
+### 3. What is Context API in ReactJS? [⬆️](#top)
 
 The Context API allows you to share data (like themes or user info) across the component tree without passing props manually at every level. It helps avoid prop drilling and makes global state management easier for certain use cases.
 
-### 4. What are the major features of ReactJS?
+### 4. What are the major features of ReactJS? [⬆️](#top)
 
 Major features include: component-based architecture, virtual DOM, JSX syntax, unidirectional data flow, support for hooks, and strong ecosystem for state management and routing.
 
-### 5. What are the advantages of ReactJS?
+### 5. What are the advantages of ReactJS? [⬆️](#top)
 
 React offers fast rendering with the virtual DOM, reusable components, easier debugging, a large community, and flexibility to integrate with other libraries or frameworks.
 
-### 6. What are props in React?
+### 6. What are props in React? [⬆️](#top)
 
 Props (short for properties) are read-only inputs passed from parent to child components. They allow data and event handlers to be shared between components, making them reusable and dynamic.
 
-### 7. What is the use of refs?
+### 7. What is the use of refs? [⬆️](#top)
 
 Refs provide a way to access and interact with DOM elements or React elements directly, bypassing the normal data flow. They're useful for managing focus, text selection, or triggering animations.
 
-### 8. How would you write an inline style in React?
+### 8. How would you write an inline style in React? [⬆️](#top)
 
 Inline styles are written as objects using camelCase property names. Example: <div style={{ backgroundColor: 'red', fontSize: 16 }}>Hello</div>
 
-### 9. What is React?
+### 9. What is React? [⬆️](#top)
 
 React is a JavaScript library for building user interfaces, especially single-page applications. It lets you create reusable UI components and efficiently update the UI when data changes.
 
-### 10. What are inline conditional expressions in ReactJS?
+### 10. What are inline conditional expressions in ReactJS? [⬆️](#top)
 
 Inline conditional expressions let you render content based on conditions, often using the ternary operator or logical &&. Example: {isLoggedIn ? <Logout /> : <Login />}
 
-### 11. What are refs used for in React?
+### 11. What are refs used for in React? [⬆️](#top)
 
 Refs are used to directly access or modify DOM nodes or React elements, such as focusing an input, reading values, or integrating with third-party libraries.
 
-### 12. What is useState() in React?
+### 12. What is useState() in React? [⬆️](#top)
 
 useState is a React Hook that lets you add state to functional components. It returns a state variable and a function to update it.
 Code example:
@@ -2295,29 +2295,29 @@ Code example:
 const [count, setCount] = useState(0);
 ```
 
-### 13. What's the difference between a Controlled component and an Uncontrolled one in React?
+### 13. What's the difference between a Controlled component and an Uncontrolled one in React? [⬆️](#top)
 
 Controlled components have their state managed by React via props and state, while uncontrolled components store their own state internally, often accessed via refs.
 Detailed explanation: Controlled components are preferred for form handling as they allow validation and state management in React, while uncontrolled components are useful for simple use cases or integrating with non-React code.
 
-### 14. What are advantages of using React Hooks?
+### 14. What are advantages of using React Hooks? [⬆️](#top)
 
 Hooks allow you to use state and lifecycle features in functional components, promote code reuse, and make components easier to test and maintain.
 
-### 15. What are Stateful components in React?
+### 15. What are Stateful components in React? [⬆️](#top)
 
 Stateful components are components that manage their own state, either using class-based state or hooks like useState in functional components.
 
-### 16. What is Reconciliation in ReactJS?
+### 16. What is Reconciliation in ReactJS? [⬆️](#top)
 
 Reconciliation is the process React uses to update the DOM by comparing the new virtual DOM with the previous one and applying only the necessary changes.
 Detailed explanation: React's reconciliation algorithm (diffing) ensures only the parts of the DOM that actually changed are updated, improving performance.
 
-### 17. What is the difference between Component and Container in Redux?
+### 17. What is the difference between Component and Container in Redux? [⬆️](#top)
 
 Components are presentational and focus on UI, while containers are connected to Redux and handle data, state, and logic, passing props to components.
 
-### 18. What is JSX?
+### 18. What is JSX? [⬆️](#top)
 
 JSX is a syntax extension for JavaScript that looks like HTML. It lets you write UI code in a declarative way, which React transforms into JavaScript calls.
 Code example:
@@ -2326,7 +2326,7 @@ Code example:
 const element = <h1>Hello, world!</h1>;
 ```
 
-### 19. What are Higher-Order Components (HOC) in React?
+### 19. What are Higher-Order Components (HOC) in React? [⬆️](#top)
 
 HOCs are functions that take a component and return a new component with enhanced behavior or additional props, enabling code reuse and abstraction.
 Code example:
@@ -2340,19 +2340,19 @@ function withLogger(WrappedComponent) {
 }
 ```
 
-### 20. What is the difference between Element and Component in ReactJS?
+### 20. What is the difference between Element and Component in ReactJS? [⬆️](#top)
 
 An element is a plain object describing what to render, while a component is a function or class that returns elements and defines behavior.
 
-### 21. What is the difference between state and props?
+### 21. What is the difference between state and props? [⬆️](#top)
 
 State is managed within a component and can change over time, while props are passed from parent to child and are read-only.
 
-### 22. What is the difference between a Presentational component and a Container component?
+### 22. What is the difference between a Presentational component and a Container component? [⬆️](#top)
 
 Presentational components focus on how things look and receive data via props, while container components handle how things work, managing state and logic.
 
-### 23. What are Controlled components in ReactJS?
+### 23. What are Controlled components in ReactJS? [⬆️](#top)
 
 Controlled components are form elements whose values are controlled by React state, making it easy to validate and manage user input.
 Code example:
@@ -2361,7 +2361,7 @@ Code example:
 <input value={value} onChange={(e) => setValue(e.target.value)} />
 ```
 
-### 24. What are portals in React and when do we need them?
+### 24. What are portals in React and when do we need them? [⬆️](#top)
 
 Portals let you render children into a DOM node outside the parent component hierarchy. They're useful for modals, tooltips, or overlays.
 Code example:
@@ -2370,7 +2370,7 @@ Code example:
 ReactDOM.createPortal(<Modal />, document.getElementById("modal-root"));
 ```
 
-### 25. What are Fragments in React?
+### 25. What are Fragments in React? [⬆️](#top)
 
 Fragments let you group multiple elements without adding extra nodes to the DOM. Use <></> or <React.Fragment> to wrap children.
 Code example:
@@ -2382,7 +2382,7 @@ Code example:
 </>
 ```
 
-### 26. How to create refs in React?
+### 26. How to create refs in React? [⬆️](#top)
 
 Use React.createRef() in class components or the useRef() hook in functional components to create refs.
 Code example:
@@ -2392,47 +2392,47 @@ const inputRef = useRef();
 <input ref={inputRef} />;
 ```
 
-### 27. What is the purpose of callback function as an argument of setState?
+### 27. What is the purpose of callback function as an argument of setState? [⬆️](#top)
 
 The callback runs after state has been updated and the component has re-rendered, useful for actions that depend on the updated state.
 
-### 28. What are two types of components in ReactJS?
+### 28. What are two types of components in ReactJS? [⬆️](#top)
 
 Class components and functional components. Class components use lifecycle methods, while functional components use hooks.
 
-### 29. What are the advantages of using React?
+### 29. What are the advantages of using React? [⬆️](#top)
 
 Fast rendering, reusable components, strong community, easy integration, and a rich ecosystem for state management and routing.
 
-### 30. What is state in React?
+### 30. What is state in React? [⬆️](#top)
 
 State is a built-in object that stores data or UI information that can change over time, triggering re-renders when updated.
 
-### 31. What are the limitations of React?
+### 31. What are the limitations of React? [⬆️](#top)
 
 React is only the view layer, requires additional libraries for routing and state management, and can have a learning curve for beginners.
 
-### 32. What is the purpose of using super constructor with props argument in React?
+### 32. What is the purpose of using super constructor with props argument in React? [⬆️](#top)
 
 It ensures that the parent class (React.Component) receives the props, making them available as this.props in the constructor.
 
-### 33. What are Stateless components in React?
+### 33. What are Stateless components in React? [⬆️](#top)
 
 Stateless components are functional components that do not manage or hold any state; they simply render UI based on props.
 
-### 34. What is the difference between state and props?
+### 34. What is the difference between state and props? [⬆️](#top)
 
 State is internal and mutable, while props are external and immutable, passed from parent to child.
 
-### 35. What are the differences between a Class component and Functional component?
+### 35. What are the differences between a Class component and Functional component? [⬆️](#top)
 
 Class components use ES6 classes, support lifecycle methods, and manage state with this.state. Functional components are simpler, use hooks for state and effects, and are easier to test.
 
-### 36. What happens when you call setState?
+### 36. What happens when you call setState? [⬆️](#top)
 
 React schedules a re-render, merges the new state with the current state, and updates the UI accordingly.
 
-### 37. When rendering a list what is a key and what is it's purpose?
+### 37. When rendering a list what is a key and what is it's purpose? [⬆️](#top)
 
 A key is a unique identifier for each list item, helping React efficiently update and reorder items during re-renders.
 Code example:
@@ -2443,12 +2443,12 @@ Code example:
 }
 ```
 
-### 38. What happens during the lifecycle of a React component?
+### 38. What happens during the lifecycle of a React component? [⬆️](#top)
 
 Components mount, update, and unmount. Lifecycle methods or hooks let you run code at each stage, such as fetching data or cleaning up resources.
 Detailed explanation: Mounting (componentDidMount/useEffect), updating (componentDidUpdate/useEffect), and unmounting (componentWillUnmount/cleanup in useEffect) are the main phases.
 
-### 39. How to call loading function with React useEffect only once?
+### 39. How to call loading function with React useEffect only once? [⬆️](#top)
 
 Pass an empty dependency array to useEffect: useEffect(() => { loadData(); }, []);
 Code example:
@@ -2459,7 +2459,7 @@ useEffect(() => {
 }, []);
 ```
 
-### 40. How to access DOM elements in React?
+### 40. How to access DOM elements in React? [⬆️](#top)
 
 Use refs (useRef or createRef) and attach them to elements. Access the DOM node via ref.current.
 Code example:
@@ -2470,43 +2470,43 @@ const inputRef = useRef();
 // Access: inputRef.current
 ```
 
-### 41. How is React different from AngularJS (1.x)?
+### 41. How is React different from AngularJS (1.x)? [⬆️](#top)
 
 React is a library focused on the view layer, uses a virtual DOM, and one-way data flow. AngularJS is a full framework with two-way data binding and real DOM updates.
 
-### 42. What does it mean for a component to be mounted in React?
+### 42. What does it mean for a component to be mounted in React? [⬆️](#top)
 
 Mounting means the component has been created and inserted into the DOM. It's the initial phase of a component's lifecycle.
 
-### 43. When would you use useRef?
+### 43. When would you use useRef? [⬆️](#top)
 
 Use useRef to persist values across renders without causing re-renders, or to access DOM elements directly.
 
-### 44. What is the difference between ShadowDOM and VirtualDOM?
+### 44. What is the difference between ShadowDOM and VirtualDOM? [⬆️](#top)
 
 Shadow DOM is a browser feature for encapsulating styles and markup. Virtual DOM is a React concept for efficient UI updates.
 
-### 45. Compare useState and useReducer implementations
+### 45. Compare useState and useReducer implementations [⬆️](#top)
 
 useState is simpler for basic state, while useReducer is better for complex state logic or when state depends on previous values.
 
-### 46. Do React Hooks cover all use cases for class components?
+### 46. Do React Hooks cover all use cases for class components? [⬆️](#top)
 
 Most use cases are covered, but some features like error boundaries still require class components.
 
-### 47. How can I make use of Error Boundaries in functional React components?
+### 47. How can I make use of Error Boundaries in functional React components? [⬆️](#top)
 
 Error boundaries must be class components, but you can wrap functional components with a class-based error boundary.
 
-### 48. Which lifecycle methods of class component is replaced by useEffect in functional component?
+### 48. Which lifecycle methods of class component is replaced by useEffect in functional component? [⬆️](#top)
 
 useEffect can replace componentDidMount, componentDidUpdate, and componentWillUnmount.
 
-### 49. How would you pass data from child to parent component in React?
+### 49. How would you pass data from child to parent component in React? [⬆️](#top)
 
 Pass a callback function from parent to child as a prop, and call it in the child with the data as an argument.
 
-### 50. What would be the common mistake of function being called every time the component renders?
+### 50. What would be the common mistake of function being called every time the component renders? [⬆️](#top)
 
 Defining functions or values inside the component body without memoization, causing them to be recreated on every render.
 
@@ -3036,13 +3036,13 @@ flushSync(() => {
 }); // State is updated synchronously
 ```
 
-### 28. When to use useCallback, useMemo and useEffect?
+### 28. When to use useCallback, useMemo and useEffect? [⬆️](#top)
 
 - useCallback: Memoize functions
 - useMemo: Memoize values
 - useEffect: Handle side effects
 
-### 29. How do I update state on a nested object with useState()?
+### 29. How do I update state on a nested object with useState()? [⬆️](#top)
 
 Always create a new object when updating nested state.
 Code example:
@@ -3054,7 +3054,7 @@ setState((prev) => ({
 }));
 ```
 
-### 30. Explain why and when would you use useMemo()?
+### 30. Explain why and when would you use useMemo()? [⬆️](#top)
 
 Use useMemo to:
 
@@ -3062,7 +3062,7 @@ Use useMemo to:
 - Maintain referential equality
 - Prevent unnecessary re-renders
 
-### 31. What's the difference between useCallback and useMemo in practice?
+### 31. What's the difference between useCallback and useMemo in practice? [⬆️](#top)
 
 useCallback memoizes functions, while useMemo memoizes values.
 Code example:
@@ -3072,11 +3072,11 @@ const memoizedFn = useCallback(() => doSomething(a, b), [a, b]);
 const memoizedValue = useMemo(() => compute(a, b), [a, b]);
 ```
 
-### 32. Do Hooks replace render props and higher-order components (HOC)?
+### 32. Do Hooks replace render props and higher-order components (HOC)? [⬆️](#top)
 
 Yes, hooks can replace most use cases for render props and HOCs, providing a more direct way to reuse logic.
 
-### 33. How can I force component to re-render with Hooks in React?
+### 33. How can I force component to re-render with Hooks in React? [⬆️](#top)
 
 Use a state update with a new reference to force a re-render.
 Code example:
@@ -3086,11 +3086,11 @@ const [, forceUpdate] = useState({});
 const handleForceUpdate = () => forceUpdate({});
 ```
 
-### 34. Can a custom React hook return JSX?
+### 34. Can a custom React hook return JSX? [⬆️](#top)
 
 No, hooks should return values or functions, not JSX. Components should render JSX.
 
-### 35. When would you want to avoid useEffect and use useLayoutEffect instead?
+### 35. When would you want to avoid useEffect and use useLayoutEffect instead? [⬆️](#top)
 
 Use useLayoutEffect when you need to make DOM measurements or updates that must be synchronous and visible immediately.
 
