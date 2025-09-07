@@ -792,11 +792,232 @@ public class UserRepository : IUserRepository
 
 ### 18. What are the drawbacks to the ActiveRecord pattern? [⬆️](#top)
 
+The **ActiveRecord pattern** combines the data access logic with the domain/business logic inside a single class. While it’s simple and widely used in frameworks like Ruby on Rails or Laravel, it comes with notable drawbacks:
+
+---
+
+**Drawbacks:**
+
+1. **Violation of Single Responsibility Principle (SRP):**  
+   - ActiveRecord classes handle both persistence and business logic.  
+   - This makes them harder to maintain and less modular.
+
+2. **Tight Coupling with Database Schema:**  
+   - Domain model is directly tied to database structure.  
+   - Changes in schema can easily break business logic.
+
+3. **Difficult Unit Testing:**  
+   - Business logic relies on database access.  
+   - Testing requires a real or mocked database, slowing down test cycles.
+
+4. **Poor Separation of Concerns:**  
+   - Domain logic is mixed with persistence logic.  
+   - Harder to isolate domain rules from data storage concerns.
+
+5. **Limited Scalability for Complex Domains:**  
+   - Works fine for CRUD operations, but struggles with rich domain models and complex business logic.  
+   - Domain-Driven Design (DDD) often favors patterns like Repository and Data Mapper instead.
+
+6. **Reduced Flexibility with Multiple Data Sources:**  
+   - Tightly bound to one database model.  
+   - Harder to switch to another persistence strategy (e.g., NoSQL, external API).
+
+---
+
+**Example in C#:**
+
+```csharp
+public class User // ActiveRecord style
+{
+    public int Id { get; set; }
+    public string Email { get; set; }
+    public bool IsActive { get; set; }
+
+    // Persistence logic
+    public void Save(DbContext context)
+    {
+        if (Id == 0)
+            context.Users.Add(this);
+        else
+            context.Users.Update(this);
+
+        context.SaveChanges();
+    }
+
+    // Business logic
+    public bool CanAccessFeature()
+    {
+        return IsActive && Email.EndsWith("@company.com");
+    }
+}
+
 ### 19. What is the Command and Query Responsibility Segregation (CQRS) Pattern? [⬆️](#top)
+
+**CQRS** separates **commands** (write operations that change state) from **queries** (read operations that return data). Instead of using one model for both, CQRS uses distinct models optimized for their purpose.
+
+---
+
+**Key Concepts:**
+- **Commands:** Change system state (e.g., `CreateOrder`).  
+- **Queries:** Retrieve data without changing state (e.g., `GetOrdersByCustomer`).  
+- **Separate Models:** Write model for business rules, read model for fast queries.  
+- **Optional Event Sourcing:** Store events instead of current state.
+
+---
+
+**Benefits:**
+- Clear separation of concerns  
+- Independent scalability of reads and writes  
+- Performance via read-optimized stores  
+- Flexibility with different storage technologies  
+
+**Drawbacks:**
+- More complexity  
+- Eventual consistency if separate data stores are used  
+- Overkill for simple CRUD apps  
+
+---
+
+**Example (C#):**
+
+```csharp
+// Command
+public class CreateOrderCommand { 
+    public int CustomerId; 
+    public List<int> ProductIds; 
+}
+
+// Query
+public class GetOrdersByCustomerQuery { 
+    public int CustomerId; 
+}
+
 
 ### 20. What are some advantages of using Dependency Injection [⬆️](#top)
 
+**Dependency Injection (DI)** is a technique where an object’s dependencies are provided externally rather than the object creating them itself. This promotes loose coupling and flexibility in applications.
+
+---
+
+**Advantages:**
+
+1. **Loose Coupling:**  
+   - Classes depend on abstractions, not concrete implementations.  
+   - Easier to swap implementations without changing client code.
+
+2. **Improved Testability:**  
+   - Dependencies can be mocked or stubbed during unit testing.  
+   - No need for actual database, API, or service in tests.
+
+3. **Better Maintainability:**  
+   - Centralized configuration of dependencies.  
+   - Changes in one service don’t ripple across the system.
+
+4. **Flexibility & Reusability:**  
+   - Easy to provide different implementations (e.g., local vs cloud storage).  
+   - Increases reusability of components.
+
+5. **Scalability:**  
+   - Large applications become easier to manage as dependencies are injected by a container or framework.
+
+6. **Adherence to SOLID Principles:**  
+   - Especially **Dependency Inversion Principle** (high-level modules should not depend on low-level modules).
+
+---
+
+**Example in C#:**
+
+```csharp
+// Service Interface
+public interface IMessageService
+{
+    void Send(string message);
+}
+
+// Implementation
+public class EmailService : IMessageService
+{
+    public void Send(string message) => Console.WriteLine($"Email: {message}");
+}
+
+// Client using DI via constructor
+public class Notification
+{
+    private readonly IMessageService _messageService;
+
+    public Notification(IMessageService messageService)
+    {
+        _messageService = messageService;
+    }
+
+    public void Notify(string msg) => _messageService.Send(msg);
+}
+
+
 ### 21. What are some reasons to use Repository Pattern? [⬆️](#top)
+
+The **Repository Pattern** provides an abstraction over data access, making the persistence layer independent from the business logic layer.
+
+---
+
+**Reasons to Use Repository Pattern:**
+
+1. **Separation of Concerns:**  
+   - Keeps data access logic separate from business logic.  
+   - Improves code readability and organization.
+
+2. **Abstraction Over Data Source:**  
+   - Hides database/ORM-specific details.  
+   - Business layer works with repositories instead of raw queries.
+
+3. **Improved Testability:**  
+   - Repositories can be mocked or stubbed for unit testing.  
+   - No need for real database in tests.
+
+4. **Reusability of Queries:**  
+   - Common queries are centralized in repositories.  
+   - Prevents duplication of data access logic.
+
+5. **Consistency:**  
+   - Provides a consistent API for data operations.  
+   - Easier for developers to work with.
+
+6. **Flexibility for Future Changes:**  
+   - Switching databases or ORMs requires minimal changes in repository layer.  
+   - Business code remains unaffected.
+
+7. **Centralized Validation & Caching:**  
+   - Add business rule validation or caching logic at repository level.  
+
+---
+
+**Example in C#:**
+
+```csharp
+public interface IProductRepository
+{
+    Task<Product> GetByIdAsync(int id);
+    Task<IEnumerable<Product>> GetAllAsync();
+    Task AddAsync(Product product);
+}
+
+public class ProductRepository : IProductRepository
+{
+    private readonly DbContext _context;
+
+    public async Task<Product> GetByIdAsync(int id) =>
+        await _context.Products.FindAsync(id);
+
+    public async Task<IEnumerable<Product>> GetAllAsync() =>
+        await _context.Products.ToListAsync();
+
+    public async Task AddAsync(Product product)
+    {
+        _context.Products.Add(product);
+        await _context.SaveChangesAsync();
+    }
+}
+
 
 ### 22. What is an Aggregate Root in the context of Repository Pattern? [⬆️](#top)
 
