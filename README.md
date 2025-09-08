@@ -2702,6 +2702,8 @@ public:
 - Enables flexibility & code reuse
 - Core OOP pillar along with inheritance, abstraction, encapsulation
 
+---
+
 
 ### 14. How could you define Abstraction in OOP? [⬆️](#top)
 
