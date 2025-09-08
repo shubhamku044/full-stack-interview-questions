@@ -850,6 +850,8 @@ public class User // ActiveRecord style
         return IsActive && Email.EndsWith("@company.com");
     }
 }
+```
+---
 
 ### 19. What is the Command and Query Responsibility Segregation (CQRS) Pattern? [⬆️](#top)
 
@@ -891,6 +893,8 @@ public class CreateOrderCommand {
 public class GetOrdersByCustomerQuery { 
     public int CustomerId; 
 }
+```
+---
 
 
 ### 20. What are some advantages of using Dependency Injection [⬆️](#top)
@@ -952,6 +956,8 @@ public class Notification
 
     public void Notify(string msg) => _messageService.Send(msg);
 }
+```
+---
 
 
 ### 21. What are some reasons to use Repository Pattern? [⬆️](#top)
@@ -1017,6 +1023,8 @@ public class ProductRepository : IProductRepository
         await _context.SaveChangesAsync();
     }
 }
+```
+---
 
 
 ### 22. What is an Aggregate Root in the context of Repository Pattern? [⬆️](#top)
@@ -2151,9 +2159,103 @@ kubectl patch service app -p '{"spec":{"selector":{"version":"blue"}}}'
 
 ## OOP
 
-### 1. What is Inheritance?[⬆️](#top)
+### 1. What is Inheritance? [⬆️](#top)
 
-### 2. What is Object-Oriented Programming (OOP)?[⬆️](#top)
+**Inheritance** is an **Object-Oriented Programming (OOP)** concept where one class (child/derived) acquires the properties and behaviors (fields and methods) of another class (parent/base).  
+It promotes **code reuse**, **hierarchical relationships**, and **polymorphism**.
+
+---
+
+#### 🔑 Key Points
+- Child class inherits methods/fields from parent class  
+- Supports **code reuse** and **extensibility**  
+- Enables **method overriding** (runtime polymorphism)  
+- Supports an **"is-a"** relationship (Dog *is a* Animal)  
+
+---
+
+#### 💻 Example (Java)
+
+```java
+class Animal {
+    void eat() { System.out.println("Eating..."); }
+}
+
+class Dog extends Animal {
+    void bark() { System.out.println("Barking..."); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();  // inherited from Animal
+        d.bark(); // defined in Dog
+    }
+}
+```
+
+#### Short Answer
+-“Inheritance allows a class to reuse the fields and methods of another class, enabling code reuse and supporting polymorphism.”
+
+#### Points to Mention in Interview
+
+- Inheritance = acquiring properties/behaviors of another class
+- Promotes code reuse
+- Enables hierarchical classification
+- Supports polymorphism (method overriding)
+- Represents an is-a relationship
+
+---
+
+
+### 2. What is Object-Oriented Programming (OOP)? [⬆️](#top)
+
+**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of **objects**, which combine **data** (fields/properties) and **behavior** (methods/functions).  
+It helps in building modular, reusable, and maintainable software.
+
+---
+
+#### 🔑 Key Features (4 Pillars)
+1. **Encapsulation** → Wrapping data and behavior into a single unit (class)  
+2. **Abstraction** → Hiding implementation details and exposing only essentials  
+3. **Inheritance** → Reusing code by acquiring properties/behaviors from another class  
+4. **Polymorphism** → One interface, many implementations (compile-time & runtime)  
+
+---
+
+#### 💻 Example (Java)
+
+```java
+class Animal {
+    void sound() { System.out.println("Animal makes a sound"); }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() { System.out.println("Dog barks"); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound(); // Polymorphism: calls Dog's sound()
+    }
+}
+```
+---
+
+#### Short Interview Answer
+
+“OOP is a paradigm that organizes software into objects combining data and behavior, built around encapsulation, abstraction, inheritance, and polymorphism.”
+
+#### Points to Mention in Interview
+
+- OOP = objects with state (data) + behavior (methods)
+- Promotes modularity, reusability, maintainability
+- Based on four pillars: encapsulation, abstraction, inheritance, polymorphism
+- Improves real-world modeling in software
+
+---
 
 ### 3. Why is the virtual keyword used in code?[⬆️](#top)
 
