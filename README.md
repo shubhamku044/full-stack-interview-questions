@@ -2176,22 +2176,23 @@ It promotes **code reuse**, **hierarchical relationships**, and **polymorphism**
 
 #### 💻 Example (Java)
 
-```java
+```cpp
 class Animal {
-    void eat() { System.out.println("Eating..."); }
+public:
+    void eat() { cout << "Eating...\n"; }
+};
+
+class Dog : public Animal {
+public:
+    void bark() { cout << "Barking...\n"; }
+};
+
+int main() {
+    Dog d;
+    d.eat();
+    d.bark();
 }
 
-class Dog extends Animal {
-    void bark() { System.out.println("Barking..."); }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Dog d = new Dog();
-        d.eat();  // inherited from Animal
-        d.bark(); // defined in Dog
-    }
-}
 ```
 
 #### Short Answer
@@ -2225,21 +2226,21 @@ It helps in building modular, reusable, and maintainable software.
 
 #### 💻 Example (Java)
 
-```java
+```cpp
 class Animal {
-    void sound() { System.out.println("Animal makes a sound"); }
-}
+public:
+    virtual void sound() { cout << "Animal makes a sound\n"; }
+};
 
-class Dog extends Animal {
-    @Override
-    void sound() { System.out.println("Dog barks"); }
-}
+class Dog : public Animal {
+public:
+    void sound() override { cout << "Dog barks\n"; }
+};
 
-public class Main {
-    public static void main(String[] args) {
-        Animal a = new Dog();
-        a.sound(); // Polymorphism: calls Dog's sound()
-    }
+int main() {
+    Animal* a = new Dog();
+    a->sound(); // Polymorphism: calls Dog's sound()
+    delete a;
 }
 ```
 ---
@@ -2257,9 +2258,100 @@ public class Main {
 
 ---
 
-### 3. Why is the virtual keyword used in code?[⬆️](#top)
+### 3. Why is the `virtual` keyword used in code? [⬆️](#top)
 
-### 4. What is the difference between procedural and object-oriented programming?[⬆️](#top)
+The **`virtual` keyword** (in languages like C# and C++) is used to indicate that a method or property can be **overridden** in a derived (child) class.  
+It enables **runtime polymorphism**, allowing the program to decide at runtime which method implementation to call.
+
+---
+
+#### 🔑 Key Points
+- Declares a method as **overridable**  
+- Supports **method overriding** in inheritance  
+- Enables **dynamic dispatch** (runtime binding)  
+- Without `virtual`, methods are **statically bound** (compile-time binding)  
+
+---
+
+#### 💻 Example (C#)
+
+```csharp
+class Animal {
+    public virtual void Speak() {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+
+class Dog : Animal {
+    public override void Speak() {
+        Console.WriteLine("Dog barks");
+    }
+}
+
+class Program {
+    static void Main() {
+        Animal a = new Dog();
+        a.Speak(); // Output: Dog barks (runtime polymorphism)
+    }
+}
+```
+
+#### Short Interview Answer
+
+“The virtual keyword allows a method to be overridden in a child class, enabling runtime polymorphism and flexible behavior.”
+
+#### Points to Mention in Interview
+
+- Marks methods as overridable in derived classes
+- Enables runtime polymorphism (dynamic method dispatch)
+- Improves extensibility and flexibility
+- Used in inheritance-based hierarchies
+
+---
+
+### 4. What is the difference between Procedural and Object-Oriented Programming? [⬆️](#top)
+
+**Procedural Programming (POP)** and **Object-Oriented Programming (OOP)** are two programming paradigms that differ in how they structure code.
+
+---
+
+#### 🔑 Key Differences
+
+| Aspect                  | Procedural Programming (POP)            | Object-Oriented Programming (OOP)         |
+|--------------------------|-----------------------------------------|-------------------------------------------|
+| **Focus**               | Functions and procedures                | Objects (data + behavior)                 |
+| **Data Handling**       | Data is separate from functions         | Data and behavior are bundled in classes  |
+| **Approach**            | Top-down approach                      | Bottom-up approach                        |
+| **Reusability**         | Achieved via functions                  | Achieved via classes & inheritance        |
+| **Security**            | Data less secure (global access common) | Data encapsulated (access modifiers)      |
+| **Polymorphism**        | Not supported                          | Supported (compile-time & runtime)        |
+| **Examples**            | C, Pascal                              | Java, C#, Python, C++                     |
+
+---
+
+#### 💻 Example
+
+**Procedural (C):**
+```c
+#include <stdio.h>
+void greet() { printf("Hello, World!"); }
+int main() { greet(); }
+
+```
+
+#### Short Interview Answer
+
+“Procedural programming focuses on functions and procedures, while OOP focuses on objects that bundle data and behavior. OOP supports encapsulation, inheritance, and polymorphism, making it more modular, reusable, and secure.”
+
+#### Points to Mention in Interview
+
+- POP = functions/procedures; OOP = objects/classes
+- OOP supports encapsulation, inheritance, polymorphism
+- OOP is more modular, reusable, and secure
+- POP is simpler for small tasks, OOP better for large, complex systems
+
+---
+
 
 ### 5. What is a class?[⬆️](#top)
 
