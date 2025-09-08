@@ -2313,8 +2313,6 @@ class Program {
 
 **Procedural Programming (POP)** and **Object-Oriented Programming (OOP)** are two programming paradigms that differ in how they structure code.
 
----
-
 #### 🔑 Key Differences
 
 | Aspect                  | Procedural Programming (POP)            | Object-Oriented Programming (OOP)         |
@@ -2327,7 +2325,6 @@ class Program {
 | **Polymorphism**        | Not supported                          | Supported (compile-time & runtime)        |
 | **Examples**            | C, Pascal                              | Java, C#, Python, C++                     |
 
----
 
 #### 💻 Example
 
@@ -2353,27 +2350,425 @@ int main() { greet(); }
 ---
 
 
-### 5. What is a class?[⬆️](#top)
+### 5. What is a Class? [⬆️](#top)
 
-### 6. Explain the basic features of OOPs[⬆️](#top)
+A **class** is a **blueprint or template** in Object-Oriented Programming (OOP) that defines the structure and behavior of objects.  
+It encapsulates **data** (fields/properties) and **methods** (functions) into a single unit.
 
-### 7. Can you inherit private members of a class?[⬆️](#top)
+---
 
-### 8. What is the difference between a class and a structure?[⬆️](#top)
+#### 🔑 Key Points
+- A class does not occupy memory until an **object** is created.  
+- Defines the **attributes (state)** and **behaviors (methods)** of objects.  
+- Promotes **encapsulation** and **code reusability**.  
+- Objects are **instances of a class**.  
 
-### 9. What is the relationship between a class and an object?[⬆️](#top)
+---
 
-### 10. What is an object?[⬆️](#top)
+#### 💻 Example (C#)
 
-### 11. Explain the concept of Constructor[⬆️](#top)
+```csharp
+class Car {
+    public string Brand;
+    public void Drive() {
+        Console.WriteLine(Brand + " is driving...");
+    }
+}
 
-### 12. What is Encapsulation?[⬆️](#top)
+class Program {
+    static void Main() {
+        Car c = new Car();
+        c.Brand = "Tesla";
+        c.Drive(); // Output: Tesla is driving...
+    }
+}
+```
 
-### 13. What is Polymorphism?[⬆️](#top)
+#### Short Interview Answer
 
-### 14. How could you define Abstraction in OOP?[⬆️](#top)
+“A class is a blueprint for creating objects, combining fields for data and methods for behavior. Objects are instances of a class.”
 
-### 15. How can you prevent your class to be inherited further?[⬆️](#top)
+#### Points to Mention in Interview
+
+- Class = blueprint/template for objects
+- Combines data + behavior into one unit
+- Supports encapsulation and reusability
+- Objects are created as instances of a class
+
+---
+
+### 6. Explain the basic features of OOPs [⬆️](#top)
+
+**Object-Oriented Programming (OOPs)** provides a set of features that help in building modular, reusable, and maintainable software.
+
+#### 🔑 Basic Features of OOP
+1. **Class** → Blueprint or template for creating objects.  
+2. **Object** → Instance of a class representing real-world entities.  
+3. **Encapsulation** → Bundling data and related methods into a single unit (class).  
+4. **Abstraction** → Hiding implementation details, exposing only essential features.  
+5. **Inheritance** → Reusing and extending functionality of an existing class.  
+6. **Polymorphism** → One interface, many implementations (method overloading & overriding).  
+7. **Message Passing** → Objects communicate with each other by invoking methods.  
+8. **Dynamic Binding** → Method implementation is determined at runtime.  
+
+#### 🎯 Short Interview Answer
+“OOPs is built around features like classes, objects, encapsulation, abstraction, inheritance, and polymorphism, which together make code modular, reusable, and easier to maintain.”
+
+#### ✅ Points to Mention in Interview
+- **Class & Object** → Foundation of OOP  
+- **Encapsulation & Abstraction** → Data protection & simplicity  
+- **Inheritance** → Code reuse and extension  
+- **Polymorphism** → Flexibility in behavior  
+- **Dynamic Binding & Message Passing** → Runtime flexibility & object communication  
+---
+
+### 7. Can you inherit private members of a class? [⬆️](#top)
+
+**No, private members are not directly inherited** by child classes.  
+They are part of the object’s memory but can only be accessed **indirectly** through public/protected methods of the parent.
+
+
+#### 💻 Example (C++)
+
+```cpp
+class Base {
+private:
+    int x = 10; // not directly accessible
+protected:
+    int getX() { return x; }
+};
+
+class Derived : public Base {
+public:
+    int reveal() { return getX(); } // indirect access
+};
+```
+
+#### Short Interview Answer
+
+“Private members are not accessible in child classes. They exist in memory but can only be accessed indirectly via the parent’s public/protected methods.”
+
+#### Points to Mention in Interview
+
+- Not directly inherited
+- Still part of derived object’s memory
+- Access only via public/protected methods
+- Ensures encapsulation
+
+---
+
+### 8. What is the difference between a Class and a Structure? [⬆️](#top)
+
+A **class** and a **structure** are both user-defined types, but they differ in how they store data, handle access, and support OOP features.
+
+
+#### 🔑 Key Differences
+
+| Aspect               | Class                               | Structure                           |
+|-----------------------|-------------------------------------|-------------------------------------|
+| **Default Access**   | Members are **private** by default  | Members are **public** by default   |
+| **Inheritance**      | Supports inheritance (OOP feature)  | Usually does **not** (in C++ only partial) |
+| **Polymorphism**     | Supports (via virtual functions)    | Not typically supported             |
+| **Encapsulation**    | Fully supports                     | Limited support                     |
+| **Memory Allocation**| Allocated on heap or stack          | Typically allocated on stack        |
+| **Use Case**         | Complex entities with behavior      | Lightweight data-holding entities   |
+| **Keyword**          | `class`                            | `struct`                            |
+
+
+#### 💻 Example (C++)
+
+```cpp
+class MyClass {
+    int a; // private by default
+};
+
+struct MyStruct {
+    int b; // public by default
+};
+```
+
+#### Short Interview Answer
+
+“A class is generally used for complex entities and supports full OOP features like inheritance and polymorphism, while a structure is mostly for lightweight data storage with members public by default.”
+
+#### Points to Mention in Interview
+
+- Default access → Class = private, Struct = public
+- OOP support → Class = full, Struct = limited
+- Usage → Class = complex behavior, Struct = simple data
+- Memory → Class (heap/stack), Struct (stack, lightweight)
+
+---
+
+### 9. What is the relationship between a class and an object? [⬆️](#top)
+
+A **class** is a blueprint or template, while an **object** is an instance created from that blueprint.  
+Objects bring classes to life by occupying memory and holding actual data.
+
+#### 🔑 Key Points
+- **Class** → Defines structure and behavior (data + methods).  
+- **Object** → Instance of a class that stores real values.  
+- A class can create **multiple objects**, each with independent state.  
+- **Class = definition**, **Object = realization**.  
+
+#### 💻 Example (C++)
+
+```cpp
+class Car {
+public:
+    string brand;
+    void drive() { /* behavior */ }
+};
+
+int main() {
+    Car c1;          // object created from class
+    c1.brand = "BMW";
+}
+```
+
+#### Short Interview Answer
+
+“A class is a blueprint that defines properties and behaviors, while an object is an instance of that class with actual data in memory.”
+
+#### Points to Mention in Interview
+
+- Class = template/blueprint
+- Object = instance of a class
+- Multiple objects can be created from one class
+- Objects hold state and perform behavior
+
+---
+
+### 10. What is an Object? [⬆️](#top)
+
+An **object** is an **instance of a class** in Object-Oriented Programming (OOP).  
+It represents a real-world entity with **state** (data/attributes) and **behavior** (methods/functions).
+
+
+#### 🔑 Key Points
+- Created from a **class blueprint**.  
+- Occupies **memory** when instantiated.  
+- Holds **state (fields/variables)** and exposes **behavior (methods)**.  
+- Multiple objects of the same class can exist, each with its own state.  
+
+
+#### 💻 Example (C++)
+
+```cpp
+class Car {
+public:
+    string brand;
+    void drive() { /* behavior */ }
+};
+
+int main() {
+    Car c1;          // object
+    c1.brand = "Tesla";
+}
+```
+
+#### Short Interview Answer
+
+“An object is an instance of a class that combines state and behavior. It represents real-world entities and is created from a class blueprint.”
+
+#### Points to Mention in Interview
+
+- Object = instance of a class
+- Contains state (data) + behavior (methods)
+- Created using a class, stored in memory
+- Multiple objects can be created from one class
+
+---
+
+### 11. Explain the concept of Constructor [⬆️](#top)
+
+A **constructor** is a **special method** in a class that is automatically called when an object is created.  
+It is used to **initialize the object’s state** (set default values or perform setup).
+
+
+#### 🔑 Key Points
+- Name is the **same as the class**.  
+- **No return type** (not even `void`).  
+- Called **automatically** when an object is created.  
+- Can be **overloaded** (multiple constructors with different parameters).  
+- If not defined, a **default constructor** is provided by the compiler.  
+
+
+#### 💻 Example (C++)
+
+```cpp
+class Car {
+public:
+    string brand;
+    // Constructor
+    Car(string b) { brand = b; }
+};
+
+int main() {
+    Car c1("Tesla"); // constructor called
+}
+```
+
+#### Short Interview Answer
+
+“A constructor is a special method that initializes an object when it is created. It has the same name as the class and no return type.”
+
+#### Points to Mention in Interview
+
+- Constructor = special method for initialization
+- Same name as class, no return type
+- Invoked automatically on object creation
+- Supports overloading
+- Compiler provides a default constructor if none is defined
+
+---
+
+
+### 12. What is Encapsulation? [⬆️](#top)
+
+**Encapsulation** is an OOP concept of **bundling data (fields) and methods (functions) into a single unit (class)** and restricting direct access to the data.  
+It ensures that the internal representation of an object is hidden and can only be accessed in a **controlled way**.
+
+
+#### 🔑 Key Points
+- Achieved using **access modifiers** (`private`, `protected`, `public`).  
+- Provides **data hiding** by restricting direct access.  
+- Exposes controlled access via **getters and setters**.  
+- Increases **security, flexibility, and maintainability**.  
+
+
+#### 💻 Example (C++)
+
+```cpp
+class Account {
+private:
+    int balance; // hidden data
+public:
+    void setBalance(int b) { balance = b; }
+    int getBalance() { return balance; }
+};
+```
+#### Short Interview Answer
+
+“Encapsulation is the process of wrapping data and methods into a class and restricting direct access to the data using access modifiers, ensuring controlled and secure access.”
+
+#### Points to Mention in Interview
+
+- Encapsulation = wrapping data + methods into a class
+- Achieved via access modifiers
+- Provides data hiding & controlled access
+- Improves security, flexibility, and maintainability
+
+---
+
+### 13. What is Polymorphism? [⬆️](#top)
+
+**Polymorphism** means **“many forms”**.  
+In OOP, it allows the same method or operator to behave differently based on the object or context.  
+It improves **flexibility** and supports **extensibility**.
+
+#### 🔑 Types of Polymorphism
+1. **Compile-time (Static) Polymorphism**  
+   - Achieved by **method overloading** or **operator overloading**.  
+   - Decided at **compile time**.  
+
+2. **Runtime (Dynamic) Polymorphism**  
+   - Achieved by **method overriding** using `virtual`/`override`.  
+   - Decided at **runtime** via dynamic dispatch.  
+
+#### 💻 Example (C++)
+
+```cpp
+class Animal {
+public:
+    virtual void sound() { cout << "Animal sound\n"; }
+};
+
+class Dog : public Animal {
+public:
+    void sound() override { cout << "Dog barks\n"; }
+};
+```
+
+#### Short Interview Answer
+
+“Polymorphism allows the same method or operation to take multiple forms. It can be achieved through overloading (compile-time) or overriding (runtime).”
+
+#### Points to Mention in Interview
+
+- Polymorphism = many forms
+- Compile-time → Method/Operator Overloading
+- Runtime → Method Overriding
+- Enables flexibility & code reuse
+- Core OOP pillar along with inheritance, abstraction, encapsulation
+
+
+### 14. How could you define Abstraction in OOP? [⬆️](#top)
+
+**Abstraction** is the process of **hiding implementation details** and exposing only the **essential features** of an object.  
+It allows programmers to focus on **what an object does** rather than **how it does it**.
+
+
+#### 🔑 Key Points
+- Achieved using **abstract classes** and **interfaces**.  
+- Reduces **complexity** by hiding unnecessary details.  
+- Increases **modularity and maintainability**.  
+- Supports **loose coupling** in design.  
+
+
+#### 💻 Example (C++)
+
+```cpp
+class Shape {
+public:
+    virtual void draw() = 0; // Pure virtual function
+};
+
+class Circle : public Shape {
+public:
+    void draw() override { cout << "Drawing Circle\n"; }
+};
+```
+
+#### Short Interview Answer
+
+“Abstraction is the OOP principle of hiding implementation details and showing only essential functionality, typically achieved using abstract classes or interfaces.”
+
+#### Points to Mention in Interview
+
+- Abstraction = hide implementation, show functionality
+- Achieved via abstract classes & interfaces
+- Improves modularity, maintainability, and loose coupling
+- Focuses on what not how
+
+--- 
+
+### 15. How can you prevent your class to be inherited further? [⬆️](#top)
+
+To prevent a class from being inherited (i.e., making it a **sealed class**), languages provide specific keywords.
+
+#### 💻 Example (C++)
+```cpp
+class Base final {   // 'final' prevents inheritance
+public:
+    void display() { cout << "Base class"; }
+};
+// class Derived : public Base { }; // Error: Base is final
+```
+
+#### Short Interview Answer
+
+“We can prevent inheritance by declaring the class as sealed in C# or final in C++. This ensures no other class can derive from it.”
+
+#### Points to Mention in Interview
+
+- C++ → use final keyword
+- C# → use sealed keyword
+- Used when class design should not be extended
+- Improves security, control, and design stability
+
+---
+
 
 ### 16. What do you mean by Data Encapsulation?[⬆️](#top)
 
