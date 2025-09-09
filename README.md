@@ -2772,35 +2772,633 @@ public:
 ---
 
 
-### 16. What do you mean by Data Encapsulation?[⬆️](#top)
+### 16. What do you mean by Data Encapsulation? [⬆️](#top)
 
-### 17. What's the difference between a method and a function in OOP context?[⬆️](#top)
+**Data Encapsulation** is the concept of **bundling data (variables) and methods (functions) into a single unit (class)**, while restricting direct access to the internal state of an object.  
+It is implemented using **access modifiers** (like `private`, `protected`, `public`) to control visibility.
 
-### 18. Can you specify the accessibility modifier for methods inside the interface?[⬆️](#top)
 
-### 19. Is it possible for a class to inherit the constructor of its base class?[⬆️](#top)
+#### 🔑 Key Points
+- Keeps internal object state **hidden** from the outside world.  
+- Provides controlled access through **getters and setters**.  
+- Improves **security, maintainability, and flexibility**.  
+- Protects data integrity by **preventing unauthorized modification**.  
 
-### 20. What are similarities between a class and a structure?[⬆️](#top)
 
-### 21. What are the different ways a method can be Overloaded?[⬆️](#top)
+#### 💻 Example (C++)
+```cpp
+class Account {
+private:
+    double balance; // hidden data
 
-### 22. Interface or an Abstract class: which one to use?[⬆️](#top)
+public:
+    void deposit(double amount) { balance += amount; }
+    double getBalance() { return balance; }
+};
+```
 
-### 23. What is Unit Of Work?[⬆️](#top)
+#### Short Interview Answer
 
-### 24. What is the difference between Interface and Abstract Class?[⬆️](#top)
+“Encapsulation means wrapping data and methods into a class and restricting direct access to the internal state using access modifiers, ensuring controlled and secure data handling.”
 
-### 25. How can you prevent a class from overriding in C#?[⬆️](#top)
+#### Points to Mention in Interview
 
-### 26. What is the difference between Virtual method and Abstract method?[⬆️](#top)
+- Encapsulation = data hiding + bundling data with methods
+- Achieved using access modifiers (private, public, protected)
+- Provides security, maintainability, and data integrity
+- Access only through methods (getters/setters)
 
-### 27. When should I use a struct instead of a class?[⬆️](#top)
+---
 
-### 28. What is Polymorphism, what is it for, and how is it used?[⬆️](#top)
+### 17. What's the difference between a method and a function in OOP context? [⬆️](#top)
 
-### 29. What are abstract classes? What are the distinct characteristics of an abstract class?[⬆️](#top)
+In OOP, both **functions** and **methods** are blocks of code that perform specific tasks, but they differ in how they are associated with classes and objects.
 
-### 30. State the features of an Interface[⬆️](#top)
+
+#### 🔑 Key Differences
+
+| Aspect            | Function                                           | Method                                      |
+|-------------------|---------------------------------------------------|---------------------------------------------|
+| Belongs to        | Independent, not tied to a class                   | Defined inside a class                      |
+| Access            | Called directly                                    | Called on an object or class instance       |
+| Data access       | Cannot directly access object state (needs params) | Can access and modify object state          |
+| Binding           | Not associated with `this`                        | Associated with the `this` reference        |
+
+
+#### 💻 Example (C++)
+```cpp
+// Function
+int add(int a, int b) {
+    return a + b;
+}
+
+// Method inside class
+class Calculator {
+public:
+    int multiply(int a, int b) {
+        return a * b;  // method tied to class
+    }
+};
+```
+
+#### Short Interview Answer
+
+“A function is a standalone block of code, while a method is a function defined inside a class that operates on its objects. Methods can access and modify the internal state of the object, but functions cannot.”
+
+#### Points to Mention in Interview
+
+- Function = independent
+- Method = function inside a class
+- Methods use object’s state via this
+- Functions work only with passed parameters
+
+---
+
+### 18. Can you specify the accessibility modifier for methods inside the interface? [⬆️](#top)
+
+In most OOP languages, **methods inside an interface are implicitly public**, and you **cannot specify other access modifiers** (like `private` or `protected`) for them.  
+This is because an interface defines a **contract** that must be fully accessible to implementing classes.
+
+
+#### 🔑 Key Points
+- **C#** → All interface methods are **public** by default; no other modifier is allowed.  
+- **Java** → Interface methods are **public and abstract** by default.  
+- Purpose: Ensure all implementing classes provide accessible definitions.  
+- Data members in interfaces are usually **public, static, and final**.  
+
+
+#### 💻 Example (C#)
+```csharp
+interface IShape {
+    void Draw();  // Implicitly public
+}
+
+// class must implement as public
+class Circle : IShape {
+    public void Draw() {
+        Console.WriteLine("Drawing Circle");
+    }
+}
+```
+
+#### Short Interview Answer
+
+“No, you cannot specify access modifiers for interface methods. They are implicitly public to enforce a common contract for all implementing classes.”
+
+#### Points to Mention in Interview
+
+- Interface methods = implicitly public
+- No private or protected allowed
+- Ensures contract is accessible to all implementers
+
+---
+
+
+### 19. Is it possible for a class to inherit the constructor of its base class? [⬆️](#top)
+
+By default, **constructors are not inherited** by derived classes because they are meant to initialize the base class only.  
+However, many OOP languages provide ways to **reuse or call base class constructors**.
+
+
+#### 🔑 Key Points
+- **C++** → A derived class does not inherit constructors, but it can call them using the `base` (initializer list) or explicitly inherit using `using`.  
+- **C#** → Constructors are not inherited, but the derived class can invoke the base constructor using the `: base()` keyword.  
+- Purpose: Ensure proper initialization of base class state.  
+
+
+#### 💻 Example (C++)
+```cpp
+class Base {
+public:
+    Base(int x) { cout << "Base constructor: " << x << endl; }
+};
+
+class Derived : public Base {
+public:
+    Derived(int y) : Base(y) { }  // explicitly calls Base constructor
+};
+```
+
+#### Short Interview Answer
+
+“Constructors are not inherited directly, but a derived class can invoke the base class constructor using initializer lists in C++ or the base keyword in C#.”
+
+#### Points to Mention in Interview
+
+- Constructors not inherited by default
+- Can be called explicitly in derived class
+- C++ → using or initializer list
+- C# → : base() keyword
+
+---
+
+### 20. What are similarities between a class and a structure? [⬆️](#top)
+
+Both **classes** and **structures** are user-defined data types in OOP that allow bundling of data and functions together.
+
+
+#### 🔑 Key Similarities
+- Both can contain **fields (data members)** and **methods (functions)**.  
+- Both support **encapsulation** by using access modifiers (`public`, `private`, `protected`).  
+- Both can define **constructors** and **member functions**.  
+- Both allow **operator overloading** (in C++).  
+- Both can create **instances (objects)**.  
+- Both can work with **polymorphism** and **inheritance features** (language-specific, e.g., limited in C#).  
+
+
+#### 💻 Example (C++)
+```cpp
+struct Student {
+    int id;
+    void display() { cout << "Student ID: " << id << endl; }
+};
+
+class Teacher {
+    int id;
+public:
+    Teacher(int tid) : id(tid) {}
+    void display() { cout << "Teacher ID: " << id << endl; }
+};
+```
+
+#### Short Interview Answer
+
+“Classes and structures are similar because both can have data members, methods, constructors, and access modifiers, and they allow object creation and encapsulation.”
+
+#### Points to Mention in Interview
+
+- Both are user-defined types
+- Both support fields + methods
+- Both can have constructors
+- Both support encapsulation & access modifiers
+- Both allow object creation
+
+---
+
+### 21. What are the different ways a method can be Overloaded? [⬆️](#top)
+
+**Method Overloading** means defining multiple methods with the **same name** but with **different parameter lists** in the same class.  
+It provides **compile-time polymorphism**.
+
+
+#### 🔑 Ways to Overload a Method
+1. **Different number of parameters**  
+    ```cpp
+    void print(int x);
+    void print(int x, int y);
+    ```
+2. **Different types of parameters**
+    ```cpp
+    void show(int x);
+    void show(double y);
+    ```
+3. **Different order of parameters (when types differ)**
+    ```cpp
+    void display(int x, string y);
+    void display(string y, int x);
+    ```
+
+#### Short Interview Answer
+
+“A method can be overloaded by changing the number, type, or order of parameters. The return type alone cannot be used for overloading.”
+
+#### Points to Mention in Interview
+
+- Overloading = same method name, different signatures
+- Achieved by number, type, or order of parameters
+- Return type change alone is not valid
+- Provides compile-time polymorphism
+
+---
+
+
+### 22. Interface or an Abstract class: which one to use? [⬆️](#top)
+
+Both **interfaces** and **abstract classes** are used to achieve **abstraction** in OOP, but they serve different purposes.  
+Choosing between them depends on the design requirements.
+
+
+#### 🔑 When to Use an **Interface**
+- When you need to define a **contract** that multiple classes can implement.  
+- When there is **no shared implementation**, only method signatures.  
+- To support **multiple inheritance** (since a class can implement multiple interfaces).  
+
+#### 🔑 When to Use an **Abstract Class**
+- When classes share **common code/behavior** (partial implementation).  
+- When you want to provide **default implementations** along with abstract methods.  
+- When you need to define **common fields or properties**.  
+
+
+#### 💻 Example (C#)
+```csharp
+interface IDrawable {
+    void Draw();  // contract only
+}
+
+abstract class Shape {
+    public abstract void Area();  // must be implemented
+    public void Info() => Console.WriteLine("I am a Shape."); // default impl
+}
+```
+
+#### Short Interview Answer
+
+“Use an interface when you only need a contract with no implementation.
+Use an abstract class when you want to provide partial implementation or shared behavior. Interfaces support multiple inheritance, while abstract classes do not.”
+
+#### Points to Mention in Interview
+
+- Interface → contract only, multiple inheritance allowed.
+- Abstract class → partial implementation + common state/behavior.
+- Choose based on whether you need only signatures or shared logic.
+
+---
+
+### 23. What is Unit Of Work? [⬆️](#top)
+
+The **Unit of Work (UoW) pattern** is a design pattern that **maintains a list of operations (insert, update, delete)** on objects during a business transaction and ensures that all these operations are either **committed together** or **rolled back together**.  
+
+It acts like a **transaction manager** for handling changes in a consistent way.
+
+
+#### 🔑 Key Points
+- Tracks changes to objects in a transaction.  
+- Coordinates the writing of changes as a **single unit**.  
+- Ensures **atomicity** → either all operations succeed or none do.  
+- Reduces **round trips** to the database.  
+
+
+#### 💻 Example (C# Pseudo)
+```csharp
+using (var unitOfWork = new UnitOfWork()) {
+    var repo = unitOfWork.GetRepository<Customer>();
+    repo.Add(new Customer { Name = "Arpit" });
+
+    unitOfWork.Commit(); // saves all changes at once
+}
+```
+
+#### Short Interview Answer
+
+“Unit of Work is a design pattern that keeps track of changes during a transaction and commits them as a single operation, ensuring consistency and reducing database calls.”
+
+#### Points to Mention in Interview
+
+- Maintains list of operations in a transaction
+- Ensures commit/rollback as one unit
+- Improves consistency and performance
+- Works closely with Repository pattern
+
+---
+
+### 24. What is the difference between Interface and Abstract Class? [⬆️](#top)
+
+Both **interfaces** and **abstract classes** are used to achieve **abstraction** in OOP, but they differ in purpose and usage.
+
+
+#### 🔑 Key Differences
+
+| Feature                | Interface                                      | Abstract Class                               |
+|-------------------------|-----------------------------------------------|----------------------------------------------|
+| Implementation          | Cannot provide implementation (only signatures) | Can provide partial implementation           |
+| Fields/State            | Cannot have instance fields                   | Can have fields, properties, and constants   |
+| Access Modifiers        | All methods are implicitly `public`           | Can use `public`, `protected`, `private`     |
+| Constructors            | Not allowed                                   | Allowed                                      |
+| Inheritance             | Supports multiple inheritance                 | Only single inheritance                      |
+| Use Case                | Define a **contract**                         | Provide **shared code + contract**           |
+
+
+#### 💻 Example (C#)
+```csharp
+interface IDrawable {
+    void Draw();  // only declaration
+}
+
+abstract class Shape {
+    public abstract void Area();   // must implement in derived class
+    public void Info() => Console.WriteLine("I am a Shape"); // shared logic
+}
+```
+
+#### Short Interview Answer
+
+“An interface defines only a contract (no implementation), while an abstract class can provide both abstract methods and shared implementation. Interfaces support multiple inheritance, whereas abstract classes allow only single inheritance.”
+
+#### Points to Mention in Interview
+
+- Interface → contract only
+- Abstract class → contract + shared behavior
+- Interface → multiple inheritance possible
+- Abstract class → can have fields, constructors, access modifiers
+
+---
+
+### 25. How can you prevent a class from overriding in C#? [⬆️](#top)
+
+In C#, you can prevent overriding in two ways:  
+
+1. **Prevent a class from being inherited** → use the `sealed` keyword on the class.  
+2. **Prevent a method from being overridden further** → mark it as `sealed` in the derived class.
+
+
+#### 💻 Example 1: Prevent Class Inheritance
+```csharp
+sealed class Base {
+    public void Show() => Console.WriteLine("Base class method");
+}
+
+// class Derived : Base { } // ❌ Error: cannot inherit from sealed class
+```
+
+#### Example 2: Prevent Method Overriding
+```csharp
+class Base {
+    public virtual void Display() => Console.WriteLine("Base Display");
+}
+class Derived : Base {
+    public sealed override void Display() => Console.WriteLine("Derived Display");
+}
+class SubDerived : Derived {
+    // public override void Display() { } // ❌ Error: sealed method
+}
+```
+
+#### Short Interview Answer
+
+“In C#, use the sealed keyword to prevent inheritance of a class or to stop further overriding of a method.”
+
+#### Points to Mention in Interview
+
+- sealed class → cannot be inherited.
+- sealed override → method cannot be overridden further.
+- Ensures design stability and security.
+
+---
+
+### 26. What is the difference between Virtual method and Abstract method? [⬆️](#top)
+
+Both **virtual** and **abstract** methods support **polymorphism**, but they differ in how they are implemented and used.
+
+
+#### 🔑 Key Differences
+
+| Feature                  | Virtual Method                              | Abstract Method                               |
+|---------------------------|---------------------------------------------|-----------------------------------------------|
+| Implementation            | Has a default implementation               | No implementation, must be overridden         |
+| Declaration               | Declared with `virtual` keyword             | Declared with `abstract` keyword              |
+| Overriding                | Optional to override in derived class       | Mandatory to override in derived class        |
+| Class Type                | Can exist in normal or abstract classes     | Can only exist in an abstract class           |
+| Purpose                   | Provide a **default behavior** that may change | Enforce a **contract** for derived classes |
+
+
+#### 💻 Example (C#)
+```csharp
+abstract class Shape {
+    public virtual void Info() {
+        Console.WriteLine("I am a Shape"); // default implementation
+    }
+    public abstract void Draw(); // no implementation
+}
+
+class Circle : Shape {
+    public override void Draw() {
+        Console.WriteLine("Drawing Circle"); // must implement
+    }
+    public override void Info() {
+        Console.WriteLine("I am a Circle"); // optional override
+    }
+}
+```
+
+#### Short Interview Answer
+
+“A virtual method provides a default implementation that can be optionally overridden, while an abstract method has no implementation and must be overridden in derived classes.”
+
+#### Points to Mention in Interview
+
+- Virtual → default behavior, optional override
+- Abstract → no implementation, mandatory override
+- Abstract methods exist only in abstract classes
+- Virtual methods work in both abstract and normal classes
+
+---
+
+
+### 27. When should I use a struct instead of a class? [⬆️](#top)
+
+In OOP, **structs** are value types, while **classes** are reference types.  
+You should use a **struct** when you want a lightweight object with value semantics.
+
+#### 🔑 When to Use a Struct
+- When the object is **small and simple** (e.g., coordinates, points, colors).  
+- When the object represents a **single value or record**.  
+- When you want **value-type behavior** (copied by value, not by reference).  
+- When the object is **immutable** (state doesn’t change after creation).  
+- When you don’t need **inheritance** (structs don’t support it in most OOP languages).  
+
+
+#### 💻 Example (C#)
+```csharp
+struct Point {
+    public int X, Y;
+    public Point(int x, int y) {
+        X = x; Y = y;
+    }
+}
+```
+
+#### Short Interview Answer
+
+“Use a struct when you need a small, lightweight, and immutable data type that represents a value, not an entity. If you need inheritance or complex behavior, use a class.”
+
+#### Points to Mention in Interview
+
+- Struct = value type, Class = reference type
+- Struct → small, simple, immutable data
+- Struct → no inheritance, better performance for small objects
+- Class → complex objects with behavior, inheritance, and reference semantics
+
+---
+
+### 28. What is Polymorphism, what is it for, and how is it used? [⬆️](#top)
+
+#### 🔹 Definition
+Polymorphism means **"many forms"**.  
+In OOP, it allows the same method, operator, or object to take different forms depending on the context.  
+
+---
+
+#### 🎯 Purpose
+- To enable **flexibility and reusability** in code.  
+- To let **one interface handle different underlying data types**.  
+- To make code **easier to maintain and extend**.  
+
+---
+
+#### 🔑 Types of Polymorphism
+1. **Compile-time (Static Polymorphism)**  
+   - Achieved via **method overloading** or **operator overloading**.  
+   - Decided by the compiler.  
+
+2. **Run-time (Dynamic Polymorphism)**  
+   - Achieved via **method overriding** using `virtual` / `override` (C#) or `virtual` / `override` (C++).  
+   - Decided at runtime using **dynamic dispatch**.  
+
+---
+
+#### 💻 Example – Runtime Polymorphism (C#)
+```csharp
+class Animal {
+    public virtual void Speak() {
+        Console.WriteLine("Animal speaks");
+    }
+}
+class Dog : Animal {
+    public override void Speak() {
+        Console.WriteLine("Dog barks");
+    }
+}
+class Cat : Animal {
+    public override void Speak() {
+        Console.WriteLine("Cat meows");
+    }
+}
+// Usage
+Animal a1 = new Dog();
+Animal a2 = new Cat();
+a1.Speak(); // Dog barks
+a2.Speak(); // Cat meows
+```
+
+#### Short Interview Answer
+
+“Polymorphism allows the same method or object to behave differently based on context. It can be compile-time (overloading) or run-time (overriding). It’s mainly used for flexibility, code reusability, and achieving abstraction in OOP.”
+
+---
+
+
+### 29. What are abstract classes? What are the distinct characteristics of an abstract class? [⬆️](#top)
+
+#### 🔹 Definition
+An **abstract class** is a class that **cannot be instantiated** directly and is meant to be a **base class**.  
+It may contain **abstract methods (without implementation)** that must be implemented by derived classes, along with normal (concrete) methods.
+
+
+#### 🔑 Characteristics of Abstract Classes
+- Declared using the `abstract` keyword.  
+- **Cannot be instantiated** directly.  
+- Can have both **abstract methods** (no body) and **concrete methods** (with body).  
+- Can define **fields, constructors, and access modifiers**.  
+- Supports **inheritance** → derived classes must implement all abstract methods.  
+- Provides a **common base** with partial implementation for derived classes.  
+
+
+#### 💻 Example – Abstract Class (C#)
+```csharp
+abstract class Shape {
+    public abstract void Draw(); // Abstract method
+    public void Info() {         // Concrete method
+        Console.WriteLine("This is a shape.");
+    }
+}
+
+class Circle : Shape {
+    public override void Draw() {
+        Console.WriteLine("Drawing a Circle");
+    }
+}
+
+// Usage
+Shape s = new Circle();
+s.Draw(); // Drawing a Circle
+s.Info(); // This is a shape.
+```
+
+#### Short Interview Answer
+
+“An abstract class is a base class that cannot be instantiated and may contain both abstract and concrete methods. It enforces a contract for derived classes while allowing partial implementation, making it useful when classes share common behavior but also require specific implementations.”
+
+---
+
+
+### 30. State the features of an Interface [⬆️](#top)
+
+#### 🔹 Definition
+An **interface** is a contract in OOP that defines a set of **methods, properties, or events** that a class must implement.  
+It provides **abstraction** and supports **multiple inheritance of type**.
+
+#### 🔑 Features of an Interface
+- Declared using the `interface` keyword.  
+- **Cannot be instantiated** directly.  
+- By default, all members are **public** and **abstract** (no implementation).  
+- A class or struct that implements an interface must **implement all its members**.  
+- Supports **multiple inheritance** (a class can implement multiple interfaces).  
+- Cannot contain **fields or constructors** (C# 8+ allows default method implementations).  
+- Used to define **capabilities/behavior** (e.g., `IDisposable`, `IComparable`).  
+
+
+#### 💻 Example – Interface (C#)
+```csharp
+interface IAnimal {
+    void Speak();
+}
+
+class Dog : IAnimal {
+    public void Speak() {
+        Console.WriteLine("Dog barks");
+    }
+}
+
+// Usage
+IAnimal animal = new Dog();
+animal.Speak(); // Dog barks
+```
+
+#### Short Interview Answer
+
+“An interface is a contract that defines only the signatures of members without implementation. It provides abstraction, allows multiple inheritance, and ensures that classes implement specific behavior.”
+
+---
 
 ### 31. How is method overriding different from method overloading?[⬆️](#top)
 
