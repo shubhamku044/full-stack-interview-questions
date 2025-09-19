@@ -5558,67 +5558,429 @@ Use useLayoutEffect when you need to make DOM measurements or updates that must 
 
 ### 1. What is the difference between .ts and .tsx extensions in TypeScript? [⬆️](#top)
 
+#### 🔹 `.ts`
+- Standard TypeScript file extension.  
+- Used for files **without JSX**.  
+- Suitable for backend code, utility functions, services, etc.
+
+#### 🔹 `.tsx`
+- TypeScript + JSX support.  
+- Required when a file contains **JSX/TSX syntax** (React components).  
+- Ensures TypeScript compiler correctly parses JSX elements.
+
+---
+
 ### 2. Do we need to compile TypeScript files and why? [⬆️](#top)
+
+#### 🔹 Answer
+Yes, **TypeScript files must be compiled** because browsers and Node.js only understand **JavaScript**, not TypeScript.
+
+#### 🔑 Why Compilation is Needed
+- **Transpilation**: Converts TypeScript (`.ts/.tsx`) → JavaScript (`.js`).  
+- **Type Checking**: Catches errors at compile-time (before runtime).  
+- **Compatibility**: Ensures modern features (ES6+) are down-leveled for older JS engines if needed.  
+- **Productivity**: Provides IntelliSense, autocompletion, and safer refactoring.
+
+---
 
 ### 3. What are the benefits of TypeScript? [⬆️](#top)
 
+#### 🔑 Key Benefits
+- **Static Typing** → Detects errors at compile-time, reducing runtime crashes.  
+- **Better Tooling Support** → Autocompletion, IntelliSense, refactoring.  
+- **Improved Readability & Maintainability** → Clear contracts via interfaces and types.  
+- **OOP Features** → Supports classes, inheritance, interfaces, generics.  
+- **Backward Compatibility** → Compiles down to plain JavaScript, runs anywhere JS runs.  
+- **Scalability** → Easier to manage large codebases with clear type definitions.  
+- **Community & Ecosystem** → Strong support in frameworks like React, Angular, and Node.js.
+
+#### ✅ Interview Summary
+“TypeScript provides static typing, better tooling, and maintainable code, making large-scale applications more robust compared to plain JavaScript.” 
+
+---
+
 ### 4. What is TypeScript and why would I use it in place of JavaScript? [⬆️](#top)
+
+#### 🔹 TypeScript
+- A **superset of JavaScript** developed by Microsoft.  
+- Adds **static typing, interfaces, generics, and modern features**.  
+- Compiles down to plain JavaScript for execution in browsers/Node.js.
+
+
+#### 🔑 Why Use TypeScript Instead of JavaScript
+- **Type Safety** → Prevents common runtime errors.  
+- **Better IDE Support** → IntelliSense, autocomplete, and refactoring.  
+- **Maintainability** → Scales better for large projects.  
+- **Modern Features** → Supports ESNext features before browsers do.  
+- **Readability & Collaboration** → Explicit types improve communication in teams.  
+- **Integration** → Works seamlessly with popular frameworks (React, Angular, Node.js).
+
+#### ✅ Interview Summary
+“TypeScript is a typed superset of JavaScript that compiles to JS. I’d use it because it makes large applications safer, more maintainable, and easier to scale than plain JavaScript.”
+
+---
+
 
 ### 5. How to call base class constructor from child class in TypeScript? [⬆️](#top)
 
+#### 🔹 Explanation
+In TypeScript (and JavaScript ES6 classes), when a **child class extends a parent class**, you must call the parent’s constructor using the `super()` keyword before accessing `this` in the child class.
+
+#### Key Points
+- super() must be called before using this in the child constructor.
+- You can also call parent methods using super.methodName().
+- If the parent has no constructor, TypeScript automatically calls super().
+
+---
+
 ### 6. What is TypeScript and why do we need it? [⬆️](#top)
+
+#### Key Points
+
+- Improved Developer Productivity → Autocomplete, IntelliSense, and better refactoring in IDEs.
+- Readability & Maintainability → Explicit types make large codebases easier to understand.
+- Modern Features → Supports async/await, decorators, optional chaining, generics, etc.
+- Scalability → Great for large applications where plain JavaScript becomes harder to manage.
+- Community & Ecosystem → Popular frameworks (Angular, React, NestJS) use or support TypeScript.
+
+#### Interview Summary
+
+“TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. We need it because it catches errors at compile time, improves developer experience with better tooling, and makes applications more scalable and maintainable.”
+
+---
 
 ### 7. What is TypeScript and why one should use it? [⬆️](#top)
 
+#### 🔹 Why should one use it?
+1. **Early Error Detection** → Catches type-related bugs at compile time.  
+2. **Better Tooling** → IntelliSense, autocompletion, and refactoring support.  
+3. **Maintainable Code** → Types and interfaces improve readability in large codebases.  
+4. **Scalability** → Ideal for enterprise-level apps and team projects.  
+5. **Modern Features** → Works with async/await, decorators, and advanced patterns.  
+6. **Compatibility** → Gradually adoptable, works with existing JavaScript libraries. 
+
+---
+
 ### 8. How to perform string interpolation in TypeScript? [⬆️](#top)
 
-### 9. What are Modules in Typescript? [⬆️](#top)
+#### Interview Summary
 
-### Explain generics in TypeScript [⬆️](#top)
+“In TypeScript, string interpolation is done using template literals with backticks and ${} syntax. This makes it easier to embed variables and expressions directly into strings.”
 
-### List the built-in types in Typescript [⬆️](#top)
+#### Key Features
+- Use backticks (`) instead of quotes.
+- Embed variables/expressions using ${expression}.
+- Supports multi-line strings easily.
+
+---
+
+### 9. What are Modules in TypeScript? [⬆️](#top)
+
+- **Modules** are a way to organize and reuse code in TypeScript.  
+- Each file is treated as a module if it contains an `import` or `export`.  
+- They allow encapsulation, prevent global scope pollution, and improve maintainability.  
+- Modules can export classes, functions, variables, or interfaces, and these can be imported in other files.  
+- TypeScript supports **ES Modules** and **CommonJS** depending on the configuration.  
+
+---
+
+### Explain Generics in TypeScript [⬆️](#top)
+
+- **Generics** allow creating reusable components that work with different data types.  
+- They provide **type safety** while keeping flexibility.  
+- Instead of using `any`, generics let you define a placeholder type (like `<T>`) that gets replaced when the function, class, or interface is used.  
+- Benefits:  
+  - Code reusability  
+  - Strong type checking  
+  - Better readability and maintainability  
+
+---
+
+### List the built-in types in TypeScript [⬆️](#top)
+
+#### 🔹 Primitive Types
+- `number` → Numeric values  
+- `string` → Text values  
+- `boolean` → `true` or `false`  
+- `symbol` → Unique identifiers  
+- `bigint` → Large integers beyond `number`  
+- `null` → Absence of value  
+- `undefined` → Uninitialized variable  
+
+#### 🔹 Object Types
+- `object` → Non-primitive objects  
+- `Array<T>` or `T[]` → Arrays of type `T`  
+- `tuple` → Fixed-size array with specific types `[string, number]`  
+
+#### 🔹 Special Types
+- `any` → Disables type checking (use sparingly)  
+- `unknown` → Type-safe counterpart of `any`  
+- `void` → Functions that return nothing  
+- `never` → Functions that never return (e.g., throw error)  
+- `enum` → Named constant values  
+- `Function` → Function type  
+
+#### ✅ Interview Summary
+“TypeScript provides primitive types, object types, and special types like `any`, `void`, and `never` to enforce type safety and flexibility in code.”
+
+
+---
 
 ### 10. What is Optional Chaining in TypeScript? [⬆️](#top)
 
+#### 🔹 Definition
+- **Optional chaining (`?.`)** allows safely accessing **nested object properties or methods** without causing runtime errors if a reference is `null` or `undefined`.  
+- Prevents the need for multiple null checks.
+
+#### 🔹 Key Points
+- Stops evaluation if the value before `?.` is `null` or `undefined`.  
+- Can be used with **properties, methods, and array elements**.  
+- Improves code readability and reduces boilerplate.
+
+#### ✅ Interview Summary
+“Optional chaining in TypeScript (`?.`) is used to safely access nested object properties or methods, preventing runtime errors from `null` or `undefined` values.”
+
+---
+
 ### 11. How can we use optional chaining in TypeScript? [⬆️](#top)
 
-### 12. How to make Arrays that can only be read, TypeScript? [⬆️](#top)
+### 12. How to make Arrays that can only be read in TypeScript? [⬆️](#top)
 
-### 13. Describe what are conditional types in TypeScript? [⬆️](#top)
+#### 🔹 Readonly Arrays
+- Use the `readonly` modifier to create **immutable arrays**.  
+- Elements cannot be modified, added, or removed after initialization.  
+
+#### 🔹 Key Points
+- Prevents accidental mutations.  
+- Ensures data integrity when passing arrays to functions or across modules.  
+- Can be combined with **tuples** for fixed-size immutable arrays.
+
+#### ✅ Interview Summary
+“In TypeScript, you can make arrays read-only using the `readonly` keyword. This ensures that the array and its elements cannot be modified after creation.”
+
+---
+
+### 13. Describe what are Conditional Types in TypeScript? [⬆️](#top)
+
+#### 🔹 Definition
+- **Conditional types** allow the type of a variable to be determined based on a **condition**.  
+- Syntax: `T extends U ? X : Y` → if `T` extends `U`, type is `X`; otherwise, type is `Y`.  
+
+#### 🔹 Key Points
+- Enables **type-level logic** in generics.  
+- Useful for creating **flexible, reusable, and type-safe code**.  
+- Helps in **transforming types** based on input types.
+
+#### ✅ Interview Summary
+“Conditional types in TypeScript let you choose a type based on a condition, making generics more powerful and type-safe.”
+
+---
 
 ### 14. What does the pipe, | mean in TypeScript? [⬆️](#top)
 
+#### ✅ Interview Summary
+“In TypeScript, the pipe `|` is used to define union types, allowing a variable to hold values of multiple specified types while preserving type checking.”
+
+---
+
 ### 15. How do we create an enum with string values? [⬆️](#top)
 
-### 16. What is the difference between types String and string in TypeScript? [⬆️](#top)
+#### 🔹 Definition
+- **Enums** in TypeScript allow defining a set of **named constants**.  
+- By default, enums use numeric values, but we can assign **custom string values**.
+
+---
+
+### 16. What is the difference between `String` and `string` in TypeScript? [⬆️](#top)
+
+#### 🔹 `string` (lowercase)
+- **Primitive type** in TypeScript.  
+- Represents textual data.  
+- Preferred for type annotations.
+
+#### 🔹 `String` (uppercase)
+- **Object wrapper** for primitive `string`.  
+- Provides additional methods (inherited from `String` object).  
+- Less efficient; generally avoid using as a type.
+
+#### 🔹 Key Points
+- Use `string` for variables, function parameters, and return types.  
+- `String` is rarely used except when explicitly working with **String objects**.  
+
+#### ✅ Interview Summary
+“`string` is the primitive type for textual data in TypeScript, while `String` is the object wrapper. Always prefer `string` for type annotations.”
+
+---
 
 ### 17. What is a TypeScript Map file? [⬆️](#top)
 
+#### 🔹 Definition
+- A **TypeScript Map file (`.map`)** is a **source map** that maps the compiled JavaScript code back to the original TypeScript source.  
+- Helps **debuggers and browsers** display the original `.ts` code instead of the transpiled `.js`.
+
+#### 🔹 Key Points
+- Generated when **`sourceMap: true`** is set in `tsconfig.json`.  
+- Essential for **debugging TypeScript** in browsers or Node.js.  
+- Allows setting breakpoints and inspecting TypeScript code during runtime.  
+
+#### ✅ Interview Summary
+“A TypeScript Map file is a source map that links the generated JavaScript code back to the original TypeScript code, enabling better debugging and development experience.”
+
+---
+
 ### 18. What is the purpose of Nullish Coalescing operator? [⬆️](#top)
+
+#### 🔹 Definition
+- The **Nullish Coalescing operator (`??`)** provides a **default value** when a variable is `null` or `undefined`.  
+- Unlike `||`, it does **not treat falsy values like 0, false, or empty string as null**.
+
+#### 🔹 Key Points
+- Simplifies conditional checks for `null` or `undefined`.  
+- Useful for setting default values without overwriting valid falsy values.  
+- Often used with optional properties or function parameters.
+
+#### ✅ Interview Summary
+“The nullish coalescing operator (`??`) in TypeScript returns the right-hand value only if the left-hand value is `null` or `undefined`, providing a safe way to assign defaults without affecting other falsy values.”
+
+
+---
 
 ### 19. What are assertion functions? [⬆️](#top)
 
+#### 🔹 Definition
+- **Assertion functions** in TypeScript are functions that **assert a condition is true** at runtime.  
+- They **tell the compiler** that a certain type or condition can be assumed after the function runs.
+
+---
+
 ### 20. Which access modifiers are implied when not specified? [⬆️](#top)
+
+#### 🔹 Explanation
+- In TypeScript, if no access modifier is specified for **class members (properties or methods)**, the **default is `public`**.  
+- This means the member is accessible **from anywhere**.
+
+---
 
 ### 21. What is Type Erasure in TypeScript? [⬆️](#top)
 
-### 22. What is the difference between Classes and Interfaces in Typescript? [⬆️](#top)
+#### 🔹 Definition
+- **Type Erasure** refers to the process where **TypeScript removes all type annotations** during compilation.  
+- The resulting JavaScript **contains no types**, only the runtime code.
+
+---
+
+### 22. What is the difference between Classes and Interfaces in TypeScript? [⬆️](#top)
+
+| Feature                | Class                                           | Interface                                      |
+|------------------------|-----------------------------------------------|-----------------------------------------------|
+| **Purpose**            | Blueprint for creating objects with implementation | Blueprint for defining **contracts** without implementation |
+| **Implementation**     | Can contain **implementation code** (methods, constructors, properties) | Cannot have implementation (except in TypeScript 4.3+ with default methods) |
+| **Instantiation**      | Can be instantiated using `new`               | Cannot be instantiated directly               |
+| **Inheritance**        | Supports **extends** for single or multiple inheritance (via implements) | Supports **extends** and **multiple inheritance** of interfaces |
+| **Type Checking**      | Acts as a type and can implement interfaces  | Only a type definition, used for type checking |
+| **Access Modifiers**   | Can use `public`, `private`, `protected`     | Cannot use access modifiers (all members are public) |
+
+#### ✅ Interview Summary
+“Classes provide structure and behavior with implementation, while interfaces define contracts for type checking without implementing functionality. Use interfaces for type safety and classes for object creation.”
+
+
+---
 
 ### 23. What is Decorators in TypeScript? [⬆️](#top)
 
+#### 🔹 Definition
+- **Decorators** are **special functions** that can be attached to classes, methods, properties, or parameters to **modify or enhance behavior**.  
+- They are a form of **meta-programming** and are widely used in frameworks like Angular.
+
+#### 🔹 Key Points
+- Requires enabling **`experimentalDecorators`** in `tsconfig.json`.  
+- Can be used to add **logging, validation, dependency injection**, or other cross-cutting concerns.  
+- Types of decorators:  
+  - **Class Decorator** – modifies or annotates a class  
+  - **Method Decorator** – modifies a method  
+  - **Property Decorator** – modifies a property  
+  - **Parameter Decorator** – modifies a method parameter  
+
+#### ✅ Interview Summary
+“Decorators in TypeScript are functions that can be applied to classes, methods, properties, or parameters to add behavior or metadata, commonly used for logging, validation, or dependency injection.”
+
+---
+
 ### 24. How could you check null and undefined in TypeScript? [⬆️](#top)
+
+#### Key Points
+- == null covers both null and undefined.
+- Use === for strict type checks.
+- Nullish coalescing (??) provides a default value safely.
+
+#### Interview Summary
+
+- “In TypeScript, you can check for null and undefined using strict equality, loose equality (== null), or safely access nested properties with optional chaining and nullish coalescing.”
+
+---
 
 ### 25. Could we use TypeScript on backend and how? [⬆️](#top)
 
-### 26. What are the difference beetween Typescript and JavaScript? [⬆️](#top)
+“Yes, TypeScript can be used on the backend with Node.js. It allows writing type-safe, maintainable server-side code, and can be compiled or executed directly using tools like tsc or ts-node.”
+
+---
+
+### 26. What are the differences between TypeScript and JavaScript? [⬆️](#top)
+
+| Feature                     | TypeScript                               | JavaScript                       |
+|-------------------------------|-----------------------------------------|---------------------------------|
+| **Typing**                   | Static typing (optional, enforced at compile-time) | Dynamic typing (runtime only)   |
+| **Compilation**              | Needs to be compiled to JavaScript      | Runs directly in browsers/Node  |
+| **Error Checking**            | Catches errors at compile-time          | Errors appear at runtime        |
+| **OOP Support**               | Supports classes, interfaces, generics, access modifiers | Supports classes, basic OOP features |
+| **Tooling**                   | Better IDE support with IntelliSense, autocomplete, and refactoring | Limited compared to TypeScript |
+| **Community Usage**           | Popular in large-scale apps and frameworks like Angular, NestJS | Universal, all browsers support |
+| **Features**                  | Supports modern ES features plus types, enums, decorators | Only JavaScript features (ES5/ES6+) |
+
+#### ✅ Interview Summary
+“TypeScript is a typed superset of JavaScript that compiles to JavaScript, offering static typing, better tooling, and maintainable code. JavaScript is dynamically typed and runs directly without compilation.”
+
+---
 
 ### 27. What is Interface in TypeScript? [⬆️](#top)
 
+“An interface in TypeScript defines the expected structure of an object or class, enabling type safety, consistent coding patterns, and better maintainability.”
+
+---
+
 ### 28. Does TypeScript support all object oriented principles? [⬆️](#top)
+
+#### 🔹 Key Points
+- TypeScript adds **type safety** to traditional JavaScript OOP features.  
+- Supports **interfaces, abstract classes, and generics**, enhancing OOP design patterns.  
+
+#### ✅ Interview Summary
+“TypeScript supports all OOP principles—encapsulation, inheritance, polymorphism, and abstraction—while providing type safety and modern features for maintainable code.”
+
+---
 
 ### 29. How to implement class constants in TypeScript? [⬆️](#top)
 
+“In TypeScript, class constants are implemented using static readonly, allowing shared immutable values accessible via the class itself.”
+
+---
+
 ### 30. When to use interfaces and when to use classes in TypeScript? [⬆️](#top)
+
+#### 🔹 Use Interfaces When:
+- You want to **define a contract or shape** of an object without implementation.  
+- You need **type checking** and flexibility in large codebases.  
+- You want to allow **multiple inheritance** by extending multiple interfaces.  
+
+#### 🔹 Use Classes When:
+- You want to **create objects with behavior** (methods) and state (properties).  
+- You need **constructors, inheritance, and encapsulation**.  
+- You plan to **instantiate objects** or implement an interface.
+
+#### ✅ Interview Summary
+“Use interfaces to define object contracts and ensure type safety. Use classes when you need actual implementations, object instantiation, and OOP features like inheritance and encapsulation.”
+
+---
 
 ### 31. What is getters/setters in TypeScript? [⬆️](#top)
 
